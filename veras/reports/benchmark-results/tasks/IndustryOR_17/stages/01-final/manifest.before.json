@@ -1,0 +1,106 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 9124,
+    "sha256": "2895f400ea7acdcfb4b730d95e23eaea463216630c27f82e10fcc3afb690212e"
+  },
+  "data/aircraft_fleet.csv": {
+    "bytes": 509,
+    "sha256": "5dbf32543792c2d9422e846cbbf9cc9186e5083b6dcac8dd31ddacb5a6bd3a3c"
+  },
+  "data/aircraft_payload_compatibility.csv": {
+    "bytes": 977,
+    "sha256": "81f9de221690951207246328915be1298df63b72237c778248e73cbf9761f8f4"
+  },
+  "data/aircraft_period_capacity.csv": {
+    "bytes": 1507,
+    "sha256": "9aca5420049b741862d95d854ec9a22f6a483952954419393bf1857695ec273d"
+  },
+  "data/config.json": {
+    "bytes": 248,
+    "sha256": "5ed7bd0d3c93ba1d0b34bcacd7e4ac3ba177d5673467ec8cb229b566d0a08f84"
+  },
+  "data/district_period_targets.csv": {
+    "bytes": 880,
+    "sha256": "2de7940cd17669ba9c6f7ebaeef8716fa37e56f507a9a56443f2ce6339601da7"
+  },
+  "data/district_requirements.csv": {
+    "bytes": 283,
+    "sha256": "f742f91e06fea0cea4849c11a012c7c1bca3489e6295babf9bc86d39bcaf49b0"
+  },
+  "data/historical_outage_context.csv": {
+    "bytes": 532,
+    "sha256": "1fd526ba2571cd92a068ab046196d63d01ac7d2bd705647d2d2afcb033296e84"
+  },
+  "data/operations_budget.csv": {
+    "bytes": 130,
+    "sha256": "9e88a8d24bdc2dcdeb2c8b79e811e7039ed44ade653a48ad0d12a96b3220cd4c"
+  },
+  "data/payload_stock.csv": {
+    "bytes": 75,
+    "sha256": "5d627b89b354aecb0a16d3f0f995ed2f53e92f81ea5a6f816064728b394980f3"
+  },
+  "data/payload_types.csv": {
+    "bytes": 413,
+    "sha256": "db6b41a28e1bde10be82db08782ef7d4341e89b488d1beacf8c2e9282fbd6b24"
+  },
+  "data/period_capacity.csv": {
+    "bytes": 221,
+    "sha256": "75e18031e806c839d3ffb2787e3d20e16abda9c31b193ad0012eba4c9498f3fc"
+  },
+  "data/periods.csv": {
+    "bytes": 278,
+    "sha256": "814a6528039ded18e2b88bbc05c998e1fb71c495a52a28f638cc4061aeffbeb2"
+  },
+  "data/relay_payload_effectiveness.csv": {
+    "bytes": 987,
+    "sha256": "731ddd6665efdfefba9faefec0b010efbd032ec678535b8ff003291836e185b8"
+  },
+  "data/relay_payload_eligibility.csv": {
+    "bytes": 1796,
+    "sha256": "4cfb2a71fdc5eb6f83d26951437a7f37d7b8169dfaa7d3c1b082480646eb6287"
+  },
+  "data/relay_period_access.csv": {
+    "bytes": 2464,
+    "sha256": "00f0b34df62fd8d5c3e9ab7a84580fcaff09fdf09ee5e3042fac439b225269e8"
+  },
+  "data/relays.csv": {
+    "bytes": 702,
+    "sha256": "ba31ea9811dcbf4c4e2bda6237a973f8762ffa309d751ba38ee99d27c21c332d"
+  },
+  "data/scenario_period_relay_effects.csv": {
+    "bytes": 16194,
+    "sha256": "758cd41585698d63e6fab361621b05bdfc58c68558e3263715085b474f2efac8"
+  },
+  "data/supplier_context.csv": {
+    "bytes": 233,
+    "sha256": "2c5b30a15010f076f59e3290c5c6d415dfca662d7cebf8a8989cdbeec646cb89"
+  },
+  "data/weather_risk_notes.csv": {
+    "bytes": 534,
+    "sha256": "1119c551fb4f7b376863a9911890821d9f9c38114d29063d723927563a243b94"
+  },
+  "data/weather_scenarios.csv": {
+    "bytes": 412,
+    "sha256": "33563ba4b14725ace7d4c55c7ebea17fd312dedea3ecf198c174b67da1aef17b"
+  },
+  "submissions/solution_template.csv": {
+    "bytes": 97,
+    "sha256": "a15290db69fd31ec2a6d8d16683488f6e166753e036dd7bce33a4f9b5b410cb1"
+  }
+}

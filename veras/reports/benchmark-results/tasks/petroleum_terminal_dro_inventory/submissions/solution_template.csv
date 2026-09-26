@@ -1,0 +1,4 @@
+row_type,scenario_id,period_id,origin_id,destination_id,product_id,quantity
+inbound,,D1,T_INLAND,D_METRO,E10,0
+delivery,SC01,D1,D_METRO,S01,E10,0
+emergency,SC01,D1,EMERGENCY,S01,E10,0

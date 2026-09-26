@@ -1,0 +1,113 @@
+{
+  "evaluation": {
+    "accepted_by_region": {
+      "Lake": 4,
+      "Metro": 5,
+      "North": 3,
+      "South": 3
+    },
+    "bridge_usage": {
+      "D2|North": 2.0
+    },
+    "chain_count": 2,
+    "components": {
+      "bridge_penalty": 82.4,
+      "chain_start_value": 133.72,
+      "clinical_value": 1279.555144,
+      "lab_penalty": 31.200000000000003,
+      "late_penalty": 0.0,
+      "priority_bonus": 100.0,
+      "risk_penalty": 75.64,
+      "travel_penalty": 149.52
+    },
+    "crossmatch_usage": {
+      "D2|H01|desensitization": 1.0,
+      "D2|H02|desensitization": 1.0,
+      "D2|H03|desensitization": 1.0,
+      "D3|H03|desensitization": 1.0,
+      "D4|H05|flow_cytometry": 2.0
+    },
+    "cycle_count": 4,
+    "error_count": 1,
+    "errors": [
+      "Chain bridge coordination capacity exceeded for North/D2: used 2.0, cap 1.0"
+    ],
+    "feasible": false,
+    "objective": 1174.515144,
+    "objective_sense": "maximize",
+    "profit": 1174.515144,
+    "sensitized_by_region": {
+      "Lake": 2,
+      "Metro": 2,
+      "North": 2,
+      "South": 3
+    },
+    "structure_count": 6,
+    "transplant_count": 15,
+    "wave": 1
+  },
+  "process": {
+    "command": [
+      "<RUNTIME_BINARY>",
+      "-r",
+      "/run/root",
+      "-b",
+      "/usr:/usr",
+      "-b",
+      "/usr/bin:/bin",
+      "-b",
+      "/usr/lib:/lib",
+      "-b",
+      "/usr/lib64:/lib64",
+      "-b",
+      "/etc:/etc",
+      "-b",
+      "/dev:/dev",
+      "-b",
+      "/proc:/proc",
+      "-b",
+      "<RUNTIME_DEPENDENCIES>:/opt/or-deps",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/codex",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/node",
+      "-b",
+      "/workspace/project:/opt/dsh",
+      "-w",
+      "/app",
+      "-b",
+      "/benchmark/harbor_tasks/online_kidney_exchange_chain_replanning/steps/initial_plan/tests:/tests",
+      "/bin/bash",
+      "/tests/test.sh"
+    ],
+    "finished_at": "2026-09-09T23:04:33.658995+00:00",
+    "return_code": 0,
+    "started_at": "2026-09-09T23:04:33.494839+00:00",
+    "timed_out": false,
+    "timeout_seconds": 300.0,
+    "wall_seconds": 0.164
+  },
+  "reward_details": {
+    "evaluation_error_count": 1,
+    "feasibility": 0.0,
+    "objective": 1174.515144,
+    "quality": 0.0,
+    "quality_status": "infeasible",
+    "reference_metrics": {
+      "best_bound": 1194.219144,
+      "bound_sense": "upper",
+      "candidate_count": 662,
+      "chosen_candidate_count": 6,
+      "exact_master_status": "optimal",
+      "mip_gap": 0.0005,
+      "objective_sense": "maximize",
+      "oracle_method": "set-packing over cycles/chains with crossmatch-panel and bridge-coordination resource constraints plus evaluator-screened repair",
+      "poor_objective": 537.3986148000001,
+      "reference_objective": 1194.2191440000001,
+      "solver_status": "optimal",
+      "stage": "initial",
+      "time_limit_seconds": 300
+    },
+    "scalar_reward": 0.0
+  }
+}

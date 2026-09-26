@@ -1,0 +1,86 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 4118,
+    "sha256": "1a83d1163b51bc3fc4edf636fdcc8602bdc6292f791ddf526b9bf53c5da46053"
+  },
+  "data/config.json": {
+    "bytes": 389,
+    "sha256": "d90b0dbb49d7f9bd197dbbd49d19a887cd182cf4a1eced4ef1f6432e103d55c6"
+  },
+  "data/control_notes.csv": {
+    "bytes": 764,
+    "sha256": "2b5a62716531d8ce78127f70b6223edbd28404f763db37e61601bd488ae66205"
+  },
+  "data/crews.csv": {
+    "bytes": 335,
+    "sha256": "128ba35138aadc582b43b31a180657c00c591432b8862d068dd80a3c0d71f414"
+  },
+  "data/disruption_windows.csv": {
+    "bytes": 107,
+    "sha256": "929da85a99aabfa2c49a0746126ce236f0a79ccf722b0b70f7ba3f47eb382edd"
+  },
+  "data/passenger_connections.csv": {
+    "bytes": 382,
+    "sha256": "93ff6ee53a003940f1a6db80f1c50d7a4b2ef7a9707fdc079f71c837a9041c01"
+  },
+  "data/rolling_stock.csv": {
+    "bytes": 186,
+    "sha256": "ed12c648ff35dba5647b396abe17c58bff5ad3b8a09b4b90fb68fd5fed9bc567"
+  },
+  "data/segments.csv": {
+    "bytes": 233,
+    "sha256": "6f0e31acf06b63e3ce811b52cc5c75f79ec6310fc55623d185b6553ca2a206fd"
+  },
+  "data/station_throats.csv": {
+    "bytes": 400,
+    "sha256": "b1960854b9c62a07af36e7e214df5baf5bf343e5fd3ce6d509982fe105a94bf0"
+  },
+  "data/stations.csv": {
+    "bytes": 291,
+    "sha256": "cef92cb63232c351115cad266c8e6d516dc7ee2f70292a5760521030939d6e3c"
+  },
+  "data/trains.csv": {
+    "bytes": 717,
+    "sha256": "d6719e10c7972d10afd805711573fd90c6e55f8b8807027345aff33465f5dbf8"
+  },
+  "submissions/__pycache__/solve.cpython-311.pyc": {
+    "bytes": 89188,
+    "sha256": "57fd2bb672883eaef1ed9682645832fb1ae9a15a4643b89b77f2474b900349d8"
+  },
+  "submissions/model.md": {
+    "bytes": 12069,
+    "sha256": "37b9864c027c3539637be18708a3040e046bf78ae72d94368321223729d2ae2b"
+  },
+  "submissions/solution.json": {
+    "bytes": 14462,
+    "sha256": "52080550dbe5a2c76ab0e627342ba0284d7ba7cbe7d90ecfe18e21b37232d118"
+  },
+  "submissions/solution_template.json": {
+    "bytes": 19,
+    "sha256": "d06f8583fc7873af66e079f1a131177907bd37caea1116861464292710d67d29"
+  },
+  "submissions/solve.py": {
+    "bytes": 64371,
+    "sha256": "efa8afd4073186ebfd0f70203c210bdf636c224475b9eced43b04a3f683c1930"
+  },
+  "submissions/solve_log.md": {
+    "bytes": 2820,
+    "sha256": "849caa608e3ef2947536931df95092a74e02599d4e5341e470e20b92b504550b"
+  }
+}

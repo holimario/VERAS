@@ -1,0 +1,118 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 6075,
+    "sha256": "ccbaf8b2796bba21bfeffec1bb1578583f9c8054c2af4fbd51a9715218987f29"
+  },
+  "data/compartments.csv": {
+    "bytes": 1864,
+    "sha256": "a3dbbb46a5a62b0c3215c8e1fd777d65219de0f5705a56db95f4762194e3a102"
+  },
+  "data/config.json": {
+    "bytes": 482,
+    "sha256": "b233c2b7b1dced463b3c2262d26191c8fbe7a3d4eb6d090cbb497c04d76f6de6"
+  },
+  "data/loading_bays.csv": {
+    "bytes": 184,
+    "sha256": "b68470a2d955e30e429c372f83c482e848da17b3124876af888732b253679520"
+  },
+  "data/loading_slots.csv": {
+    "bytes": 279,
+    "sha256": "89fe579ed61df5fbbb17780213f581a760ee6d3c4a99e4e31f4651c3aba07e72"
+  },
+  "data/orders.csv": {
+    "bytes": 1512,
+    "sha256": "8ecf278687fd114974dfdf6d47afcbe93c97b548482741655ac86b36dae15366"
+  },
+  "data/products.csv": {
+    "bytes": 268,
+    "sha256": "b25f00ff6a0a2f5d690fa3d9d5ee344c6d7712d8c6d89ef9781a73bdb742f0ec"
+  },
+  "data/rest_stops.csv": {
+    "bytes": 182,
+    "sha256": "9e461c58bddefe1af87c7572819c337768ac9e1b12ac25cd8f4218a1dcf9c0c0"
+  },
+  "data/risk_zones.csv": {
+    "bytes": 301,
+    "sha256": "a81098e69ab27490462a1b8a109596d879967555bb7fb9b8ade0d685866f3f4c"
+  },
+  "data/road_adjustments.csv": {
+    "bytes": 390,
+    "sha256": "8df138275ca32038b8c4f52d2ee59c2a536add0a3b547753bd421d2d04d46998"
+  },
+  "data/station_product_rules.csv": {
+    "bytes": 408,
+    "sha256": "4eecfa74012c0276704daf3967a2b0a073534cfdd89b2dbec0e84e8ca703ac63"
+  },
+  "data/stations.csv": {
+    "bytes": 2488,
+    "sha256": "960b29a26ef4bc1021e5a73300427e63ac49ee7add3459245c789594e67964a6"
+  },
+  "data/terminal_cleaning_rules.csv": {
+    "bytes": 258,
+    "sha256": "8dd034f1c5096cbb826a77d09bb2751072e98bfa5e81b7b09d77a819c15b6ca0"
+  },
+  "data/vehicle_station_exceptions.csv": {
+    "bytes": 411,
+    "sha256": "748ecf799f431984e293d4b6fb7e085013621a3296cd6791c4dbd339790aa12b"
+  },
+  "data/vehicles.csv": {
+    "bytes": 544,
+    "sha256": "38299362f7a4430038bf9d8aa5ef350330475f9171b5b5fbc52cf53f8d8b555d"
+  },
+  "submissions/__pycache__/solve.cpython-311.pyc": {
+    "bytes": 111088,
+    "sha256": "b0772d1a68fae2118f5bc349260262759e7a415a9e65a5f51905a7a3fbfba4f8"
+  },
+  "submissions/model.md": {
+    "bytes": 8766,
+    "sha256": "484d381df018b6739f2d36cd68b07f4a7929190e56607e032daa81e51e14ab59"
+  },
+  "submissions/solution.json": {
+    "bytes": 15558,
+    "sha256": "fcea000f412bd7dc36c5030fe71e854f25cfa03c623a43666625ef059cdd1ae6"
+  },
+  "submissions/solution.performance_candidate.json": {
+    "bytes": 15558,
+    "sha256": "fcea000f412bd7dc36c5030fe71e854f25cfa03c623a43666625ef059cdd1ae6"
+  },
+  "submissions/solution.repair_candidate.json": {
+    "bytes": 15558,
+    "sha256": "fcea000f412bd7dc36c5030fe71e854f25cfa03c623a43666625ef059cdd1ae6"
+  },
+  "submissions/solution.rollback.json": {
+    "bytes": 17960,
+    "sha256": "64d2c8e319abe6b40387aa66074d299903c71c02d02babc6d41cf19f2a816728"
+  },
+  "submissions/solution_template.json": {
+    "bytes": 459,
+    "sha256": "cec4bce85654095e04cea1d54ee67248d35518e64c84919c3b0bd1fe8c2afcf7"
+  },
+  "submissions/solve.py": {
+    "bytes": 83185,
+    "sha256": "e31b792c6b265a6dc5467b1dad393ab249ca02051174db8c32a7639a581b4384"
+  },
+  "submissions/solve_log.md": {
+    "bytes": 1970,
+    "sha256": "75916fe2c4710f3267dbea9e0f83f170572a5c5a37aa08f1e24f97f6a13be596"
+  },
+  "submissions/solve_log.rollback.md": {
+    "bytes": 1301,
+    "sha256": "b984fb4c029c9bdb1f54178db9538066e0d60198e6bd482d83eb7431d4cb3fef"
+  }
+}

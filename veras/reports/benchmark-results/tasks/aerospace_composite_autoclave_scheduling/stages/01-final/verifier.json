@@ -1,0 +1,55 @@
+{
+  "evaluation": {
+    "error_count": 1,
+    "errors": [
+      "No solution file found."
+    ],
+    "feasible": false
+  },
+  "process": {
+    "command": [
+      "<RUNTIME_BINARY>",
+      "-r",
+      "/run/root",
+      "-b",
+      "/usr:/usr",
+      "-b",
+      "/usr/bin:/bin",
+      "-b",
+      "/usr/lib:/lib",
+      "-b",
+      "/usr/lib64:/lib64",
+      "-b",
+      "/etc:/etc",
+      "-b",
+      "/dev:/dev",
+      "-b",
+      "/proc:/proc",
+      "-b",
+      "<RUNTIME_DEPENDENCIES>:/opt/or-deps",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/codex",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/node",
+      "-b",
+      "/workspace/project:/opt/dsh",
+      "-w",
+      "/app",
+      "-b",
+      "/benchmark/harbor_tasks/aerospace_composite_autoclave_scheduling/tests:/tests",
+      "/bin/bash",
+      "/tests/test.sh"
+    ],
+    "finished_at": "2026-09-09T19:07:55.435715+00:00",
+    "return_code": 0,
+    "started_at": "2026-09-09T19:07:55.420027+00:00",
+    "timed_out": false,
+    "timeout_seconds": 360.0,
+    "wall_seconds": 0.016
+  },
+  "reward_details": {
+    "feasibility": 0.0,
+    "quality": 0.0,
+    "quality_status": "missing_solution"
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "challenger_attempts": 1,
+  "challenger_report_present": true,
+  "critic_used": true,
+  "decisions": [
+    {
+      "action": "resume-agent-performance",
+      "max_normalized_residual": 0.0,
+      "mode": "performance",
+      "observer_coverage_complete": false,
+      "primary_target": {
+        "exists": true,
+        "path": "submissions/solution.csv",
+        "records": 72,
+        "status": "valid-csv",
+        "valid": true
+      },
+      "remaining_seconds": 1697.73,
+      "semantic_observer": "medical-waste-route-observer-v1",
+      "semantic_safe": true,
+      "semantic_violation_count": 0,
+      "solver_candidates": [
+        "submissions/solve.py"
+      ],
+      "triggers": [
+        "current-stage-solver-executable"
+      ]
+    },
+    {
+      "action": "resume-agent-performance",
+      "max_normalized_residual": 0.0,
+      "mode": "performance",
+      "observer_coverage_complete": false,
+      "primary_target": {
+        "exists": true,
+        "path": "submissions/solution.csv",
+        "records": 74,
+        "status": "valid-csv",
+        "valid": true
+      },
+      "remaining_seconds": 422.043,
+      "semantic_observer": "medical-waste-route-observer-v1",
+      "semantic_safe": true,
+      "semantic_violation_count": 0,
+      "solver_candidates": [
+        "submissions/solve.py"
+      ],
+      "triggers": [
+        "current-stage-solver-executable"
+      ]
+    }
+  ],
+  "final_audit": {
+    "primary_target": {
+      "exists": true,
+      "path": "submissions/solution.csv",
+      "records": 74,
+      "status": "valid-csv",
+      "valid": true
+    },
+    "primary_target_exists": true,
+    "primary_target_valid": true,
+    "python_count": 1,
+    "python_syntax": [
+      {
+        "path": "submissions/solve.py",
+        "valid": true
+      }
+    ],
+    "python_valid": true,
+    "required": [
+      {
+        "exists": true,
+        "path": "submissions/model.md"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solve.py"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solve_log.md"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solution.csv"
+      }
+    ],
+    "required_present": 4,
+    "required_total": 4,
+    "target_exists": true,
+    "target_valid": true,
+    "targets": [
+      {
+        "exists": true,
+        "path": "submissions/solution.csv",
+        "records": 74,
+        "status": "valid-csv",
+        "valid": true
+      }
+    ]
+  },
+  "final_observation": {
+    "coverage_complete": false,
+    "covered_constraint_groups": [
+      "clinic-coverage",
+      "route-boundary/sequence",
+      "vehicle-permit/isolation/incompatibility",
+      "vehicle-load/battery/shift",
+      "clinic-time-window/maximum-onboard-time",
+      "facility-compatibility/daily-capacity/minimum-throughput",
+      "facility-window-unload/kg-cap",
+      "charger-session/energy-cap"
+    ],
+    "max_normalized_residual": 0.0,
+    "metrics": {
+      "clinic_count": 44,
+      "route_count": 8,
+      "route_metrics": [
+        {
+          "facility_id": "F3",
+          "unload_kg": 146.4,
+          "unload_time": 527.9,
+          "vehicle_id": "EV1"
+        },
+        {
+          "facility_id": "F3",
+          "unload_kg": 201.4,
+          "unload_time": 642.8,
+          "vehicle_id": "EV1"
+        },
+        {
+          "facility_id": "F3",
+          "unload_kg": 164.3,
+          "unload_time": 725.7,
+          "vehicle_id": "EV1"
+        },
+        {
+          "facility_id": "F5",
+          "unload_kg": 169.2,
+          "unload_time": 591.8,
+          "vehicle_id": "EV2"
+        },
+        {
+          "facility_id": "F2",
+          "unload_kg": 155.4,
+          "unload_time": 702.4,
+          "vehicle_id": "EV2"
+        },
+        {
+          "facility_id": "F2",
+          "unload_kg": 223.3,
+          "unload_time": 840.5,
+          "vehicle_id": "EV2"
+        },
+        {
+          "facility_id": "F3",
+          "unload_kg": 262.5,
+          "unload_time": 736.6,
+          "vehicle_id": "EV3"
+        },
+        {
+          "facility_id": "F2",
+          "unload_kg": 269.8,
+          "unload_time": 700.7,
+          "vehicle_id": "EV4"
+        },
+        {
+          "facility_id": "F2",
+          "unload_kg": 233.9,
+          "unload_time": 926.5,
+          "vehicle_id": "EV4"
+        },
+        {
+          "facility_id": "F1",
+          "unload_kg": 235.7,
+          "unload_time": 656.6,
+          "vehicle_id": "EV5"
+        },
+        {
+          "facility_id": "F3",
+          "unload_kg": 166.7,
+          "unload_time": 655.0,
+          "vehicle_id": "EV6"
+        },
+        {
+          "facility_id": "F1",
+          "unload_kg": 277.2,
+          "unload_time": 610.7,
+          "vehicle_id": "EV7"
+        },
+        {
+          "facility_id": "F5",
+          "unload_kg": 164.9,
+          "unload_time": 671.6,
+          "vehicle_id": "EV8"
+        },
+        {
+          "facility_id": "F5",
+          "unload_kg": 468.6,
+          "unload_time": 921.1,
+          "vehicle_id": "EV8"
+        }
+      ],
+      "window_kg": {
+        "F1|early": 512.9000000000001,
+        "F1|late": 0.0,
+        "F1|midday": 0.0,
+        "F2|early": 425.20000000000005,
+        "F2|late": 0.0,
+        "F2|midday": 457.2,
+        "F3|early": 514.5,
+        "F3|late": 0.0,
+        "F3|midday": 426.8,
+        "F4|early": 0.0,
+        "F4|late": 0.0,
+        "F4|midday": 0.0,
+        "F5|early": 334.09999999999997,
+        "F5|late": 0.0,
+        "F5|midday": 468.6
+      }
+    },
+    "observer": "medical-waste-route-observer-v1",
+    "safe": true,
+    "supported": true,
+    "total_normalized_violation_mass": 0,
+    "violation_count": 0,
+    "violations": []
+  },
+  "harness_name": "VERAS",
+  "initial_audit": {
+    "primary_target": {
+      "exists": true,
+      "path": "submissions/solution.csv",
+      "records": 72,
+      "status": "valid-csv",
+      "valid": true
+    },
+    "primary_target_exists": true,
+    "primary_target_valid": true,
+    "python_count": 1,
+    "python_syntax": [
+      {
+        "path": "submissions/solve.py",
+        "valid": true
+      }
+    ],
+    "python_valid": true,
+    "required": [
+      {
+        "exists": true,
+        "path": "submissions/model.md"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solve.py"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solve_log.md"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solution.csv"
+      }
+    ],
+    "required_present": 4,
+    "required_total": 4,
+    "target_exists": true,
+    "target_valid": true,
+    "targets": [
+      {
+        "exists": true,
+        "path": "submissions/solution.csv",
+        "records": 72,
+        "status": "valid-csv",
+        "valid": true
+      }
+    ]
+  },
+  "initial_budget_seconds": 1890.0,
+  "initial_observation": {
+    "coverage_complete": false,
+    "covered_constraint_groups": [
+      "clinic-coverage",
+      "route-boundary/sequence",
+      "vehicle-permit/isolation/incompatibility",
+      "vehicle-load/battery/shift",
+      "clinic-time-window/maximum-onboard-time",
+      "facility-compatibility/daily-capacity/minimum-throughput",
+      "facility-window-unload/kg-cap",
+      "charger-session/energy-cap"
+    ],
+    "max_normalized_residual": 0.0,
+    "metrics": {
+      "clinic_count": 44,
+      "route_count": 8,
+      "route_metrics": [
+        {
+          "facility_id": "F3",
+          "unload_kg": 211.5,
+          "unload_time": 625.5,
+          "vehicle_id": "EV1"
+        },
+        {
+          "facility_id": "F3",
+          "unload_kg": 300.6,
+          "unload_time": 763.8,
+          "vehicle_id": "EV1"
+        },
+        {
+          "facility_id": "F5",
+          "unload_kg": 169.2,
+          "unload_time": 591.8,
+          "vehicle_id": "EV2"
+        },
+        {
+          "facility_id": "F2",
+          "unload_kg": 378.7,
+          "unload_time": 807.8,
+          "vehicle_id": "EV2"
+        },
+        {
+          "facility_id": "F3",
+          "unload_kg": 262.5,
+          "unload_time": 736.6,
+          "vehicle_id": "EV3"
+        },
+        {
+          "facility_id": "F2",
+          "unload_kg": 310.5,
+          "unload_time": 711.1,
+          "vehicle_id": "EV4"
+        },
+        {
+          "facility_id": "F2",
+          "unload_kg": 193.2,
+          "unload_time": 934.5,
+          "vehicle_id": "EV4"
+        },
+        {
+          "facility_id": "F1",
+          "unload_kg": 235.7,
+          "unload_time": 656.6,
+          "vehicle_id": "EV5"
+        },
+        {
+          "facility_id": "F3",
+          "unload_kg": 166.7,
+          "unload_time": 655.0,
+          "vehicle_id": "EV6"
+        },
+        {
+          "facility_id": "F1",
+          "unload_kg": 277.2,
+          "unload_time": 610.7,
+          "vehicle_id": "EV7"
+        },
+        {
+          "facility_id": "F5",
+          "unload_kg": 164.9,
+          "unload_time": 671.6,
+          "vehicle_id": "EV8"
+        },
+        {
+          "facility_id": "F5",
+          "unload_kg": 468.6,
+          "unload_time": 921.1,
+          "vehicle_id": "EV8"
+        }
+      ],
+      "window_kg": {
+        "F1|early": 512.9000000000001,
+        "F1|late": 0.0,
+        "F1|midday": 0.0,
+        "F2|early": 310.5,
+        "F2|late": 0.0,
+        "F2|midday": 571.9,
+        "F3|early": 378.2,
+        "F3|late": 0.0,
+        "F3|midday": 563.1,
+        "F4|early": 0.0,
+        "F4|late": 0.0,
+        "F4|midday": 0.0,
+        "F5|early": 334.09999999999997,
+        "F5|late": 0.0,
+        "F5|midday": 468.6
+      }
+    },
+    "observer": "medical-waste-route-observer-v1",
+    "safe": true,
+    "supported": true,
+    "total_normalized_violation_mass": 0,
+    "violation_count": 0,
+    "violations": []
+  },
+  "local_solver_accepted": false,
+  "local_solver_used": false,
+  "performance_accepted": true,
+  "performance_attempts": 2,
+  "policy": "counterexample-guided-guarded-performance",
+  "recovery_accepted": false,
+  "recovery_attempts": 0,
+  "reserved_recovery_seconds": 810.0,
+  "rollback_reasons": [],
+  "session_id": "<REDACTED_ID>",
+  "total_budget_seconds": 2700.0
+}

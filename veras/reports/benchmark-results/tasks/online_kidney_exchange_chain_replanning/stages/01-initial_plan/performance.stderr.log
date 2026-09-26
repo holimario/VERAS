@@ -1,0 +1,1 @@
+2026-09-09T23:00:34.066789Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target /app/submissions/solve_initial.py

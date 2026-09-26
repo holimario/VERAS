@@ -1,0 +1,670 @@
+{
+  "trips": [
+    {
+      "bay_id": "BAY_C",
+      "deliveries": [
+        {
+          "compartment_id": "C1",
+          "order_id": "O037",
+          "quantity_liters": 4030.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C4",
+          "order_id": "O038",
+          "quantity_liters": 4380.0,
+          "stop_sequence": 2
+        },
+        {
+          "compartment_id": "C5",
+          "order_id": "O039",
+          "quantity_liters": 3590.0,
+          "stop_sequence": 2
+        }
+      ],
+      "load_start_min": 360.0,
+      "stops": [
+        {
+          "arrival_min": 407.95358783,
+          "departure_min": 424.25621941,
+          "node_id": "S23"
+        },
+        {
+          "arrival_min": 440.57375891,
+          "departure_min": 465.06060101,
+          "node_id": "S24"
+        }
+      ],
+      "trip_id": "T03_1",
+      "vehicle_id": "T03"
+    },
+    {
+      "bay_id": "BAY_B",
+      "deliveries": [
+        {
+          "compartment_id": "C2",
+          "order_id": "O014",
+          "quantity_liters": 5220.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C1",
+          "order_id": "O015",
+          "quantity_liters": 3840.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C5",
+          "order_id": "O016",
+          "quantity_liters": 4180.0,
+          "stop_sequence": 2
+        }
+      ],
+      "load_start_min": 394.0,
+      "stops": [
+        {
+          "arrival_min": 439.19434312,
+          "departure_min": 465.11539575,
+          "node_id": "S09"
+        },
+        {
+          "arrival_min": 476.38900698,
+          "departure_min": 492.88900698,
+          "node_id": "S10"
+        }
+      ],
+      "trip_id": "T02_1",
+      "vehicle_id": "T02"
+    },
+    {
+      "bay_id": "BAY_B",
+      "deliveries": [
+        {
+          "compartment_id": "C2",
+          "order_id": "O001",
+          "quantity_liters": 4180.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C1",
+          "order_id": "O002",
+          "quantity_liters": 3560.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C4",
+          "order_id": "O004",
+          "quantity_liters": 2760.0,
+          "stop_sequence": 2
+        },
+        {
+          "compartment_id": "C3",
+          "order_id": "O005",
+          "quantity_liters": 4890.0,
+          "stop_sequence": 2
+        }
+      ],
+      "load_start_min": 428.0,
+      "stops": [
+        {
+          "arrival_min": 475.8465542,
+          "departure_min": 498.03076473,
+          "node_id": "S01"
+        },
+        {
+          "arrival_min": 514.31955631,
+          "departure_min": 537.38534579,
+          "node_id": "S03"
+        }
+      ],
+      "trip_id": "T10_1",
+      "vehicle_id": "T10"
+    },
+    {
+      "bay_id": "BAY_C",
+      "deliveries": [
+        {
+          "compartment_id": "C1",
+          "order_id": "O003",
+          "quantity_liters": 4140.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C2",
+          "order_id": "O003",
+          "quantity_liters": 1340.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C3",
+          "order_id": "O049",
+          "quantity_liters": 4630.0,
+          "stop_sequence": 2
+        },
+        {
+          "compartment_id": "C4",
+          "order_id": "O050",
+          "quantity_liters": 2890.0,
+          "stop_sequence": 2
+        }
+      ],
+      "load_start_min": 462.0,
+      "stops": [
+        {
+          "arrival_min": 528.31682559,
+          "departure_min": 545.52735191,
+          "node_id": "S02"
+        },
+        {
+          "arrival_min": 554.84232784,
+          "departure_min": 576.73706468,
+          "node_id": "S31"
+        }
+      ],
+      "trip_id": "T05_1",
+      "vehicle_id": "T05"
+    },
+    {
+      "bay_id": "BAY_B",
+      "deliveries": [
+        {
+          "compartment_id": "C2",
+          "order_id": "O043",
+          "quantity_liters": 5210.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C5",
+          "order_id": "O044",
+          "quantity_liters": 4860.0,
+          "stop_sequence": 2
+        },
+        {
+          "compartment_id": "C6",
+          "order_id": "O045",
+          "quantity_liters": 3350.0,
+          "stop_sequence": 2
+        }
+      ],
+      "load_start_min": 496.0,
+      "stops": [
+        {
+          "arrival_min": 543.04782279,
+          "departure_min": 561.90308594,
+          "node_id": "S27"
+        },
+        {
+          "arrival_min": 574.28821787,
+          "departure_min": 598.09084945,
+          "node_id": "S28"
+        }
+      ],
+      "trip_id": "T09_1",
+      "vehicle_id": "T09"
+    },
+    {
+      "bay_id": "BAY_B",
+      "deliveries": [
+        {
+          "compartment_id": "C2",
+          "order_id": "O022",
+          "quantity_liters": 4560.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C1",
+          "order_id": "O023",
+          "quantity_liters": 2870.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C3",
+          "order_id": "O024",
+          "quantity_liters": 5120.0,
+          "stop_sequence": 2
+        }
+      ],
+      "load_start_min": 530.0,
+      "stops": [
+        {
+          "arrival_min": 581.30248726,
+          "departure_min": 604.07880305,
+          "node_id": "S14"
+        },
+        {
+          "arrival_min": 615.97360605,
+          "departure_min": 632.71044816,
+          "node_id": "S15"
+        }
+      ],
+      "trip_id": "T02_2",
+      "vehicle_id": "T02"
+    },
+    {
+      "bay_id": "BAY_C",
+      "deliveries": [
+        {
+          "compartment_id": "C1",
+          "order_id": "O040",
+          "quantity_liters": 2970.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C2",
+          "order_id": "O041",
+          "quantity_liters": 3890.0,
+          "stop_sequence": 2
+        },
+        {
+          "compartment_id": "C3",
+          "order_id": "O042",
+          "quantity_liters": 2680.0,
+          "stop_sequence": 2
+        }
+      ],
+      "load_start_min": 564.0,
+      "stops": [
+        {
+          "arrival_min": 628.78210927,
+          "departure_min": 644.69000401,
+          "node_id": "S25"
+        },
+        {
+          "arrival_min": 654.88943225,
+          "departure_min": 676.53416909,
+          "node_id": "S26"
+        }
+      ],
+      "trip_id": "T07_1",
+      "vehicle_id": "T07"
+    },
+    {
+      "bay_id": "BAY_C",
+      "deliveries": [
+        {
+          "compartment_id": "C1",
+          "order_id": "O006",
+          "quantity_liters": 3340.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C3",
+          "order_id": "O051",
+          "quantity_liters": 3370.0,
+          "stop_sequence": 2
+        }
+      ],
+      "load_start_min": 598.0,
+      "stops": [
+        {
+          "arrival_min": 679.53189802,
+          "departure_min": 692.92663486,
+          "node_id": "S04"
+        },
+        {
+          "arrival_min": 706.70108131,
+          "departure_min": 721.13529184,
+          "node_id": "S32"
+        }
+      ],
+      "trip_id": "T08_1",
+      "vehicle_id": "T08"
+    },
+    {
+      "bay_id": "BAY_C",
+      "deliveries": [
+        {
+          "compartment_id": "C1",
+          "order_id": "O025",
+          "quantity_liters": 3990.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C2",
+          "order_id": "O026",
+          "quantity_liters": 3710.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C4",
+          "order_id": "O027",
+          "quantity_liters": 4580.0,
+          "stop_sequence": 2
+        },
+        {
+          "compartment_id": "C5",
+          "order_id": "O027",
+          "quantity_liters": 1040.0,
+          "stop_sequence": 2
+        }
+      ],
+      "load_start_min": 632.0,
+      "stops": [
+        {
+          "arrival_min": 685.46046038,
+          "departure_min": 704.59203933,
+          "node_id": "S16"
+        },
+        {
+          "arrival_min": 710.3892323,
+          "departure_min": 728.78396914,
+          "node_id": "S17"
+        }
+      ],
+      "trip_id": "T04_1",
+      "vehicle_id": "T04"
+    },
+    {
+      "bay_id": "BAY_B",
+      "deliveries": [
+        {
+          "compartment_id": "C2",
+          "order_id": "O033",
+          "quantity_liters": 4540.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C1",
+          "order_id": "O034",
+          "quantity_liters": 3180.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C5",
+          "order_id": "O035",
+          "quantity_liters": 4760.0,
+          "stop_sequence": 2
+        },
+        {
+          "compartment_id": "C6",
+          "order_id": "O036",
+          "quantity_liters": 2820.0,
+          "stop_sequence": 2
+        }
+      ],
+      "load_start_min": 666.0,
+      "stops": [
+        {
+          "arrival_min": 751.62877621,
+          "departure_min": 775.78667094,
+          "node_id": "S21"
+        },
+        {
+          "arrival_min": 797.0814669,
+          "departure_min": 816.05515111,
+          "node_id": "S22"
+        }
+      ],
+      "trip_id": "T10_2",
+      "vehicle_id": "T10"
+    },
+    {
+      "bay_id": "BAY_C",
+      "deliveries": [
+        {
+          "compartment_id": "C3",
+          "order_id": "O007",
+          "quantity_liters": 5080.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C1",
+          "order_id": "O008",
+          "quantity_liters": 2910.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C5",
+          "order_id": "O009",
+          "quantity_liters": 3650.0,
+          "stop_sequence": 2
+        },
+        {
+          "compartment_id": "C4",
+          "order_id": "O010",
+          "quantity_liters": 4620.0,
+          "stop_sequence": 2
+        }
+      ],
+      "load_start_min": 700.0,
+      "stops": [
+        {
+          "arrival_min": 757.98580086,
+          "departure_min": 779.49895875,
+          "node_id": "S05"
+        },
+        {
+          "arrival_min": 788.69810168,
+          "departure_min": 809.57968063,
+          "node_id": "S06"
+        }
+      ],
+      "trip_id": "T03_2",
+      "vehicle_id": "T03"
+    },
+    {
+      "bay_id": "BAY_C",
+      "deliveries": [
+        {
+          "compartment_id": "C2",
+          "order_id": "O017",
+          "quantity_liters": 3020.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C1",
+          "order_id": "O018",
+          "quantity_liters": 4300.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C3",
+          "order_id": "O019",
+          "quantity_liters": 5340.0,
+          "stop_sequence": 2
+        },
+        {
+          "compartment_id": "C4",
+          "order_id": "O020",
+          "quantity_liters": 3460.0,
+          "stop_sequence": 2
+        }
+      ],
+      "load_start_min": 734.0,
+      "stops": [
+        {
+          "arrival_min": 793.35628978,
+          "departure_min": 811.98786873,
+          "node_id": "S11"
+        },
+        {
+          "arrival_min": 840.44418043,
+          "departure_min": 864.0231278,
+          "node_id": "S12"
+        }
+      ],
+      "trip_id": "T11_1",
+      "vehicle_id": "T11"
+    },
+    {
+      "bay_id": "BAY_D",
+      "deliveries": [
+        {
+          "compartment_id": "C1",
+          "order_id": "O046",
+          "quantity_liters": 110.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C2",
+          "order_id": "O046",
+          "quantity_liters": 4270.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C4",
+          "order_id": "O047",
+          "quantity_liters": 2920.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C3",
+          "order_id": "O048",
+          "quantity_liters": 4070.0,
+          "stop_sequence": 2
+        }
+      ],
+      "load_start_min": 768.0,
+      "stops": [
+        {
+          "arrival_min": 830.07075109,
+          "departure_min": 849.67601425,
+          "node_id": "S29"
+        },
+        {
+          "arrival_min": 864.56264002,
+          "departure_min": 878.91790318,
+          "node_id": "S30"
+        }
+      ],
+      "trip_id": "T07_2",
+      "vehicle_id": "T07"
+    },
+    {
+      "bay_id": "BAY_C",
+      "deliveries": [
+        {
+          "compartment_id": "C1",
+          "order_id": "O011",
+          "quantity_liters": 4210.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C2",
+          "order_id": "O011",
+          "quantity_liters": 1560.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C4",
+          "order_id": "O012",
+          "quantity_liters": 4360.0,
+          "stop_sequence": 2
+        },
+        {
+          "compartment_id": "C5",
+          "order_id": "O013",
+          "quantity_liters": 3190.0,
+          "stop_sequence": 2
+        }
+      ],
+      "load_start_min": 802.0,
+      "stops": [
+        {
+          "arrival_min": 877.52877999,
+          "departure_min": 897.12088525,
+          "node_id": "S07"
+        },
+        {
+          "arrival_min": 910.64321759,
+          "departure_min": 929.57742811,
+          "node_id": "S08"
+        }
+      ],
+      "trip_id": "T04_2",
+      "vehicle_id": "T04"
+    },
+    {
+      "bay_id": "BAY_C",
+      "deliveries": [
+        {
+          "compartment_id": "C3",
+          "order_id": "O030",
+          "quantity_liters": 4870.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C1",
+          "order_id": "O031",
+          "quantity_liters": 3440.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C4",
+          "order_id": "O032",
+          "quantity_liters": 3690.0,
+          "stop_sequence": 2
+        }
+      ],
+      "load_start_min": 836.0,
+      "stops": [
+        {
+          "arrival_min": 926.2675024,
+          "departure_min": 947.20171292,
+          "node_id": "S19"
+        },
+        {
+          "arrival_min": 976.99885363,
+          "departure_min": 993.85411679,
+          "node_id": "S20"
+        }
+      ],
+      "trip_id": "T05_2",
+      "vehicle_id": "T05"
+    },
+    {
+      "bay_id": "BAY_B",
+      "deliveries": [
+        {
+          "compartment_id": "C2",
+          "order_id": "O028",
+          "quantity_liters": 4210.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C1",
+          "order_id": "O029",
+          "quantity_liters": 3030.0,
+          "stop_sequence": 1
+        }
+      ],
+      "load_start_min": 870.0,
+      "stops": [
+        {
+          "arrival_min": 939.11795882,
+          "departure_min": 961.64427461,
+          "node_id": "S18"
+        }
+      ],
+      "trip_id": "T09_2",
+      "vehicle_id": "T09"
+    },
+    {
+      "bay_id": "BAY_D",
+      "deliveries": [
+        {
+          "compartment_id": "C1",
+          "order_id": "O021",
+          "quantity_liters": 560.0,
+          "stop_sequence": 1
+        },
+        {
+          "compartment_id": "C2",
+          "order_id": "O021",
+          "quantity_liters": 4120.0,
+          "stop_sequence": 1
+        }
+      ],
+      "load_start_min": 904.0,
+      "stops": [
+        {
+          "arrival_min": 989.71035477,
+          "departure_min": 1005.86824951,
+          "node_id": "S13"
+        }
+      ],
+      "trip_id": "T08_2",
+      "vehicle_id": "T08"
+    }
+  ]
+}

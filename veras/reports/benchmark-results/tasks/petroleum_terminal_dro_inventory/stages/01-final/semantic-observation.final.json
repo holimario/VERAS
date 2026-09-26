@@ -1,0 +1,25 @@
+{
+  "coverage_complete": true,
+  "covered_constraint_groups": [
+    "schema/identifier-domains/nonnegativity",
+    "inbound-lane/commitment/robust-terminal-capacity",
+    "disrupted-outbound-lane/fleet/stop/shift-capacity",
+    "depot-inventory/capacity/reserve",
+    "station-inventory/service-floor/capacity/reserve",
+    "scenario-wide-emergency-capacity"
+  ],
+  "max_normalized_residual": 0.0,
+  "metrics": {
+    "actual_violation_count": 0,
+    "row_count": 1561,
+    "scenario_count": 16,
+    "stored_examples_per_group": 8,
+    "violation_counts_by_group": {}
+  },
+  "observer": "petroleum-robust-inventory-observer-v1",
+  "safe": true,
+  "supported": true,
+  "total_normalized_violation_mass": 0,
+  "violation_count": 0,
+  "violations": []
+}

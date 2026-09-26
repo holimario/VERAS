@@ -1,0 +1,246 @@
+{
+  "evaluation": {
+    "action_counts": {
+      "migration_easement": 42,
+      "protect": 8,
+      "restore": 4
+    },
+    "benefit": 5652792.05726516,
+    "capital_used": 3872039.431599999,
+    "corridor_parcels": 24,
+    "environment": "climate_refuge_reserve_selection",
+    "error_count": 0,
+    "errors": [],
+    "expected_covered_value": 1079.9028266926732,
+    "feasible": true,
+    "maintenance_used": 68743.14660000001,
+    "nursery_units_used": 8.0,
+    "objective": 5440722.0759523595,
+    "profit": 5440722.0759523595,
+    "robust_floor_value": 830.0748427,
+    "scenario_details": {
+      "C01": {
+        "covered_features": 59,
+        "covered_value": 1233.3711709000008,
+        "priority_rate": 0.6729616415717743
+      },
+      "C02": {
+        "covered_features": 59,
+        "covered_value": 1233.3711709000008,
+        "priority_rate": 0.6729616415717743
+      },
+      "C03": {
+        "covered_features": 56,
+        "covered_value": 1168.6911306000006,
+        "priority_rate": 0.626794515192199
+      },
+      "C04": {
+        "covered_features": 49,
+        "covered_value": 1021.7537163000002,
+        "priority_rate": 0.5112976897203899
+      },
+      "C05": {
+        "covered_features": 49,
+        "covered_value": 1035.9599874,
+        "priority_rate": 0.5400992810212226
+      },
+      "C06": {
+        "covered_features": 46,
+        "covered_value": 965.9652292000002,
+        "priority_rate": 0.5112976897203899
+      },
+      "C07": {
+        "covered_features": 40,
+        "covered_value": 830.0748427,
+        "priority_rate": 0.4556171768344909
+      },
+      "C08": {
+        "covered_features": 60,
+        "covered_value": 1255.0930669000004,
+        "priority_rate": 0.6729616415717743
+      },
+      "C09": {
+        "covered_features": 60,
+        "covered_value": 1255.0930669000004,
+        "priority_rate": 0.6729616415717743
+      },
+      "C10": {
+        "covered_features": 60,
+        "covered_value": 1255.0930669000004,
+        "priority_rate": 0.6729616415717743
+      },
+      "C11": {
+        "covered_features": 55,
+        "covered_value": 1149.4526070000006,
+        "priority_rate": 0.6059257360511017
+      },
+      "C12": {
+        "covered_features": 52,
+        "covered_value": 1088.7684721,
+        "priority_rate": 0.5400992810212226
+      },
+      "C13": {
+        "covered_features": 48,
+        "covered_value": 1015.6315986000002,
+        "priority_rate": 0.5400992810212226
+      },
+      "C14": {
+        "covered_features": 41,
+        "covered_value": 862.8359875,
+        "priority_rate": 0.4556171768344909
+      },
+      "C15": {
+        "covered_features": 41,
+        "covered_value": 862.8359875,
+        "priority_rate": 0.4556171768344909
+      },
+      "C16": {
+        "covered_features": 60,
+        "covered_value": 1255.0930669000004,
+        "priority_rate": 0.6729616415717743
+      },
+      "C17": {
+        "covered_features": 60,
+        "covered_value": 1255.0930669000004,
+        "priority_rate": 0.6729616415717743
+      },
+      "C18": {
+        "covered_features": 59,
+        "covered_value": 1233.3711709000008,
+        "priority_rate": 0.6729616415717743
+      },
+      "C19": {
+        "covered_features": 56,
+        "covered_value": 1168.6911306000006,
+        "priority_rate": 0.626794515192199
+      },
+      "C20": {
+        "covered_features": 53,
+        "covered_value": 1101.7120145000004,
+        "priority_rate": 0.5541396478011886
+      },
+      "C21": {
+        "covered_features": 46,
+        "covered_value": 968.5138307,
+        "priority_rate": 0.4920598917764764
+      },
+      "C22": {
+        "covered_features": 41,
+        "covered_value": 862.8359875,
+        "priority_rate": 0.4556171768344909
+      },
+      "C23": {
+        "covered_features": 40,
+        "covered_value": 830.0748427,
+        "priority_rate": 0.4556171768344909
+      },
+      "C24": {
+        "covered_features": 60,
+        "covered_value": 1255.0930669000004,
+        "priority_rate": 0.6729616415717743
+      }
+    },
+    "selected_parcels": 54,
+    "staff_days_used": 192.33879999999994,
+    "total_cost": 212069.9813127999
+  },
+  "process": {
+    "command": [
+      "<RUNTIME_BINARY>",
+      "-r",
+      "/run/root",
+      "-b",
+      "/usr:/usr",
+      "-b",
+      "/usr/bin:/bin",
+      "-b",
+      "/usr/lib:/lib",
+      "-b",
+      "/usr/lib64:/lib64",
+      "-b",
+      "/etc:/etc",
+      "-b",
+      "/dev:/dev",
+      "-b",
+      "/proc:/proc",
+      "-b",
+      "<RUNTIME_DEPENDENCIES>:/opt/or-deps",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/codex",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/node",
+      "-b",
+      "/workspace/project:/opt/dsh",
+      "-w",
+      "/app",
+      "-b",
+      "/benchmark/harbor_tasks/climate_refuge_reserve_selection/tests:/tests",
+      "/bin/bash",
+      "/tests/test.sh"
+    ],
+    "finished_at": "2026-09-09T19:26:46.162724+00:00",
+    "return_code": 0,
+    "started_at": "2026-09-09T19:26:45.948608+00:00",
+    "timed_out": false,
+    "timeout_seconds": 360.0,
+    "wall_seconds": 0.214
+  },
+  "reward_details": {
+    "agent_objective": 5440722.0759523595,
+    "agent_objective_source": "profit",
+    "best_bound": 11033230.113914656,
+    "bound_improvement": 4114.376353051513,
+    "bound_sense": "upper",
+    "evaluation_diagnostics": {
+      "error_count": 0,
+      "objective": 5440722.0759523595,
+      "profit": 5440722.0759523595,
+      "score": null,
+      "total_cost": 212069.9813127999
+    },
+    "fallback_mip_gap": 0.0005,
+    "fallback_reference_scale": 11029115.737561604,
+    "feasibility": 1.0,
+    "formula": "clip(2 + d if d >= -1 else 1.5 + 0.5*d, 0, 2), d = (O - R) / (max(abs(R), 1e-8) * mip_gap)",
+    "objective_sense": "maximize",
+    "quality": 0.0,
+    "quality_scale_width": 5514.557868780802,
+    "quality_status": "bound_gap_below_mip_gap",
+    "reference_metrics": {
+      "best_bound": 11033230.113914656,
+      "best_bound_source": "best_bound",
+      "bound_sense": "upper",
+      "evaluation_summary": {
+        "error_count": 0,
+        "feasible": true,
+        "objective": 11029115.737561604,
+        "profit": 11029115.737561604,
+        "total_cost": 222626.9374576
+      },
+      "generated_at": "2026-05-22T06:35:33.869519+00:00",
+      "mip_gap": 0.0005,
+      "objective_sense": "maximize",
+      "quality_formula": "clip(1 + (O - R) / (B - R), 0, 2) if B exists and B - R >= max(abs(R), 1e-8) * mip_gap; otherwise let d=(O - R)/(max(abs(R), 1e-8)*mip_gap), quality=clip(2+d if d>=-1 else 1.5+0.5*d, 0, 2); if no R, quality = 2",
+      "reference_objective": 11029115.737561604,
+      "reference_objective_source": "profit",
+      "solution_path": "reference_solutions/climate_refuge_reserve_selection_reference_solution.csv",
+      "solver_summary": {
+        "best_bound": 11033230.113914656,
+        "evaluation_objective": 11029115.737561604,
+        "expected_covered_value": 2017.8878542000007,
+        "mip_gap": 0.00037304680184331254,
+        "objective": 11029115.737561598,
+        "robust_floor_value": 2017.8878542000007,
+        "selected_parcels": 52,
+        "solution": "reference_solutions/climate_refuge_reserve_selection_reference_solution.csv",
+        "status": "gaplimit"
+      },
+      "task_name": "climate_refuge_reserve_selection",
+      "time_limit_seconds": 300.0
+    },
+    "reference_objective": 11029115.737561604,
+    "scalar_reward": 0.3333333333333333,
+    "scalar_reward_formula": "(feasibility + quality) / 3.0",
+    "signed_improvement": -5588393.6616092445
+  }
+}

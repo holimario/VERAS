@@ -1,0 +1,1 @@
+row_type,scenario_id,aircraft_id,request_id,origin,destination,start_slot,end_slot,energy_kwh,quantity,decision

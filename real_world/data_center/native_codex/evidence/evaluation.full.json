@@ -1,0 +1,183 @@
+{
+  "agent_timed_out": false,
+  "dispatch_seconds": 39.82729474455118,
+  "eligible": true,
+  "harness": "plain-local-codex-single-agent",
+  "hidden_evaluation_performed": true,
+  "hidden_metrics": {
+    "bandwidth_hl_to_zw_peak_gbps": 1110.2570902215418,
+    "bandwidth_zw_to_hl_peak_gbps": 1599.0504189355358,
+    "cross_region_transfer_rows_hl_to_zw": 1638,
+    "cross_region_transfer_rows_zw_to_hl": 1011,
+    "dataset_role": "final_holdout_no_feedback",
+    "dispatch_time_seconds": 39.82729474455118,
+    "evaluation_dates": [
+      "20250810"
+    ],
+    "evaluation_time_seconds": 9.958858743309975,
+    "feasible": true,
+    "improvement_vs_reference_percent": 91.7977084649259,
+    "max_directional_bandwidth_peak_gbps": 1599.0504189355358,
+    "mean_daily_max_bandwidth_peak_gbps": 1599.0504189355358,
+    "memory_hl_peak_gb": 276895.6201599455,
+    "memory_zw_peak_gb": 10215723.320893412,
+    "migration_changed_tables": 1758,
+    "migration_hl_to_zw_bytes": 24936841813705549,
+    "migration_status": "available_auxiliary_metric",
+    "migration_tables_missing_size": 200,
+    "migration_total_bytes": 33837587577463560,
+    "migration_zw_to_hl_bytes": 8900745763758011,
+    "official_tolerance_resource_feasible": true,
+    "per_date": {
+      "20250810": {
+        "bandwidth_hl_to_zw_peak_gbps": 1110.2570902215418,
+        "bandwidth_zw_to_hl_peak_gbps": 1599.0504189355358,
+        "cross_region_transfer_rows_hl_to_zw": 1638,
+        "cross_region_transfer_rows_zw_to_hl": 1011,
+        "max_directional_bandwidth_peak_gbps": 1599.0504189355358,
+        "memory_hl_peak_gb": 276895.6201599455,
+        "memory_zw_peak_gb": 10215723.320893412,
+        "official_tolerance_resource_feasible": true,
+        "resource_margin": {
+          "memory_hl_peak_gb": 398537.107664211,
+          "memory_zw_peak_gb": 400730.3237411976,
+          "vcores_hl_peak": 60386.075438849824,
+          "vcores_zw_peak": 82378.08237604471
+        },
+        "resource_utilization": {
+          "memory_hl_peak_gb": 0.4099529216654024,
+          "memory_zw_peak_gb": 0.962253843217813,
+          "vcores_hl_peak": 0.5006780103417587,
+          "vcores_zw_peak": 0.966771397439296
+        },
+        "strict_resource_feasible": true,
+        "vcores_hl_peak": 60550.067349856145,
+        "vcores_zw_peak": 2396753.6302968347
+      }
+    },
+    "resource_margin": {
+      "memory_hl_peak_gb": 398537.107664211,
+      "memory_zw_peak_gb": 400730.3237411976,
+      "vcores_hl_peak": 60386.075438849824,
+      "vcores_zw_peak": 82378.08237604471
+    },
+    "resource_utilization": {
+      "memory_hl_peak_gb": 0.4099529216654024,
+      "memory_zw_peak_gb": 0.962253843217813,
+      "vcores_hl_peak": 0.5006780103417587,
+      "vcores_zw_peak": 0.966771397439296
+    },
+    "runtime_contract_passed": true,
+    "strict_resource_feasible": true,
+    "task_count": 625191,
+    "tasks_hl": 982,
+    "tasks_zw": 624209,
+    "temporal_peak_spread_gbps": 0.0,
+    "vcores_hl_peak": 60550.067349856145,
+    "vcores_zw_peak": 2396753.6302968347
+  },
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "xhigh",
+  "reproduce_return_code": 0,
+  "reproduce_timed_out": false,
+  "solution_sha256": "370c05d25d4ae675b3bf4f7d3a664a8e53760b724a9710eb3073dfabecf0a3da",
+  "status": "evaluated",
+  "visible_metrics": {
+    "bandwidth_hl_to_zw_peak_gbps": 1072.2958734734234,
+    "bandwidth_zw_to_hl_peak_gbps": 677.1988045670023,
+    "cross_region_transfer_rows_hl_to_zw": 2689,
+    "cross_region_transfer_rows_zw_to_hl": 1631,
+    "dataset_role": "visible_train_validation_external_replay",
+    "dispatch_time_seconds": 39.82729474455118,
+    "evaluation_dates": [
+      "20250808",
+      "20250809"
+    ],
+    "evaluation_time_seconds": 19.17383249104023,
+    "feasible": true,
+    "max_directional_bandwidth_peak_gbps": 1072.2958734734234,
+    "mean_daily_max_bandwidth_peak_gbps": 940.4076735352257,
+    "memory_hl_peak_gb": 326340.133993585,
+    "memory_zw_peak_gb": 10452345.606680548,
+    "migration_changed_tables": 1758,
+    "migration_hl_to_zw_bytes": 24936841813705549,
+    "migration_status": "available_auxiliary_metric",
+    "migration_tables_missing_size": 200,
+    "migration_total_bytes": 33837587577463560,
+    "migration_zw_to_hl_bytes": 8900745763758011,
+    "official_tolerance_resource_feasible": true,
+    "per_date": {
+      "20250808": {
+        "bandwidth_hl_to_zw_peak_gbps": 808.5194735970282,
+        "bandwidth_zw_to_hl_peak_gbps": 677.1988045670023,
+        "cross_region_transfer_rows_hl_to_zw": 1351,
+        "cross_region_transfer_rows_zw_to_hl": 819,
+        "max_directional_bandwidth_peak_gbps": 808.5194735970282,
+        "memory_hl_peak_gb": 326340.133993585,
+        "memory_zw_peak_gb": 10452345.606680548,
+        "official_tolerance_resource_feasible": true,
+        "resource_margin": {
+          "memory_hl_peak_gb": 349092.5938305715,
+          "memory_zw_peak_gb": 164108.03795406222,
+          "vcores_hl_peak": 45725.33299089309,
+          "vcores_zw_peak": 54252.6051814626
+        },
+        "resource_utilization": {
+          "memory_hl_peak_gb": 0.48315712364850794,
+          "memory_zw_peak_gb": 0.9845421038467963,
+          "vcores_hl_peak": 0.6219051481509356,
+          "vcores_zw_peak": 0.9781162876888981
+        },
+        "strict_resource_feasible": true,
+        "vcores_hl_peak": 75210.80979781288,
+        "vcores_zw_peak": 2424879.107491417
+      },
+      "20250809": {
+        "bandwidth_hl_to_zw_peak_gbps": 1072.2958734734234,
+        "bandwidth_zw_to_hl_peak_gbps": 428.27414158082007,
+        "cross_region_transfer_rows_hl_to_zw": 1338,
+        "cross_region_transfer_rows_zw_to_hl": 812,
+        "max_directional_bandwidth_peak_gbps": 1072.2958734734234,
+        "memory_hl_peak_gb": 249658.8456716086,
+        "memory_zw_peak_gb": 10088693.629374277,
+        "official_tolerance_resource_feasible": true,
+        "resource_margin": {
+          "memory_hl_peak_gb": 425773.88215254794,
+          "memory_zw_peak_gb": 527760.0152603332,
+          "vcores_hl_peak": 63370.002613379176,
+          "vcores_zw_peak": 116539.13685171818
+        },
+        "resource_utilization": {
+          "memory_hl_peak_gb": 0.36962799607869357,
+          "memory_zw_peak_gb": 0.9502884830541266,
+          "vcores_hl_peak": 0.47600443381019425,
+          "vcores_zw_peak": 0.9529919542975507
+        },
+        "strict_resource_feasible": true,
+        "vcores_hl_peak": 57566.14017532679,
+        "vcores_zw_peak": 2362592.5758211613
+      }
+    },
+    "resource_margin": {
+      "memory_hl_peak_gb": 349092.5938305715,
+      "memory_zw_peak_gb": 164108.03795406222,
+      "vcores_hl_peak": 45725.33299089309,
+      "vcores_zw_peak": 54252.6051814626
+    },
+    "resource_utilization": {
+      "memory_hl_peak_gb": 0.48315712364850794,
+      "memory_zw_peak_gb": 0.9845421038467963,
+      "vcores_hl_peak": 0.6219051481509356,
+      "vcores_zw_peak": 0.9781162876888981
+    },
+    "runtime_contract_passed": true,
+    "strict_resource_feasible": true,
+    "task_count": 625191,
+    "tasks_hl": 982,
+    "tasks_zw": 624209,
+    "temporal_peak_spread_gbps": 263.7763998763952,
+    "vcores_hl_peak": 75210.80979781288,
+    "vcores_zw_peak": 2424879.107491417
+  },
+  "watcher_seconds": 850.0624354332685
+}

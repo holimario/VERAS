@@ -1,0 +1,4703 @@
+{
+  "audit_transitions": {
+    "challenger_reports": 113,
+    "event_streams": 387,
+    "semantic_residual_reductions": 3,
+    "semantic_restorations": 3,
+    "stages": 117,
+    "structural_restorations": 15
+  },
+  "by_mechanism": {
+    "challenger": {
+      "completed": 87,
+      "feasible": 62,
+      "mean_normalized_quality": 0.3478693997204959,
+      "passed": 40,
+      "task_names": [
+        "IndustryOR_100_medium",
+        "IndustryOR_12_easy",
+        "IndustryOR_26_medium",
+        "IndustryOR_3_easy",
+        "IndustryOR_6_easy",
+        "IndustryOR_9_easy",
+        "additive_microfactory_order_planning",
+        "airport_deicing_stochastic_resource_plan",
+        "carbon_aware_compute_scheduling",
+        "carbon_removal_credit_portfolio",
+        "circular_packaging_replenishment",
+        "coastal_aquaculture_feed_oxygen_planning",
+        "cold_chain_locker_capacity_planning",
+        "community_battery_peak_shaving",
+        "curbside_delivery_slot_coordination",
+        "edge_cache_content_placement",
+        "federated_learning_cohort_selection",
+        "fiber_ring_maintenance_coloring",
+        "front_distribution_center_robust_inventory",
+        "heatwave_cooling_center_resource_plan",
+        "hybrid_telehealth_appointment_scheduling",
+        "industrial_water_reuse_blending",
+        "mass_timber_panel_cutting_plan",
+        "platelet_inventory_rotation",
+        "portable_battery_swap_rebalancing",
+        "private_5g_small_cell_planning",
+        "recycled_paper_furnish_planning_lp",
+        "retail_media_campaign_allocation",
+        "second_life_battery_pack_assembly",
+        "shared_drone_base_delivery_assignment",
+        "smart_building_demand_response_dispatch",
+        "vertical_farm_harvest_energy_planning",
+        "IndustryOR_17",
+        "IndustryOR_27",
+        "IndustryOR_34",
+        "climate_refuge_reserve_selection",
+        "container_gate_dro_appointment_planning",
+        "disaster_relief_prepositioning",
+        "dynamic_cold_chain_vaccine_replanning",
+        "electric_medical_waste_lrp",
+        "evtol_vertiport_recovery",
+        "flood_relief_multimodal_routing",
+        "fuel_tanker_compartment_routing",
+        "green_hydrogen_hub_resilience_planning",
+        "medical_supply_dro_response",
+        "naloxone_drone_response_network",
+        "online_electric_bus_depot_replanning",
+        "online_field_service_repair_dispatch",
+        "online_kidney_exchange_chain_replanning",
+        "online_liner_slot_empty_repositioning",
+        "precision_ag_sprayer_tanker_routing",
+        "railway_disruption_recovery",
+        "recycling_mrf_stochastic_sorting_plan",
+        "robotic_mobile_fulfillment_orchestration",
+        "robust_kidney_exchange_clearing",
+        "robust_microgrid_islanding_dispatch",
+        "satellite_disaster_response_downlink",
+        "semiconductor_ion_implant_scheduling",
+        "steel_scc_ladle_energy_reschedule",
+        "sterile_processing_robust_schedule",
+        "stochastic_surgery_capacity_planning",
+        "synchromodal_freight_recovery",
+        "urban_drainage_mpc_control",
+        "wildfire_bus_evacuation_planning",
+        "IndustryOR_100",
+        "IndustryOR_12",
+        "IndustryOR_12_medium",
+        "IndustryOR_14",
+        "IndustryOR_14_medium",
+        "IndustryOR_17_medium",
+        "IndustryOR_26",
+        "IndustryOR_27_medium",
+        "IndustryOR_3",
+        "IndustryOR_34_medium",
+        "IndustryOR_36",
+        "IndustryOR_36_medium",
+        "IndustryOR_3_medium",
+        "IndustryOR_6",
+        "IndustryOR_6_medium",
+        "IndustryOR_9",
+        "IndustryOR_96",
+        "IndustryOR_99",
+        "IndustryOR_99_medium",
+        "IndustryOR_9_medium",
+        "air_cargo_stochastic_order_allocation",
+        "airport_gate_assignment",
+        "autonomous_lab_courier_tsptw",
+        "bike_share_rebalancing",
+        "cell_tower_coverage_expansion",
+        "clinical_trial_site_portfolio_selection",
+        "cycling_network_design",
+        "dynamic_supply_disruption_replanning",
+        "electric_bus_depot_charging",
+        "ev_battery_recycling_network",
+        "green_port_berth_planning",
+        "home_healthcare_routing",
+        "industrial_supply_planning",
+        "maritime_fueleu_bunker_blending_lp",
+        "nurse_rostering",
+        "offshore_wind_maintenance",
+        "online_grocery_order_slot_replanning",
+        "online_hotel_booking_upgrade_replanning",
+        "wastewater_sentinel_site_selection"
+      ],
+      "tasks": 103
+    },
+    "local_solver": {
+      "completed": 9,
+      "feasible": 4,
+      "mean_normalized_quality": 0.20005361373738056,
+      "passed": 3,
+      "task_names": [
+        "heatwave_cooling_center_resource_plan",
+        "platelet_inventory_rotation",
+        "climate_refuge_reserve_selection",
+        "evtol_vertiport_recovery",
+        "fuel_tanker_compartment_routing",
+        "naloxone_drone_response_network",
+        "precision_ag_sprayer_tanker_routing",
+        "robotic_mobile_fulfillment_orchestration",
+        "IndustryOR_96",
+        "german_or_scheduling"
+      ],
+      "tasks": 10
+    },
+    "performance": {
+      "completed": 88,
+      "feasible": 63,
+      "mean_normalized_quality": 0.34452450164626036,
+      "passed": 40,
+      "task_names": [
+        "IndustryOR_100_medium",
+        "IndustryOR_12_easy",
+        "IndustryOR_26_medium",
+        "IndustryOR_3_easy",
+        "IndustryOR_6_easy",
+        "IndustryOR_9_easy",
+        "additive_microfactory_order_planning",
+        "airport_deicing_stochastic_resource_plan",
+        "carbon_aware_compute_scheduling",
+        "carbon_removal_credit_portfolio",
+        "circular_packaging_replenishment",
+        "coastal_aquaculture_feed_oxygen_planning",
+        "cold_chain_locker_capacity_planning",
+        "community_battery_peak_shaving",
+        "curbside_delivery_slot_coordination",
+        "edge_cache_content_placement",
+        "federated_learning_cohort_selection",
+        "fiber_ring_maintenance_coloring",
+        "front_distribution_center_robust_inventory",
+        "heatwave_cooling_center_resource_plan",
+        "hybrid_telehealth_appointment_scheduling",
+        "industrial_water_reuse_blending",
+        "mass_timber_panel_cutting_plan",
+        "platelet_inventory_rotation",
+        "portable_battery_swap_rebalancing",
+        "private_5g_small_cell_planning",
+        "recycled_paper_furnish_planning_lp",
+        "retail_media_campaign_allocation",
+        "second_life_battery_pack_assembly",
+        "shared_drone_base_delivery_assignment",
+        "smart_building_demand_response_dispatch",
+        "vertical_farm_harvest_energy_planning",
+        "IndustryOR_17",
+        "IndustryOR_27",
+        "IndustryOR_34",
+        "climate_refuge_reserve_selection",
+        "container_gate_dro_appointment_planning",
+        "disaster_relief_prepositioning",
+        "dynamic_cold_chain_vaccine_replanning",
+        "electric_medical_waste_lrp",
+        "evtol_vertiport_recovery",
+        "flood_relief_multimodal_routing",
+        "fuel_tanker_compartment_routing",
+        "green_hydrogen_hub_resilience_planning",
+        "medical_supply_dro_response",
+        "naloxone_drone_response_network",
+        "online_electric_bus_depot_replanning",
+        "online_field_service_repair_dispatch",
+        "online_kidney_exchange_chain_replanning",
+        "online_liner_slot_empty_repositioning",
+        "petroleum_terminal_dro_inventory",
+        "precision_ag_sprayer_tanker_routing",
+        "railway_disruption_recovery",
+        "recycling_mrf_stochastic_sorting_plan",
+        "robotic_mobile_fulfillment_orchestration",
+        "robust_kidney_exchange_clearing",
+        "robust_microgrid_islanding_dispatch",
+        "satellite_disaster_response_downlink",
+        "semiconductor_ion_implant_scheduling",
+        "steel_scc_ladle_energy_reschedule",
+        "sterile_processing_robust_schedule",
+        "stochastic_surgery_capacity_planning",
+        "synchromodal_freight_recovery",
+        "urban_drainage_mpc_control",
+        "wildfire_bus_evacuation_planning",
+        "IndustryOR_100",
+        "IndustryOR_12",
+        "IndustryOR_12_medium",
+        "IndustryOR_14",
+        "IndustryOR_14_medium",
+        "IndustryOR_17_medium",
+        "IndustryOR_26",
+        "IndustryOR_27_medium",
+        "IndustryOR_3",
+        "IndustryOR_34_medium",
+        "IndustryOR_36",
+        "IndustryOR_36_medium",
+        "IndustryOR_3_medium",
+        "IndustryOR_6",
+        "IndustryOR_6_medium",
+        "IndustryOR_9",
+        "IndustryOR_96",
+        "IndustryOR_99",
+        "IndustryOR_99_medium",
+        "IndustryOR_9_medium",
+        "air_cargo_stochastic_order_allocation",
+        "airport_gate_assignment",
+        "autonomous_lab_courier_tsptw",
+        "bike_share_rebalancing",
+        "cell_tower_coverage_expansion",
+        "clinical_trial_site_portfolio_selection",
+        "cycling_network_design",
+        "dynamic_supply_disruption_replanning",
+        "electric_bus_depot_charging",
+        "ev_battery_recycling_network",
+        "green_port_berth_planning",
+        "home_healthcare_routing",
+        "industrial_supply_planning",
+        "maritime_fueleu_bunker_blending_lp",
+        "nurse_rostering",
+        "offshore_wind_maintenance",
+        "online_grocery_order_slot_replanning",
+        "online_hotel_booking_upgrade_replanning",
+        "wastewater_sentinel_site_selection"
+      ],
+      "tasks": 104
+    },
+    "recovery": {
+      "completed": 12,
+      "feasible": 7,
+      "mean_normalized_quality": 0.25494157963702396,
+      "passed": 5,
+      "task_names": [
+        "edge_cache_content_placement",
+        "retail_media_campaign_allocation",
+        "aerospace_composite_autoclave_scheduling",
+        "climate_refuge_reserve_selection",
+        "container_gate_dro_appointment_planning",
+        "evtol_vertiport_recovery",
+        "fuel_tanker_compartment_routing",
+        "online_electric_bus_depot_replanning",
+        "online_liner_slot_empty_repositioning",
+        "IndustryOR_17_medium",
+        "IndustryOR_36_medium",
+        "IndustryOR_96",
+        "IndustryOR_99",
+        "german_or_scheduling",
+        "real_world_3d_bin_packing"
+      ],
+      "tasks": 15
+    },
+    "rollback": {
+      "completed": 0,
+      "feasible": 0,
+      "mean_normalized_quality": 0.0,
+      "passed": 0,
+      "task_names": [],
+      "tasks": 0
+    },
+    "semantic_restoration": {
+      "completed": 2,
+      "feasible": 2,
+      "mean_normalized_quality": 0.5922687319004919,
+      "passed": 2,
+      "task_names": [
+        "evtol_vertiport_recovery",
+        "online_electric_bus_depot_replanning",
+        "online_liner_slot_empty_repositioning"
+      ],
+      "tasks": 3
+    },
+    "structural_restoration": {
+      "completed": 13,
+      "feasible": 7,
+      "mean_normalized_quality": 0.2333690758249204,
+      "passed": 5,
+      "task_names": [
+        "edge_cache_content_placement",
+        "heatwave_cooling_center_resource_plan",
+        "platelet_inventory_rotation",
+        "retail_media_campaign_allocation",
+        "climate_refuge_reserve_selection",
+        "container_gate_dro_appointment_planning",
+        "evtol_vertiport_recovery",
+        "fuel_tanker_compartment_routing",
+        "naloxone_drone_response_network",
+        "precision_ag_sprayer_tanker_routing",
+        "robotic_mobile_fulfillment_orchestration",
+        "IndustryOR_17_medium",
+        "IndustryOR_36_medium",
+        "IndustryOR_96",
+        "IndustryOR_99"
+      ],
+      "tasks": 15
+    }
+  },
+  "component_totals": {
+    "challenger_attempts": 114,
+    "challenger_report_present": 113,
+    "local_solver_accepted": 5,
+    "local_solver_used": 10,
+    "performance_accepted": 114,
+    "performance_attempts": 132,
+    "recovery_accepted": 12,
+    "recovery_attempts": 24,
+    "rollback_count": 0
+  },
+  "decision_actions": {
+    "challenge-then-improve": 198,
+    "execute-current-stage-solver": 16,
+    "hold-best-candidate": 8,
+    "resume-agent-performance": 22,
+    "resume-agent-restoration": 12
+  },
+  "decision_modes": {
+    "performance": 22,
+    "restoration": 28,
+    "terminal": 8,
+    "unverified-incumbent": 198
+  },
+  "schema_version": 1,
+  "scope": {
+    "bands": {
+      "easy": 32,
+      "hard": 34,
+      "medium": 41
+    },
+    "evidence_type": "observational execution evidence, not factorial ablation",
+    "tasks": 107
+  },
+  "tasks": [
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.5,
+      "passed": true,
+      "task": "IndustryOR_100_medium"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "IndustryOR_12_easy"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "IndustryOR_26_medium"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "IndustryOR_3_easy"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "IndustryOR_6_easy"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "IndustryOR_9_easy"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "additive_microfactory_order_planning"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "airport_deicing_stochastic_resource_plan"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "carbon_aware_compute_scheduling"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.99999999999959,
+      "passed": true,
+      "task": "carbon_removal_credit_portfolio"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "circular_packaging_replenishment"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "coastal_aquaculture_feed_oxygen_planning"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "cold_chain_locker_capacity_planning"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "community_battery_peak_shaving"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "curbside_delivery_slot_coordination"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2,
+        "resume-agent-restoration": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 4,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": true
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 1,
+        "recovery_attempts": 1,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "restoration": 1,
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "edge_cache_content_placement"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "federated_learning_cohort_selection"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "fiber_ring_maintenance_coloring"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "front_distribution_center_robust_inventory"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2,
+        "execute-current-stage-solver": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": true
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 1,
+        "local_solver_used": 1,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "restoration": 1,
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "heatwave_cooling_center_resource_plan"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "hybrid_telehealth_appointment_scheduling"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "industrial_water_reuse_blending"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "mass_timber_panel_cutting_plan"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2,
+        "execute-current-stage-solver": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": true
+        }
+      ],
+      "band": "easy",
+      "complete": false,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 1,
+        "local_solver_used": 1,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "restoration": 1,
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "platelet_inventory_rotation"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": false,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "portable_battery_swap_rebalancing"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": false,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "private_5g_small_cell_planning"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": false,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "recycled_paper_furnish_planning_lp"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2,
+        "resume-agent-restoration": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 4,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": true
+        }
+      ],
+      "band": "easy",
+      "complete": false,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 1,
+        "recovery_attempts": 1,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "restoration": 1,
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "retail_media_campaign_allocation"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": false,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "second_life_battery_pack_assembly"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": false,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "shared_drone_base_delivery_assignment"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 4,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": false,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 2,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "smart_building_demand_response_dispatch"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "easy",
+      "complete": false,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "vertical_farm_harvest_energy_planning"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "IndustryOR_17"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.9999999997055886,
+      "passed": true,
+      "task": "IndustryOR_27"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "IndustryOR_34"
+    },
+    {
+      "actions": {
+        "resume-agent-restoration": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": false,
+          "event_streams": 5,
+          "final_max_residual": 1.0,
+          "final_violation_count": 1,
+          "initial_max_residual": 1.0,
+          "initial_violation_count": 1,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 0,
+        "challenger_report_present": 0,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 0,
+        "performance_attempts": 0,
+        "recovery_accepted": 0,
+        "recovery_attempts": 4,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "restoration": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "aerospace_composite_autoclave_scheduling"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 1,
+        "execute-current-stage-solver": 2,
+        "hold-best-candidate": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 6,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": true
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 1,
+        "performance_accepted": 1,
+        "performance_attempts": 3,
+        "recovery_accepted": 1,
+        "recovery_attempts": 1,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "restoration": 2,
+        "terminal": 1,
+        "unverified-incumbent": 1
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "climate_refuge_reserve_selection"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2,
+        "resume-agent-restoration": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 6,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": true
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 1,
+        "recovery_attempts": 3,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "restoration": 1,
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "container_gate_dro_appointment_planning"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "disaster_relief_prepositioning"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 7,
+        "hold-best-candidate": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-initial_plan",
+          "structural_restoration": false
+        },
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "02-step2_lane_replan",
+          "structural_restoration": false
+        },
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "03-step3_freezer_priority_replan",
+          "structural_restoration": false
+        },
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "04-step4_outbreak_shipper_replan",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 4,
+        "challenger_report_present": 4,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 4,
+        "performance_attempts": 4,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "terminal": 1,
+        "unverified-incumbent": 7
+      },
+      "normalized_quality": 0.9888065564902315,
+      "passed": true,
+      "task": "dynamic_cold_chain_vaccine_replanning"
+    },
+    {
+      "actions": {
+        "resume-agent-performance": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 4,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 2,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "performance": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "electric_medical_waste_lrp"
+    },
+    {
+      "actions": {
+        "execute-current-stage-solver": 2,
+        "resume-agent-performance": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 5,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 1.0,
+          "initial_violation_count": 1,
+          "semantic_residual_reduced": true,
+          "semantic_restoration": true,
+          "stage": "01-final",
+          "structural_restoration": true
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 1,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 1,
+        "recovery_attempts": 2,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "performance": 2,
+        "restoration": 2
+      },
+      "normalized_quality": 0.45321863851992167,
+      "passed": true,
+      "task": "evtol_vertiport_recovery"
+    },
+    {
+      "actions": {
+        "resume-agent-performance": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 4,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 2,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "performance": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "flood_relief_multimodal_routing"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2,
+        "execute-current-stage-solver": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 4,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": true
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 1,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 1,
+        "recovery_attempts": 1,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "restoration": 2,
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "fuel_tanker_compartment_routing"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 5,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 3,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "green_hydrogen_hub_resilience_planning"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "medical_supply_dro_response"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2,
+        "execute-current-stage-solver": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": true
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 1,
+        "local_solver_used": 1,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "restoration": 1,
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "naloxone_drone_response_network"
+    },
+    {
+      "actions": {
+        "resume-agent-performance": 4,
+        "resume-agent-restoration": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 4,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 1.0,
+          "initial_violation_count": 42,
+          "semantic_residual_reduced": true,
+          "semantic_restoration": true,
+          "stage": "01-initial_plan",
+          "structural_restoration": false
+        },
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "02-step2_replan",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": false,
+      "counts": {
+        "challenger_attempts": 2,
+        "challenger_report_present": 2,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 2,
+        "performance_attempts": 2,
+        "recovery_accepted": 1,
+        "recovery_attempts": 1,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "performance": 4,
+        "restoration": 1
+      },
+      "normalized_quality": 0.3333333333333333,
+      "passed": false,
+      "task": "online_electric_bus_depot_replanning"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-initial_plan",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": false,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "online_field_service_repair_dispatch"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-initial_plan",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": false,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "online_kidney_exchange_chain_replanning"
+    },
+    {
+      "actions": {
+        "resume-agent-performance": 6,
+        "resume-agent-restoration": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 4,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 1.0,
+          "initial_violation_count": 1,
+          "semantic_residual_reduced": true,
+          "semantic_restoration": true,
+          "stage": "01-initial_plan",
+          "structural_restoration": false
+        },
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "02-step2_replan",
+          "structural_restoration": false
+        },
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "03-step3_final_replan",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 3,
+        "challenger_report_present": 3,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 3,
+        "performance_attempts": 3,
+        "recovery_accepted": 1,
+        "recovery_attempts": 1,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "performance": 6,
+        "restoration": 1
+      },
+      "normalized_quality": 0.9902542238482207,
+      "passed": true,
+      "task": "online_liner_slot_empty_repositioning"
+    },
+    {
+      "actions": {
+        "resume-agent-performance": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": false,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 0,
+        "challenger_report_present": 0,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 2,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "performance": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "petroleum_terminal_dro_inventory"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2,
+        "execute-current-stage-solver": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": true
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 1,
+        "local_solver_used": 1,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "restoration": 1,
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "precision_ag_sprayer_tanker_routing"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "railway_disruption_recovery"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "recycling_mrf_stochastic_sorting_plan"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2,
+        "execute-current-stage-solver": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 4,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": true
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 1,
+        "local_solver_used": 1,
+        "performance_accepted": 1,
+        "performance_attempts": 2,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "restoration": 1,
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "robotic_mobile_fulfillment_orchestration"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 4,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 2,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "robust_kidney_exchange_clearing"
+    },
+    {
+      "actions": {
+        "resume-agent-performance": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "performance": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "robust_microgrid_islanding_dispatch"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.4014309894101575,
+      "passed": true,
+      "task": "satellite_disaster_response_downlink"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "semiconductor_ion_implant_scheduling"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "steel_scc_ladle_energy_reschedule"
+    },
+    {
+      "actions": {
+        "resume-agent-performance": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 4,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 2,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "performance": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "sterile_processing_robust_schedule"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.8836213801898052,
+      "passed": true,
+      "task": "stochastic_surgery_capacity_planning"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "synchromodal_freight_recovery"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.4326756613257038,
+      "passed": true,
+      "task": "urban_drainage_mpc_control"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 1,
+        "hold-best-candidate": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 4,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "hard",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 2,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "terminal": 1,
+        "unverified-incumbent": 1
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "wildfire_bus_evacuation_planning"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.5,
+      "passed": true,
+      "task": "IndustryOR_100"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "IndustryOR_12"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.9999999999757603,
+      "passed": true,
+      "task": "IndustryOR_12_medium"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 4,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 2,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "IndustryOR_14"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "IndustryOR_14_medium"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2,
+        "resume-agent-restoration": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 5,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": true
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 1,
+        "recovery_attempts": 2,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "restoration": 1,
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "IndustryOR_17_medium"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "IndustryOR_26"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "IndustryOR_27_medium"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 1,
+        "hold-best-candidate": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "terminal": 1,
+        "unverified-incumbent": 1
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "IndustryOR_3"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "IndustryOR_34_medium"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "IndustryOR_36"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2,
+        "resume-agent-restoration": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 4,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": true
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 1,
+        "recovery_attempts": 1,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "restoration": 1,
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "IndustryOR_36_medium"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "IndustryOR_3_medium"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 4,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 2,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "IndustryOR_6"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "IndustryOR_6_medium"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "IndustryOR_9"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2,
+        "execute-current-stage-solver": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 4,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": true
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 1,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 1,
+        "recovery_attempts": 1,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "restoration": 2,
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.5473174988538838,
+      "passed": true,
+      "task": "IndustryOR_96"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2,
+        "resume-agent-restoration": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 4,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": true
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 1,
+        "recovery_attempts": 1,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "restoration": 1,
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.5,
+      "passed": true,
+      "task": "IndustryOR_99"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.5,
+      "passed": true,
+      "task": "IndustryOR_99_medium"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.9999692064752522,
+      "passed": true,
+      "task": "IndustryOR_9_medium"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.5,
+      "passed": true,
+      "task": "air_cargo_stochastic_order_allocation"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "airport_gate_assignment"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "autonomous_lab_courier_tsptw"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.2963703816749512,
+      "passed": false,
+      "task": "bike_share_rebalancing"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.11635163636584267,
+      "passed": false,
+      "task": "cell_tower_coverage_expansion"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 1,
+        "hold-best-candidate": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 5,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 3,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "terminal": 1,
+        "unverified-incumbent": 1
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "clinical_trial_site_portfolio_selection"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "cycling_network_design"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-initial_plan",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": false,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "dynamic_supply_disruption_replanning"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 1,
+        "hold-best-candidate": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 5,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 3,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "terminal": 1,
+        "unverified-incumbent": 1
+      },
+      "normalized_quality": 0.6149097761539524,
+      "passed": true,
+      "task": "electric_bus_depot_charging"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "ev_battery_recycling_network"
+    },
+    {
+      "actions": {
+        "execute-current-stage-solver": 3
+      },
+      "audits": [
+        {
+          "challenger_report_present": false,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 0,
+        "challenger_report_present": 0,
+        "local_solver_accepted": 0,
+        "local_solver_used": 1,
+        "performance_accepted": 0,
+        "performance_attempts": 0,
+        "recovery_accepted": 0,
+        "recovery_attempts": 2,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "restoration": 3
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "german_or_scheduling"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 1,
+        "hold-best-candidate": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "terminal": 1,
+        "unverified-incumbent": 1
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "green_port_berth_planning"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "home_healthcare_routing"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 4,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 2,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "industrial_supply_planning"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "maritime_fueleu_bunker_blending_lp"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "nurse_rostering"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": true,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": true,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 1.0,
+      "passed": true,
+      "task": "offshore_wind_maintenance"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 5,
+        "hold-best-candidate": 1
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-initial_plan",
+          "structural_restoration": false
+        },
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "02-step2_replan",
+          "structural_restoration": false
+        },
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "03-step3_final_replan",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": false,
+      "counts": {
+        "challenger_attempts": 3,
+        "challenger_report_present": 3,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 3,
+        "performance_attempts": 3,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "terminal": 1,
+        "unverified-incumbent": 5
+      },
+      "normalized_quality": 0.2722888888888881,
+      "passed": false,
+      "task": "online_grocery_order_slot_replanning"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 6
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-initial_plan",
+          "structural_restoration": false
+        },
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "02-step2_replan",
+          "structural_restoration": false
+        },
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "03-step3_final_replan",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": false,
+      "counts": {
+        "challenger_attempts": 3,
+        "challenger_report_present": 3,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 3,
+        "performance_attempts": 3,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 6
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "online_hotel_booking_upgrade_replanning"
+    },
+    {
+      "actions": {
+        "resume-agent-restoration": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": false,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": false,
+      "counts": {
+        "challenger_attempts": 0,
+        "challenger_report_present": 0,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 0,
+        "performance_attempts": 0,
+        "recovery_accepted": 0,
+        "recovery_attempts": 2,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "restoration": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "real_world_3d_bin_packing"
+    },
+    {
+      "actions": {
+        "challenge-then-improve": 2
+      },
+      "audits": [
+        {
+          "challenger_report_present": true,
+          "event_streams": 3,
+          "final_max_residual": 0.0,
+          "final_violation_count": 0,
+          "initial_max_residual": 0.0,
+          "initial_violation_count": 0,
+          "semantic_residual_reduced": false,
+          "semantic_restoration": false,
+          "stage": "01-final",
+          "structural_restoration": false
+        }
+      ],
+      "band": "medium",
+      "complete": false,
+      "counts": {
+        "challenger_attempts": 1,
+        "challenger_report_present": 1,
+        "local_solver_accepted": 0,
+        "local_solver_used": 0,
+        "performance_accepted": 1,
+        "performance_attempts": 1,
+        "recovery_accepted": 0,
+        "recovery_attempts": 0,
+        "rollback_count": 0
+      },
+      "feasible": false,
+      "modes": {
+        "unverified-incumbent": 2
+      },
+      "normalized_quality": 0.0,
+      "passed": false,
+      "task": "wastewater_sentinel_site_selection"
+    }
+  ]
+}

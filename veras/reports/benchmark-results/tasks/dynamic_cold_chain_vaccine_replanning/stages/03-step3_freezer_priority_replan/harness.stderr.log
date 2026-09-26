@@ -1,0 +1,7 @@
+Reading additional input from stdin...
+2026-09-09T20:24:42.517669Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /app/submissions/solve_step3.py:
+                    continue
+                model.addCons(ship_dc[key] >= rule["minimum_fraction"] * baseline_qty)
+                model.addCons(ship_dc[key] <= rule["maximum_fraction"] * baseline_qty)
+        else:
+            raise ValueError(f"Unsupported frozen variable {rule['variable']}")

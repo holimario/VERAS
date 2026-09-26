@@ -1,0 +1,188 @@
+{
+  "challenger_attempts": 1,
+  "challenger_report_present": true,
+  "critic_used": true,
+  "decisions": [
+    {
+      "action": "challenge-then-improve",
+      "max_normalized_residual": null,
+      "mode": "unverified-incumbent",
+      "observer_coverage_complete": false,
+      "primary_target": {
+        "exists": true,
+        "path": "submissions/solution.csv",
+        "records": 23,
+        "status": "valid-csv",
+        "valid": true
+      },
+      "remaining_seconds": 1648.598,
+      "semantic_observer": null,
+      "semantic_safe": null,
+      "semantic_violation_count": 0,
+      "solver_candidates": [
+        "submissions/solve.py"
+      ],
+      "triggers": [
+        "current-stage-solver-executable"
+      ]
+    },
+    {
+      "action": "challenge-then-improve",
+      "max_normalized_residual": null,
+      "mode": "unverified-incumbent",
+      "observer_coverage_complete": false,
+      "primary_target": {
+        "exists": true,
+        "path": "submissions/solution.csv",
+        "records": 23,
+        "status": "valid-csv",
+        "valid": true
+      },
+      "remaining_seconds": 728.391,
+      "semantic_observer": null,
+      "semantic_safe": null,
+      "semantic_violation_count": 0,
+      "solver_candidates": [
+        "submissions/solve.py"
+      ],
+      "triggers": [
+        "current-stage-solver-executable"
+      ]
+    }
+  ],
+  "final_audit": {
+    "primary_target": {
+      "exists": true,
+      "path": "submissions/solution.csv",
+      "records": 23,
+      "status": "valid-csv",
+      "valid": true
+    },
+    "primary_target_exists": true,
+    "primary_target_valid": true,
+    "python_count": 1,
+    "python_syntax": [
+      {
+        "path": "submissions/solve.py",
+        "valid": true
+      }
+    ],
+    "python_valid": true,
+    "required": [
+      {
+        "exists": true,
+        "path": "submissions/model.md"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solve.py"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solve_log.md"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solution.csv"
+      }
+    ],
+    "required_present": 4,
+    "required_total": 4,
+    "target_exists": true,
+    "target_valid": true,
+    "targets": [
+      {
+        "exists": true,
+        "path": "submissions/solution.csv",
+        "records": 23,
+        "status": "valid-csv",
+        "valid": true
+      }
+    ]
+  },
+  "final_observation": {
+    "coverage_complete": false,
+    "covered_constraint_groups": [],
+    "max_normalized_residual": null,
+    "metrics": {},
+    "observer": null,
+    "safe": null,
+    "supported": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  "harness_name": "VERAS",
+  "initial_audit": {
+    "primary_target": {
+      "exists": true,
+      "path": "submissions/solution.csv",
+      "records": 23,
+      "status": "valid-csv",
+      "valid": true
+    },
+    "primary_target_exists": true,
+    "primary_target_valid": true,
+    "python_count": 1,
+    "python_syntax": [
+      {
+        "path": "submissions/solve.py",
+        "valid": true
+      }
+    ],
+    "python_valid": true,
+    "required": [
+      {
+        "exists": true,
+        "path": "submissions/model.md"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solve.py"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solve_log.md"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solution.csv"
+      }
+    ],
+    "required_present": 4,
+    "required_total": 4,
+    "target_exists": true,
+    "target_valid": true,
+    "targets": [
+      {
+        "exists": true,
+        "path": "submissions/solution.csv",
+        "records": 23,
+        "status": "valid-csv",
+        "valid": true
+      }
+    ]
+  },
+  "initial_budget_seconds": 1890.0,
+  "initial_observation": {
+    "coverage_complete": false,
+    "covered_constraint_groups": [],
+    "max_normalized_residual": null,
+    "metrics": {},
+    "observer": null,
+    "safe": null,
+    "supported": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  "local_solver_accepted": false,
+  "local_solver_used": false,
+  "performance_accepted": true,
+  "performance_attempts": 1,
+  "policy": "counterexample-guided-guarded-performance",
+  "recovery_accepted": false,
+  "recovery_attempts": 0,
+  "reserved_recovery_seconds": 810.0,
+  "rollback_reasons": [],
+  "session_id": "<REDACTED_ID>",
+  "total_budget_seconds": 2700.0
+}

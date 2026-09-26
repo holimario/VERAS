@@ -1,0 +1,106 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 6681,
+    "sha256": "bfb9d843b9053fd92b301f4b2f547353bb4aa4ac86fbd74655cad7a17de97ae7"
+  },
+  "data/casts.csv": {
+    "bytes": 438,
+    "sha256": "ec64acbdcb73b7a8f7d9b6d9cfdf456205cb9bf599e9d04930780bff31564d13"
+  },
+  "data/config.json": {
+    "bytes": 714,
+    "sha256": "e07057fcbe6651e2fdfcef04a494798bb70bdd710529e9fea03339a8e7e1a94b"
+  },
+  "data/crane_requirements.csv": {
+    "bytes": 47,
+    "sha256": "f0645779d9881007cacfb6959da1274a24b8ae7d756ab42293b7df9fc052d75f"
+  },
+  "data/heats.csv": {
+    "bytes": 4576,
+    "sha256": "d785f633e8537e562f3da3852ea3b1d367ad3826a1d0c7eeb5ddb9e99cf572c3"
+  },
+  "data/ladle_grade_compatibility.csv": {
+    "bytes": 263,
+    "sha256": "c13963f84ad27b7e041d8da22336b2c5487a7826c5cb592da40e15e7537d37d3"
+  },
+  "data/ladles.csv": {
+    "bytes": 827,
+    "sha256": "0a2f57ceb6e54aac5184998dc7be012a1f8ba12ac4f4d16bd7e8c443474b6ecd"
+  },
+  "data/machines.csv": {
+    "bytes": 474,
+    "sha256": "f521614766d25560a98f17f3bde38fc6ba3f18666af93c97abfad3d5cc908528"
+  },
+  "data/oxygen_energy_slots.csv": {
+    "bytes": 2918,
+    "sha256": "1b9d0bbace9deecdcf604d276669f52d551802bb64938db6b60f859fbb88b6ce"
+  },
+  "data/route_steps.csv": {
+    "bytes": 367,
+    "sha256": "4fe0b1d9f488203efaa323ef2637150194397995cef76b7156ed35787e1846d3"
+  },
+  "data/scenario_heat_delays.csv": {
+    "bytes": 3379,
+    "sha256": "b9f07c54a84935db8157102b58d39b2cc6cf7c07ac43673f7f04ba0426f852b2"
+  },
+  "data/scenario_stage_multipliers.csv": {
+    "bytes": 495,
+    "sha256": "d3c91a859219664e92193d0f661a84b3344e51530a1672a6276c7ff72d282387"
+  },
+  "data/scenarios.csv": {
+    "bytes": 288,
+    "sha256": "3de18127d49b67ff6d4daa31250e3aa65d8803cc53c326bdc1327a302f85d02e"
+  },
+  "data/secondary_resource_requirements.csv": {
+    "bytes": 328,
+    "sha256": "1e1fa95c71a5280e36e3668123e523d10f679063d5ecfb8bc809cdde092f6e87"
+  },
+  "data/secondary_resource_slots.csv": {
+    "bytes": 2045,
+    "sha256": "b968af19fc25bc2213eb16c01763fda1255608de4d63805ceff559a7846e2242"
+  },
+  "data/transition_rules.csv": {
+    "bytes": 2199,
+    "sha256": "8d065593a86d5b25768458fa53acba136ee53041bfd644c111036fb573a49ea6"
+  },
+  "submissions/__pycache__/solve.cpython-311.pyc": {
+    "bytes": 73000,
+    "sha256": "771eebfd69bb561673282fe4825d6d1f674da34583617e95e75ffc30652da8c6"
+  },
+  "submissions/model.md": {
+    "bytes": 6101,
+    "sha256": "e9dd4b17750e54df2e2da8cd4335611e37ff63d0401a3003e9bf012f6cb96d7a"
+  },
+  "submissions/solution.csv": {
+    "bytes": 45393,
+    "sha256": "b21afbde127166ff72e10f232cfc3bc3a1374f6721e6b8ba0e12568b12763f5d"
+  },
+  "submissions/solution_template.csv": {
+    "bytes": 102,
+    "sha256": "41048d6dbe521de47a3da4b467f18762ca67b3003799eaebadd6a488b4d80943"
+  },
+  "submissions/solve.py": {
+    "bytes": 57414,
+    "sha256": "059feafc44b6c8572435d2ad09d507fdd7a5d42e143718f8e65b36de6472ab43"
+  },
+  "submissions/solve_log.md": {
+    "bytes": 4269,
+    "sha256": "a58e8a35201e2a27561c86a11b830cc526cec8ece59651f20f08f4338d2aa7d7"
+  }
+}

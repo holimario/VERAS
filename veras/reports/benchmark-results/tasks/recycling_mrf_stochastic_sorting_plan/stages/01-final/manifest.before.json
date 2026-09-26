@@ -1,0 +1,54 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 4493,
+    "sha256": "652f9a58fbdd676999676556c9280f61975bc5cb1ca08c5652d15077c96c3588"
+  },
+  "data/commodities.csv": {
+    "bytes": 385,
+    "sha256": "05e2d712412d707fa2b8642d3a14fc2688a529b007b298637e30c5e78f0f2c68"
+  },
+  "data/config.json": {
+    "bytes": 623,
+    "sha256": "68cd997dfd9ca1aaa6497e6a6c3ca1ab0cd0ea4b07bc27716c8e7bf9a005a240"
+  },
+  "data/inbound_batches.csv": {
+    "bytes": 1765,
+    "sha256": "023f5c188e41e132e8206e2f8dbb3a112d9245ae6fc23e87a088fd6f98c80235"
+  },
+  "data/line_commodity_recovery.csv": {
+    "bytes": 862,
+    "sha256": "0419ee2bd9b56c321e0e0270cd42729fbf3289a3e93c38fb256f2c0d51ddc525"
+  },
+  "data/scenario_batch_quality.csv": {
+    "bytes": 38299,
+    "sha256": "7effd44d00d57909610174313c8b27fe904804b534453a6ad2ee362b029dfc6e"
+  },
+  "data/scenarios.csv": {
+    "bytes": 767,
+    "sha256": "72aac6439e9b4dabbf970c84bcf4b013f36fe57e4dd7a63b7cd3baa1889b6948"
+  },
+  "data/sorting_lines.csv": {
+    "bytes": 1185,
+    "sha256": "825ace11b025312a1f4023c4e663e1c1a26ab153f3d2e99c853b85e427b1c823"
+  },
+  "submissions/solution_template.csv": {
+    "bytes": 155,
+    "sha256": "eb7bec9bf27f17ce79c0f2ad8258292688c4995655f927146981c760e2338eda"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "attempts": 1,
+  "candidate_restored_after_observation": true,
+  "report": "Using `optimization-modeling-core` to map the public problem statement into explicit checks, and `advanced-mip-patterns` because the risky families include frozen decisions, setup/readiness, and non-overlap logic. I’ll read those instructions first, then inspect the public artifacts and rebuild the checks directly from the exported rows.\n\nI’ve got the modeling guidance. Next I’m reading the public brief, the data tables, and the stage 3/4 exports to reconstruct the state transition and the public feasibility rules without relying on the producer’s code or logs.\n\nThe brief is consistent with a standard dynamic flow model. I’m now pulling the actual public tables so I can rebuild the week-6 starting state, the allowed domains, lane coverage, frozen-window rule, and the outbreak shipper requirements from data only.\n\nI’ve got enough of the public data structure. I’m switching to an independent parser now to rebuild all week-6 to week-10 balances and compare step 4 directly against the accepted step 3 commitments under the frozen-window rules."
+}

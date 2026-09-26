@@ -1,0 +1,1 @@
+2026-09-09T20:36:10.332077Z ERROR codex_core::tools::router: error=exec_command failed for `/bin/bash -lc 'rm -f /app/submissions/_step3_manual_candidate.csv'`: CreateProcess { message: "Rejected(\"`/bin/bash -lc 'rm -f /app/submissions/_step3_manual_candidate.csv'` rejected: rm -f style commands are not permitted. Use a safer approach\")" }

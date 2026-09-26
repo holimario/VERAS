@@ -1,0 +1,7 @@
+Reading additional input from stdin...
+2026-09-09T22:58:32.342793Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /app/submissions/solve_initial.py:
+        if decision == "reject":
+            if leg_rows:
+                register_violation("booking_leg", 1.0, 1.0, f"Rejected booking {bid} has booking_leg rows.")
+            reject_penalty_total += booking.reject_penalty
+            continue

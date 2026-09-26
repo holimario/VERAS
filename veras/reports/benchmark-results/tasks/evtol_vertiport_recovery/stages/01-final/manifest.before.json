@@ -1,0 +1,86 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 12457,
+    "sha256": "2b256655d01eea947b1fba4a6a9f0f4e0cd91f1bc2b5016eb01aa9bda9d34602"
+  },
+  "data/aircraft.csv": {
+    "bytes": 550,
+    "sha256": "c09896d22dc72ee11b654620d7a21ca68a5391fd32210c8ea18233e6d11e242e"
+  },
+  "data/aircraft_service_windows.csv": {
+    "bytes": 496,
+    "sha256": "52ce2b86c57c2920112e446b3d82c44ab77479f8aa29cc01ebef77187ddbf6f0"
+  },
+  "data/config.json": {
+    "bytes": 603,
+    "sha256": "c3e873e181a968cc51c993378f9690e6d614c4dea7683a03ab456ecb356b4af2"
+  },
+  "data/corridor_slot_controls.csv": {
+    "bytes": 299,
+    "sha256": "37945a60cf322edb4de3a1c631a7b12f087f8941a860d89cd3b62de819090b2f"
+  },
+  "data/emergency_reserve_requirements.csv": {
+    "bytes": 381,
+    "sha256": "3a06cff2397e03aaf41da5293e46fefdba3be01531f93ae6dc84623169f42552"
+  },
+  "data/grid_prices.csv": {
+    "bytes": 3583,
+    "sha256": "81fe7a72a5f572e23c098bd34dbe837308248a8ee192e8661289855afbfeb887"
+  },
+  "data/origin_service_floors.csv": {
+    "bytes": 92,
+    "sha256": "4f3607fa8da480f0dcebd47d69008f1cb472e1d6dece0c21a8e11b7b0f53bfbe"
+  },
+  "data/request_groups.csv": {
+    "bytes": 532,
+    "sha256": "8829b2531ed15cbe2b79e755b9f6d6aa09c7b3f601407241df5faabac6c21248"
+  },
+  "data/requests.csv": {
+    "bytes": 2892,
+    "sha256": "2c3356441dfe695b41dfc2893b9415c09349aee1d2703753da1b4861dc73fd55"
+  },
+  "data/routes.csv": {
+    "bytes": 1043,
+    "sha256": "3e328bf983dbeb4d7a37202f9cfdf7aa602b554d611cfa0d535f0b06e8f20aee"
+  },
+  "data/scenario_aircraft_availability.csv": {
+    "bytes": 889,
+    "sha256": "d7d7b68ea4d80a39d273f8b79fa13ca52c8c2ef53e55a9b866004c835d3667ba"
+  },
+  "data/scenario_route_availability.csv": {
+    "bytes": 2590,
+    "sha256": "0a410d2adbb9893d8b73bedd18f5579091843aafa04519014ecc89047d45998b"
+  },
+  "data/scenarios.csv": {
+    "bytes": 342,
+    "sha256": "5955ed9fd0198d149d480710bf8f51592709e983fa427196af177f9cae4f0053"
+  },
+  "data/time_slots.csv": {
+    "bytes": 603,
+    "sha256": "a8097f0e3218de2b1d52b45b17e6b90102789cbe027b7424dbb0393c6b40802c"
+  },
+  "data/vertiports.csv": {
+    "bytes": 367,
+    "sha256": "fcb2812ef6a099b435ff88918cfd4b35d53f7f08329b2b0ead288c99e3b68763"
+  },
+  "submissions/solution_template.csv": {
+    "bytes": 112,
+    "sha256": "e2bbe2b8efb5fc78ea8e49d3075e7e3fad45e6d5d8cf2edf262834751ee2b7ad"
+  }
+}

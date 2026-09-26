@@ -1,0 +1,1 @@
+row_type,scenario_id,case_id,room_id,start_min,scheduled,tray_type,quantity,source,source_case_id,batch_id,washer_id,wash_start,assembly_station,assembly_start,sterilizer_id,sterilizer_start,loaner_vendor,emergency_flag,notes

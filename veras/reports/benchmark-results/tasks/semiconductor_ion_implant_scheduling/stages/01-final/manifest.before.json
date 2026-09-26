@@ -1,0 +1,78 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 5373,
+    "sha256": "1b39405a480640723c6cf9c447ee5357fa428550618f662038890ff586b940ba"
+  },
+  "data/buffer_capacity.csv": {
+    "bytes": 830,
+    "sha256": "66fc36a7210b105d500c52796e439560f174bf133e55ee7bb3f5b341aa37244b"
+  },
+  "data/config.json": {
+    "bytes": 354,
+    "sha256": "5d9f5022c9c6c7d40de541054ed113bbfbb474b11f6a7fcd4a373b71a6216b30"
+  },
+  "data/family_buffer_zones.csv": {
+    "bytes": 382,
+    "sha256": "6b97fa95ddd88f28cfe960f7b91db7dd43e0f21af4131d19c2f4f87c0ee4de7c"
+  },
+  "data/family_commitments.csv": {
+    "bytes": 178,
+    "sha256": "da805f3ebb52c1e1892cda25c9b87b6ab6bde7d51996349ad1a4946d34d01b9a"
+  },
+  "data/lots.csv": {
+    "bytes": 4348,
+    "sha256": "3502be5b19965321c82a369956ef1b6237e8c0fcc3fe4743bf17fe189dac6362"
+  },
+  "data/machine_qualifications.csv": {
+    "bytes": 1370,
+    "sha256": "68a90a1af73618f4ac940d54b0fac2f4387f966bc698786f8b17926f7b359dc5"
+  },
+  "data/machines.csv": {
+    "bytes": 960,
+    "sha256": "01fbd26942ee1aadb306cf99792f09e22f2f94da1459ec10a81a9fe5d93f183a"
+  },
+  "data/maintenance_windows.csv": {
+    "bytes": 853,
+    "sha256": "f8aaaa6c7c6645fd0bf37730c23a913619b4e3b41bf4b6e4673653bd5e270388"
+  },
+  "data/operation_machine_expiry.csv": {
+    "bytes": 14680,
+    "sha256": "fe5f24605eccfcc9663c55c744daca6301b739fc9c805a09e988c4a5ff4abadd"
+  },
+  "data/operations.csv": {
+    "bytes": 27247,
+    "sha256": "f60b2d73bf52c7667847211617274a03986c3fa2de08be6b9e02483610b15693"
+  },
+  "data/operator_calendar.csv": {
+    "bytes": 564,
+    "sha256": "df684167dec64cb4e248edb71835d56d4262bd35b8bb6ba63a92d48fa7e4ecea"
+  },
+  "data/reticle_calendar.csv": {
+    "bytes": 710,
+    "sha256": "e05fee31dd1ddbd47c839c0eecadfe3ce6febf2b3b88e8238a14fb5f22982d8d"
+  },
+  "data/setup_times.csv": {
+    "bytes": 2614,
+    "sha256": "a2a74624fd58ffbca887414011e2b429a64d759079ea752ea7379d968da273f9"
+  },
+  "submissions/solution_template.json": {
+    "bytes": 230,
+    "sha256": "262d8f9727162bb1d56d58cc7f6c295abc39d6890a56d780ad607e642fe39cd1"
+  }
+}

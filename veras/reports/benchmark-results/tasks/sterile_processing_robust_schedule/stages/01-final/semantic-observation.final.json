@@ -1,0 +1,16 @@
+{
+  "coverage_complete": false,
+  "covered_constraint_groups": [
+    "exported-time-nonnegativity"
+  ],
+  "max_normalized_residual": 0.0,
+  "metrics": {
+    "row_count": 343
+  },
+  "observer": "sterile-nonnegative-time-observer-v1",
+  "safe": true,
+  "supported": true,
+  "total_normalized_violation_mass": 0,
+  "violation_count": 0,
+  "violations": []
+}

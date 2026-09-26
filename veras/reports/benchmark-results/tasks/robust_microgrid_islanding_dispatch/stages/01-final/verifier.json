@@ -1,0 +1,215 @@
+{
+  "evaluation": {
+    "error_count": 0,
+    "errors": [],
+    "expected_cost": 2827553.3743044115,
+    "feasible": true,
+    "objective": 4119994.9269231735,
+    "scenario_costs": {
+      "S1": 2062065.0418638152,
+      "S2": 2613095.86209907,
+      "S3": 3050575.6841651993,
+      "S4": 2895242.8851508596,
+      "S5": 2043294.3757072699,
+      "S6": 3472319.9496707907,
+      "S7": 3143458.3821769604,
+      "S8": 4062850.83323395
+    },
+    "scenario_diagnostics": {
+      "S1": {
+        "cost": 2062065.0418638152,
+        "daily_demand_response_kwh": 0.0,
+        "emissions_kg": 7764.020879122598
+      },
+      "S2": {
+        "cost": 2613095.86209907,
+        "daily_demand_response_kwh": 0.0,
+        "emissions_kg": 10000.801420828198
+      },
+      "S3": {
+        "cost": 3050575.6841651993,
+        "daily_demand_response_kwh": 0.0,
+        "emissions_kg": 12272.809647223397
+      },
+      "S4": {
+        "cost": 2895242.8851508596,
+        "daily_demand_response_kwh": 0.0,
+        "emissions_kg": 11265.707611916798
+      },
+      "S5": {
+        "cost": 2043294.3757072699,
+        "daily_demand_response_kwh": 0.0,
+        "emissions_kg": 7751.805999999998
+      },
+      "S6": {
+        "cost": 3472319.9496707907,
+        "daily_demand_response_kwh": 15.7,
+        "emissions_kg": 13854.3256838016
+      },
+      "S7": {
+        "cost": 3143458.3821769604,
+        "daily_demand_response_kwh": 0.0,
+        "emissions_kg": 12215.862879122595
+      },
+      "S8": {
+        "cost": 4062850.83323395,
+        "daily_demand_response_kwh": 130.0,
+        "emissions_kg": 16669.424935078998
+      }
+    },
+    "tail_cost": 3692690.1503393212,
+    "total_cost": 4119994.9269231735
+  },
+  "process": {
+    "command": [
+      "<RUNTIME_BINARY>",
+      "-r",
+      "/run/root",
+      "-b",
+      "/usr:/usr",
+      "-b",
+      "/usr/bin:/bin",
+      "-b",
+      "/usr/lib:/lib",
+      "-b",
+      "/usr/lib64:/lib64",
+      "-b",
+      "/etc:/etc",
+      "-b",
+      "/dev:/dev",
+      "-b",
+      "/proc:/proc",
+      "-b",
+      "<RUNTIME_DEPENDENCIES>:/opt/or-deps",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/codex",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/node",
+      "-b",
+      "/workspace/project:/opt/dsh",
+      "-w",
+      "/app",
+      "-b",
+      "/benchmark/harbor_tasks/robust_microgrid_islanding_dispatch/tests:/tests",
+      "/bin/bash",
+      "/tests/test.sh"
+    ],
+    "finished_at": "2026-09-10T00:53:01.622948+00:00",
+    "return_code": 0,
+    "started_at": "2026-09-10T00:53:01.408799+00:00",
+    "timed_out": false,
+    "timeout_seconds": 360.0,
+    "wall_seconds": 0.214
+  },
+  "reward_details": {
+    "agent_objective": 4119994.9269231735,
+    "agent_objective_source": "objective",
+    "best_bound": 4109159.9491135897,
+    "bound_sense": "lower",
+    "evaluation_diagnostics": {
+      "error_count": 0,
+      "objective": 4119994.9269231735,
+      "profit": null,
+      "score": null,
+      "total_cost": 4119994.9269231735
+    },
+    "fallback_mip_gap": 0.0005,
+    "fallback_reference_scale": 4109738.5690225437,
+    "feasibility": 1.0,
+    "formula": "clip(2 + d if d >= -1 else 1.5 + 0.5*d, 0, 2), d = (R - O) / (max(abs(R), 1e-8) * mip_gap)",
+    "objective_sense": "minimize",
+    "quality": 0.0,
+    "quality_status": "bound_gap_below_mip_gap",
+    "reference_metrics": {
+      "best_bound": 4109159.9491135897,
+      "best_bound_source": "best_bound",
+      "bound_sense": "lower",
+      "evaluation_summary": {
+        "error_count": 0,
+        "feasible": true,
+        "objective": 4109738.5690225437,
+        "total_cost": 4109738.5690225437
+      },
+      "generated_at": "2026-05-16T17:06:22.902436+00:00",
+      "mip_gap": 0.0005,
+      "objective_sense": "minimize",
+      "quality_formula": "clip(1 + (R - O) / (R - B), 0, 2) if B exists and R - B >= max(abs(R), 1e-8) * mip_gap; otherwise let d=(R - O)/(max(abs(R), 1e-8)*mip_gap), quality=clip(2+d if d>=-1 else 1.5+0.5*d, 0, 2); if no R, quality = 2",
+      "reference_objective": 4109738.5690225437,
+      "reference_objective_source": "objective",
+      "solution_path": "/reference-solutions/robust_microgrid_islanding_dispatch_reference_solution.csv",
+      "solver_summary": {
+        "best_bound": 4109159.9491135897,
+        "evaluation": {
+          "error_count": 0,
+          "errors": [],
+          "expected_cost": 2815894.959309516,
+          "feasible": true,
+          "objective": 4109738.5690225437,
+          "scenario_costs": {
+            "S1": 2046310.4562440815,
+            "S2": 2592727.9960501157,
+            "S3": 3029210.196050116,
+            "S4": 2882390.0795516483,
+            "S5": 2026434.1037450547,
+            "S6": 3485419.731637843,
+            "S7": 3131098.7213215334,
+            "S8": 4062226.1347097093
+          },
+          "scenario_diagnostics": {
+            "S1": {
+              "cost": 2046310.4562440815,
+              "daily_demand_response_kwh": 0.0,
+              "emissions_kg": 7804.420879120878
+            },
+            "S2": {
+              "cost": 2592727.9960501157,
+              "daily_demand_response_kwh": 0.0,
+              "emissions_kg": 9743.721719120877
+            },
+            "S3": {
+              "cost": 3029210.196050116,
+              "daily_demand_response_kwh": 0.0,
+              "emissions_kg": 12117.38671912088
+            },
+            "S4": {
+              "cost": 2882390.0795516483,
+              "daily_demand_response_kwh": 0.0,
+              "emissions_kg": 11225.825594320877
+            },
+            "S5": {
+              "cost": 2026434.1037450547,
+              "daily_demand_response_kwh": 0.0,
+              "emissions_kg": 7788.7135120527455
+            },
+            "S6": {
+              "cost": 3485419.731637843,
+              "daily_demand_response_kwh": 0.0,
+              "emissions_kg": 13822.96955491363
+            },
+            "S7": {
+              "cost": 3131098.7213215334,
+              "daily_demand_response_kwh": 0.0,
+              "emissions_kg": 12129.7221919263
+            },
+            "S8": {
+              "cost": 4062226.1347097093,
+              "daily_demand_response_kwh": 137.1999999999999,
+              "emissions_kg": 16379.644969489445
+            }
+          },
+          "tail_cost": 3696696.0277515072,
+          "total_cost": 4109738.5690225437
+        },
+        "gap": 0.00014081221371796366,
+        "objective": 4109738.5690225456,
+        "status": "gaplimit",
+        "time_limit_seconds": 120.0
+      },
+      "task_name": "robust_microgrid_islanding_dispatch",
+      "time_limit_seconds": 120.0
+    },
+    "reference_objective": 4109738.5690225437,
+    "scalar_reward": 0.3333333333333333,
+    "scalar_reward_formula": "(feasibility + quality) / 3.0"
+  }
+}

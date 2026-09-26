@@ -1,0 +1,6 @@
+row_type,line_id,scenario_id,batch_id,commodity_id,value
+open_line,L01,,,,0
+labor_hours,L01,,,,0
+qc_tests,L01,,,,0
+process,L01,S01,B01,,0
+sell,,S01,,OCC,0

@@ -1,0 +1,14 @@
+{
+  "created": [
+    "submissions/__pycache__/solve.cpython-311.pyc",
+    "submissions/model.md",
+    "submissions/solution.csv",
+    "submissions/solution.rollback.csv",
+    "submissions/solve.py",
+    "submissions/solve_log.md",
+    "submissions/solve_summary.json",
+    "submissions/solve_summary.rollback.json"
+  ],
+  "deleted": [],
+  "modified": []
+}

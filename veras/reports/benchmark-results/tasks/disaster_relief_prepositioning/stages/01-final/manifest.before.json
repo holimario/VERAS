@@ -1,0 +1,78 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 11208,
+    "sha256": "47ffc0ae7e908878d837c462de7dc28e62e64f41033055a88d1ef117dfc6d71f"
+  },
+  "data/config.json": {
+    "bytes": 313,
+    "sha256": "c0c3b1201824a7e53942449b9e3557f28c0bcdeeb777f6be7625189317a091c7"
+  },
+  "data/fleet_types.csv": {
+    "bytes": 246,
+    "sha256": "9b85af586c53f2a29b21562b069a31a0320f4978c304e76b47e5559ee3ff81e5"
+  },
+  "data/items.csv": {
+    "bytes": 252,
+    "sha256": "39fce4c6c6e8d88affc7b06823529ec71afc09609f129c5666e615258d4a80b1"
+  },
+  "data/lanes.csv": {
+    "bytes": 3533,
+    "sha256": "798fb9b55bc7c25b1af33231555a27c48373c6c2a01a8f8fee9031c70865ed78"
+  },
+  "data/period_service_targets.csv": {
+    "bytes": 699,
+    "sha256": "98ab18c4fc338ab3453d4992e6f9162716ea5d6022652b7ddc5c6a9bdc2ca432"
+  },
+  "data/periods.csv": {
+    "bytes": 151,
+    "sha256": "14ee6fc889aa91a402115adc9503e43092f8b07f9710c5bb856cb0e8531bacc1"
+  },
+  "data/scenario_demands.csv": {
+    "bytes": 29304,
+    "sha256": "92102ade0d54ccaa77556a447e5475d7a9bd49417cbfac81107b0cb90c2f11f0"
+  },
+  "data/scenario_period_lane_impacts.csv": {
+    "bytes": 189631,
+    "sha256": "c5b7767fa6c2b9ff4ae0a4ebeebcb9248c50073f8c03bbb7c2be761d0d3e5ed0"
+  },
+  "data/scenario_warehouse_availability.csv": {
+    "bytes": 5534,
+    "sha256": "654c5769f3faee45f86875fc25d539604869df53b03ad85813cc85089880ba6b"
+  },
+  "data/scenarios.csv": {
+    "bytes": 866,
+    "sha256": "710f845b7b260bd7a59cfb2f3ad8bf3f20e4a0de9a21ab34a1b4efd2f283b4b5"
+  },
+  "data/warehouse_fleet.csv": {
+    "bytes": 3302,
+    "sha256": "d429018b6fec767093b008438cc925ff6cb27e043c1d25c7095b058c2310a646"
+  },
+  "data/warehouses.csv": {
+    "bytes": 485,
+    "sha256": "f46f3c6b2f38e158e6030269df6927a1fee5c9875d8d7ea054e9f1154884cd19"
+  },
+  "data/zones.csv": {
+    "bytes": 988,
+    "sha256": "32fa604d3d37b1aa148e8c24f3e2cc302420d8849ec361e7e0b66942574c73f7"
+  },
+  "submissions/solution_template.csv": {
+    "bytes": 89,
+    "sha256": "47770e23378567e50fb3ddf114483ad63cb7d90b09ac95d09c08112217d20d3d"
+  }
+}

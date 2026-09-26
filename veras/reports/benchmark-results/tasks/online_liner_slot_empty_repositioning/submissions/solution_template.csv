@@ -1,0 +1,5 @@
+row_type,item_id,decision,leg_id,port_id,day,container_type,quantity_teu
+booking_decision,B001,accept,,,,,
+booking_leg,B001,load,L01,,,,2
+empty_move,M001,move,L07,,3,STD,4
+lease,Q001,lease,,SHA,4,REEFER,2

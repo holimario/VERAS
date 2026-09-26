@@ -1,0 +1,16 @@
+exchange_id,exchange_type,position,day_id,altruist_id,pair_id
+chain_01,chain,1,D2,A01,P014
+chain_01,chain,2,D2,A01,P023
+chain_01,chain,3,D2,A01,P011
+cycle_01,cycle,1,D2,,P002
+cycle_01,cycle,2,D2,,P005
+cycle_01,cycle,3,D2,,P022
+cycle_02,cycle,1,D2,,P003
+cycle_02,cycle,2,D2,,P012
+cycle_02,cycle,3,D2,,P021
+chain_02,chain,1,D3,A02,P008
+cycle_03,cycle,1,D4,,P010
+cycle_03,cycle,2,D4,,P016
+cycle_04,cycle,1,D5,,P004
+cycle_04,cycle,2,D5,,P013
+cycle_04,cycle,3,D5,,P007

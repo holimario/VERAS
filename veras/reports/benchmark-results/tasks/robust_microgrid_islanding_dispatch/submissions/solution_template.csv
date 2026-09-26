@@ -1,0 +1,1 @@
+row_type,scenario_id,hour,asset_id,commit,power_kw,charge_kw,discharge_kw,soc_kwh,curtail_kw,shed_kw,reserve_kw

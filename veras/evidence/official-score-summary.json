@@ -1,0 +1,1110 @@
+{
+  "by_band": {
+    "easy": {
+      "completed": 32,
+      "feasibility_rate": 0.84375,
+      "feasible": 27,
+      "mean_normalized_quality": 0.5466703956263184,
+      "pass_rate": 0.5625,
+      "passed": 18,
+      "task_count": 32
+    },
+    "hard": {
+      "completed": 31,
+      "feasibility_rate": 0.5,
+      "feasible": 17,
+      "mean_normalized_quality": 0.3083335524359695,
+      "pass_rate": 0.35294117647058826,
+      "passed": 12,
+      "task_count": 34
+    },
+    "medium": {
+      "completed": 40,
+      "feasibility_rate": 0.6829268292682927,
+      "feasible": 28,
+      "mean_normalized_quality": 0.3415435104735906,
+      "pass_rate": 0.3902439024390244,
+      "passed": 16,
+      "task_count": 41
+    }
+  },
+  "completed": 103,
+  "feasibility_rate": 0.6728971962616822,
+  "feasible": 72,
+  "mean_normalized_quality": 0.3923371717035735,
+  "pass_rate": 0.42990654205607476,
+  "passed": 46,
+  "task_count": 107,
+  "tasks": [
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.5,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_100_medium"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_12_easy"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_26_medium"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_3_easy"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_6_easy"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_9_easy"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "additive_microfactory_order_planning"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "airport_deicing_stochastic_resource_plan"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "carbon_aware_compute_scheduling"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.99999999999959,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "carbon_removal_credit_portfolio"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "circular_packaging_replenishment"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "coastal_aquaculture_feed_oxygen_planning"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "cold_chain_locker_capacity_planning"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "community_battery_peak_shaving"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "curbside_delivery_slot_coordination"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "edge_cache_content_placement"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "federated_learning_cohort_selection"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "fiber_ring_maintenance_coloring"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "front_distribution_center_robust_inventory"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "heatwave_cooling_center_resource_plan"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "hybrid_telehealth_appointment_scheduling"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "industrial_water_reuse_blending"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "mass_timber_panel_cutting_plan"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "platelet_inventory_rotation"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "portable_battery_swap_rebalancing"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "private_5g_small_cell_planning"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "recycled_paper_furnish_planning_lp"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.9999999999998569,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "retail_media_campaign_allocation"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.9934526609879412,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "second_life_battery_pack_assembly"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "shared_drone_base_delivery_assignment"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "smart_building_demand_response_dispatch"
+    },
+    {
+      "band": "easy",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.999999999054801,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "vertical_farm_harvest_energy_planning"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_17"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.9999999997055886,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_27"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_34"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "aerospace_composite_autoclave_scheduling"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "climate_refuge_reserve_selection"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "container_gate_dro_appointment_planning"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "disaster_relief_prepositioning"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 4,
+      "feasible": true,
+      "normalized_quality": 0.9888065564902315,
+      "observed_steps": 4,
+      "passed": true,
+      "task": "dynamic_cold_chain_vaccine_replanning"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "electric_medical_waste_lrp"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.45321863851992167,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "evtol_vertiport_recovery"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "flood_relief_multimodal_routing"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "fuel_tanker_compartment_routing"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "green_hydrogen_hub_resilience_planning"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "medical_supply_dro_response"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "naloxone_drone_response_network"
+    },
+    {
+      "band": "hard",
+      "complete": false,
+      "expected_steps": 3,
+      "feasible": false,
+      "normalized_quality": 0.3333333333333333,
+      "observed_steps": 2,
+      "passed": false,
+      "task": "online_electric_bus_depot_replanning"
+    },
+    {
+      "band": "hard",
+      "complete": false,
+      "expected_steps": 3,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "online_field_service_repair_dispatch"
+    },
+    {
+      "band": "hard",
+      "complete": false,
+      "expected_steps": 3,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "online_kidney_exchange_chain_replanning"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 3,
+      "feasible": true,
+      "normalized_quality": 0.9902542238482207,
+      "observed_steps": 3,
+      "passed": true,
+      "task": "online_liner_slot_empty_repositioning"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "petroleum_terminal_dro_inventory"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "precision_ag_sprayer_tanker_routing"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "railway_disruption_recovery"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "recycling_mrf_stochastic_sorting_plan"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "robotic_mobile_fulfillment_orchestration"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "robust_kidney_exchange_clearing"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "robust_microgrid_islanding_dispatch"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.4014309894101575,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "satellite_disaster_response_downlink"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "semiconductor_ion_implant_scheduling"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "steel_scc_ladle_energy_reschedule"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "sterile_processing_robust_schedule"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.8836213801898052,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "stochastic_surgery_capacity_planning"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "synchromodal_freight_recovery"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.4326756613257038,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "urban_drainage_mpc_control"
+    },
+    {
+      "band": "hard",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "wildfire_bus_evacuation_planning"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.5,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_100"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "IndustryOR_12"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.9999999999757603,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_12_medium"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_14"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "IndustryOR_14_medium"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_17_medium"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "IndustryOR_26"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_27_medium"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_3"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_34_medium"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "IndustryOR_36"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "IndustryOR_36_medium"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "IndustryOR_3_medium"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "IndustryOR_6"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "IndustryOR_6_medium"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "IndustryOR_9"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.5473174988538838,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_96"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.5,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_99"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.5,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_99_medium"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.9999692064752522,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "IndustryOR_9_medium"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.5,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "air_cargo_stochastic_order_allocation"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "airport_gate_assignment"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "autonomous_lab_courier_tsptw"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.2963703816749512,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "bike_share_rebalancing"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.11635163636584267,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "cell_tower_coverage_expansion"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "clinical_trial_site_portfolio_selection"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "cycling_network_design"
+    },
+    {
+      "band": "medium",
+      "complete": false,
+      "expected_steps": 3,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "dynamic_supply_disruption_replanning"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.6149097761539524,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "electric_bus_depot_charging"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "ev_battery_recycling_network"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "german_or_scheduling"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "green_port_berth_planning"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "home_healthcare_routing"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "industrial_supply_planning"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "maritime_fueleu_bunker_blending_lp"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "nurse_rostering"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 1.0,
+      "observed_steps": 1,
+      "passed": true,
+      "task": "offshore_wind_maintenance"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 3,
+      "feasible": true,
+      "normalized_quality": 0.7616987632509046,
+      "observed_steps": 3,
+      "passed": true,
+      "task": "online_grocery_order_slot_replanning"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 3,
+      "feasible": false,
+      "normalized_quality": 0.6666666666666666,
+      "observed_steps": 3,
+      "passed": false,
+      "task": "online_hotel_booking_upgrade_replanning"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": false,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "real_world_3d_bin_packing"
+    },
+    {
+      "band": "medium",
+      "complete": true,
+      "expected_steps": 1,
+      "feasible": true,
+      "normalized_quality": 0.0,
+      "observed_steps": 1,
+      "passed": false,
+      "task": "wastewater_sentinel_site_selection"
+    }
+  ]
+}

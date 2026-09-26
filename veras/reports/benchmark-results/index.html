@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VERAS · ORAgentBench Results</title>
+<style>
+:root{--ink:#17211d;--muted:#66736d;--paper:#f3f0e7;--card:#fffdf7;--line:#d8d2c5;--green:#086b4e;--green-soft:#dcefe5;--amber:#9b6508;--red:#a13d31;--blue:#275d8c;--shadow:0 18px 50px rgba(31,43,36,.09)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:radial-gradient(circle at 10% 0,#d9ebe2 0,transparent 31rem),linear-gradient(180deg,#f8f5ec,var(--paper));font:15px/1.55 "Avenir Next","Gill Sans",sans-serif}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.16;background-image:linear-gradient(rgba(23,33,29,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(23,33,29,.08) 1px,transparent 1px);background-size:34px 34px;mask-image:linear-gradient(#000,transparent 60%)}main{width:min(1420px,calc(100% - 32px));margin:auto;padding:46px 0 76px}.eyebrow{font:800 11px/1.2 "IBM Plex Mono","SFMono-Regular",monospace;letter-spacing:.17em;text-transform:uppercase;color:var(--green)}h1,h2{font-family:"Iowan Old Style","Palatino Linotype",serif;letter-spacing:-.035em}h1{font-size:clamp(42px,7vw,82px);line-height:.96;margin:13px 0 18px;max-width:1000px}h2{font-size:clamp(26px,3vw,40px);line-height:1.05;margin:0}.lead{max-width:890px;color:#47554e;font-size:18px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0 34px}.button{display:inline-flex;padding:10px 14px;border:1px solid var(--line);border-radius:11px;background:var(--card);color:var(--ink);font-weight:800;text-decoration:none;box-shadow:0 7px 20px rgba(31,43,36,.06)}.button.primary{background:var(--green);border-color:var(--green);color:white}.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}.card,.panel{background:rgba(255,253,247,.95);border:1px solid var(--line);box-shadow:var(--shadow)}.card{position:relative;overflow:hidden;border-radius:18px;padding:19px}.card:after{content:"";position:absolute;width:96px;height:96px;border:17px solid rgba(8,107,78,.08);border-radius:50%;right:-39px;bottom:-49px}.card span{display:block;color:var(--muted);font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.1em}.card strong{display:block;margin:7px 0 2px;font:700 35px/1 "Iowan Old Style",serif}.card small{color:var(--muted)}.card.featured{background:linear-gradient(140deg,#0b6a50,#163f37);color:white;border-color:transparent}.card.featured span,.card.featured small{color:#d2e9df}section{margin-top:45px;scroll-margin-top:20px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:15px}.section-head p{max-width:720px;color:var(--muted);margin:0}.panel{border-radius:19px;padding:19px}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:16px;background:var(--card);box-shadow:var(--shadow)}table{width:100%;border-collapse:separate;border-spacing:0;font-size:13px}th,td{padding:11px 13px;border-bottom:1px solid #e6e1d6;white-space:nowrap;text-align:right}th{position:sticky;top:0;background:#eae6db;color:#3b4842;text-transform:uppercase;letter-spacing:.055em;font-size:10px;z-index:2}th:first-child,td:first-child{text-align:left;position:sticky;left:0;background:inherit;box-shadow:1px 0 #e6e1d6;z-index:1}tbody tr:nth-child(even){background:#faf8f1}tbody tr:hover{background:#edf5f0}.baseline tbody tr:first-child{background:var(--green-soft);font-weight:800}.baseline tbody tr:first-child td:first-child{border-left:4px solid var(--green)}.controls{display:flex;gap:9px;flex-wrap:wrap;margin:13px 0}.controls input,.controls select{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:9px 12px;font:600 13px inherit}.controls input{min-width:280px;margin-left:auto}.pill{display:inline-flex;border-radius:99px;padding:3px 8px;font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.04em}.passed{background:#d7eee3;color:var(--green)}.failed{background:#f5ddd8;color:var(--red)}.low{background:#fff0c9;color:var(--amber)}.task{font:600 12px/1.35 "IBM Plex Mono","SFMono-Regular",monospace;max-width:360px;overflow:hidden;text-overflow:ellipsis}.task a{color:inherit;text-decoration-color:#aab8b1;text-underline-offset:3px}.foot{margin-top:34px;color:var(--muted);font-size:12px}@media(max-width:850px){.cards{grid-template-columns:repeat(2,1fr)}.section-head{display:block}.section-head p{margin-top:7px}.controls input{width:100%;margin-left:0}}@media(max-width:520px){main{width:calc(100% - 18px);padding-top:25px}.cards{grid-template-columns:1fr 1fr}.card{padding:14px}.card strong{font-size:28px}}
+</style>
+</head>
+<body><main>
+<div class="eyebrow">ORAgentBench · Evaluation artifact</div>
+<h1>VERAS benchmark results</h1>
+<p class="lead">Final scores across all 107 tasks, evaluated with the official feasibility and normalized-quality rule. Retained execution trajectories are linked directly from their task rows.</p>
+<div class="actions"><a class="button primary" href="#tasks-table">Browse benchmark tasks</a><a class="button" href="../../README.md">Harness documentation</a></div>
+
+<div class="cards">
+  <div class="card"><span>Easy pass rate</span><strong>56.25%</strong><small>18 / 32 tasks</small></div>
+  <div class="card"><span>Medium pass rate</span><strong>39.02%</strong><small>16 / 41 tasks</small></div>
+  <div class="card"><span>Hard pass rate</span><strong>35.29%</strong><small>12 / 34 tasks</small></div>
+  <div class="card featured"><span>Overall pass rate</span><strong>42.99%</strong><small>46 / 107 tasks</small></div>
+</div>
+
+<section><div class="section-head"><div><div class="eyebrow">Published context</div><h2>Pass-rate comparison</h2></div><p>All rows use the same split denominators. VERAS values are computed from the retained evaluator outputs; the remaining rows reproduce the published ORAgentBench comparison.</p></div>
+<div class="table-wrap"><table class="baseline"><thead><tr><th>Harness</th><th>Model</th><th>Easy</th><th>Medium</th><th>Hard</th><th>Overall</th></tr></thead><tbody>
+<tr><td>VERAS</td><td>GPT-5.4</td><td>56.25%</td><td>39.02%</td><td>35.29%</td><td>42.99%</td></tr>
+<tr><td>Codex</td><td>GPT-5.4</td><td>46.88%</td><td>39.02%</td><td>20.59%</td><td>35.51%</td></tr>
+<tr><td>Claude Code</td><td>Claude Opus 4.6</td><td>50.00%</td><td>39.02%</td><td>14.71%</td><td>34.58%</td></tr>
+<tr><td>Codex</td><td>GPT-5.3-Codex</td><td>31.25%</td><td>43.90%</td><td>20.59%</td><td>32.71%</td></tr>
+<tr><td>DeepSeek Harness</td><td>Ark Think</td><td>50.00%</td><td>29.27%</td><td>5.88%</td><td>28.04%</td></tr>
+<tr><td>Codex</td><td>Ark Think</td><td>50.00%</td><td>26.83%</td><td>5.88%</td><td>27.10%</td></tr>
+<tr><td>DeepSeek Harness + Adaptive FFAR</td><td>Ark Think</td><td>53.13%</td><td>24.39%</td><td>5.88%</td><td>27.10%</td></tr>
+<tr><td>Claude Code</td><td>Kimi K2.6</td><td>31.25%</td><td>36.59%</td><td>11.76%</td><td>27.10%</td></tr>
+<tr><td>Claude Code</td><td>DeepSeek V4 Pro</td><td>39.58%</td><td>28.46%</td><td>13.73%</td><td>27.10%</td></tr>
+<tr><td>Claude Code</td><td>DeepSeek V4 Flash</td><td>46.88%</td><td>26.83%</td><td>5.88%</td><td>26.17%</td></tr>
+<tr><td>Claude Code</td><td>GLM 5.1</td><td>37.50%</td><td>31.71%</td><td>8.82%</td><td>26.17%</td></tr>
+<tr><td>Codex</td><td>GPT-5.4-mini</td><td>43.75%</td><td>29.27%</td><td>5.88%</td><td>26.17%</td></tr>
+<tr><td>Claude Code</td><td>Claude Sonnet 4.6</td><td>31.25%</td><td>29.27%</td><td>14.71%</td><td>25.23%</td></tr>
+<tr><td>Claude Code</td><td>MiMo V2.5 Pro</td><td>43.75%</td><td>21.95%</td><td>2.94%</td><td>22.43%</td></tr>
+<tr><td>Claude Code</td><td>Qwen3.6 Plus</td><td>40.62%</td><td>21.95%</td><td>5.88%</td><td>22.43%</td></tr>
+<tr><td>Claude Code</td><td>GLM 5</td><td>37.50%</td><td>24.39%</td><td>5.88%</td><td>22.43%</td></tr>
+<tr><td>Claude Code</td><td>Qwen3.5 Plus</td><td>46.88%</td><td>14.63%</td><td>2.94%</td><td>20.56%</td></tr>
+<tr><td>Claude Code</td><td>MiniMax-M2.7</td><td>40.62%</td><td>2.44%</td><td>2.94%</td><td>14.02%</td></tr>
+</tbody></table></div></section>
+
+<section id="tasks-table"><div class="section-head"><div><div class="eyebrow">Task ledger</div><h2>All 107 tasks</h2></div><p>Incomplete tasks remain failures in the original denominator. Tasks with retained raw records link to their sanitized trajectory pages.</p></div>
+<div class="controls"><select id="band"><option value="all">All difficulties</option><option value="easy">Easy</option><option value="medium">Medium</option><option value="hard">Hard</option></select><select id="outcome"><option value="all">All outcomes</option><option value="passed">Passed</option><option value="failed">Not passed</option><option value="incomplete">Incomplete</option></select><input id="search" placeholder="Search tasks"></div>
+<div class="table-wrap"><table><thead><tr><th>Task</th><th>Difficulty</th><th>Outcome</th><th>Feasible</th><th>Normalized quality</th><th>Stages</th></tr></thead><tbody id="tasks"><tr><td colspan="6">Loading retained score summaries...</td></tr></tbody></table></div></section>
+
+<p class="foot">Official pass rule: complete task, positive feasibility at every expected stage, and mean normalized quality strictly greater than 0.4.</p>
+</main>
+<script>
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let records=[];
+const body=document.getElementById('tasks'),band=document.getElementById('band'),outcome=document.getElementById('outcome'),search=document.getElementById('search');
+function state(t){if(!t.complete)return'incomplete';return t.passed?'passed':'failed'}
+function render(){const q=search.value.toLowerCase();const rows=records.filter(t=>(band.value==='all'||t.band===band.value)&&(outcome.value==='all'||state(t)===outcome.value)&&t.task.toLowerCase().includes(q));body.innerHTML=rows.map(t=>{const linked=t.trajectory?`<a href="tasks/${encodeURIComponent(t.task)}/index.html">${esc(t.task)}</a>`:esc(t.task);const label=t.passed?'Passed':t.complete?'Not passed':'Incomplete';const cls=t.passed?'passed':t.complete?'low':'failed';return `<tr><td class="task">${linked}</td><td>${esc(t.band)}</td><td><span class="pill ${cls}">${label}</span></td><td>${t.feasible?'Yes':'No'}</td><td>${Number(t.normalized_quality).toFixed(6)}</td><td>${t.observed_steps}/${t.expected_steps}</td></tr>`}).join('')||'<tr><td colspan="6">No matching tasks.</td></tr>'}
+Promise.all([fetch('../../evidence/official-score-summary.json').then(r=>r.json()),fetch('data/trajectory-metadata.json').then(r=>r.json())]).then(([scores,metadata])=>{const retained=new Set(metadata.records.map(t=>t.task));records=scores.tasks.map(t=>({...t,trajectory:retained.has(t.task)})).sort((a,b)=>a.band.localeCompare(b.band)||a.task.localeCompare(b.task));render()}).catch(e=>{body.innerHTML=`<tr><td colspan="6">Could not load report data: ${esc(e.message)}. Serve the repository with an HTTP server.</td></tr>`});
+[band,outcome,search].forEach(el=>el.addEventListener(el===search?'input':'change',render));
+</script>
+</body></html>

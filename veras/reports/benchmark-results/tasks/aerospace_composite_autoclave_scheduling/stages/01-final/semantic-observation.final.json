@@ -1,0 +1,19 @@
+{
+  "coverage_complete": false,
+  "covered_constraint_groups": [],
+  "max_normalized_residual": 1.0,
+  "metrics": {},
+  "observer": "observe_aerospace_autoclave",
+  "safe": false,
+  "supported": true,
+  "total_normalized_violation_mass": 1.0,
+  "violation_count": 1,
+  "violations": [
+    {
+      "evidence": {},
+      "group": "artifact",
+      "message": "Observer cannot inspect a missing artifact",
+      "normalized_residual": 1.0
+    }
+  ]
+}

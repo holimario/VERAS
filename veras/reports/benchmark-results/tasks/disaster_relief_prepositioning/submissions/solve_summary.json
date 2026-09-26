@@ -1,0 +1,20 @@
+{
+  "audit_objective": 878079.3607290736,
+  "audit_theta": 9.3985036962698e-11,
+  "audit_violated_groups": 0,
+  "candidate_audit_theta": 9.3985036962698e-11,
+  "candidate_audit_violated_groups": 0,
+  "candidate_objective": 878079.3607290736,
+  "dualbound": 878079.3607283155,
+  "elapsed_seconds": 40.31382632255554,
+  "gap": 0.0,
+  "incumbent_audit_theta": 9.3985036962698e-11,
+  "incumbent_objective": 878079.3607290736,
+  "incumbent_violated_groups": 0,
+  "mip_start_loaded": true,
+  "n_solutions": 1,
+  "objective": 878079.3607290736,
+  "published_candidate": false,
+  "solve_mode": "main_mip_plus_fixed_open_lp",
+  "status": "disk_incumbent"
+}

@@ -1,0 +1,15 @@
+{
+  "created": [
+    "submissions/__pycache__/solve.cpython-311.pyc",
+    "submissions/incumbent_backup/model.md",
+    "submissions/incumbent_backup/solution.csv",
+    "submissions/incumbent_backup/solve.py",
+    "submissions/incumbent_backup/solve_log.md",
+    "submissions/model.md",
+    "submissions/solution.csv",
+    "submissions/solve.py",
+    "submissions/solve_log.md"
+  ],
+  "deleted": [],
+  "modified": []
+}

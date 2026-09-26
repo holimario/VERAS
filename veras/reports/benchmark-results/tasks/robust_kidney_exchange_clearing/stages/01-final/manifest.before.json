@@ -1,0 +1,66 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 6039,
+    "sha256": "fb5468eb77f2cafa64d71f287a8bcfb74e9fa1354ec5ac463ceb9cd7ede97aa2"
+  },
+  "data/altruistic_donors.csv": {
+    "bytes": 347,
+    "sha256": "b1ebaac7984d8e0721e3f90202c2510fb24c3fd1fac7bce7d9e5a637f94d38d5"
+  },
+  "data/config.json": {
+    "bytes": 531,
+    "sha256": "51b349b19a1ff6f3b66de7f7d86cdaaceb28e6038829008fa93c87c9859e8d9d"
+  },
+  "data/courier_lanes.csv": {
+    "bytes": 1534,
+    "sha256": "6b5709a80d9577015351115d3f63ac83a8f14c252ebeae706b1ba67ee8852d3d"
+  },
+  "data/donor_edges.csv": {
+    "bytes": 117797,
+    "sha256": "566c7a0dfb0edcaf2c3e84c611dbd1c1706ac2cbfe7a9bb8d007d8d4d4483c07"
+  },
+  "data/hospitals.csv": {
+    "bytes": 534,
+    "sha256": "98415e9f6df117c5ff9d396cd9ff991955473d09687db421193e390f60c79228"
+  },
+  "data/patient_pairs.csv": {
+    "bytes": 3856,
+    "sha256": "1516f17729b71bfbfc841ca50755cfa39fda08a0bcd5bec4189880996a14793a"
+  },
+  "data/planning_days.csv": {
+    "bytes": 103,
+    "sha256": "3f5712064239b029acabef0442b741585757211a32e2e499510f932743aff1cf"
+  },
+  "data/region_policy.csv": {
+    "bytes": 122,
+    "sha256": "9e6bfa26c452468d72a4e51d3f265f36f7d4b8bf1254f8c2965844956574f32c"
+  },
+  "data/stress_scenarios.csv": {
+    "bytes": 218,
+    "sha256": "5e2d4597f7c7713185e2d66bae233ac1cf6674f67db83f736770f65a37604fc5"
+  },
+  "data/surgical_teams.csv": {
+    "bytes": 1325,
+    "sha256": "d572b0dbd67a653f062066517c1aa308e9f45a5321784976da22125b6a9658ae"
+  },
+  "submissions/solution_template.json": {
+    "bytes": 35,
+    "sha256": "d4303825fc8288cf849e2b6184890ae9f753daed92664cb0b1280a81c8415979"
+  }
+}

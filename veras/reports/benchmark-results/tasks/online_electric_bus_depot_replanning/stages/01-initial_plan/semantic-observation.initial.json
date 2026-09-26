@@ -1,0 +1,522 @@
+{
+  "coverage_complete": false,
+  "covered_constraint_groups": [
+    "trip-row-nullability/key/decision",
+    "charge-row-nullability/key/domain"
+  ],
+  "max_normalized_residual": 1.0,
+  "metrics": {
+    "row_count": 42
+  },
+  "observer": "online-bus-schema-observer-v1",
+  "safe": false,
+  "supported": true,
+  "total_normalized_violation_mass": 42.0,
+  "violation_count": 42,
+  "violations": [
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 2,
+        "trip_id": "T013"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 2 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 3,
+        "trip_id": "T028"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 3 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 4,
+        "trip_id": "T001"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 4 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 5,
+        "trip_id": "T016"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 5 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 6,
+        "trip_id": "T031"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 6 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 7,
+        "trip_id": "T004"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 7 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 8,
+        "trip_id": "T019"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 8 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 9,
+        "trip_id": "T034"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 9 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 10,
+        "trip_id": "T007"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 10 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 11,
+        "trip_id": "T022"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 11 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 12,
+        "trip_id": "T037"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 12 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 13,
+        "trip_id": "T010"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 13 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 14,
+        "trip_id": "T025"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 14 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 15,
+        "trip_id": "T040"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 15 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 16,
+        "trip_id": "T029"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 16 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 17,
+        "trip_id": "T017"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 17 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 18,
+        "trip_id": "T014"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 18 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 19,
+        "trip_id": "T002"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 19 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 20,
+        "trip_id": "T035"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 20 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 21,
+        "trip_id": "T032"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 21 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 22,
+        "trip_id": "T020"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 22 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 23,
+        "trip_id": "T008"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 23 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 24,
+        "trip_id": "T005"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 24 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 25,
+        "trip_id": "T038"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 25 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 26,
+        "trip_id": "T026"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 26 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 27,
+        "trip_id": "T023"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 27 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 28,
+        "trip_id": "T011"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 28 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 29,
+        "trip_id": "T041"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 29 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 30,
+        "trip_id": "T018"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 30 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 31,
+        "trip_id": "T030"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 31 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 32,
+        "trip_id": "T036"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 32 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 33,
+        "trip_id": "T003"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 33 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 34,
+        "trip_id": "T015"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 34 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 35,
+        "trip_id": "T009"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 35 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 36,
+        "trip_id": "T021"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 36 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 37,
+        "trip_id": "T033"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 37 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 38,
+        "trip_id": "T027"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 38 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 39,
+        "trip_id": "T039"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 39 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 40,
+        "trip_id": "T006"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 40 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 41,
+        "trip_id": "T012"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 41 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 42,
+        "trip_id": "T024"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 42 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    },
+    {
+      "evidence": {
+        "fields": [
+          "item_id"
+        ],
+        "line_no": 43,
+        "trip_id": "T042"
+      },
+      "group": "trip-row-nullability",
+      "message": "Line 43 trip row must leave ['item_id'] blank",
+      "normalized_residual": 1.0
+    }
+  ]
+}

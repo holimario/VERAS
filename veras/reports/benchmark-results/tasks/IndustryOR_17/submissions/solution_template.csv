@@ -1,0 +1,2 @@
+variable,period,aircraft,relay,payload_type,trips
+drop,P1,CARGO_HAWK,R_NORTH_PASS,HEAVY_REPAIR,0

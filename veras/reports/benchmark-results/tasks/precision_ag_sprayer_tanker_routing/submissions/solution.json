@@ -1,0 +1,565 @@
+{
+  "sprayer_routes": [
+    {
+      "events": [
+        {
+          "applied_liters": 410.64,
+          "arrival_min": 383.56480767,
+          "end_min": 436.8010989,
+          "event_id": "S001",
+          "event_type": "spray",
+          "field_id": "F01",
+          "start_min": 388.0
+        },
+        {
+          "applied_liters": 372.09,
+          "arrival_min": 445.77539719,
+          "end_min": 491.36550708,
+          "event_id": "S002",
+          "event_type": "spray",
+          "field_id": "F25",
+          "start_min": 445.77539719
+        },
+        {
+          "applied_liters": 278.39,
+          "arrival_min": 498.51677327,
+          "end_min": 538.95413591,
+          "event_id": "S003",
+          "event_type": "spray",
+          "field_id": "F02",
+          "start_min": 498.51677327
+        },
+        {
+          "applied_liters": 448.88,
+          "arrival_min": 546.20315116,
+          "end_min": 600.30534895,
+          "event_id": "S004",
+          "event_type": "spray",
+          "field_id": "F03",
+          "start_min": 546.20315115
+        },
+        {
+          "arrival_min": 604.46204864,
+          "end_min": 617.6423118,
+          "event_id": "R001",
+          "event_type": "rendezvous",
+          "mix_id": "MIX_A",
+          "pad_id": "P01",
+          "refill_liters": 697.7,
+          "start_min": 604.46204864,
+          "sync_id": "SYNC_A1",
+          "tender_id": "TN01"
+        },
+        {
+          "applied_liters": 379.08,
+          "arrival_min": 625.77280866,
+          "end_min": 672.08159987,
+          "event_id": "S005",
+          "event_type": "spray",
+          "field_id": "F05",
+          "start_min": 625.77280866
+        },
+        {
+          "applied_liters": 318.62,
+          "arrival_min": 677.1272884,
+          "end_min": 715.72838729,
+          "event_id": "S006",
+          "event_type": "spray",
+          "field_id": "F04",
+          "start_min": 677.12728839
+        },
+        {
+          "arrival_min": 724.04479137,
+          "end_min": 757.0,
+          "event_id": "W001",
+          "event_type": "rinse",
+          "from_mix_id": "MIX_A",
+          "pad_id": "P02",
+          "start_min": 730.0,
+          "to_mix_id": "MIX_B"
+        },
+        {
+          "arrival_min": 757.0,
+          "end_min": 784.49934211,
+          "event_id": "R002",
+          "event_type": "rendezvous",
+          "mix_id": "MIX_B",
+          "pad_id": "P02",
+          "refill_liters": 1291.95,
+          "start_min": 763.5,
+          "sync_id": "SYNC_B1",
+          "tender_id": "TN02"
+        },
+        {
+          "applied_liters": 491.25,
+          "arrival_min": 789.70011248,
+          "end_min": 847.29681577,
+          "event_id": "S007",
+          "event_type": "spray",
+          "field_id": "F06",
+          "start_min": 789.70011247
+        },
+        {
+          "applied_liters": 346.86,
+          "arrival_min": 852.73598806,
+          "end_min": 894.63379026,
+          "event_id": "S008",
+          "event_type": "spray",
+          "field_id": "F07",
+          "start_min": 852.73598806
+        },
+        {
+          "applied_liters": 453.84,
+          "arrival_min": 899.6082384,
+          "end_min": 954.56757906,
+          "event_id": "S009",
+          "event_type": "spray",
+          "field_id": "F08",
+          "start_min": 899.6082384
+        }
+      ],
+      "sprayer_id": "SP01"
+    },
+    {
+      "events": [
+        {
+          "applied_liters": 458.47,
+          "arrival_min": 398.25488186,
+          "end_min": 479.75251397,
+          "event_id": "S001",
+          "event_type": "spray",
+          "field_id": "F26",
+          "start_min": 425.0
+        },
+        {
+          "applied_liters": 323.64,
+          "arrival_min": 488.62296131,
+          "end_min": 528.85480488,
+          "event_id": "S002",
+          "event_type": "spray",
+          "field_id": "F27",
+          "start_min": 488.6229613
+        },
+        {
+          "applied_liters": 404.7,
+          "arrival_min": 566.46226097,
+          "end_min": 615.61365762,
+          "event_id": "S003",
+          "event_type": "spray",
+          "field_id": "F34",
+          "start_min": 566.46226097
+        },
+        {
+          "applied_liters": 358.02,
+          "arrival_min": 622.7653535,
+          "end_min": 666.84859372,
+          "event_id": "S004",
+          "event_type": "spray",
+          "field_id": "F35",
+          "start_min": 622.7653535
+        },
+        {
+          "arrival_min": 672.49870857,
+          "end_min": 699.06370858,
+          "event_id": "R001",
+          "event_type": "rendezvous",
+          "mix_id": "MIX_A",
+          "pad_id": "P09",
+          "refill_liters": 1714.94,
+          "start_min": 672.49870858,
+          "sync_id": "SYNC_A2",
+          "tender_id": "TN01"
+        },
+        {
+          "applied_liters": 465.4,
+          "arrival_min": 709.74953835,
+          "end_min": 766.925516,
+          "event_id": "S005",
+          "event_type": "spray",
+          "field_id": "F36",
+          "start_min": 709.74953835
+        },
+        {
+          "applied_liters": 449.82,
+          "arrival_min": 774.71000576,
+          "end_min": 862.01856271,
+          "event_id": "S006",
+          "event_type": "spray",
+          "field_id": "F22",
+          "start_min": 808.48280852
+        },
+        {
+          "applied_liters": 352.49,
+          "arrival_min": 868.03922454,
+          "end_min": 911.76380554,
+          "event_id": "S007",
+          "event_type": "spray",
+          "field_id": "F23",
+          "start_min": 868.03922453
+        },
+        {
+          "applied_liters": 482.4,
+          "arrival_min": 918.52761408,
+          "end_min": 977.68124536,
+          "event_id": "S008",
+          "event_type": "spray",
+          "field_id": "F24",
+          "start_min": 918.52761408
+        }
+      ],
+      "sprayer_id": "SP04"
+    },
+    {
+      "events": [
+        {
+          "applied_liters": 376.98,
+          "arrival_min": 384.61512672,
+          "end_min": 431.07159091,
+          "event_id": "S001",
+          "event_type": "spray",
+          "field_id": "F09",
+          "start_min": 386.0
+        },
+        {
+          "applied_liters": 390.44,
+          "arrival_min": 437.07047501,
+          "end_min": 503.36818182,
+          "event_id": "S002",
+          "event_type": "spray",
+          "field_id": "F28",
+          "start_min": 455.0
+        },
+        {
+          "applied_liters": 517.86,
+          "arrival_min": 514.98726293,
+          "end_min": 574.79635384,
+          "event_id": "S003",
+          "event_type": "spray",
+          "field_id": "F10",
+          "start_min": 514.98726293
+        },
+        {
+          "applied_liters": 259.72,
+          "arrival_min": 580.13754178,
+          "end_min": 618.42163268,
+          "event_id": "S004",
+          "event_type": "spray",
+          "field_id": "F11",
+          "start_min": 580.13754177
+        },
+        {
+          "arrival_min": 627.66344114,
+          "end_min": 653.17344114,
+          "event_id": "R001",
+          "event_type": "rendezvous",
+          "mix_id": "MIX_B",
+          "pad_id": "P04",
+          "refill_liters": 1634.76,
+          "start_min": 627.66344114,
+          "sync_id": "SYNC_B2",
+          "tender_id": "TN02"
+        },
+        {
+          "applied_liters": 437.78,
+          "arrival_min": 658.4623102,
+          "end_min": 710.2123102,
+          "event_id": "S005",
+          "event_type": "spray",
+          "field_id": "F12",
+          "start_min": 658.4623102
+        },
+        {
+          "applied_liters": 356.72,
+          "arrival_min": 727.35323211,
+          "end_min": 828.24545455,
+          "event_id": "S006",
+          "event_type": "spray",
+          "field_id": "F29",
+          "start_min": 786.0
+        },
+        {
+          "applied_liters": 470.0,
+          "arrival_min": 834.96221064,
+          "end_min": 890.61561972,
+          "event_id": "S007",
+          "event_type": "spray",
+          "field_id": "F30",
+          "start_min": 834.96221063
+        },
+        {
+          "applied_liters": 370.26,
+          "arrival_min": 910.21784947,
+          "end_min": 955.85534947,
+          "event_id": "S008",
+          "event_type": "spray",
+          "field_id": "F13",
+          "start_min": 910.21784947
+        },
+        {
+          "arrival_min": 958.12255707,
+          "end_min": 989.62255707,
+          "event_id": "W001",
+          "event_type": "rinse",
+          "from_mix_id": "MIX_B",
+          "pad_id": "P04",
+          "start_min": 958.12255707,
+          "to_mix_id": "MIX_C"
+        },
+        {
+          "arrival_min": 989.62255707,
+          "end_min": 1014.48571496,
+          "event_id": "R002",
+          "event_type": "rendezvous",
+          "mix_id": "MIX_C",
+          "pad_id": "P04",
+          "refill_liters": 1091.6,
+          "start_min": 996.12255707,
+          "sync_id": "SYNC_C2",
+          "tender_id": "TN01"
+        },
+        {
+          "applied_liters": 347.75,
+          "arrival_min": 1022.41181503,
+          "end_min": 1069.30726959,
+          "event_id": "S009",
+          "event_type": "spray",
+          "field_id": "F14",
+          "start_min": 1022.41181504
+        },
+        {
+          "applied_liters": 438.9,
+          "arrival_min": 1074.72719166,
+          "end_min": 1135.27605529,
+          "event_id": "S010",
+          "event_type": "spray",
+          "field_id": "F15",
+          "start_min": 1074.72719165
+        },
+        {
+          "applied_liters": 304.95,
+          "arrival_min": 1141.14243859,
+          "end_min": 1183.94357495,
+          "event_id": "S011",
+          "event_type": "spray",
+          "field_id": "F16",
+          "start_min": 1141.14243859
+        }
+      ],
+      "sprayer_id": "SP02"
+    },
+    {
+      "events": [
+        {
+          "applied_liters": 362.88,
+          "arrival_min": 393.66869474,
+          "end_min": 447.1,
+          "event_id": "S001",
+          "event_type": "spray",
+          "field_id": "F17",
+          "start_min": 398.0
+        },
+        {
+          "applied_liters": 280.72,
+          "arrival_min": 453.76301538,
+          "end_min": 493.32015824,
+          "event_id": "S002",
+          "event_type": "spray",
+          "field_id": "F18",
+          "start_min": 453.76301538
+        },
+        {
+          "applied_liters": 338.1,
+          "arrival_min": 499.40137599,
+          "end_min": 545.52637599,
+          "event_id": "S003",
+          "event_type": "spray",
+          "field_id": "F31",
+          "start_min": 499.40137599
+        },
+        {
+          "applied_liters": 395.67,
+          "arrival_min": 553.41396236,
+          "end_min": 607.58539092,
+          "event_id": "S004",
+          "event_type": "spray",
+          "field_id": "F32",
+          "start_min": 553.41396235
+        },
+        {
+          "arrival_min": 619.87934246,
+          "end_min": 640.54092141,
+          "event_id": "R001",
+          "event_type": "rendezvous",
+          "mix_id": "MIX_C",
+          "pad_id": "P05",
+          "refill_liters": 1266.28,
+          "start_min": 619.87934246,
+          "sync_id": "SYNC_C1",
+          "tender_id": "TN03"
+        },
+        {
+          "applied_liters": 428.28,
+          "arrival_min": 644.41121165,
+          "end_min": 702.58978308,
+          "event_id": "S005",
+          "event_type": "spray",
+          "field_id": "F19",
+          "start_min": 644.41121165
+        },
+        {
+          "applied_liters": 335.92,
+          "arrival_min": 709.06214624,
+          "end_min": 755.93357481,
+          "event_id": "S006",
+          "event_type": "spray",
+          "field_id": "F20",
+          "start_min": 709.06214624
+        },
+        {
+          "applied_liters": 305.28,
+          "arrival_min": 761.48280851,
+          "end_min": 804.98280852,
+          "event_id": "S007",
+          "event_type": "spray",
+          "field_id": "F21",
+          "start_min": 761.48280852
+        },
+        {
+          "applied_liters": 309.43,
+          "arrival_min": 816.42945023,
+          "end_min": 860.65087879,
+          "event_id": "S008",
+          "event_type": "spray",
+          "field_id": "F33",
+          "start_min": 816.42945022
+        }
+      ],
+      "sprayer_id": "SP03"
+    }
+  ],
+  "tender_routes": [
+    {
+      "events": [
+        {
+          "arrival_min": 350.0,
+          "end_min": 596.6612803,
+          "event_id": "L001",
+          "event_type": "reload",
+          "loaded_liters": 2412.64,
+          "mix_id": "MIX_A",
+          "start_min": 577.51334379
+        },
+        {
+          "arrival_min": 604.46204865,
+          "delivered_liters": 697.7,
+          "end_min": 617.6423118,
+          "event_id": "T001",
+          "event_type": "rendezvous",
+          "mix_id": "MIX_A",
+          "pad_id": "P01",
+          "sprayer_id": "SP01",
+          "start_min": 604.46204864,
+          "sync_id": "SYNC_A1"
+        },
+        {
+          "arrival_min": 633.61784417,
+          "delivered_liters": 1714.94,
+          "end_min": 699.06370858,
+          "event_id": "T002",
+          "event_type": "rendezvous",
+          "mix_id": "MIX_A",
+          "pad_id": "P09",
+          "sprayer_id": "SP04",
+          "start_min": 672.49870858,
+          "sync_id": "SYNC_A2"
+        },
+        {
+          "arrival_min": 709.20334542,
+          "end_min": 988.5951417,
+          "event_id": "L002",
+          "event_type": "reload",
+          "loaded_liters": 1091.6,
+          "mix_id": "MIX_C",
+          "start_min": 979.93164964
+        },
+        {
+          "arrival_min": 996.12255707,
+          "delivered_liters": 1091.6,
+          "end_min": 1014.48571496,
+          "event_id": "T003",
+          "event_type": "rendezvous",
+          "mix_id": "MIX_C",
+          "pad_id": "P04",
+          "sprayer_id": "SP02",
+          "start_min": 996.12255707,
+          "sync_id": "SYNC_C2"
+        }
+      ],
+      "tender_id": "TN01"
+    },
+    {
+      "events": [
+        {
+          "arrival_min": 350.0,
+          "end_min": 619.82988686,
+          "event_id": "L001",
+          "event_type": "reload",
+          "loaded_liters": 2926.71,
+          "mix_id": "MIX_B",
+          "start_min": 595.64220091
+        },
+        {
+          "arrival_min": 627.66344114,
+          "delivered_liters": 1634.76,
+          "end_min": 653.17344114,
+          "event_id": "T001",
+          "event_type": "rendezvous",
+          "mix_id": "MIX_B",
+          "pad_id": "P04",
+          "sprayer_id": "SP02",
+          "start_min": 627.66344114,
+          "sync_id": "SYNC_B2"
+        },
+        {
+          "arrival_min": 663.90356128,
+          "delivered_liters": 1291.95,
+          "end_min": 784.49934211,
+          "event_id": "T002",
+          "event_type": "rendezvous",
+          "mix_id": "MIX_B",
+          "pad_id": "P02",
+          "sprayer_id": "SP01",
+          "start_min": 763.5,
+          "sync_id": "SYNC_B1"
+        }
+      ],
+      "tender_id": "TN02"
+    },
+    {
+      "events": [
+        {
+          "arrival_min": 355.0,
+          "end_min": 611.53491001,
+          "event_id": "L001",
+          "event_type": "reload",
+          "loaded_liters": 1266.28,
+          "mix_id": "MIX_C",
+          "start_min": 601.23995066
+        },
+        {
+          "arrival_min": 619.87934246,
+          "delivered_liters": 1266.28,
+          "end_min": 640.54092141,
+          "event_id": "T001",
+          "event_type": "rendezvous",
+          "mix_id": "MIX_C",
+          "pad_id": "P05",
+          "sprayer_id": "SP03",
+          "start_min": 619.87934246,
+          "sync_id": "SYNC_C1"
+        }
+      ],
+      "tender_id": "TN03"
+    }
+  ]
+}

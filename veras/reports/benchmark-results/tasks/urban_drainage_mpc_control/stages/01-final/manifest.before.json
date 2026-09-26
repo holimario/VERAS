@@ -1,0 +1,78 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "AGENT_BRIEF.md": {
+    "bytes": 3309,
+    "sha256": "408bc6c2855d523d0cb9297115acb41224ec6e7ea8c46701d7e4f119321813d7"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 7267,
+    "sha256": "6e5d5732d607c6f92ec534d220bb2c9f640f72b4a5a31585c62c6413fc6736b1"
+  },
+  "data/basins.csv": {
+    "bytes": 789,
+    "sha256": "30648e506883e11c06658d8d12e8852da2761db6f18b5cb6f7b961ce88c8229b"
+  },
+  "data/config.json": {
+    "bytes": 391,
+    "sha256": "99098166b3ea7261b0bc1b2138db4b529d741f81277111ae9520b4b7426c8921"
+  },
+  "data/control_availability.csv": {
+    "bytes": 44653,
+    "sha256": "b087a1754558b14718795c1ff208dbe0cdbcd06deb80dff93935affdb2c9c0d5"
+  },
+  "data/control_groups.csv": {
+    "bytes": 520,
+    "sha256": "fe6e8eec2c94f78cc6c4e03b0c4371976545fbbb04902131129c192132a9ffac"
+  },
+  "data/controls.csv": {
+    "bytes": 1254,
+    "sha256": "380f10a359cdbdcc6358995ad1427cd7a7f83c3d496e4b544ce6e67b68495b79"
+  },
+  "data/district_service.csv": {
+    "bytes": 127,
+    "sha256": "c62438ad3326a9d68a22aed46d0770d25234d1ae7c343634e775d3f4962a5f56"
+  },
+  "data/energy_tariffs.csv": {
+    "bytes": 250,
+    "sha256": "c46e2bffe99e7b43ea7c4c723c820e872668ca000bb71b2a3de09f51bcf2d842"
+  },
+  "data/group_duty_limits.csv": {
+    "bytes": 417,
+    "sha256": "74a5abf226176e9dec4101cc6000bf689f782e46793c01fe46f0f20f209718f3"
+  },
+  "data/outfall_limits.csv": {
+    "bytes": 11188,
+    "sha256": "169e173aedfe7a89e28163cc4e89ac5142e8ee7ddf3d687708c3144f4a7f3f0e"
+  },
+  "data/scenario_inflows.csv": {
+    "bytes": 37320,
+    "sha256": "cde1edb89df7d905fcd31f126123cdc01c40b1c9aabe761f99878463778d79ff"
+  },
+  "data/scenarios.csv": {
+    "bytes": 327,
+    "sha256": "3dbfb8ae4a310cccd23c19bbf02df1c12e7d11a93723a6f71781eb5eeaa9e362"
+  },
+  "data/treatment_capacity.csv": {
+    "bytes": 2751,
+    "sha256": "7888bf56337b567a7306f433ad325d550ef06dfa3aae9e9688dbfc652e89a173"
+  },
+  "submissions/solution_template.csv": {
+    "bytes": 38,
+    "sha256": "c0934609e2bbf9d6770c4cdb114c8e1ac4b3b7f7183a16764fb3982f6c50fba2"
+  }
+}

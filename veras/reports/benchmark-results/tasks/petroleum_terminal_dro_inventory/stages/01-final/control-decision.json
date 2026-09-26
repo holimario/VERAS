@@ -1,0 +1,216 @@
+{
+  "challenger_attempts": 0,
+  "challenger_report_present": false,
+  "critic_used": false,
+  "decisions": [
+    {
+      "action": "resume-agent-performance",
+      "max_normalized_residual": 0.0,
+      "mode": "performance",
+      "observer_coverage_complete": true,
+      "primary_target": {
+        "exists": true,
+        "path": "submissions/solution.csv",
+        "records": 1788,
+        "status": "valid-csv",
+        "valid": true
+      },
+      "remaining_seconds": 1624.401,
+      "semantic_observer": "petroleum-robust-inventory-observer-v1",
+      "semantic_safe": true,
+      "semantic_violation_count": 0,
+      "solver_candidates": [
+        "submissions/solve.py"
+      ],
+      "triggers": [
+        "current-stage-solver-executable"
+      ]
+    },
+    {
+      "action": "resume-agent-performance",
+      "max_normalized_residual": 0.0,
+      "mode": "performance",
+      "observer_coverage_complete": true,
+      "primary_target": {
+        "exists": true,
+        "path": "submissions/solution.csv",
+        "records": 1561,
+        "status": "valid-csv",
+        "valid": true
+      },
+      "remaining_seconds": 398.188,
+      "semantic_observer": "petroleum-robust-inventory-observer-v1",
+      "semantic_safe": true,
+      "semantic_violation_count": 0,
+      "solver_candidates": [
+        "submissions/solve.py"
+      ],
+      "triggers": [
+        "current-stage-solver-executable"
+      ]
+    }
+  ],
+  "final_audit": {
+    "primary_target": {
+      "exists": true,
+      "path": "submissions/solution.csv",
+      "records": 1561,
+      "status": "valid-csv",
+      "valid": true
+    },
+    "primary_target_exists": true,
+    "primary_target_valid": true,
+    "python_count": 1,
+    "python_syntax": [
+      {
+        "path": "submissions/solve.py",
+        "valid": true
+      }
+    ],
+    "python_valid": true,
+    "required": [
+      {
+        "exists": true,
+        "path": "submissions/model.md"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solve.py"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solve_log.md"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solution.csv"
+      }
+    ],
+    "required_present": 4,
+    "required_total": 4,
+    "target_exists": true,
+    "target_valid": true,
+    "targets": [
+      {
+        "exists": true,
+        "path": "submissions/solution.csv",
+        "records": 1561,
+        "status": "valid-csv",
+        "valid": true
+      }
+    ]
+  },
+  "final_observation": {
+    "coverage_complete": true,
+    "covered_constraint_groups": [
+      "schema/identifier-domains/nonnegativity",
+      "inbound-lane/commitment/robust-terminal-capacity",
+      "disrupted-outbound-lane/fleet/stop/shift-capacity",
+      "depot-inventory/capacity/reserve",
+      "station-inventory/service-floor/capacity/reserve",
+      "scenario-wide-emergency-capacity"
+    ],
+    "max_normalized_residual": 0.0,
+    "metrics": {
+      "actual_violation_count": 0,
+      "row_count": 1561,
+      "scenario_count": 16,
+      "stored_examples_per_group": 8,
+      "violation_counts_by_group": {}
+    },
+    "observer": "petroleum-robust-inventory-observer-v1",
+    "safe": true,
+    "supported": true,
+    "total_normalized_violation_mass": 0,
+    "violation_count": 0,
+    "violations": []
+  },
+  "harness_name": "VERAS",
+  "initial_audit": {
+    "primary_target": {
+      "exists": true,
+      "path": "submissions/solution.csv",
+      "records": 1788,
+      "status": "valid-csv",
+      "valid": true
+    },
+    "primary_target_exists": true,
+    "primary_target_valid": true,
+    "python_count": 1,
+    "python_syntax": [
+      {
+        "path": "submissions/solve.py",
+        "valid": true
+      }
+    ],
+    "python_valid": true,
+    "required": [
+      {
+        "exists": true,
+        "path": "submissions/model.md"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solve.py"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solve_log.md"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solution.csv"
+      }
+    ],
+    "required_present": 4,
+    "required_total": 4,
+    "target_exists": true,
+    "target_valid": true,
+    "targets": [
+      {
+        "exists": true,
+        "path": "submissions/solution.csv",
+        "records": 1788,
+        "status": "valid-csv",
+        "valid": true
+      }
+    ]
+  },
+  "initial_budget_seconds": 1890.0,
+  "initial_observation": {
+    "coverage_complete": true,
+    "covered_constraint_groups": [
+      "schema/identifier-domains/nonnegativity",
+      "inbound-lane/commitment/robust-terminal-capacity",
+      "disrupted-outbound-lane/fleet/stop/shift-capacity",
+      "depot-inventory/capacity/reserve",
+      "station-inventory/service-floor/capacity/reserve",
+      "scenario-wide-emergency-capacity"
+    ],
+    "max_normalized_residual": 0.0,
+    "metrics": {
+      "actual_violation_count": 0,
+      "row_count": 1788,
+      "scenario_count": 16,
+      "stored_examples_per_group": 8,
+      "violation_counts_by_group": {}
+    },
+    "observer": "petroleum-robust-inventory-observer-v1",
+    "safe": true,
+    "supported": true,
+    "total_normalized_violation_mass": 0,
+    "violation_count": 0,
+    "violations": []
+  },
+  "local_solver_accepted": false,
+  "local_solver_used": false,
+  "performance_accepted": true,
+  "performance_attempts": 2,
+  "policy": "counterexample-guided-guarded-performance",
+  "recovery_accepted": false,
+  "recovery_attempts": 0,
+  "reserved_recovery_seconds": 810.0,
+  "rollback_reasons": [],
+  "session_id": "<REDACTED_ID>",
+  "total_budget_seconds": 2700.0
+}

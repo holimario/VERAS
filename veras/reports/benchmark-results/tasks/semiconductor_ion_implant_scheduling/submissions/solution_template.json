@@ -1,0 +1,13 @@
+{
+  "events": [
+    {
+      "batch_id": "B001",
+      "end_min": 156.7,
+      "event_id": "E001",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L001_OP1",
+      "start_min": 123.4
+    }
+  ]
+}

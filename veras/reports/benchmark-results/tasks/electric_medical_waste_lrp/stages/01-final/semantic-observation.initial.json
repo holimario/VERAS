@@ -1,0 +1,115 @@
+{
+  "coverage_complete": false,
+  "covered_constraint_groups": [
+    "clinic-coverage",
+    "route-boundary/sequence",
+    "vehicle-permit/isolation/incompatibility",
+    "vehicle-load/battery/shift",
+    "clinic-time-window/maximum-onboard-time",
+    "facility-compatibility/daily-capacity/minimum-throughput",
+    "facility-window-unload/kg-cap",
+    "charger-session/energy-cap"
+  ],
+  "max_normalized_residual": 0.0,
+  "metrics": {
+    "clinic_count": 44,
+    "route_count": 8,
+    "route_metrics": [
+      {
+        "facility_id": "F3",
+        "unload_kg": 211.5,
+        "unload_time": 625.5,
+        "vehicle_id": "EV1"
+      },
+      {
+        "facility_id": "F3",
+        "unload_kg": 300.6,
+        "unload_time": 763.8,
+        "vehicle_id": "EV1"
+      },
+      {
+        "facility_id": "F5",
+        "unload_kg": 169.2,
+        "unload_time": 591.8,
+        "vehicle_id": "EV2"
+      },
+      {
+        "facility_id": "F2",
+        "unload_kg": 378.7,
+        "unload_time": 807.8,
+        "vehicle_id": "EV2"
+      },
+      {
+        "facility_id": "F3",
+        "unload_kg": 262.5,
+        "unload_time": 736.6,
+        "vehicle_id": "EV3"
+      },
+      {
+        "facility_id": "F2",
+        "unload_kg": 310.5,
+        "unload_time": 711.1,
+        "vehicle_id": "EV4"
+      },
+      {
+        "facility_id": "F2",
+        "unload_kg": 193.2,
+        "unload_time": 934.5,
+        "vehicle_id": "EV4"
+      },
+      {
+        "facility_id": "F1",
+        "unload_kg": 235.7,
+        "unload_time": 656.6,
+        "vehicle_id": "EV5"
+      },
+      {
+        "facility_id": "F3",
+        "unload_kg": 166.7,
+        "unload_time": 655.0,
+        "vehicle_id": "EV6"
+      },
+      {
+        "facility_id": "F1",
+        "unload_kg": 277.2,
+        "unload_time": 610.7,
+        "vehicle_id": "EV7"
+      },
+      {
+        "facility_id": "F5",
+        "unload_kg": 164.9,
+        "unload_time": 671.6,
+        "vehicle_id": "EV8"
+      },
+      {
+        "facility_id": "F5",
+        "unload_kg": 468.6,
+        "unload_time": 921.1,
+        "vehicle_id": "EV8"
+      }
+    ],
+    "window_kg": {
+      "F1|early": 512.9000000000001,
+      "F1|late": 0.0,
+      "F1|midday": 0.0,
+      "F2|early": 310.5,
+      "F2|late": 0.0,
+      "F2|midday": 571.9,
+      "F3|early": 378.2,
+      "F3|late": 0.0,
+      "F3|midday": 563.1,
+      "F4|early": 0.0,
+      "F4|late": 0.0,
+      "F4|midday": 0.0,
+      "F5|early": 334.09999999999997,
+      "F5|late": 0.0,
+      "F5|midday": 468.6
+    }
+  },
+  "observer": "medical-waste-route-observer-v1",
+  "safe": true,
+  "supported": true,
+  "total_normalized_violation_mass": 0,
+  "violation_count": 0,
+  "violations": []
+}

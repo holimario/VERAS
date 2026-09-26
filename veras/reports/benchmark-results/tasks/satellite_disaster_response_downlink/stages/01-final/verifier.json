@@ -1,0 +1,137 @@
+{
+  "evaluation": {
+    "error_count": 0,
+    "errors": [],
+    "expected_profit": 6822.557600000001,
+    "feasible": true,
+    "first_stage_observation_count": 43,
+    "profit": 6822.557600000001,
+    "scenario_delivered_counts": {
+      "S_CLEAR": 41,
+      "S_STATION_OUTAGE": 37,
+      "S_TROPICAL_CLOUDS": 30,
+      "S_WILDFIRE_SMOKE": 40
+    },
+    "scenario_profits": {
+      "S_CLEAR": 8131.020000000001,
+      "S_STATION_OUTAGE": 7245.52,
+      "S_TROPICAL_CLOUDS": 5928.849999999999,
+      "S_WILDFIRE_SMOKE": 8222.16
+    },
+    "tail_loss": 0.0
+  },
+  "process": {
+    "command": [
+      "<RUNTIME_BINARY>",
+      "-r",
+      "/run/root",
+      "-b",
+      "/usr:/usr",
+      "-b",
+      "/usr/bin:/bin",
+      "-b",
+      "/usr/lib:/lib",
+      "-b",
+      "/usr/lib64:/lib64",
+      "-b",
+      "/etc:/etc",
+      "-b",
+      "/dev:/dev",
+      "-b",
+      "/proc:/proc",
+      "-b",
+      "<RUNTIME_DEPENDENCIES>:/opt/or-deps",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/codex",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/node",
+      "-b",
+      "/workspace/project:/opt/dsh",
+      "-w",
+      "/app",
+      "-b",
+      "/benchmark/harbor_tasks/satellite_disaster_response_downlink/tests:/tests",
+      "/bin/bash",
+      "/tests/test.sh"
+    ],
+    "finished_at": "2026-09-10T01:12:24.189712+00:00",
+    "return_code": 0,
+    "started_at": "2026-09-10T01:12:24.025722+00:00",
+    "timed_out": false,
+    "timeout_seconds": 360.0,
+    "wall_seconds": 0.164
+  },
+  "reward_details": {
+    "agent_objective": 6822.557600000001,
+    "agent_objective_source": "profit",
+    "best_bound": 7404.412597424037,
+    "bound_sense": "upper",
+    "evaluation_diagnostics": {
+      "error_count": 0,
+      "objective": null,
+      "profit": 6822.557600000001,
+      "score": null,
+      "total_cost": null
+    },
+    "fallback_mip_gap": 0.0005,
+    "fallback_reference_scale": 6918.37424,
+    "feasibility": 1.0,
+    "formula": "clip(1 + (O - R) / (B - R), 0, 2) when B exists and B - R >= max(abs(R), 1e-8) * mip_gap",
+    "objective_sense": "maximize",
+    "quality": 0.802861978820315,
+    "quality_status": "scored_with_best_bound",
+    "reference_metrics": {
+      "best_bound": 7404.412597424037,
+      "best_bound_source": "best_bound",
+      "bound_sense": "upper",
+      "evaluation_summary": {
+        "error_count": 0,
+        "feasible": true,
+        "profit": 6918.37424
+      },
+      "generated_at": "2026-05-16T22:15:59.790920+00:00",
+      "mip_gap": 0.0005,
+      "objective_sense": "maximize",
+      "quality_formula": "clip(1 + (O - R) / (B - R), 0, 2) if B exists and B - R >= max(abs(R), 1e-8) * mip_gap; otherwise let d=(O - R)/(max(abs(R), 1e-8)*mip_gap), quality=clip(2+d if d>=-1 else 1.5+0.5*d, 0, 2); if no R, quality = 2",
+      "reference_objective": 6918.37424,
+      "reference_objective_source": "profit",
+      "solution_path": "/reference-solutions/satellite_disaster_response_downlink_reference_solution.csv",
+      "solver_summary": {
+        "best_bound": 7404.412597424037,
+        "constraints": 4896,
+        "evaluation": {
+          "error_count": 0,
+          "errors": [],
+          "expected_profit": 6918.37424,
+          "feasible": true,
+          "first_stage_observation_count": 43,
+          "profit": 6918.37424,
+          "scenario_delivered_counts": {
+            "S_CLEAR": 42,
+            "S_STATION_OUTAGE": 37,
+            "S_TROPICAL_CLOUDS": 30,
+            "S_WILDFIRE_SMOKE": 41
+          },
+          "scenario_profits": {
+            "S_CLEAR": 8284.54,
+            "S_STATION_OUTAGE": 7448.079999999999,
+            "S_TROPICAL_CLOUDS": 5859.61,
+            "S_WILDFIRE_SMOKE": 8368.928000000002
+          },
+          "tail_loss": 0.0
+        },
+        "gap": 0.07025326190276238,
+        "objective": 6918.374239999993,
+        "output": "/reference-solutions/satellite_disaster_response_downlink_reference_solution.csv",
+        "solutions": 34,
+        "status": "timelimit",
+        "variables": 3462
+      },
+      "task_name": "satellite_disaster_response_downlink",
+      "time_limit_seconds": 300.0
+    },
+    "reference_objective": 6918.37424,
+    "scalar_reward": 0.600953992940105,
+    "scalar_reward_formula": "(feasibility + quality) / 3.0"
+  }
+}

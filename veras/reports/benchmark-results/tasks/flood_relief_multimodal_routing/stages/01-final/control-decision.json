@@ -1,0 +1,310 @@
+{
+  "challenger_attempts": 1,
+  "challenger_report_present": true,
+  "critic_used": true,
+  "decisions": [
+    {
+      "action": "resume-agent-performance",
+      "max_normalized_residual": 0.0,
+      "mode": "performance",
+      "observer_coverage_complete": false,
+      "primary_target": {
+        "exists": true,
+        "path": "submissions/solution.csv",
+        "records": 45,
+        "status": "valid-csv",
+        "valid": true
+      },
+      "remaining_seconds": 1080.114,
+      "semantic_observer": "flood-relief-network-observer-v1",
+      "semantic_safe": true,
+      "semantic_violation_count": 0,
+      "solver_candidates": [
+        "submissions/solve.py"
+      ],
+      "triggers": [
+        "current-stage-solver-executable"
+      ]
+    },
+    {
+      "action": "resume-agent-performance",
+      "max_normalized_residual": 0.0,
+      "mode": "performance",
+      "observer_coverage_complete": false,
+      "primary_target": {
+        "exists": true,
+        "path": "submissions/solution.csv",
+        "records": 45,
+        "status": "valid-csv",
+        "valid": true
+      },
+      "remaining_seconds": 46.931,
+      "semantic_observer": "flood-relief-network-observer-v1",
+      "semantic_safe": true,
+      "semantic_violation_count": 0,
+      "solver_candidates": [
+        "submissions/solve.py"
+      ],
+      "triggers": [
+        "current-stage-solver-executable"
+      ]
+    }
+  ],
+  "final_audit": {
+    "primary_target": {
+      "exists": true,
+      "path": "submissions/solution.csv",
+      "records": 45,
+      "status": "valid-csv",
+      "valid": true
+    },
+    "primary_target_exists": true,
+    "primary_target_valid": true,
+    "python_count": 1,
+    "python_syntax": [
+      {
+        "path": "submissions/solve.py",
+        "valid": true
+      }
+    ],
+    "python_valid": true,
+    "required": [
+      {
+        "exists": true,
+        "path": "submissions/model.md"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solve.py"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solve_log.md"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solution.csv"
+      }
+    ],
+    "required_present": 4,
+    "required_total": 4,
+    "target_exists": true,
+    "target_valid": true,
+    "targets": [
+      {
+        "exists": true,
+        "path": "submissions/solution.csv",
+        "records": 45,
+        "status": "valid-csv",
+        "valid": true
+      }
+    ]
+  },
+  "final_observation": {
+    "coverage_complete": false,
+    "covered_constraint_groups": [
+      "truck-boundary/road-continuity",
+      "shelter-coverage/mode-eligibility",
+      "dry-shelter-staging",
+      "drone-option/clearance/capacity/endurance",
+      "launch-activation",
+      "boat-ramp/sequence/water-continuity",
+      "boat-capacity/robust-duration"
+    ],
+    "max_normalized_residual": 0.0,
+    "metrics": {
+      "boat_metrics": [
+        {
+          "demand_kg": 76.0,
+          "launch_node": "S13",
+          "robust_duration_minutes": 99.92,
+          "shelters": [
+            "H17",
+            "H21",
+            "H19",
+            "H15"
+          ],
+          "trip_id": "BT01"
+        },
+        {
+          "demand_kg": 68.0,
+          "launch_node": "S02",
+          "robust_duration_minutes": 95.92,
+          "shelters": [
+            "H10",
+            "H09",
+            "H23"
+          ],
+          "trip_id": "BT02"
+        },
+        {
+          "demand_kg": 91.0,
+          "launch_node": "S06",
+          "robust_duration_minutes": 107.76,
+          "shelters": [
+            "H24",
+            "H16",
+            "H14",
+            "H11"
+          ],
+          "trip_id": "BT03"
+        },
+        {
+          "demand_kg": 69.0,
+          "launch_node": "S04",
+          "robust_duration_minutes": 82.48,
+          "shelters": [
+            "H13",
+            "H18",
+            "H12"
+          ],
+          "trip_id": "BT04"
+        }
+      ],
+      "boat_trip_count": 4,
+      "delivery_count": 26,
+      "truck_stop_count": 19
+    },
+    "observer": "flood-relief-network-observer-v1",
+    "safe": true,
+    "supported": true,
+    "total_normalized_violation_mass": 0,
+    "violation_count": 0,
+    "violations": []
+  },
+  "harness_name": "VERAS",
+  "initial_audit": {
+    "primary_target": {
+      "exists": true,
+      "path": "submissions/solution.csv",
+      "records": 45,
+      "status": "valid-csv",
+      "valid": true
+    },
+    "primary_target_exists": true,
+    "primary_target_valid": true,
+    "python_count": 1,
+    "python_syntax": [
+      {
+        "path": "submissions/solve.py",
+        "valid": true
+      }
+    ],
+    "python_valid": true,
+    "required": [
+      {
+        "exists": true,
+        "path": "submissions/model.md"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solve.py"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solve_log.md"
+      },
+      {
+        "exists": true,
+        "path": "submissions/solution.csv"
+      }
+    ],
+    "required_present": 4,
+    "required_total": 4,
+    "target_exists": true,
+    "target_valid": true,
+    "targets": [
+      {
+        "exists": true,
+        "path": "submissions/solution.csv",
+        "records": 45,
+        "status": "valid-csv",
+        "valid": true
+      }
+    ]
+  },
+  "initial_budget_seconds": 1890.0,
+  "initial_observation": {
+    "coverage_complete": false,
+    "covered_constraint_groups": [
+      "truck-boundary/road-continuity",
+      "shelter-coverage/mode-eligibility",
+      "dry-shelter-staging",
+      "drone-option/clearance/capacity/endurance",
+      "launch-activation",
+      "boat-ramp/sequence/water-continuity",
+      "boat-capacity/robust-duration"
+    ],
+    "max_normalized_residual": 0.0,
+    "metrics": {
+      "boat_metrics": [
+        {
+          "demand_kg": 76.0,
+          "launch_node": "S13",
+          "robust_duration_minutes": 99.92,
+          "shelters": [
+            "H15",
+            "H19",
+            "H21",
+            "H17"
+          ],
+          "trip_id": "BT01"
+        },
+        {
+          "demand_kg": 68.0,
+          "launch_node": "S02",
+          "robust_duration_minutes": 95.92,
+          "shelters": [
+            "H10",
+            "H09",
+            "H23"
+          ],
+          "trip_id": "BT02"
+        },
+        {
+          "demand_kg": 91.0,
+          "launch_node": "S06",
+          "robust_duration_minutes": 107.76,
+          "shelters": [
+            "H11",
+            "H14",
+            "H16",
+            "H24"
+          ],
+          "trip_id": "BT03"
+        },
+        {
+          "demand_kg": 69.0,
+          "launch_node": "S04",
+          "robust_duration_minutes": 82.48,
+          "shelters": [
+            "H12",
+            "H18",
+            "H13"
+          ],
+          "trip_id": "BT04"
+        }
+      ],
+      "boat_trip_count": 4,
+      "delivery_count": 26,
+      "truck_stop_count": 19
+    },
+    "observer": "flood-relief-network-observer-v1",
+    "safe": true,
+    "supported": true,
+    "total_normalized_violation_mass": 0,
+    "violation_count": 0,
+    "violations": []
+  },
+  "local_solver_accepted": false,
+  "local_solver_used": false,
+  "performance_accepted": true,
+  "performance_attempts": 2,
+  "policy": "counterexample-guided-guarded-performance",
+  "recovery_accepted": false,
+  "recovery_attempts": 0,
+  "reserved_recovery_seconds": 810.0,
+  "rollback_reasons": [],
+  "session_id": "<REDACTED_ID>",
+  "total_budget_seconds": 2700.0
+}

@@ -1,0 +1,554 @@
+{
+  "evaluation": {
+    "aircraft_period_usage": {
+      "P1/CARGO_HAWK": {
+        "fuel_liters": 789.1666666666666,
+        "prep_hours": 2.2,
+        "trips": 2.0
+      },
+      "P1/COASTAL_SKIMMER": {
+        "fuel_liters": 0.0,
+        "prep_hours": 0.0,
+        "trips": 0.0
+      },
+      "P1/GUARDIAN": {
+        "fuel_liters": 0.0,
+        "prep_hours": 0.0,
+        "trips": 0.0
+      },
+      "P1/RIDGE_MULE": {
+        "fuel_liters": 361.1,
+        "prep_hours": 1.6800000000000002,
+        "trips": 1.0
+      },
+      "P1/SWIFT_MEDIC": {
+        "fuel_liters": 723.8333333333333,
+        "prep_hours": 1.8,
+        "trips": 2.0
+      },
+      "P2/CARGO_HAWK": {
+        "fuel_liters": 486.25,
+        "prep_hours": 1.7600000000000002,
+        "trips": 1.0
+      },
+      "P2/COASTAL_SKIMMER": {
+        "fuel_liters": 673.9512032085561,
+        "prep_hours": 1.6,
+        "trips": 2.0
+      },
+      "P2/GUARDIAN": {
+        "fuel_liters": 803.5501336898395,
+        "prep_hours": 2.4000000000000004,
+        "trips": 2.0
+      },
+      "P2/RIDGE_MULE": {
+        "fuel_liters": 464.6,
+        "prep_hours": 1.6800000000000002,
+        "trips": 1.0
+      },
+      "P2/SWIFT_MEDIC": {
+        "fuel_liters": 549.7561497326203,
+        "prep_hours": 1.4400000000000002,
+        "trips": 2.0
+      },
+      "P3/CARGO_HAWK": {
+        "fuel_liters": 0.0,
+        "prep_hours": 0.0,
+        "trips": 0.0
+      },
+      "P3/COASTAL_SKIMMER": {
+        "fuel_liters": 448.0,
+        "prep_hours": 1.0,
+        "trips": 1.0
+      },
+      "P3/GUARDIAN": {
+        "fuel_liters": 712.7540106951872,
+        "prep_hours": 2.4000000000000004,
+        "trips": 2.0
+      },
+      "P3/RIDGE_MULE": {
+        "fuel_liters": 381.8,
+        "prep_hours": 1.6800000000000002,
+        "trips": 1.0
+      },
+      "P3/SWIFT_MEDIC": {
+        "fuel_liters": 683.7,
+        "prep_hours": 1.8,
+        "trips": 2.0
+      },
+      "P4/CARGO_HAWK": {
+        "fuel_liters": 460.0,
+        "prep_hours": 1.7600000000000002,
+        "trips": 1.0
+      },
+      "P4/COASTAL_SKIMMER": {
+        "fuel_liters": 463.3125,
+        "prep_hours": 1.0,
+        "trips": 1.0
+      },
+      "P4/GUARDIAN": {
+        "fuel_liters": 877.8482620320856,
+        "prep_hours": 2.4000000000000004,
+        "trips": 2.0
+      },
+      "P4/RIDGE_MULE": {
+        "fuel_liters": 423.20000000000005,
+        "prep_hours": 1.6800000000000002,
+        "trips": 1.0
+      },
+      "P4/SWIFT_MEDIC": {
+        "fuel_liters": 379.47499999999997,
+        "prep_hours": 0.9,
+        "trips": 1.0
+      }
+    },
+    "aircraft_total_trips": {
+      "CARGO_HAWK": 4.0,
+      "COASTAL_SKIMMER": 4.0,
+      "GUARDIAN": 6.0,
+      "RIDGE_MULE": 4.0,
+      "SWIFT_MEDIC": 7.0
+    },
+    "error_count": 0,
+    "errors": [],
+    "feasible": true,
+    "objective": 0.12602409622938412,
+    "objective_sense": "maximize",
+    "payload_use": {
+      "HEAVY_REPAIR": 9.0,
+      "LIGHT_REPAIR": 9.0,
+      "MICRO_RELAY": 7.0
+    },
+    "period_usage": {
+      "P1": {
+        "fuel_liters": 1874.1,
+        "prep_hours": 5.68,
+        "trips": 5.0
+      },
+      "P2": {
+        "fuel_liters": 2978.1074866310155,
+        "prep_hours": 8.88,
+        "trips": 8.0
+      },
+      "P3": {
+        "fuel_liters": 2226.2540106951874,
+        "prep_hours": 6.880000000000001,
+        "trips": 6.0
+      },
+      "P4": {
+        "fuel_liters": 2603.8357620320858,
+        "prep_hours": 7.74,
+        "trips": 6.0
+      }
+    },
+    "profit": 0.12602409622938412,
+    "scenario_mission_probabilities": {
+      "BASELINE": 0.1446099944879948,
+      "COASTAL_GUST": 0.11008125393057147,
+      "RIDGE_ICING": 0.11294946154595382,
+      "SECONDARY_SLIDE": 0.1196168166073412,
+      "SMOKE_LOW_VIS": 0.11463778837042334
+    },
+    "total_fuel_liters": 9682.29725935829,
+    "total_prep_hours": 29.180000000000003,
+    "total_trips": 25.0,
+    "weighted_mission_success_probability": 0.12602409622938412
+  },
+  "process": {
+    "command": [
+      "<RUNTIME_BINARY>",
+      "-r",
+      "/run/root",
+      "-b",
+      "/usr:/usr",
+      "-b",
+      "/usr/bin:/bin",
+      "-b",
+      "/usr/lib:/lib",
+      "-b",
+      "/usr/lib64:/lib64",
+      "-b",
+      "/etc:/etc",
+      "-b",
+      "/dev:/dev",
+      "-b",
+      "/proc:/proc",
+      "-b",
+      "<RUNTIME_DEPENDENCIES>:/opt/or-deps",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/codex",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/node",
+      "-b",
+      "/workspace/project:/opt/dsh",
+      "-w",
+      "/app",
+      "-b",
+      "/benchmark/harbor_tasks/IndustryOR_17/tests:/tests",
+      "/bin/bash",
+      "/tests/test.sh"
+    ],
+    "finished_at": "2026-09-09T18:41:45.864247+00:00",
+    "return_code": 0,
+    "started_at": "2026-09-09T18:41:45.700280+00:00",
+    "timed_out": false,
+    "timeout_seconds": 360.0,
+    "wall_seconds": 0.164
+  },
+  "reward_details": {
+    "agent_objective": 0.12602409622938412,
+    "agent_objective_source": "profit",
+    "best_bound": 0.1250762028529855,
+    "bound_sense": "upper",
+    "evaluation_diagnostics": {
+      "error_count": 0,
+      "objective": 0.12602409622938412,
+      "profit": 0.12602409622938412,
+      "score": null,
+      "total_cost": null
+    },
+    "fallback_mip_gap": 0.0005,
+    "fallback_reference_scale": 0.1250762028529855,
+    "feasibility": 1.0,
+    "formula": "clip(2 + d if d >= -1 else 1.5 + 0.5*d, 0, 2), d = (O - R) / (max(abs(R), 1e-8) * mip_gap)",
+    "objective_sense": "maximize",
+    "quality": 2.0,
+    "quality_status": "bound_gap_below_mip_gap",
+    "reference_metrics": {
+      "best_bound": 0.1250762028529855,
+      "best_bound_source": "best_bound",
+      "bound_sense": "upper",
+      "evaluation_summary": {
+        "error_count": 0,
+        "feasible": true,
+        "objective": 0.1250762028529855,
+        "profit": 0.1250762028529855
+      },
+      "generated_at": "2026-05-24T07:36:22.479892+00:00",
+      "mip_gap": 0.0005,
+      "objective_sense": "maximize",
+      "quality_formula": "clip(1 + (O - R) / (B - R), 0, 2) if B exists and B - R >= max(abs(R), 1e-8) * mip_gap; otherwise let d=(O - R)/(max(abs(R), 1e-8)*mip_gap), quality=clip(2+d if d>=-1 else 1.5+0.5*d, 0, 2); if no R, quality = 2",
+      "reference_objective": 0.1250762028529855,
+      "reference_objective_source": "profit",
+      "solution_path": "reference_solutions/IndustryOR_17_reference_solution.csv",
+      "solver_summary": {
+        "best_bound": 0.1250762028529855,
+        "evaluation": {
+          "aircraft_period_usage": {
+            "P1/CARGO_HAWK": {
+              "fuel_liters": 392.5,
+              "prep_hours": 1.7600000000000002,
+              "trips": 1.0
+            },
+            "P1/COASTAL_SKIMMER": {
+              "fuel_liters": 0.0,
+              "prep_hours": 0.0,
+              "trips": 0.0
+            },
+            "P1/GUARDIAN": {
+              "fuel_liters": 0.0,
+              "prep_hours": 0.0,
+              "trips": 0.0
+            },
+            "P1/RIDGE_MULE": {
+              "fuel_liters": 774.3333333333333,
+              "prep_hours": 2.1,
+              "trips": 2.0
+            },
+            "P1/SWIFT_MEDIC": {
+              "fuel_liters": 656.1083333333333,
+              "prep_hours": 1.8,
+              "trips": 2.0
+            },
+            "P2/CARGO_HAWK": {
+              "fuel_liters": 486.25,
+              "prep_hours": 1.7600000000000002,
+              "trips": 1.0
+            },
+            "P2/COASTAL_SKIMMER": {
+              "fuel_liters": 761.25,
+              "prep_hours": 2.0,
+              "trips": 2.0
+            },
+            "P2/GUARDIAN": {
+              "fuel_liters": 479.75,
+              "prep_hours": 1.6,
+              "trips": 1.0
+            },
+            "P2/RIDGE_MULE": {
+              "fuel_liters": 512.9,
+              "prep_hours": 1.6800000000000002,
+              "trips": 1.0
+            },
+            "P2/SWIFT_MEDIC": {
+              "fuel_liters": 614.9076648841353,
+              "prep_hours": 1.62,
+              "trips": 2.0
+            },
+            "P3/CARGO_HAWK": {
+              "fuel_liters": 0.0,
+              "prep_hours": 0.0,
+              "trips": 0.0
+            },
+            "P3/COASTAL_SKIMMER": {
+              "fuel_liters": 448.0,
+              "prep_hours": 1.0,
+              "trips": 1.0
+            },
+            "P3/GUARDIAN": {
+              "fuel_liters": 668.1751336898395,
+              "prep_hours": 2.4000000000000004,
+              "trips": 2.0
+            },
+            "P3/RIDGE_MULE": {
+              "fuel_liters": 381.8,
+              "prep_hours": 1.6800000000000002,
+              "trips": 1.0
+            },
+            "P3/SWIFT_MEDIC": {
+              "fuel_liters": 683.7,
+              "prep_hours": 1.8,
+              "trips": 2.0
+            },
+            "P4/CARGO_HAWK": {
+              "fuel_liters": 460.0,
+              "prep_hours": 1.7600000000000002,
+              "trips": 1.0
+            },
+            "P4/COASTAL_SKIMMER": {
+              "fuel_liters": 926.625,
+              "prep_hours": 2.0,
+              "trips": 2.0
+            },
+            "P4/GUARDIAN": {
+              "fuel_liters": 437.0,
+              "prep_hours": 1.6,
+              "trips": 1.0
+            },
+            "P4/RIDGE_MULE": {
+              "fuel_liters": 512.9,
+              "prep_hours": 1.6800000000000002,
+              "trips": 1.0
+            },
+            "P4/SWIFT_MEDIC": {
+              "fuel_liters": 315.23368983957215,
+              "prep_hours": 0.7200000000000001,
+              "trips": 1.0
+            }
+          },
+          "aircraft_total_trips": {
+            "CARGO_HAWK": 3.0,
+            "COASTAL_SKIMMER": 5.0,
+            "GUARDIAN": 4.0,
+            "RIDGE_MULE": 5.0,
+            "SWIFT_MEDIC": 7.0
+          },
+          "error_count": 0,
+          "errors": [],
+          "feasible": true,
+          "objective": 0.1250762028529855,
+          "objective_sense": "maximize",
+          "payload_use": {
+            "HEAVY_REPAIR": 9.0,
+            "LIGHT_REPAIR": 12.0,
+            "MICRO_RELAY": 3.0
+          },
+          "period_usage": {
+            "P1": {
+              "fuel_liters": 1822.9416666666666,
+              "prep_hours": 5.66,
+              "trips": 5.0
+            },
+            "P2": {
+              "fuel_liters": 2855.0576648841356,
+              "prep_hours": 8.66,
+              "trips": 7.0
+            },
+            "P3": {
+              "fuel_liters": 2181.6751336898396,
+              "prep_hours": 6.880000000000001,
+              "trips": 6.0
+            },
+            "P4": {
+              "fuel_liters": 2651.758689839572,
+              "prep_hours": 7.76,
+              "trips": 6.0
+            }
+          },
+          "profit": 0.1250762028529855,
+          "scenario_mission_probabilities": {
+            "BASELINE": 0.1434917270995833,
+            "COASTAL_GUST": 0.10919323314177572,
+            "RIDGE_ICING": 0.11195126608019128,
+            "SECONDARY_SLIDE": 0.11915441334362765,
+            "SMOKE_LOW_VIS": 0.11386562365386016
+          },
+          "total_fuel_liters": 9511.433155080214,
+          "total_prep_hours": 28.960000000000004,
+          "total_trips": 24.0,
+          "weighted_mission_success_probability": 0.1250762028529855
+        },
+        "mip_gap": 0.0,
+        "objective": 0.1250762028529855,
+        "objective_components": {
+          "aircraft_period_usage": {
+            "P1/CARGO_HAWK": {
+              "fuel_liters": 392.5,
+              "prep_hours": 1.7600000000000002,
+              "trips": 1.0
+            },
+            "P1/COASTAL_SKIMMER": {
+              "fuel_liters": 0.0,
+              "prep_hours": 0.0,
+              "trips": 0.0
+            },
+            "P1/GUARDIAN": {
+              "fuel_liters": 0.0,
+              "prep_hours": 0.0,
+              "trips": 0.0
+            },
+            "P1/RIDGE_MULE": {
+              "fuel_liters": 774.3333333333333,
+              "prep_hours": 2.1,
+              "trips": 2.0
+            },
+            "P1/SWIFT_MEDIC": {
+              "fuel_liters": 656.1083333333333,
+              "prep_hours": 1.8,
+              "trips": 2.0
+            },
+            "P2/CARGO_HAWK": {
+              "fuel_liters": 486.25,
+              "prep_hours": 1.7600000000000002,
+              "trips": 1.0
+            },
+            "P2/COASTAL_SKIMMER": {
+              "fuel_liters": 761.25,
+              "prep_hours": 2.0,
+              "trips": 2.0
+            },
+            "P2/GUARDIAN": {
+              "fuel_liters": 479.75,
+              "prep_hours": 1.6,
+              "trips": 1.0
+            },
+            "P2/RIDGE_MULE": {
+              "fuel_liters": 512.9,
+              "prep_hours": 1.6800000000000002,
+              "trips": 1.0
+            },
+            "P2/SWIFT_MEDIC": {
+              "fuel_liters": 614.9076648841353,
+              "prep_hours": 1.62,
+              "trips": 2.0
+            },
+            "P3/CARGO_HAWK": {
+              "fuel_liters": 0.0,
+              "prep_hours": 0.0,
+              "trips": 0.0
+            },
+            "P3/COASTAL_SKIMMER": {
+              "fuel_liters": 448.0,
+              "prep_hours": 1.0,
+              "trips": 1.0
+            },
+            "P3/GUARDIAN": {
+              "fuel_liters": 668.1751336898395,
+              "prep_hours": 2.4000000000000004,
+              "trips": 2.0
+            },
+            "P3/RIDGE_MULE": {
+              "fuel_liters": 381.8,
+              "prep_hours": 1.6800000000000002,
+              "trips": 1.0
+            },
+            "P3/SWIFT_MEDIC": {
+              "fuel_liters": 683.7,
+              "prep_hours": 1.8,
+              "trips": 2.0
+            },
+            "P4/CARGO_HAWK": {
+              "fuel_liters": 460.0,
+              "prep_hours": 1.7600000000000002,
+              "trips": 1.0
+            },
+            "P4/COASTAL_SKIMMER": {
+              "fuel_liters": 926.625,
+              "prep_hours": 2.0,
+              "trips": 2.0
+            },
+            "P4/GUARDIAN": {
+              "fuel_liters": 437.0,
+              "prep_hours": 1.6,
+              "trips": 1.0
+            },
+            "P4/RIDGE_MULE": {
+              "fuel_liters": 512.9,
+              "prep_hours": 1.6800000000000002,
+              "trips": 1.0
+            },
+            "P4/SWIFT_MEDIC": {
+              "fuel_liters": 315.23368983957215,
+              "prep_hours": 0.7200000000000001,
+              "trips": 1.0
+            }
+          },
+          "aircraft_total_trips": {
+            "CARGO_HAWK": 3.0,
+            "COASTAL_SKIMMER": 5.0,
+            "GUARDIAN": 4.0,
+            "RIDGE_MULE": 5.0,
+            "SWIFT_MEDIC": 7.0
+          },
+          "fuel_liters": 9511.433155080214,
+          "payload_use": {
+            "HEAVY_REPAIR": 9.0,
+            "LIGHT_REPAIR": 12.0,
+            "MICRO_RELAY": 3.0
+          },
+          "period_usage": {
+            "P1": {
+              "fuel_liters": 1822.9416666666666,
+              "prep_hours": 5.66,
+              "trips": 5.0
+            },
+            "P2": {
+              "fuel_liters": 2855.0576648841356,
+              "prep_hours": 8.66,
+              "trips": 7.0
+            },
+            "P3": {
+              "fuel_liters": 2181.6751336898396,
+              "prep_hours": 6.880000000000001,
+              "trips": 6.0
+            },
+            "P4": {
+              "fuel_liters": 2651.758689839572,
+              "prep_hours": 7.76,
+              "trips": 6.0
+            }
+          },
+          "prep_hours": 28.960000000000004,
+          "scenario_mission_probabilities": {
+            "BASELINE": 0.1434917270995833,
+            "COASTAL_GUST": 0.10919323314177572,
+            "RIDGE_ICING": 0.11195126608019128,
+            "SECONDARY_SLIDE": 0.11915441334362765,
+            "SMOKE_LOW_VIS": 0.11386562365386016
+          },
+          "total_trips": 24.0,
+          "weighted_mission_success_probability": 0.1250762028529855
+        },
+        "profit": 0.1250762028529855,
+        "solution_path": "reference_solutions/IndustryOR_17_reference_solution.csv",
+        "status": "timelimit",
+        "time_limit_seconds": 300.0
+      },
+      "task_name": "IndustryOR_17",
+      "time_limit_seconds": 300.0
+    },
+    "reference_objective": 0.1250762028529855,
+    "scalar_reward": 1.0,
+    "scalar_reward_formula": "(feasibility + quality) / 3.0"
+  }
+}

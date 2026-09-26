@@ -1,0 +1,18 @@
+Reading additional input from stdin...
+2026-09-09T18:54:22.587105Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /app/submissions/solve.py:
+        f"- `{command}`",
+        "",
+        "## Solver",
+        "",
+    ]
+        f"- Status: `{status}`",
+        f"- Time limit seconds: `{_float_fmt(time_limit)}`",
+        f"- Runtime seconds: `{_float_fmt(runtime)}`",
+        f"- Incumbent count: `{nsols}`",
+        f"- Solver objective: `{_float_fmt(solver_obj)}`",
+        f"- Dual bound: `{_float_fmt(dual_bound)}`",
+        f"- Relative gap: `{_float_fmt(gap)}`",
+        "",
+        "## Validation",
+        "",
+        f"- Selected parcels: `{audit['selected_count']}`",

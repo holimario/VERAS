@@ -1,0 +1,154 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "EVENT_NOTICE.md": {
+    "bytes": 374,
+    "sha256": "fb8edc86c2eaf9f48dd32325c0d21649577bb1d30a949fcb5293797524f1bb3f"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 9305,
+    "sha256": "e85882779827e148c8ee56030ed46a33c675c08d04887934bab827635deaf243"
+  },
+  "data/bom.csv": {
+    "bytes": 215,
+    "sha256": "bc5bfd5c63b468257be32fd2428c1f21e3ae7699687d1c06ad4b862a5070865a"
+  },
+  "data/current_week.json": {
+    "bytes": 36,
+    "sha256": "f370a17aad0bffd77ef4c1ba9ad87a5df506b57fde8d4f1b0cfa892df9ca2512"
+  },
+  "data/customers.csv": {
+    "bytes": 235,
+    "sha256": "0c881ba45828abb4b22b60039e722f0cc1548e580192e20bce6e9c95ad4da6b4"
+  },
+  "data/dc_to_customer_lanes.csv": {
+    "bytes": 442,
+    "sha256": "06506c44adb0bd4e9618609c84448491650f1e3941c2aaa1e5a418c474ab742f"
+  },
+  "data/dc_transfer_lanes.csv": {
+    "bytes": 275,
+    "sha256": "dab8fdd86867d0eb65350d0b0dd7f3bd50e7b61ef9b7e2d6b128067d1495f405"
+  },
+  "data/demand.csv": {
+    "bytes": 4852,
+    "sha256": "c0fa4bc65e8ece17cea25e2b6e8aae3ec95c047c519de87869bd43e9f77b4756"
+  },
+  "data/frozen_commitment_policy.csv": {
+    "bytes": 204,
+    "sha256": "1911b621ee97fb472b28fbda56a2e1b5e6b805a0b9354d6ccd05ea1e176412ba"
+  },
+  "data/initial_inventory.csv": {
+    "bytes": 299,
+    "sha256": "15282a1d25869001a885cb3535d53aa9ace1a5ece118167fc84c41aa27f90a77"
+  },
+  "data/material_supply.csv": {
+    "bytes": 2760,
+    "sha256": "3104f4fe038d6985a79ad122995a5f6f8c2e83744562126735636da9e82fbfc4"
+  },
+  "data/materials.csv": {
+    "bytes": 163,
+    "sha256": "7db035d545f0ba9c8ebc0052e08c040faf427c701d13f6d59790d7c61d8d01c1"
+  },
+  "data/pipeline_receipts.csv": {
+    "bytes": 175,
+    "sha256": "a5a7f5c2b4d730d57bbed6084e830f830a0c1bb9ac27058831f37da5307cdf3c"
+  },
+  "data/planning_policies.csv": {
+    "bytes": 117,
+    "sha256": "bc2f358355bc98ac34a7bf3f987c8a1f2a7acf911bec0c8334d2370b65154083"
+  },
+  "data/plant_products.csv": {
+    "bytes": 494,
+    "sha256": "678d5a0c7c248b2f1c7ba284e07d23fb27324bcea70c83f6f3b6a05dc65a14ff"
+  },
+  "data/plant_to_dc_lanes.csv": {
+    "bytes": 455,
+    "sha256": "b8e16e29c9d0be4fbcd9eb434f1bfbdd2875266fb9e205336fe17dd7be58b6d7"
+  },
+  "data/plants.csv": {
+    "bytes": 154,
+    "sha256": "6e79e31efe4652ee9db0e9d12384a7969808f2a58267f1497f64715275edb968"
+  },
+  "data/products.csv": {
+    "bytes": 243,
+    "sha256": "53474aa117a66a3e7e43084a7b19aa3fb3a896214c7b9783e269d14fa9b9d05c"
+  },
+  "data/safety_stock.csv": {
+    "bytes": 283,
+    "sha256": "a30912aa692df91142f3fd45d458d520bd40c3a59ddc643782b0d3628b3b7d65"
+  },
+  "data/warehouses.csv": {
+    "bytes": 152,
+    "sha256": "4c16ede2c459bdedd602e3d477bc84c98cad530ee4b0b2434c8757791751042b"
+  },
+  "data/weeks.csv": {
+    "bytes": 37,
+    "sha256": "538c688bd3a222c0f3d4704936ca252adf394723518f764670fda0c330177fb2"
+  },
+  "setup.sh": {
+    "bytes": 466,
+    "sha256": "0442ef902fc1d56739dd3f905ce7bd7937f117381f2927ada1a91c92b18dab60"
+  },
+  "state/week2_state.json": {
+    "bytes": 475,
+    "sha256": "fb69e29bb05666910dc263fc76ef6bbe58737e0061e225eae070d9ee1a7a4d3d"
+  },
+  "submissions/__pycache__/solve_initial.cpython-311.pyc": {
+    "bytes": 82273,
+    "sha256": "baf5ddf5982f081a939fbc0c47417099b6f302a4ca854d9b3d2884b78837b9f4"
+  },
+  "submissions/__pycache__/solve_step2.cpython-311.pyc": {
+    "bytes": 103538,
+    "sha256": "db1779431c0e0b605ec94b25f390828daec347850a96d817147f26a5f37a0023"
+  },
+  "submissions/initial_plan.csv": {
+    "bytes": 26680,
+    "sha256": "779b1ae2cbc517fd5dab88a9118781c2a24f67f0d003555c470e98537ff5445d"
+  },
+  "submissions/model_initial.md": {
+    "bytes": 4154,
+    "sha256": "f0c3a86c4da130147ada601d1a1811361b4207710e87241ab284122cfad7d355"
+  },
+  "submissions/model_step2.md": {
+    "bytes": 2908,
+    "sha256": "6c0d40829ee2a9e9955a653b100866a81690dca6fe1ec7f65945c5d803fc8912"
+  },
+  "submissions/solution_template.csv": {
+    "bytes": 37,
+    "sha256": "a6eb19d23813478861b9d83fbc472b0469b8d34fe788f4a20e40e4989be5bbc2"
+  },
+  "submissions/solve_initial.py": {
+    "bytes": 52957,
+    "sha256": "891ef27cde48eea2e5aa915a7a07684209405c8a15487c9c9de3b373ba013198"
+  },
+  "submissions/solve_log_initial.md": {
+    "bytes": 3039,
+    "sha256": "da65890edac27698a38d2ee50e0e18652b7faed27c5633b21657822ee20bd722"
+  },
+  "submissions/solve_log_step2.md": {
+    "bytes": 3508,
+    "sha256": "65b29eb79d680ce90664226bc7dab3dd5122743e26f731597c5f9425239d00db"
+  },
+  "submissions/solve_step2.py": {
+    "bytes": 62981,
+    "sha256": "618554cefbf2266a6ac6cf34d8726eb2ee7f63d022a4f93de31fe2b4cbac8c22"
+  },
+  "submissions/step2_replan.csv": {
+    "bytes": 25858,
+    "sha256": "9ece56178d3e3d094913af3816891911fa58f3b642d0320d4152c6796cf7c9df"
+  }
+}

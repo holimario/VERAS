@@ -1,0 +1,66 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 6362,
+    "sha256": "eda66b574eea21feb7947210007261e02972c637ecac2a3226fe9f3cd39c4995"
+  },
+  "data/base_customer_hourly_demand.csv": {
+    "bytes": 1485,
+    "sha256": "8bede21e8332c260a335792019e6fb55a25b0ff9d2336d39451cdd0cb3edba6c"
+  },
+  "data/config.json": {
+    "bytes": 500,
+    "sha256": "4f98cfe605aa9d24b4fad59d8f167cc6904de7e6b98fc8d36aa0158365fc9bbf"
+  },
+  "data/customers.csv": {
+    "bytes": 454,
+    "sha256": "facdf2b11da743b46d48ed070f4e8a1db603454fd98c9ca7f5e77f500acb6cb6"
+  },
+  "data/hourly_forecast.csv": {
+    "bytes": 1433,
+    "sha256": "f8ecb6bef6a50a060da7f96863a8554a08472dd3747d8dc36fdaab684248489e"
+  },
+  "data/lanes.csv": {
+    "bytes": 2000,
+    "sha256": "5f23cf62ddb9bf1ef6ab5b204fe4214a32e772e1441d96363b41c87c91f70555"
+  },
+  "data/scenario_customer_hourly_demand.csv": {
+    "bytes": 14728,
+    "sha256": "2aa209eac5e40ecc7eb85d2a45e3d0cdaedaa2ed5351c0ab0119f89157ebfa4b"
+  },
+  "data/scenario_lane_hourly.csv": {
+    "bytes": 84942,
+    "sha256": "1bd1d61d0e5b8c98d2bbe6df6a48b9c8baa3dae22b8abf611fcbf59044c0574e"
+  },
+  "data/scenario_site_hourly.csv": {
+    "bytes": 12326,
+    "sha256": "881c2cb25682e3c24f98c3be115bbb4cd632935fe8bd5493f0c14ba45cd79e3e"
+  },
+  "data/scenarios.csv": {
+    "bytes": 608,
+    "sha256": "f6553fbf590de3958a1c9fb28841237365ac7fbe7bc64d56406c83a56773b1bf"
+  },
+  "data/sites.csv": {
+    "bytes": 632,
+    "sha256": "1f366f932a294d2b7511c2b03babb5eb5e3ee61c41db155357ffeeddacc0c0ea"
+  },
+  "submissions/solution_template.json": {
+    "bytes": 822,
+    "sha256": "b67de18994f1483267e7c81d2126ce31d039b47b6fc5be437d7ce43896027518"
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "chains": [
+    {
+      "altruistic_donor_id": "A03",
+      "chain_id": "A03_CHAIN1",
+      "pair_sequence": [
+        "P076",
+        "P077",
+        "P061"
+      ],
+      "start_day_id": "DAY1"
+    },
+    {
+      "altruistic_donor_id": "A04",
+      "chain_id": "A04_CHAIN2",
+      "pair_sequence": [
+        "P028",
+        "P055",
+        "P022"
+      ],
+      "start_day_id": "DAY2"
+    },
+    {
+      "altruistic_donor_id": "A09",
+      "chain_id": "A09_CHAIN3",
+      "pair_sequence": [
+        "P033",
+        "P072",
+        "P062"
+      ],
+      "start_day_id": "DAY2"
+    },
+    {
+      "altruistic_donor_id": "A05",
+      "chain_id": "A05_CHAIN4",
+      "pair_sequence": [
+        "P052",
+        "P088",
+        "P017"
+      ],
+      "start_day_id": "DAY3"
+    },
+    {
+      "altruistic_donor_id": "A08",
+      "chain_id": "A08_CHAIN5",
+      "pair_sequence": [
+        "P045",
+        "P067",
+        "P051"
+      ],
+      "start_day_id": "DAY3"
+    },
+    {
+      "altruistic_donor_id": "A10",
+      "chain_id": "A10_CHAIN6",
+      "pair_sequence": [
+        "P026",
+        "P080",
+        "P007"
+      ],
+      "start_day_id": "DAY4"
+    },
+    {
+      "altruistic_donor_id": "A11",
+      "chain_id": "A11_CHAIN7",
+      "pair_sequence": [
+        "P083",
+        "P059",
+        "P057"
+      ],
+      "start_day_id": "DAY4"
+    }
+  ],
+  "cycles": [
+    {
+      "cycle_id": "C001",
+      "day_id": "DAY1",
+      "pair_sequence": [
+        "P004",
+        "P042"
+      ]
+    },
+    {
+      "cycle_id": "C002",
+      "day_id": "DAY1",
+      "pair_sequence": [
+        "P014",
+        "P074",
+        "P031"
+      ]
+    },
+    {
+      "cycle_id": "C003",
+      "day_id": "DAY1",
+      "pair_sequence": [
+        "P016",
+        "P079",
+        "P019"
+      ]
+    },
+    {
+      "cycle_id": "C004",
+      "day_id": "DAY1",
+      "pair_sequence": [
+        "P018",
+        "P085"
+      ]
+    },
+    {
+      "cycle_id": "C005",
+      "day_id": "DAY1",
+      "pair_sequence": [
+        "P020",
+        "P048"
+      ]
+    },
+    {
+      "cycle_id": "C006",
+      "day_id": "DAY1",
+      "pair_sequence": [
+        "P025",
+        "P078",
+        "P082"
+      ]
+    },
+    {
+      "cycle_id": "C007",
+      "day_id": "DAY1",
+      "pair_sequence": [
+        "P030",
+        "P044",
+        "P069"
+      ]
+    },
+    {
+      "cycle_id": "C008",
+      "day_id": "DAY1",
+      "pair_sequence": [
+        "P038",
+        "P064"
+      ]
+    },
+    {
+      "cycle_id": "C009",
+      "day_id": "DAY1",
+      "pair_sequence": [
+        "P041",
+        "P054",
+        "P087"
+      ]
+    },
+    {
+      "cycle_id": "C010",
+      "day_id": "DAY2",
+      "pair_sequence": [
+        "P003",
+        "P005"
+      ]
+    },
+    {
+      "cycle_id": "C011",
+      "day_id": "DAY2",
+      "pair_sequence": [
+        "P010",
+        "P086"
+      ]
+    },
+    {
+      "cycle_id": "C012",
+      "day_id": "DAY2",
+      "pair_sequence": [
+        "P011",
+        "P065"
+      ]
+    },
+    {
+      "cycle_id": "C013",
+      "day_id": "DAY2",
+      "pair_sequence": [
+        "P021",
+        "P058"
+      ]
+    },
+    {
+      "cycle_id": "C014",
+      "day_id": "DAY2",
+      "pair_sequence": [
+        "P027",
+        "P032"
+      ]
+    },
+    {
+      "cycle_id": "C015",
+      "day_id": "DAY2",
+      "pair_sequence": [
+        "P029",
+        "P070"
+      ]
+    },
+    {
+      "cycle_id": "C016",
+      "day_id": "DAY2",
+      "pair_sequence": [
+        "P060",
+        "P081"
+      ]
+    },
+    {
+      "cycle_id": "C017",
+      "day_id": "DAY3",
+      "pair_sequence": [
+        "P012",
+        "P037",
+        "P036"
+      ]
+    },
+    {
+      "cycle_id": "C018",
+      "day_id": "DAY3",
+      "pair_sequence": [
+        "P023",
+        "P024",
+        "P068"
+      ]
+    },
+    {
+      "cycle_id": "C019",
+      "day_id": "DAY3",
+      "pair_sequence": [
+        "P034",
+        "P047"
+      ]
+    },
+    {
+      "cycle_id": "C020",
+      "day_id": "DAY3",
+      "pair_sequence": [
+        "P040",
+        "P073"
+      ]
+    },
+    {
+      "cycle_id": "C021",
+      "day_id": "DAY4",
+      "pair_sequence": [
+        "P001",
+        "P049"
+      ]
+    },
+    {
+      "cycle_id": "C022",
+      "day_id": "DAY4",
+      "pair_sequence": [
+        "P006",
+        "P084",
+        "P035"
+      ]
+    },
+    {
+      "cycle_id": "C023",
+      "day_id": "DAY4",
+      "pair_sequence": [
+        "P015",
+        "P071"
+      ]
+    },
+    {
+      "cycle_id": "C024",
+      "day_id": "DAY5",
+      "pair_sequence": [
+        "P013",
+        "P053"
+      ]
+    },
+    {
+      "cycle_id": "C025",
+      "day_id": "DAY5",
+      "pair_sequence": [
+        "P039",
+        "P056"
+      ]
+    },
+    {
+      "cycle_id": "C026",
+      "day_id": "DAY5",
+      "pair_sequence": [
+        "P043",
+        "P046",
+        "P063"
+      ]
+    },
+    {
+      "cycle_id": "C027",
+      "day_id": "DAY5",
+      "pair_sequence": [
+        "P050",
+        "P075"
+      ]
+    }
+  ]
+}

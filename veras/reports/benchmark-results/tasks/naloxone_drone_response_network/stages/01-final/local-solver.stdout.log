@@ -1,0 +1,15 @@
+{
+  "audit_score": 465760.5269813101,
+  "dualbound": 465700.29314468236,
+  "elapsed_seconds": 0.6062555313110352,
+  "expected_ground": 0.0,
+  "expected_response": 243.20627779970067,
+  "expected_risk": 16.231979977569928,
+  "gap": 0.00012934034509823355,
+  "objective": 465760.52698131005,
+  "solutions": 1,
+  "status": "gaplimit",
+  "tail_response": 308.7164242031201,
+  "time_limit": 295.0,
+  "weekly_cost": 226526.0
+}

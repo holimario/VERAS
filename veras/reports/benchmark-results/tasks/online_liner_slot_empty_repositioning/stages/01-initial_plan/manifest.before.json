@@ -1,0 +1,70 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "EVENT_NOTICE.md": {
+    "bytes": 103,
+    "sha256": "4100bbae7c2a35fa9e2e7ab7ca243d05754d2dccae1bf5808087e9e10c8ee58e"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 6586,
+    "sha256": "93985bfc6ff808225e0beaaeffe90c8b23397e030ff7cfd7c8451667d08af17e"
+  },
+  "data/booking_path_rules.csv": {
+    "bytes": 2162,
+    "sha256": "4e4919fef08bb73024bf61f9b64d1d69183229a66c421b17e671d3ef3980b721"
+  },
+  "data/bookings.csv": {
+    "bytes": 3567,
+    "sha256": "09077f1744e74a4e2dd708fd80775016ff7b6777833954f3d5904a030e57c004"
+  },
+  "data/current_step.json": {
+    "bytes": 77,
+    "sha256": "43422ca228f9d86de2c44d09918d5704f4ac93ded4ae78ec1b8547660c38c480"
+  },
+  "data/customs_inspection_windows.csv": {
+    "bytes": 6909,
+    "sha256": "152202c851a99b572b3f3a3b8ba10ea6ba4473c9450303b40a21b56ba1b5723a"
+  },
+  "data/empty_reposition_costs.csv": {
+    "bytes": 714,
+    "sha256": "e6c03bf3b7af86a6afb1817d2281257d2e1478f0f3d06f1e2ea7cb8545146a62"
+  },
+  "data/lease_options.csv": {
+    "bytes": 3617,
+    "sha256": "7d1f4c55a5db2faeb5eb51d53cd03b39f75766b406fa21338aa614ac18b98e1c"
+  },
+  "data/port_day_limits.csv": {
+    "bytes": 1847,
+    "sha256": "b846244e0f4c7e0b2e5e89ffdddd9e871e9238e66167c886a09a71a4926af2cd"
+  },
+  "data/ports.csv": {
+    "bytes": 353,
+    "sha256": "b9e46b775e1cb7a9e3e86f19f5bd6b7c36d8062e23ce038c71a5afc116e4405a"
+  },
+  "data/service_rules.csv": {
+    "bytes": 102,
+    "sha256": "0458f7311f57d48d07d91770892feee25126b04e7de3af6f5397c0e2154f6c23"
+  },
+  "data/vessel_legs.csv": {
+    "bytes": 672,
+    "sha256": "50b0500fa1b64236b18d767247281da074f43c6e7e9e486f81baa5c4e16c9721"
+  },
+  "submissions/solution_template.csv": {
+    "bytes": 205,
+    "sha256": "3a5aa265cb8451ab3f5412e31831e5ce8b2b9ae7b54f19cb8a5e89057404a216"
+  }
+}

@@ -1,0 +1,5 @@
+row_type,vehicle_id,sequence,node_id,clinic_id,facility_id,charger_id,charge_kwh
+start,EV1,1,D0,,,,
+pickup,EV1,2,H01,H01,,,
+unload,EV1,3,TF1,,F1,,
+end,EV1,4,D0,,,,

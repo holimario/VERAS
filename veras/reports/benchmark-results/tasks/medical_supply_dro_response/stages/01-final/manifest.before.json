@@ -1,0 +1,102 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 9043,
+    "sha256": "53450d3df9a636df6eb5129972c383e090964dc7c21a69dc07dd32112c22c145"
+  },
+  "data/clinics.csv": {
+    "bytes": 851,
+    "sha256": "01ca278c95899a90fae821003fd6ce2370d8ffb9a63b3f028ce5fb7d15428baa"
+  },
+  "data/config.json": {
+    "bytes": 424,
+    "sha256": "d9252c1362c036c770b965886395b25151cb7ea8e72953e32c5fd0443cf27e47"
+  },
+  "data/fleet_types.csv": {
+    "bytes": 232,
+    "sha256": "a3bd79462144b8447a5981aa0216e4b3f897a6324c8bccaa1f41a58ea054d9f7"
+  },
+  "data/items.csv": {
+    "bytes": 430,
+    "sha256": "20939f44e26688a67378a15d7af39e3dee36554b33b968ba3a4224c8a8abee43"
+  },
+  "data/periods.csv": {
+    "bytes": 238,
+    "sha256": "5bcbd4d7ee4b8edfdff0d1603fc3bb212646815b59061efa547a678d08ed0d51"
+  },
+  "data/scenario_expedite_caps.csv": {
+    "bytes": 698,
+    "sha256": "146d722f1c5a2e1bc9061cf75f8359ffeaf2016dda906849dddde0aec0861696"
+  },
+  "data/scenario_period_demands.csv": {
+    "bytes": 42057,
+    "sha256": "d6398826191379c1c54c4e238bf73f8f2204fc2f6439d19b8fe990d37e8d0879"
+  },
+  "data/scenario_period_road_impacts.csv": {
+    "bytes": 51958,
+    "sha256": "273674bfa935ba0bf241906c3c5e5a78fbff1e8d640ed8955d0ebfd651b0c36e"
+  },
+  "data/scenario_period_supplier_availability.csv": {
+    "bytes": 3427,
+    "sha256": "c7b3552564f05950ecb705e94394c4af212d4bb1f7a8d81bac1d69f0fabfabf3"
+  },
+  "data/scenario_period_supplier_lane_impacts.csv": {
+    "bytes": 32540,
+    "sha256": "49951c0ff77b1b62fc305c2fad26daf43db1c3f46670fe03c2a549058cac744d"
+  },
+  "data/scenario_period_warehouse_availability.csv": {
+    "bytes": 6001,
+    "sha256": "9aa44d903279298bd1c204c6cb75bf675b4a4193e4bf67acc5dc70a577c2c9f2"
+  },
+  "data/scenarios.csv": {
+    "bytes": 492,
+    "sha256": "d01c704019c6ea9fcef9fb10a286bced2783f23c7d7352913b89087089465000"
+  },
+  "data/service_targets.csv": {
+    "bytes": 1572,
+    "sha256": "f0b2d8726bd815981c9ee82d30a50535c315030ea308d568ce821bb9643b668f"
+  },
+  "data/supplier_item_capacity.csv": {
+    "bytes": 634,
+    "sha256": "2517766ba5e090ea4387fcae9a73e8e37e4c87a4e9a808a9deb0fa8f8a020f2f"
+  },
+  "data/supplier_warehouse_lanes.csv": {
+    "bytes": 855,
+    "sha256": "ac23ea1844080b75ab08d7d4cb414afbc3d495779b08bbf0c9e95ea65e0d911e"
+  },
+  "data/suppliers.csv": {
+    "bytes": 258,
+    "sha256": "4fd7b8f9f1abc7fbb042cb385d7461edcd995d53a0c733345060e3d2f4d7b8cd"
+  },
+  "data/warehouse_clinic_lanes.csv": {
+    "bytes": 1547,
+    "sha256": "c94710a4b4d2007f11c91b32021d16affce1cd278cbc181509ca824ea82fa17c"
+  },
+  "data/warehouse_fleet.csv": {
+    "bytes": 3469,
+    "sha256": "2fcee977cac37d062953e858a56e8785443bb93d2be167408e46c56c508241cd"
+  },
+  "data/warehouses.csv": {
+    "bytes": 333,
+    "sha256": "23c6c594a5f89e0b228e5fbc626139753350b934f045e361fa4ddd1619ce66cc"
+  },
+  "submissions/solution_template.csv": {
+    "bytes": 103,
+    "sha256": "b164bd5ff9ed3c2edbe2a859813c9785ef9907ab4f740da32eb8fe6f8abac2d5"
+  }
+}

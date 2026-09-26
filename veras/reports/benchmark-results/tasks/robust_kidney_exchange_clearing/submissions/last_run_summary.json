@@ -1,0 +1,12 @@
+{
+  "best_bound": 10225.613163170136,
+  "candidate_day_count": 96229,
+  "candidate_objective": 10221.7968536435,
+  "gap": 0.0003733501635062478,
+  "incumbent_objective": 9796.426116196724,
+  "objective": 10221.7968536435,
+  "published": true,
+  "solve_seconds": 22.574817657470703,
+  "status": "gaplimit",
+  "structure_count": 35663
+}

@@ -1,0 +1,81 @@
+{
+  "evaluation": {
+    "battery_stress_cost": 0.0,
+    "canceled_cost": 0.0,
+    "carbon_cost": 0.0,
+    "change_cost": 0.0,
+    "energy_cost": 0.0,
+    "error_count": 1,
+    "errors": [
+      "Reserve checkpoint 1020 has 0 qualified buses, needs 1"
+    ],
+    "feasible": false,
+    "objective": 0.0,
+    "operated_trips": 48,
+    "stage": "step2",
+    "total_cost": 0.0
+  },
+  "process": {
+    "command": [
+      "<RUNTIME_BINARY>",
+      "-r",
+      "/run/root",
+      "-b",
+      "/usr:/usr",
+      "-b",
+      "/usr/bin:/bin",
+      "-b",
+      "/usr/lib:/lib",
+      "-b",
+      "/usr/lib64:/lib64",
+      "-b",
+      "/etc:/etc",
+      "-b",
+      "/dev:/dev",
+      "-b",
+      "/proc:/proc",
+      "-b",
+      "<RUNTIME_DEPENDENCIES>:/opt/or-deps",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/codex",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/node",
+      "-b",
+      "/workspace/project:/opt/dsh",
+      "-w",
+      "/app",
+      "-b",
+      "/benchmark/harbor_tasks/online_electric_bus_depot_replanning/steps/step2_replan/tests:/tests",
+      "/bin/bash",
+      "/tests/test.sh"
+    ],
+    "finished_at": "2026-09-09T22:51:19.820959+00:00",
+    "return_code": 0,
+    "started_at": "2026-09-09T22:51:19.656995+00:00",
+    "timed_out": false,
+    "timeout_seconds": 300.0,
+    "wall_seconds": 0.164
+  },
+  "reward_details": {
+    "evaluation_error_count": 1,
+    "feasibility": 0.0,
+    "objective": 0.0,
+    "quality": 0.0,
+    "quality_status": "infeasible",
+    "reference_metrics": {
+      "best_bound": null,
+      "bound_sense": "lower",
+      "calibration": "quality = clip(2 * (poor_objective - agent_objective) / (poor_objective - reference_objective), 0, 2) for feasible submissions",
+      "candidate_count": 5,
+      "mip_gap": 0.0005,
+      "objective_sense": "minimize",
+      "poor_objective": 5255.809647346154,
+      "reference_objective": 255.8096473461539,
+      "stage": "step2",
+      "time_limit_seconds": 300,
+      "visible_trip_count": 48
+    },
+    "scalar_reward": 0.0,
+    "scalar_reward_formula": "(feasibility + quality) / 3"
+  }
+}

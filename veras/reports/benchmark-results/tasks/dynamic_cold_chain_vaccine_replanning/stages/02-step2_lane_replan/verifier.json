@@ -1,0 +1,65 @@
+{
+  "evaluation": {
+    "error_count": 0,
+    "errors": [],
+    "feasible": true,
+    "objective": 169893.7338017358,
+    "stage": "week2",
+    "total_cost": 169893.7338017358
+  },
+  "process": {
+    "command": [
+      "<RUNTIME_BINARY>",
+      "-r",
+      "/run/root",
+      "-b",
+      "/usr:/usr",
+      "-b",
+      "/usr/bin:/bin",
+      "-b",
+      "/usr/lib:/lib",
+      "-b",
+      "/usr/lib64:/lib64",
+      "-b",
+      "/etc:/etc",
+      "-b",
+      "/dev:/dev",
+      "-b",
+      "/proc:/proc",
+      "-b",
+      "<RUNTIME_DEPENDENCIES>:/opt/or-deps",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/codex",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/node",
+      "-b",
+      "/workspace/project:/opt/dsh",
+      "-w",
+      "/app",
+      "-b",
+      "/benchmark/harbor_tasks/dynamic_cold_chain_vaccine_replanning/steps/step2_lane_replan/tests:/tests",
+      "/bin/bash",
+      "/tests/test.sh"
+    ],
+    "finished_at": "2026-09-09T20:19:55.064304+00:00",
+    "return_code": 0,
+    "started_at": "2026-09-09T20:19:54.899494+00:00",
+    "timed_out": false,
+    "timeout_seconds": 300.0,
+    "wall_seconds": 0.165
+  },
+  "reward_details": {
+    "feasibility": 1.0,
+    "objective": 169893.7338017358,
+    "quality": 1.9154679459858786,
+    "quality_status": "scored",
+    "reference_metrics": {
+      "objective_sense": "minimize",
+      "poor_objective": 215000.0,
+      "reference_objective": 167903.13649696883,
+      "stage": "week2"
+    },
+    "scalar_reward": 0.9718226486619596,
+    "scalar_reward_formula": "(feasibility + quality) / 3"
+  }
+}

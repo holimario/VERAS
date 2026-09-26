@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/app/submissions/solve.py", line 1457, in <module>
+    solve()
+  File "/app/submissions/solve.py", line 1427, in solve
+    raise RuntimeError("Failed to obtain a bay-feasible incumbent")
+RuntimeError: Failed to obtain a bay-feasible incumbent

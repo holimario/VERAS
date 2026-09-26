@@ -1,0 +1,387 @@
+{
+  "evaluation": {
+    "error_count": 6,
+    "errors": [
+      "NIGHT_IGNITION: high-risk medical pickup P09 sent to shelter without backup power.",
+      "RED_FLAG: high-risk medical pickup P09 sent to shelter without backup power.",
+      "SLOW_WIND: high-risk medical pickup P09 sent to shelter without backup power.",
+      "SPOT_FIRE: high-risk medical pickup P09 sent to shelter without backup power.",
+      "WIND_SHIFT: high-risk medical pickup P09 sent to shelter without backup power.",
+      "WIND_SHIFT: pickup P09 has 2 departures in 15-minute bucket 5, above 1 bays."
+    ],
+    "expected_scenario_cost": 112499.40517002477,
+    "feasible": false,
+    "first_stage_cost": 102520.0,
+    "objective": 306044.81094036705,
+    "scenario_costs": {
+      "NIGHT_IGNITION": 63255.95067737778,
+      "RED_FLAG": 290346.299720265,
+      "SLOW_WIND": 49748.36299688196,
+      "SPOT_FIRE": 138977.74069525878,
+      "WIND_SHIFT": 96067.03462649474
+    },
+    "scenario_diagnostics": {
+      "NIGHT_IGNITION": {
+        "corridor_trips": {
+          "C1": 4,
+          "C2": 5,
+          "C3": 4,
+          "C4": 4,
+          "C5": 4
+        },
+        "crowding_cost": 5058.0,
+        "fill_rates": {
+          "P01": 1.0,
+          "P02": 1.0,
+          "P03": 1.0,
+          "P04": 1.0,
+          "P05": 1.0,
+          "P06": 1.0,
+          "P07": 1.0,
+          "P08": 1.0,
+          "P09": 1.0,
+          "P10": 1.0
+        },
+        "late_cost": 2234.6142868500037,
+        "shelter_in_place_cost": 0.0,
+        "shelter_load": {
+          "S1": {
+            "evacuees": 107.0,
+            "medical": 23.89,
+            "pets": 4.0,
+            "wheelchair": 12.0
+          },
+          "S2": {
+            "evacuees": 206.0,
+            "medical": 13.88,
+            "pets": 37.0,
+            "wheelchair": 13.0
+          },
+          "S3": {
+            "evacuees": 221.0,
+            "medical": 27.73,
+            "pets": 24.0,
+            "wheelchair": 13.0
+          },
+          "S5": {
+            "evacuees": 230.0,
+            "medical": 41.599999999999994,
+            "pets": 31.0,
+            "wheelchair": 30.0
+          }
+        },
+        "smoke_cost": 20306.425485617674,
+        "trip_cost": 35656.91090491011,
+        "unserved_cost": 0.0
+      },
+      "RED_FLAG": {
+        "corridor_trips": {
+          "C1": 4,
+          "C2": 6,
+          "C3": 5,
+          "C4": 4,
+          "C5": 3
+        },
+        "crowding_cost": 6798.0,
+        "fill_rates": {
+          "P01": 1.0,
+          "P02": 1.0,
+          "P03": 1.0,
+          "P04": 1.0,
+          "P05": 1.0,
+          "P06": 1.0,
+          "P07": 1.0,
+          "P08": 1.0,
+          "P09": 1.0,
+          "P10": 0.9516129032258065
+        },
+        "late_cost": 11198.313033089995,
+        "shelter_in_place_cost": 93860.0,
+        "shelter_load": {
+          "S1": {
+            "evacuees": 260.0,
+            "medical": 38.900000000000006,
+            "pets": 7.0,
+            "wheelchair": 7.0
+          },
+          "S2": {
+            "evacuees": 210.0,
+            "medical": 17.22,
+            "pets": 43.0,
+            "wheelchair": 21.0
+          },
+          "S3": {
+            "evacuees": 220.0,
+            "medical": 28.0,
+            "pets": 38.0,
+            "wheelchair": 25.0
+          },
+          "S5": {
+            "evacuees": 185.0,
+            "medical": 41.97,
+            "pets": 26.0,
+            "wheelchair": 30.0
+          }
+        },
+        "smoke_cost": 110645.99269042398,
+        "trip_cost": 48403.99399675097,
+        "unserved_cost": 19440.0
+      },
+      "SLOW_WIND": {
+        "corridor_trips": {
+          "C1": 4,
+          "C2": 4,
+          "C3": 4,
+          "C4": 4,
+          "C5": 3
+        },
+        "crowding_cost": 3900.0,
+        "fill_rates": {
+          "P01": 1.0,
+          "P02": 1.0,
+          "P03": 1.0,
+          "P04": 1.0,
+          "P05": 1.0,
+          "P06": 1.0,
+          "P07": 1.0,
+          "P08": 1.0,
+          "P09": 1.0,
+          "P10": 1.0
+        },
+        "late_cost": 3858.982980420001,
+        "shelter_in_place_cost": 0.0,
+        "shelter_load": {
+          "S1": {
+            "evacuees": 52.0,
+            "medical": 18.2,
+            "pets": 3.0,
+            "wheelchair": 11.0
+          },
+          "S2": {
+            "evacuees": 178.0,
+            "medical": 12.600000000000001,
+            "pets": 18.0,
+            "wheelchair": 8.0
+          },
+          "S3": {
+            "evacuees": 235.0,
+            "medical": 24.820000000000004,
+            "pets": 28.0,
+            "wheelchair": 13.0
+          },
+          "S5": {
+            "evacuees": 224.0,
+            "medical": 40.96,
+            "pets": 37.0,
+            "wheelchair": 30.0
+          }
+        },
+        "smoke_cost": 13943.387876012752,
+        "trip_cost": 28045.99214044921,
+        "unserved_cost": 0.0
+      },
+      "SPOT_FIRE": {
+        "corridor_trips": {
+          "C1": 4,
+          "C2": 5,
+          "C3": 5,
+          "C4": 4,
+          "C5": 4
+        },
+        "crowding_cost": 3222.0,
+        "fill_rates": {
+          "P01": 1.0,
+          "P02": 1.0,
+          "P03": 1.0,
+          "P04": 1.0,
+          "P05": 1.0,
+          "P06": 1.0,
+          "P07": 1.0,
+          "P08": 1.0,
+          "P09": 1.0,
+          "P10": 1.0
+        },
+        "late_cost": 16749.46296147001,
+        "shelter_in_place_cost": 0.0,
+        "shelter_load": {
+          "S1": {
+            "evacuees": 254.0,
+            "medical": 35.28999999999999,
+            "pets": 0.0,
+            "wheelchair": 6.0
+          },
+          "S2": {
+            "evacuees": 200.0,
+            "medical": 13.98,
+            "pets": 40.0,
+            "wheelchair": 16.0
+          },
+          "S3": {
+            "evacuees": 220.0,
+            "medical": 27.0,
+            "pets": 41.0,
+            "wheelchair": 26.0
+          },
+          "S5": {
+            "evacuees": 173.0,
+            "medical": 41.730000000000004,
+            "pets": 22.0,
+            "wheelchair": 30.0
+          }
+        },
+        "smoke_cost": 72500.46140090538,
+        "trip_cost": 46505.81633288339,
+        "unserved_cost": 0.0
+      },
+      "WIND_SHIFT": {
+        "corridor_trips": {
+          "C1": 4,
+          "C2": 5,
+          "C3": 4,
+          "C4": 4,
+          "C5": 4
+        },
+        "crowding_cost": 654.0,
+        "fill_rates": {
+          "P01": 1.0,
+          "P02": 1.0,
+          "P03": 1.0,
+          "P04": 1.0,
+          "P05": 1.0,
+          "P06": 1.0,
+          "P07": 1.0,
+          "P08": 1.0,
+          "P09": 1.0,
+          "P10": 1.0
+        },
+        "late_cost": 4516.719099719993,
+        "shelter_in_place_cost": 0.0,
+        "shelter_load": {
+          "S1": {
+            "evacuees": 244.0,
+            "medical": 33.68,
+            "pets": 0.0,
+            "wheelchair": 6.0
+          },
+          "S2": {
+            "evacuees": 192.0,
+            "medical": 13.440000000000001,
+            "pets": 38.0,
+            "wheelchair": 14.0
+          },
+          "S3": {
+            "evacuees": 211.0,
+            "medical": 26.64,
+            "pets": 39.0,
+            "wheelchair": 24.0
+          },
+          "S5": {
+            "evacuees": 177.0,
+            "medical": 41.97,
+            "pets": 22.0,
+            "wheelchair": 30.0
+          }
+        },
+        "smoke_cost": 50592.281123481676,
+        "trip_cost": 40304.03440329307,
+        "unserved_cost": 0.0
+      }
+    },
+    "tail_risk_cost": 260072.58791526375,
+    "total_cost": 306044.81094036705
+  },
+  "process": {
+    "command": [
+      "<RUNTIME_BINARY>",
+      "-r",
+      "/run/root",
+      "-b",
+      "/usr:/usr",
+      "-b",
+      "/usr/bin:/bin",
+      "-b",
+      "/usr/lib:/lib",
+      "-b",
+      "/usr/lib64:/lib64",
+      "-b",
+      "/etc:/etc",
+      "-b",
+      "/dev:/dev",
+      "-b",
+      "/proc:/proc",
+      "-b",
+      "<RUNTIME_DEPENDENCIES>:/opt/or-deps",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/codex",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/node",
+      "-b",
+      "/workspace/project:/opt/dsh",
+      "-w",
+      "/app",
+      "-b",
+      "/benchmark/harbor_tasks/wildfire_bus_evacuation_planning/tests:/tests",
+      "/bin/bash",
+      "/tests/test.sh"
+    ],
+    "finished_at": "2026-09-10T02:47:06.714766+00:00",
+    "return_code": 0,
+    "started_at": "2026-09-10T02:47:06.550619+00:00",
+    "timed_out": false,
+    "timeout_seconds": 360.0,
+    "wall_seconds": 0.164
+  },
+  "reward_details": {
+    "agent_objective": 306044.81094036705,
+    "agent_objective_source": "objective",
+    "best_bound": null,
+    "bound_sense": "lower",
+    "evaluation_diagnostics": {
+      "error_count": 6,
+      "objective": 306044.81094036705,
+      "profit": null,
+      "score": null,
+      "total_cost": 306044.81094036705
+    },
+    "fallback_mip_gap": null,
+    "fallback_reference_scale": null,
+    "feasibility": 0.0,
+    "formula": "clip(1 + (R - O) / (R - B), 0, 2) when B exists and R - B >= max(abs(R), 1e-8) * mip_gap",
+    "objective_sense": "minimize",
+    "quality": 0.0,
+    "quality_status": "infeasible",
+    "reference_metrics": {
+      "best_bound": null,
+      "best_bound_source": null,
+      "bound_sense": "lower",
+      "evaluation_summary": {
+        "error_count": 0,
+        "feasible": true,
+        "objective": 860886.0992884045,
+        "total_cost": 860886.0992884045
+      },
+      "generated_at": "2026-05-16T17:27:02.929505+00:00",
+      "mip_gap": 0.0005,
+      "objective_sense": "minimize",
+      "quality_formula": "clip(1 + (R - O) / (R - B), 0, 2) if B exists and R - B >= max(abs(R), 1e-8) * mip_gap; otherwise let d=(R - O)/(max(abs(R), 1e-8)*mip_gap), quality=clip(2+d if d>=-1 else 1.5+0.5*d, 0, 2); if no R, quality = 2",
+      "reference_objective": 860886.0992884045,
+      "reference_objective_source": "objective",
+      "solution_path": "/reference-solutions/wildfire_bus_evacuation_planning_reference_solution.json",
+      "solver_summary": {
+        "best_bound": null,
+        "error_count": 0,
+        "feasible": true,
+        "method": "scenario_greedy_route_construction_with_capacity_repair",
+        "mip_gap": 0.0005,
+        "objective": 860886.0992884045,
+        "status": "heuristic_solution_written",
+        "time_limit_seconds": 300.0
+      },
+      "task_name": "wildfire_bus_evacuation_planning",
+      "time_limit_seconds": 300.0
+    },
+    "reference_objective": 860886.0992884045,
+    "scalar_reward": 0.0,
+    "scalar_reward_formula": "(feasibility + quality) / 3.0"
+  }
+}

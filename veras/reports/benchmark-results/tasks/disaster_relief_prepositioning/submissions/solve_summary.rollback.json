@@ -1,0 +1,12 @@
+{
+  "audit_objective": 878079.3607290736,
+  "audit_theta": 9.3985036962698e-11,
+  "audit_violated_groups": 0,
+  "dualbound": 878079.3607283123,
+  "elapsed_seconds": 40.44315433502197,
+  "gap": 0.0,
+  "n_solutions": 1,
+  "objective": 878079.3607283123,
+  "solve_mode": "main_mip_plus_fixed_open_lp",
+  "status": "optimal"
+}

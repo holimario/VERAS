@@ -1,0 +1,70 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 5818,
+    "sha256": "0d75e79d3b6e8e7e175013e3c0df4fd72916c0944c0c67ae3930da1dd8ff4011"
+  },
+  "data/chargers.csv": {
+    "bytes": 276,
+    "sha256": "40582614252dcabcc1e067928cfc9b0a55fcf510c341602f3e0e5db7750cd54a"
+  },
+  "data/clinics.csv": {
+    "bytes": 2626,
+    "sha256": "a4a265483fad5d0b0e7df714522f22c3527d23475a6756c5443ec1d099f93f95"
+  },
+  "data/config.json": {
+    "bytes": 423,
+    "sha256": "67dfc45db28608111b1cfd4567291e4dfb3decb8027bd94365e780cba189a1aa"
+  },
+  "data/facility_receiving_windows.csv": {
+    "bytes": 455,
+    "sha256": "f3a394a3d35fad1f8b0995582d727aaa398ab82c1c427776eb4086ecaf70f96d"
+  },
+  "data/facility_waste_rules.csv": {
+    "bytes": 220,
+    "sha256": "ba4f1f743be668bbfcf12c825d15a2aedb91963d4977da6db7cd4bc262b509d1"
+  },
+  "data/incompatible_pickup_pairs.csv": {
+    "bytes": 623,
+    "sha256": "ccfc2b1fbe4e0c48490f8e059a7caaeb0cf7ba3860054c0244f6d8617af85adf"
+  },
+  "data/nodes.csv": {
+    "bytes": 1850,
+    "sha256": "fe6e1bd62a9c28e58abe583c95f983977f758c074d9909bf34ac0463387680ab"
+  },
+  "data/travel_energy_arcs.csv": {
+    "bytes": 103757,
+    "sha256": "495f6e1e760e04b1352b8a4bd0d217e2ae9b53508758d22b85a6389b109a6dce"
+  },
+  "data/treatment_facilities.csv": {
+    "bytes": 355,
+    "sha256": "634dccc09bce735a9a8e2439e28d36ef23fbaecc24e1347e1e11e3b7fa938f32"
+  },
+  "data/vehicle_waste_permits.csv": {
+    "bytes": 183,
+    "sha256": "edb196bf653595344935f3b823624dda9988d496341ddd7228770c7a4897b115"
+  },
+  "data/vehicles.csv": {
+    "bytes": 604,
+    "sha256": "d1aa26fb4c2b1bd41b9640c1131fc7e9e8476be730df6e4e9715966104698154"
+  },
+  "submissions/solution_template.csv": {
+    "bytes": 164,
+    "sha256": "11bde848a185d0f58cf472ffd41fa24cb42ed6fa41a973e3447c7def094fb74c"
+  }
+}

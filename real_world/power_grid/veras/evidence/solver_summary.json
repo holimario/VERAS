@@ -1,0 +1,156 @@
+{
+  "all_eight_integer_families_free": true,
+  "best_bound": 37407279.51668502,
+  "contract_optimizer_ceiling_seconds": 900.0,
+  "final_free_model_optimizer_time_seconds": 844.530175678432,
+  "internal_mip_start_source": "strongest same-run input-only audited LNS/restoration candidate",
+  "mio_feasibility_tolerance": 2e-06,
+  "objective": 39379929.122525945,
+  "optimizer_budget_seconds": 880.0,
+  "optimizer_time_seconds": 880.2781533002853,
+  "planning_was_fixed": false,
+  "relative_gap": 0.050092766792526854,
+  "solution_path": "candidate/results/solution.npz",
+  "solver": "MOSEK 11.2.3 Python/Fusion",
+  "solver_objective": 39379929.122525945,
+  "stages": [
+    {
+      "best_bound": null,
+      "has_incumbent": true,
+      "optimizer_time_seconds": 6.532601058483124,
+      "primal_status": "SolutionStatus.Optimal",
+      "problem_status": "ProblemStatus.PrimalAndDualFeasible",
+      "solver_objective": 37190633.45442359,
+      "stage": "01_free_continuous_relaxation",
+      "time_limit_seconds": 45
+    },
+    {
+      "best_bound": null,
+      "has_incumbent": true,
+      "optimizer_time_seconds": 3.101071812212467,
+      "primal_status": "SolutionStatus.Optimal",
+      "problem_status": "ProblemStatus.PrimalAndDualFeasible",
+      "solver_objective": 40528302.804675594,
+      "stage": "02_fixed_topology_free_capacity",
+      "time_limit_seconds": 45
+    },
+    {
+      "best_bound": null,
+      "has_incumbent": true,
+      "optimizer_time_seconds": 3.018555261194706,
+      "primal_status": "SolutionStatus.Optimal",
+      "problem_status": "ProblemStatus.PrimalAndDualFeasible",
+      "solver_objective": 40541641.997804925,
+      "stage": "03_fixed_plan_conic_screen",
+      "time_limit_seconds": 45
+    },
+    {
+      "best_bound": null,
+      "has_incumbent": true,
+      "optimizer_time_seconds": 2.989056073129177,
+      "primal_status": "SolutionStatus.Optimal",
+      "problem_status": "ProblemStatus.PrimalAndDualFeasible",
+      "solver_objective": 40541654.057217434,
+      "stage": "04_fixed_integer_conic_restoration",
+      "time_limit_seconds": 60
+    },
+    {
+      "best_bound": null,
+      "component_base_load_mw": [
+        25.199999999999996,
+        19.099999999999998,
+        10.500000000000002,
+        16.599999999999998
+      ],
+      "has_incumbent": true,
+      "optimizer_time_seconds": 3.8243787065148354,
+      "primal_status": "SolutionStatus.Optimal",
+      "problem_status": "ProblemStatus.PrimalAndDualFeasible",
+      "solver_objective": 39820778.72797684,
+      "stage": "lns_screen_01_add21_remove19",
+      "time_limit_seconds": 20
+    },
+    {
+      "best_bound": null,
+      "component_base_load_mw": [
+        25.799999999999997,
+        19.099999999999998,
+        13.200000000000005,
+        13.300000000000002
+      ],
+      "has_incumbent": true,
+      "optimizer_time_seconds": 3.467649258673191,
+      "primal_status": "SolutionStatus.Optimal",
+      "problem_status": "ProblemStatus.PrimalAndDualFeasible",
+      "solver_objective": 39368316.04837998,
+      "stage": "lns_screen_02_add31_remove29",
+      "time_limit_seconds": 20
+    },
+    {
+      "best_bound": null,
+      "component_base_load_mw": [
+        24.599999999999994,
+        19.099999999999998,
+        10.500000000000002,
+        17.2
+      ],
+      "has_incumbent": true,
+      "optimizer_time_seconds": 3.639134891331196,
+      "primal_status": "SolutionStatus.Optimal",
+      "problem_status": "ProblemStatus.PrimalAndDualFeasible",
+      "solver_objective": 41111071.35516522,
+      "stage": "lns_screen_03_add21_remove20",
+      "time_limit_seconds": 20
+    },
+    {
+      "best_bound": null,
+      "component_base_load_mw": [
+        27.799999999999997,
+        19.099999999999998,
+        10.500000000000002,
+        14.000000000000002
+      ],
+      "has_incumbent": true,
+      "optimizer_time_seconds": 3.1789902299642563,
+      "primal_status": "SolutionStatus.Optimal",
+      "problem_status": "ProblemStatus.PrimalAndDualFeasible",
+      "solver_objective": 41141562.06679851,
+      "stage": "lns_screen_04_add37_remove38",
+      "time_limit_seconds": 20
+    },
+    {
+      "best_bound": null,
+      "has_incumbent": true,
+      "optimizer_time_seconds": 3.0615025982260704,
+      "primal_status": "SolutionStatus.Optimal",
+      "problem_status": "ProblemStatus.PrimalAndDualFeasible",
+      "solver_objective": 39379811.02567777,
+      "stage": "lns_screen_02_add31_remove29_integer_plan_screen",
+      "time_limit_seconds": 30
+    },
+    {
+      "best_bound": null,
+      "has_incumbent": true,
+      "optimizer_time_seconds": 2.9350377321243286,
+      "primal_status": "SolutionStatus.Optimal",
+      "problem_status": "ProblemStatus.PrimalAndDualFeasible",
+      "solver_objective": 39379929.12252594,
+      "stage": "lns_screen_02_add31_remove29_fixed_integer_restoration",
+      "time_limit_seconds": 30
+    },
+    {
+      "best_bound": 37407279.51668502,
+      "has_incumbent": true,
+      "optimizer_time_seconds": 844.530175678432,
+      "primal_status": "SolutionStatus.Feasible",
+      "problem_status": "ProblemStatus.PrimalFeasible",
+      "solver_objective": 39379929.122525945,
+      "stage": "05_complete_free_MISOCP",
+      "time_limit_seconds": 844.2520223781466
+    }
+  ],
+  "status": "feasible",
+  "threads": 4,
+  "used_external_warm_start": false,
+  "used_warm_start": false
+}

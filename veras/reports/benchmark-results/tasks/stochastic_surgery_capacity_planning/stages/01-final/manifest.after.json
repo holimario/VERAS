@@ -1,0 +1,86 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 12316,
+    "sha256": "b9fbc5fff64953faf30c6e0f966a60c9863ad853bf5560b2c1921d6169713f7d"
+  },
+  "data/anesthesia_limits.csv": {
+    "bytes": 215,
+    "sha256": "41f98fc20c95c68d0f622494f1e90dca7f8bea4f92191cc3ccadb3bb130e02d0"
+  },
+  "data/config.json": {
+    "bytes": 478,
+    "sha256": "6b4f295bc983464465907d5c2e943524ee10f1747435c48ec89c7bf12184ffaa"
+  },
+  "data/equipment_pools.csv": {
+    "bytes": 770,
+    "sha256": "a6367777583340439c81d34a9f59acc13fc7aaa19d7228bd42fedcca1ef7ecdc"
+  },
+  "data/icu_capacity.csv": {
+    "bytes": 47,
+    "sha256": "1a7fd8d7454a7cc1830a3d5c08cbeda639eed8fc22dbcc8ac4ccf96203e7318b"
+  },
+  "data/or_blocks.csv": {
+    "bytes": 763,
+    "sha256": "7602e430c1160b203c116ea76171914fa2cb0565be49968c05bf15c360dda23b"
+  },
+  "data/pacu_capacity.csv": {
+    "bytes": 631,
+    "sha256": "03b965e397c9b279f442934ff5183bf5a1d0466aff67853817a224ab7d3d4527"
+  },
+  "data/recovery_capacity.csv": {
+    "bytes": 304,
+    "sha256": "b06bed9782eb1e876d938e4e55bd4b6577e263188f27c1040689794319b43612"
+  },
+  "data/scenarios.csv": {
+    "bytes": 1011,
+    "sha256": "3d51ba8eb0abcbf0f30abf634e60a63d435c4828b657db25ec766b0d327278cb"
+  },
+  "data/surgeons.csv": {
+    "bytes": 428,
+    "sha256": "ac0a4fee0204d31685ec529e9422768d4d364208835a2fef15c2740a56cc7591"
+  },
+  "data/surgery_cases.csv": {
+    "bytes": 3224,
+    "sha256": "618b7fdbf53f4dd3cc7cbc2216fff03cbea231b0d316e0e6b06a1b47ce7f52db"
+  },
+  "submissions/__pycache__/solve.cpython-311.pyc": {
+    "bytes": 84730,
+    "sha256": "6df9a314833eaccc68cd6cb71762970c65f03f33563d29c95a3d3d26feded2f4"
+  },
+  "submissions/model.md": {
+    "bytes": 11772,
+    "sha256": "11b726ff83441bb7f807b6aad3dc210e498d502c0894a31ed826841c194ef288"
+  },
+  "submissions/solution.csv": {
+    "bytes": 1208,
+    "sha256": "a3a712572909017c85523887509420c9a033ee87e5ab3d75112535b7449cf62e"
+  },
+  "submissions/solution_template.csv": {
+    "bytes": 57,
+    "sha256": "77b6c4353140cd85c1af2b42998a09392e2792f29ee35d5b1c2658237f7ded57"
+  },
+  "submissions/solve.py": {
+    "bytes": 57435,
+    "sha256": "cf2e98ba9d67d53aaa9992936f573f9f843eded7be946123be396f714db2ffb7"
+  },
+  "submissions/solve_log.md": {
+    "bytes": 2348,
+    "sha256": "7b89f2d8a502a3933516be3c632ee5bad3b9429f9f8621680a096531c672ff06"
+  }
+}

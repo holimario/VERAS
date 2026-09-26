@@ -1,0 +1,65 @@
+{
+  "primary_target": {
+    "exists": true,
+    "path": "submissions/step2_replan.csv",
+    "records": 484,
+    "status": "valid-csv",
+    "valid": true
+  },
+  "primary_target_exists": true,
+  "primary_target_valid": true,
+  "python_count": 2,
+  "python_syntax": [
+    {
+      "path": "submissions/solve_initial.py",
+      "valid": true
+    },
+    {
+      "path": "submissions/solve_step2.py",
+      "valid": true
+    }
+  ],
+  "python_valid": true,
+  "required": [
+    {
+      "exists": true,
+      "path": "submissions/model_step2.md"
+    },
+    {
+      "exists": true,
+      "path": "submissions/solve_step2.py"
+    },
+    {
+      "exists": true,
+      "path": "submissions/step2_replan.csv"
+    },
+    {
+      "exists": true,
+      "path": "submissions/solve_log_step2.md"
+    },
+    {
+      "exists": true,
+      "path": "submissions/initial_plan.csv"
+    }
+  ],
+  "required_present": 5,
+  "required_total": 5,
+  "target_exists": true,
+  "target_valid": true,
+  "targets": [
+    {
+      "exists": true,
+      "path": "submissions/step2_replan.csv",
+      "records": 484,
+      "status": "valid-csv",
+      "valid": true
+    },
+    {
+      "exists": true,
+      "path": "submissions/initial_plan.csv",
+      "records": 503,
+      "status": "valid-csv",
+      "valid": true
+    }
+  ]
+}

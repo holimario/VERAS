@@ -1,0 +1,21 @@
+{
+  "orders": [
+    {
+      "accept": true,
+      "order_id": "O01",
+      "reserved_path": [
+        "L05",
+        "L16"
+      ],
+      "scenario_plans": [
+        {
+          "path": [
+            "L05",
+            "L16"
+          ],
+          "scenario_id": "S01"
+        }
+      ]
+    }
+  ]
+}

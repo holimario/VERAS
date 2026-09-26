@@ -1,0 +1,72 @@
+{
+  "coverage_complete": false,
+  "covered_constraint_groups": [
+    "truck-boundary/road-continuity",
+    "shelter-coverage/mode-eligibility",
+    "dry-shelter-staging",
+    "drone-option/clearance/capacity/endurance",
+    "launch-activation",
+    "boat-ramp/sequence/water-continuity",
+    "boat-capacity/robust-duration"
+  ],
+  "max_normalized_residual": 0.0,
+  "metrics": {
+    "boat_metrics": [
+      {
+        "demand_kg": 76.0,
+        "launch_node": "S13",
+        "robust_duration_minutes": 99.92,
+        "shelters": [
+          "H17",
+          "H21",
+          "H19",
+          "H15"
+        ],
+        "trip_id": "BT01"
+      },
+      {
+        "demand_kg": 68.0,
+        "launch_node": "S02",
+        "robust_duration_minutes": 95.92,
+        "shelters": [
+          "H10",
+          "H09",
+          "H23"
+        ],
+        "trip_id": "BT02"
+      },
+      {
+        "demand_kg": 91.0,
+        "launch_node": "S06",
+        "robust_duration_minutes": 107.76,
+        "shelters": [
+          "H24",
+          "H16",
+          "H14",
+          "H11"
+        ],
+        "trip_id": "BT03"
+      },
+      {
+        "demand_kg": 69.0,
+        "launch_node": "S04",
+        "robust_duration_minutes": 82.48,
+        "shelters": [
+          "H13",
+          "H18",
+          "H12"
+        ],
+        "trip_id": "BT04"
+      }
+    ],
+    "boat_trip_count": 4,
+    "delivery_count": 26,
+    "truck_stop_count": 19
+  },
+  "observer": "flood-relief-network-observer-v1",
+  "safe": true,
+  "supported": true,
+  "total_normalized_violation_mass": 0,
+  "violation_count": 0,
+  "violations": []
+}

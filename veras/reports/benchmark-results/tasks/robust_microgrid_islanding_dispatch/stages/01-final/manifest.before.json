@@ -1,0 +1,66 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 7872,
+    "sha256": "a9efb88323cd28896c88db9265fe02c088eade794fb77c712e564cce34c904cb"
+  },
+  "data/config.json": {
+    "bytes": 468,
+    "sha256": "3e922296148b1e76e31be2344eb30c51f0b074764897eb9bec3a089e002ee5f2"
+  },
+  "data/demand_response.csv": {
+    "bytes": 372,
+    "sha256": "e22577fb1f2c066defed3d0257a287863430977c40897016b3f281f14c206bf0"
+  },
+  "data/ev_clusters.csv": {
+    "bytes": 298,
+    "sha256": "bdb55337f080d93cd5136bbca3ba96721e5524562616da36e428fe8608925574"
+  },
+  "data/generators.csv": {
+    "bytes": 305,
+    "sha256": "4b84980d9a52a6eaac7d44ed7318f93692eb4c422ca86bcb63aeac552949614c"
+  },
+  "data/grid_limits.csv": {
+    "bytes": 189,
+    "sha256": "b1ed96f31031a209835f9082b0c91114bb0f45db19ff5fa65c19e7385ae70d24"
+  },
+  "data/renewable_forecast.csv": {
+    "bytes": 257,
+    "sha256": "eb514f597b7c83ffa44885cb99c543dd15fced944765aa5b4e27af1f1feb4209"
+  },
+  "data/scenario_hourly.csv": {
+    "bytes": 7646,
+    "sha256": "8d51ab08819ca8cd3957bf40b6bb1a8dfebc03464d2698478a301699484a2318"
+  },
+  "data/scenarios.csv": {
+    "bytes": 256,
+    "sha256": "a7603399da2a0649797b5056aeb7a3ecda9a6336b38c8e1dcd2fc6462b6c7f2f"
+  },
+  "data/storage_units.csv": {
+    "bytes": 267,
+    "sha256": "573ad11b146b94077528dee1ea82adc437f5c91e5e3de51881da4b8e7f560c29"
+  },
+  "data/time_periods.csv": {
+    "bytes": 429,
+    "sha256": "97c2f17d52068b9829c3d2699fdbdffd704ccf904ecfcd5ecd4cf2d6783dba5e"
+  },
+  "submissions/solution_template.csv": {
+    "bytes": 112,
+    "sha256": "d4fb68fb6e37732e66277ab6abbc78a778fae3f5fe02b8953c6003fd91d56103"
+  }
+}

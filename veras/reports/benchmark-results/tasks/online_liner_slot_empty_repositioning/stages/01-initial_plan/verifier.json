@@ -1,0 +1,372 @@
+{
+  "evaluation": {
+    "accepted_count": 50,
+    "change_cost": 0.0,
+    "components": {
+      "accepted_revenue": 30601.0,
+      "carbon_cost": 21.779999999999998,
+      "change_cost": 0.0,
+      "customs_cost": 2775.0,
+      "empty_move_cost": 572.0,
+      "lease_cost": 0.0,
+      "rejection_penalty": 1792.0,
+      "storage_cost": 21256.800000000007
+    },
+    "customs_loads": {
+      "JKT|11|cold_chain": 5.0,
+      "JKT|13|cold_chain": 1.0,
+      "JKT|13|general": 3.0,
+      "JKT|2|general": 3.0,
+      "JKT|9|cold_chain": 3.0,
+      "JKT|9|general": 6.0,
+      "KHH|10|cold_chain": 7.0,
+      "KHH|10|general": 14.0,
+      "KHH|4|cold_chain": 1.0,
+      "KHH|4|general": 13.0,
+      "KHH|4|hazmat_dg1": 2.0,
+      "KHH|8|cold_chain": 3.0,
+      "KHH|8|general": 16.0,
+      "KHH|8|hazmat_dg1": 4.0,
+      "NGB|12|cold_chain": 3.0,
+      "NGB|2|general": 1.0,
+      "NGB|2|hazmat_dg1": 2.0,
+      "NGB|3|cold_chain": 3.0,
+      "NGB|3|general": 2.0,
+      "NGB|3|hazmat_dg1": 2.0,
+      "NGB|8|cold_chain": 2.0,
+      "NGB|8|general": 6.0,
+      "NGB|8|hazmat_dg1": 4.0,
+      "SGN|11|cold_chain": 1.0,
+      "SGN|11|general": 4.0,
+      "SGN|5|cold_chain": 1.0,
+      "SGN|5|general": 10.0,
+      "SGN|6|cold_chain": 1.0,
+      "SGN|6|general": 5.0,
+      "SGN|7|cold_chain": 3.0,
+      "SGN|8|cold_chain": 4.0,
+      "SGN|8|general": 14.0,
+      "SHA|10|general": 2.0,
+      "SHA|13|cold_chain": 5.0,
+      "SHA|1|general": 1.0,
+      "SHA|1|hazmat_dg1": 2.0,
+      "SHA|6|general": 3.0,
+      "SHA|6|hazmat_dg1": 2.0,
+      "SHA|7|cold_chain": 1.0,
+      "SHA|7|general": 6.0,
+      "SIN|10|cold_chain": 3.0,
+      "SIN|10|general": 17.0,
+      "SIN|10|hazmat_dg1": 4.0,
+      "SIN|12|cold_chain": 1.0,
+      "SIN|4|cold_chain": 2.0,
+      "SIN|4|general": 3.0,
+      "SIN|5|general": 5.0,
+      "SIN|5|hazmat_dg1": 4.0,
+      "SIN|6|cold_chain": 3.0,
+      "SIN|6|general": 2.0,
+      "SIN|6|hazmat_dg1": 4.0,
+      "SIN|7|cold_chain": 2.0,
+      "SIN|7|general": 9.0,
+      "SIN|8|cold_chain": 2.0,
+      "SIN|9|cold_chain": 1.0,
+      "SIN|9|general": 8.0
+    },
+    "empty_move_count": 1,
+    "error_count": 0,
+    "errors": [],
+    "feasible": true,
+    "gate_in": {
+      "10|JKT": 3.0,
+      "10|KHH": 18.0,
+      "10|SHA": 2.0,
+      "10|SIN": 16.0,
+      "11|SGN": 5.0,
+      "11|SIN": 3.0,
+      "13|JKT": 3.0,
+      "13|NGB": 3.0,
+      "13|SHA": 4.0,
+      "14|JKT": 1.0,
+      "14|SHA": 1.0,
+      "2|NGB": 1.0,
+      "3|KHH": 11.0,
+      "4|SIN": 2.0,
+      "5|SGN": 6.0,
+      "6|SGN": 1.0,
+      "6|SHA": 3.0,
+      "6|SIN": 4.0,
+      "7|SIN": 6.0,
+      "8|NGB": 10.0,
+      "8|SIN": 1.0,
+      "9|JKT": 6.0,
+      "9|NGB": 2.0,
+      "9|SIN": 6.0
+    },
+    "gate_out": {
+      "10|SIN": 1.0,
+      "11|JKT": 5.0,
+      "12|SIN": 1.0,
+      "1|SHA": 3.0,
+      "1|SIN": 11.0,
+      "2|JKT": 3.0,
+      "3|NGB": 7.0,
+      "4|KHH": 16.0,
+      "5|SIN": 11.0,
+      "6|SGN": 6.0,
+      "7|SHA": 7.0,
+      "8|KHH": 23.0,
+      "8|SGN": 21.0,
+      "8|SIN": 3.0
+    },
+    "lease_count": 0,
+    "leg_loads": {
+      "L01": {
+        "dg1": 2.0,
+        "reefer": 0.0,
+        "teu": 3.0
+      },
+      "L02": {
+        "dg1": 0.0,
+        "reefer": 0.0,
+        "teu": 0.0
+      },
+      "L03": {
+        "dg1": 0.0,
+        "reefer": 1.0,
+        "teu": 11.0
+      },
+      "L04": {
+        "dg1": 0.0,
+        "reefer": 1.0,
+        "teu": 10.0
+      },
+      "L05": {
+        "dg1": 0.0,
+        "reefer": 3.0,
+        "teu": 9.0
+      },
+      "L06": {
+        "dg1": 0.0,
+        "reefer": 1.0,
+        "teu": 5.0
+      },
+      "L07": {
+        "dg1": 0.0,
+        "reefer": 0.0,
+        "teu": 11.0
+      },
+      "L08": {
+        "dg1": 2.0,
+        "reefer": 0.0,
+        "teu": 5.0
+      },
+      "L09": {
+        "dg1": 0.0,
+        "reefer": 0.0,
+        "teu": 9.0
+      },
+      "L10": {
+        "dg1": 0.0,
+        "reefer": 0.0,
+        "teu": 5.0
+      },
+      "L11": {
+        "dg1": 4.0,
+        "reefer": 3.0,
+        "teu": 9.0
+      },
+      "L12": {
+        "dg1": 0.0,
+        "reefer": 0.0,
+        "teu": 2.0
+      },
+      "L13": {
+        "dg1": 0.0,
+        "reefer": 0.0,
+        "teu": 3.0
+      },
+      "L14": {
+        "dg1": 4.0,
+        "reefer": 2.0,
+        "teu": 12.0
+      },
+      "L15": {
+        "dg1": 0.0,
+        "reefer": 0.0,
+        "teu": 0.0
+      },
+      "L16": {
+        "dg1": 0.0,
+        "reefer": 3.0,
+        "teu": 21.0
+      },
+      "L17": {
+        "dg1": 0.0,
+        "reefer": 3.0,
+        "teu": 3.0
+      },
+      "L18": {
+        "dg1": 0.0,
+        "reefer": 0.0,
+        "teu": 0.0
+      },
+      "L19": {
+        "dg1": 4.0,
+        "reefer": 3.0,
+        "teu": 23.0
+      },
+      "L20": {
+        "dg1": 0.0,
+        "reefer": 1.0,
+        "teu": 4.0
+      }
+    },
+    "objective": 4183.419999999994,
+    "objective_sense": "maximize",
+    "profit": 4183.419999999994,
+    "protected_slot_loads": {
+      "L01": {
+        "contract": 3.0
+      },
+      "L03": {
+        "contract": 6.0,
+        "premium": 1.0,
+        "spot": 4.0
+      },
+      "L04": {
+        "contract": 2.0,
+        "spot": 8.0
+      },
+      "L05": {
+        "contract": 2.0,
+        "premium": 3.0,
+        "spot": 4.0
+      },
+      "L06": {
+        "premium": 4.0,
+        "spot": 1.0
+      },
+      "L08": {
+        "contract": 2.0,
+        "premium": 2.0,
+        "spot": 1.0
+      },
+      "L09": {
+        "contract": 4.0,
+        "premium": 3.0,
+        "spot": 2.0
+      },
+      "L10": {
+        "contract": 2.0,
+        "spot": 3.0
+      },
+      "L11": {
+        "contract": 2.0,
+        "premium": 5.0,
+        "spot": 2.0
+      },
+      "L12": {
+        "contract": 2.0
+      },
+      "L13": {
+        "contract": 1.0,
+        "premium": 2.0
+      },
+      "L14": {
+        "contract": 5.0,
+        "premium": 4.0,
+        "spot": 3.0
+      },
+      "L16": {
+        "contract": 4.0,
+        "premium": 10.0,
+        "spot": 7.0
+      },
+      "L17": {
+        "spot": 3.0
+      },
+      "L19": {
+        "contract": 4.0,
+        "premium": 5.0,
+        "spot": 14.0
+      },
+      "L20": {
+        "premium": 2.0,
+        "spot": 2.0
+      }
+    },
+    "rejected_count": 4,
+    "transfer_loads": {
+      "dg1": {
+        "NGB|2": 2.0
+      },
+      "reefer": {
+        "KHH|10": 3.0
+      }
+    },
+    "visible_booking_count": 54
+  },
+  "process": {
+    "command": [
+      "<RUNTIME_BINARY>",
+      "-r",
+      "/run/root",
+      "-b",
+      "/usr:/usr",
+      "-b",
+      "/usr/bin:/bin",
+      "-b",
+      "/usr/lib:/lib",
+      "-b",
+      "/usr/lib64:/lib64",
+      "-b",
+      "/etc:/etc",
+      "-b",
+      "/dev:/dev",
+      "-b",
+      "/proc:/proc",
+      "-b",
+      "<RUNTIME_DEPENDENCIES>:/opt/or-deps",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/codex",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/node",
+      "-b",
+      "/workspace/project:/opt/dsh",
+      "-w",
+      "/app",
+      "-b",
+      "/benchmark/harbor_tasks/online_liner_slot_empty_repositioning/steps/initial_plan/tests:/tests",
+      "/bin/bash",
+      "/tests/test.sh"
+    ],
+    "finished_at": "2026-09-09T23:10:01.004296+00:00",
+    "return_code": 0,
+    "started_at": "2026-09-09T23:10:00.840337+00:00",
+    "timed_out": false,
+    "timeout_seconds": 300.0,
+    "wall_seconds": 0.164
+  },
+  "reward_details": {
+    "evaluation_error_count": 0,
+    "feasibility": 1.0,
+    "objective": 4183.419999999994,
+    "quality": 2.0,
+    "quality_status": "scored",
+    "reference_metrics": {
+      "accepted_count": 50,
+      "best_bound": null,
+      "bound_sense": "upper",
+      "calibration": "quality = clip(2 * (agent_objective - poor_objective) / (reference_objective - poor_objective), 0, 2) for feasible submissions",
+      "candidate_count": 10,
+      "mip_gap": 0.0005,
+      "objective_sense": "maximize",
+      "poor_objective": 2676.4936,
+      "reference_objective": 3936.0199999999923,
+      "rejected_count": 4,
+      "stage": "initial",
+      "time_limit_seconds": 300,
+      "visible_booking_count": 54
+    },
+    "scalar_reward": 1.0,
+    "scalar_reward_formula": "(feasibility + quality) / 3"
+  }
+}

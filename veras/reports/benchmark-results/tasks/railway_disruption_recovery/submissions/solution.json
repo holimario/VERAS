@@ -1,0 +1,680 @@
+{
+  "trains": [
+    {
+      "crew_id": "CR1",
+      "events": [
+        {
+          "arrival": 18.0,
+          "departure": 18.0,
+          "platform": 1,
+          "station_id": "W0"
+        },
+        {
+          "arrival": 27.0,
+          "departure": 29.0,
+          "platform": 1,
+          "station_id": "W1"
+        },
+        {
+          "arrival": 37.0,
+          "departure": 39.0,
+          "platform": 1,
+          "station_id": "C0"
+        },
+        {
+          "arrival": 46.0,
+          "departure": 70.0,
+          "platform": 1,
+          "station_id": "C1"
+        },
+        {
+          "arrival": 80.0,
+          "departure": 82.0,
+          "platform": 1,
+          "station_id": "C2"
+        },
+        {
+          "arrival": 90.0,
+          "departure": 92.0,
+          "platform": 1,
+          "station_id": "E0"
+        },
+        {
+          "arrival": 99.0,
+          "departure": 101.0,
+          "platform": 1,
+          "station_id": "E1"
+        },
+        {
+          "arrival": 110.0,
+          "departure": 110.0,
+          "platform": 1,
+          "station_id": "E2"
+        }
+      ],
+      "rolling_stock_id": "RS1",
+      "status": "run",
+      "train_id": "T01"
+    },
+    {
+      "crew_id": "CR2",
+      "events": [
+        {
+          "arrival": 24.0,
+          "departure": 24.0,
+          "platform": 1,
+          "station_id": "E2"
+        },
+        {
+          "arrival": 33.0,
+          "departure": 35.0,
+          "platform": 1,
+          "station_id": "E1"
+        },
+        {
+          "arrival": 42.0,
+          "departure": 44.0,
+          "platform": 1,
+          "station_id": "E0"
+        },
+        {
+          "arrival": 52.0,
+          "departure": 54.0,
+          "platform": 1,
+          "station_id": "C2"
+        },
+        {
+          "arrival": 64.0,
+          "departure": 67.0,
+          "platform": 3,
+          "station_id": "C1"
+        },
+        {
+          "arrival": 74.0,
+          "departure": 76.0,
+          "platform": 1,
+          "station_id": "C0"
+        },
+        {
+          "arrival": 84.0,
+          "departure": 86.0,
+          "platform": 1,
+          "station_id": "W1"
+        },
+        {
+          "arrival": 95.0,
+          "departure": 95.0,
+          "platform": 1,
+          "station_id": "W0"
+        }
+      ],
+      "rolling_stock_id": "RS2",
+      "status": "run",
+      "train_id": "T02"
+    },
+    {
+      "crew_id": "CR3",
+      "events": [
+        {
+          "arrival": 34.0,
+          "departure": 34.0,
+          "platform": 1,
+          "station_id": "W0"
+        },
+        {
+          "arrival": 43.0,
+          "departure": 45.0,
+          "platform": 1,
+          "station_id": "W1"
+        },
+        {
+          "arrival": 53.0,
+          "departure": 55.0,
+          "platform": 1,
+          "station_id": "C0"
+        },
+        {
+          "arrival": 62.0,
+          "departure": 77.0,
+          "platform": 2,
+          "station_id": "C1"
+        },
+        {
+          "arrival": 87.0,
+          "departure": 89.0,
+          "platform": 1,
+          "station_id": "C2"
+        },
+        {
+          "arrival": 97.0,
+          "departure": 99.0,
+          "platform": 2,
+          "station_id": "E0"
+        },
+        {
+          "arrival": 106.0,
+          "departure": 108.0,
+          "platform": 1,
+          "station_id": "E1"
+        },
+        {
+          "arrival": 117.0,
+          "departure": 117.0,
+          "platform": 1,
+          "station_id": "E2"
+        }
+      ],
+      "rolling_stock_id": "RS3",
+      "status": "run",
+      "train_id": "T03"
+    },
+    {
+      "crew_id": "CR4",
+      "events": [
+        {
+          "arrival": 51.0,
+          "departure": 51.0,
+          "platform": 2,
+          "station_id": "C1"
+        },
+        {
+          "arrival": 58.0,
+          "departure": 60.0,
+          "platform": 1,
+          "station_id": "C0"
+        },
+        {
+          "arrival": 68.0,
+          "departure": 70.0,
+          "platform": 1,
+          "station_id": "W1"
+        },
+        {
+          "arrival": 79.0,
+          "departure": 79.0,
+          "platform": 1,
+          "station_id": "W0"
+        }
+      ],
+      "rolling_stock_id": "RS4",
+      "status": "run",
+      "train_id": "T04"
+    },
+    {
+      "crew_id": "CR5",
+      "events": [
+        {
+          "arrival": 66.0,
+          "departure": 66.0,
+          "platform": 1,
+          "station_id": "W0"
+        },
+        {
+          "arrival": 75.0,
+          "departure": 80.0,
+          "platform": 1,
+          "station_id": "W1"
+        },
+        {
+          "arrival": 88.0,
+          "departure": 90.0,
+          "platform": 1,
+          "station_id": "C0"
+        },
+        {
+          "arrival": 97.0,
+          "departure": 97.0,
+          "platform": 1,
+          "station_id": "C1"
+        }
+      ],
+      "rolling_stock_id": "RS5",
+      "status": "run",
+      "train_id": "T05"
+    },
+    {
+      "crew_id": "CR6",
+      "events": [
+        {
+          "arrival": 76.0,
+          "departure": 76.0,
+          "platform": 1,
+          "station_id": "E2"
+        },
+        {
+          "arrival": 85.0,
+          "departure": 88.0,
+          "platform": 1,
+          "station_id": "E1"
+        },
+        {
+          "arrival": 95.0,
+          "departure": 101.0,
+          "platform": 1,
+          "station_id": "E0"
+        },
+        {
+          "arrival": 109.0,
+          "departure": 170.0,
+          "platform": 1,
+          "station_id": "C2"
+        },
+        {
+          "arrival": 180.0,
+          "departure": 180.0,
+          "platform": 1,
+          "station_id": "C1"
+        }
+      ],
+      "rolling_stock_id": "RS6",
+      "status": "run",
+      "train_id": "T06"
+    },
+    {
+      "crew_id": "CR7",
+      "events": [
+        {
+          "arrival": 124.0,
+          "departure": 124.0,
+          "platform": 1,
+          "station_id": "W0"
+        },
+        {
+          "arrival": 133.0,
+          "departure": 135.0,
+          "platform": 1,
+          "station_id": "W1"
+        },
+        {
+          "arrival": 143.0,
+          "departure": 145.0,
+          "platform": 1,
+          "station_id": "C0"
+        },
+        {
+          "arrival": 152.0,
+          "departure": 154.0,
+          "platform": 1,
+          "station_id": "C1"
+        },
+        {
+          "arrival": 164.0,
+          "departure": 166.0,
+          "platform": 2,
+          "station_id": "C2"
+        },
+        {
+          "arrival": 174.0,
+          "departure": 176.0,
+          "platform": 1,
+          "station_id": "E0"
+        },
+        {
+          "arrival": 183.0,
+          "departure": 185.0,
+          "platform": 1,
+          "station_id": "E1"
+        },
+        {
+          "arrival": 194.0,
+          "departure": 194.0,
+          "platform": 1,
+          "station_id": "E2"
+        }
+      ],
+      "rolling_stock_id": "RS7",
+      "status": "run",
+      "train_id": "T07"
+    },
+    {
+      "crew_id": "CR1",
+      "events": [
+        {
+          "arrival": 160.0,
+          "departure": 160.0,
+          "platform": 1,
+          "station_id": "E2"
+        },
+        {
+          "arrival": 169.0,
+          "departure": 172.0,
+          "platform": 1,
+          "station_id": "E1"
+        },
+        {
+          "arrival": 179.0,
+          "departure": 186.0,
+          "platform": 1,
+          "station_id": "E0"
+        },
+        {
+          "arrival": 194.0,
+          "departure": 196.0,
+          "platform": 1,
+          "station_id": "C2"
+        },
+        {
+          "arrival": 206.0,
+          "departure": 209.0,
+          "platform": 2,
+          "station_id": "C1"
+        },
+        {
+          "arrival": 216.0,
+          "departure": 218.0,
+          "platform": 1,
+          "station_id": "C0"
+        },
+        {
+          "arrival": 226.0,
+          "departure": 228.0,
+          "platform": 1,
+          "station_id": "W1"
+        },
+        {
+          "arrival": 237.0,
+          "departure": 237.0,
+          "platform": 1,
+          "station_id": "W0"
+        }
+      ],
+      "rolling_stock_id": "RS1",
+      "status": "run",
+      "train_id": "T08"
+    },
+    {
+      "crew_id": "CR2",
+      "events": [
+        {
+          "arrival": 176.0,
+          "departure": 176.0,
+          "platform": 1,
+          "station_id": "W0"
+        },
+        {
+          "arrival": 185.0,
+          "departure": 187.0,
+          "platform": 1,
+          "station_id": "W1"
+        },
+        {
+          "arrival": 195.0,
+          "departure": 197.0,
+          "platform": 1,
+          "station_id": "C0"
+        },
+        {
+          "arrival": 204.0,
+          "departure": 212.0,
+          "platform": 1,
+          "station_id": "C1"
+        },
+        {
+          "arrival": 222.0,
+          "departure": 231.0,
+          "platform": 1,
+          "station_id": "C2"
+        },
+        {
+          "arrival": 239.0,
+          "departure": 241.0,
+          "platform": 1,
+          "station_id": "E0"
+        },
+        {
+          "arrival": 248.0,
+          "departure": 250.0,
+          "platform": 1,
+          "station_id": "E1"
+        },
+        {
+          "arrival": 259.0,
+          "departure": 259.0,
+          "platform": 1,
+          "station_id": "E2"
+        }
+      ],
+      "rolling_stock_id": "RS2",
+      "status": "run",
+      "train_id": "T09"
+    },
+    {
+      "crew_id": "CR3",
+      "events": [
+        {
+          "arrival": 198.0,
+          "departure": 198.0,
+          "platform": 1,
+          "station_id": "E2"
+        },
+        {
+          "arrival": 207.0,
+          "departure": 209.0,
+          "platform": 1,
+          "station_id": "E1"
+        },
+        {
+          "arrival": 216.0,
+          "departure": 218.0,
+          "platform": 1,
+          "station_id": "E0"
+        },
+        {
+          "arrival": 226.0,
+          "departure": 228.0,
+          "platform": 2,
+          "station_id": "C2"
+        },
+        {
+          "arrival": 238.0,
+          "departure": 240.0,
+          "platform": 1,
+          "station_id": "C1"
+        },
+        {
+          "arrival": 247.0,
+          "departure": 249.0,
+          "platform": 1,
+          "station_id": "C0"
+        },
+        {
+          "arrival": 257.0,
+          "departure": 259.0,
+          "platform": 1,
+          "station_id": "W1"
+        },
+        {
+          "arrival": 268.0,
+          "departure": 268.0,
+          "platform": 1,
+          "station_id": "W0"
+        }
+      ],
+      "rolling_stock_id": "RS3",
+      "status": "run",
+      "train_id": "T10"
+    },
+    {
+      "crew_id": "CR4",
+      "events": [
+        {
+          "arrival": 222.0,
+          "departure": 222.0,
+          "platform": 1,
+          "station_id": "W0"
+        },
+        {
+          "arrival": 231.0,
+          "departure": 234.0,
+          "platform": 1,
+          "station_id": "W1"
+        },
+        {
+          "arrival": 242.0,
+          "departure": 244.0,
+          "platform": 1,
+          "station_id": "C0"
+        },
+        {
+          "arrival": 251.0,
+          "departure": 251.0,
+          "platform": 1,
+          "station_id": "C1"
+        }
+      ],
+      "rolling_stock_id": "RS4",
+      "status": "run",
+      "train_id": "T11"
+    },
+    {
+      "crew_id": "CR5",
+      "events": [
+        {
+          "arrival": 244.0,
+          "departure": 244.0,
+          "platform": 1,
+          "station_id": "C1"
+        },
+        {
+          "arrival": 254.0,
+          "departure": 256.0,
+          "platform": 1,
+          "station_id": "C2"
+        },
+        {
+          "arrival": 264.0,
+          "departure": 266.0,
+          "platform": 2,
+          "station_id": "E0"
+        },
+        {
+          "arrival": 273.0,
+          "departure": 275.0,
+          "platform": 1,
+          "station_id": "E1"
+        },
+        {
+          "arrival": 284.0,
+          "departure": 284.0,
+          "platform": 1,
+          "station_id": "E2"
+        }
+      ],
+      "rolling_stock_id": "RS5",
+      "status": "run",
+      "train_id": "T12"
+    },
+    {
+      "crew_id": "CR7",
+      "events": [
+        {
+          "arrival": 244.0,
+          "departure": 244.0,
+          "platform": 1,
+          "station_id": "E2"
+        },
+        {
+          "arrival": 253.0,
+          "departure": 256.0,
+          "platform": 1,
+          "station_id": "E1"
+        },
+        {
+          "arrival": 263.0,
+          "departure": 269.0,
+          "platform": 1,
+          "station_id": "E0"
+        },
+        {
+          "arrival": 277.0,
+          "departure": 279.0,
+          "platform": 1,
+          "station_id": "C2"
+        },
+        {
+          "arrival": 289.0,
+          "departure": 291.0,
+          "platform": 1,
+          "station_id": "C1"
+        },
+        {
+          "arrival": 298.0,
+          "departure": 302.0,
+          "platform": 1,
+          "station_id": "C0"
+        },
+        {
+          "arrival": 310.0,
+          "departure": 312.0,
+          "platform": 1,
+          "station_id": "W1"
+        },
+        {
+          "arrival": 321.0,
+          "departure": 321.0,
+          "platform": 1,
+          "station_id": "W0"
+        }
+      ],
+      "rolling_stock_id": "RS7",
+      "status": "run",
+      "train_id": "T13"
+    },
+    {
+      "crew_id": "CR1",
+      "events": [
+        {
+          "arrival": 280.0,
+          "departure": 280.0,
+          "platform": 1,
+          "station_id": "W0"
+        },
+        {
+          "arrival": 289.0,
+          "departure": 291.0,
+          "platform": 1,
+          "station_id": "W1"
+        },
+        {
+          "arrival": 299.0,
+          "departure": 301.0,
+          "platform": 2,
+          "station_id": "C0"
+        },
+        {
+          "arrival": 308.0,
+          "departure": 310.0,
+          "platform": 1,
+          "station_id": "C1"
+        },
+        {
+          "arrival": 320.0,
+          "departure": 322.0,
+          "platform": 1,
+          "station_id": "C2"
+        },
+        {
+          "arrival": 330.0,
+          "departure": 332.0,
+          "platform": 1,
+          "station_id": "E0"
+        },
+        {
+          "arrival": 339.0,
+          "departure": 341.0,
+          "platform": 1,
+          "station_id": "E1"
+        },
+        {
+          "arrival": 350.0,
+          "departure": 350.0,
+          "platform": 1,
+          "station_id": "E2"
+        }
+      ],
+      "rolling_stock_id": "RS1",
+      "status": "run",
+      "train_id": "T14"
+    }
+  ]
+}

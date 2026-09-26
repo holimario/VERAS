@@ -1,0 +1,82 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 4553,
+    "sha256": "e7a96aaeb697aec7ccc19445f4944acebf62c0846a5bf884b22780f99c661a2c"
+  },
+  "data/aisle_capacity.csv": {
+    "bytes": 3942,
+    "sha256": "f32d69dfb723a01e2f02822315be68f6d46681585dc01119d7eebff9f344c0d3"
+  },
+  "data/config.json": {
+    "bytes": 485,
+    "sha256": "99860b0fed359e2bab7d29f849de776bfa1c7a5659ccbaee9084718349f6e993"
+  },
+  "data/control_notes.csv": {
+    "bytes": 618,
+    "sha256": "5c7bd2fa6c5616eaf8dc38d0f52fba9e822f1118f73d0f76a89703b55ee194da"
+  },
+  "data/order_lines.csv": {
+    "bytes": 1398,
+    "sha256": "105853de63ce985f4a684e449d9d558f08186e18f44b92764b7ccdabadaf3448"
+  },
+  "data/orders.csv": {
+    "bytes": 1403,
+    "sha256": "69ad861a0156792aeb070d68a7bf4c19fbeb538e4e27e0c029f185e4bc88f2a3"
+  },
+  "data/pod_inventory.csv": {
+    "bytes": 2586,
+    "sha256": "ec94bc848b2b1daa069193e92dff551e9ea587d31c04e9658837f3897e06d90b"
+  },
+  "data/pods.csv": {
+    "bytes": 894,
+    "sha256": "df0899e0b94794544bd76476354ad1db3c5fb6ca0e60bde414052f98a3f2c049"
+  },
+  "data/promise_groups.csv": {
+    "bytes": 1559,
+    "sha256": "e8f6b29d5bdbdd574531da25b466296941cbfbf52fe5756ab002bb6200e609af"
+  },
+  "data/robot_maintenance_windows.csv": {
+    "bytes": 137,
+    "sha256": "02cd28a08819c96f6ada305a2a290454cc7297b298243816771db4178bb5d25e"
+  },
+  "data/robots.csv": {
+    "bytes": 326,
+    "sha256": "78312c8d4e8070926b906ea99eb0bd6f8f6769538bbd95eda0bfbce803597afa"
+  },
+  "data/skus.csv": {
+    "bytes": 794,
+    "sha256": "e67aa8c6424aafe4d55f371e4bfc49c1960e51f50e89874cea8c2af7cfa1aded"
+  },
+  "data/station_windows.csv": {
+    "bytes": 103,
+    "sha256": "2cce0ba662c7234666acc81ef4efc3feecf08da2d3bef9efbd7940628a5dd073"
+  },
+  "data/stations.csv": {
+    "bytes": 228,
+    "sha256": "1733889b903a33ac6db42592858cef9433c5c390853ebcee0b4e899317f39482"
+  },
+  "data/zones.csv": {
+    "bytes": 156,
+    "sha256": "0d02b12313dac8c141f4c6393a5af9d2f1d889a2c318cb71ad4307795cdff03a"
+  },
+  "submissions/solution_template.csv": {
+    "bytes": 81,
+    "sha256": "0e603f55b6e601c18bb6bfb0a02a92c1a740359bd68e8dffb7f74c91faeaa02f"
+  }
+}

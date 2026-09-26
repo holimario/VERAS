@@ -1,0 +1,27 @@
+{
+  "artifact": "VERAS",
+  "release_status": "evaluated",
+  "benchmark": {
+    "task_count": 107,
+    "passed": 46,
+    "feasible": 72,
+    "completed": 103,
+    "mean_normalized_quality": 0.392337,
+    "retained_trajectories": 34,
+    "all_task_scores_included": true
+  },
+  "real_world": {
+    "data_center": {
+      "native_codex_holdout_peak_gbps": 1599.0504189355358,
+      "veras_holdout_peak_gbps": 1110.6406704153335,
+      "relative_improvement_percent": 30.544,
+      "both_resource_feasible": true
+    },
+    "power_grid": {
+      "native_codex_raw_objective_usd_per_year": 40726008.414714105,
+      "veras_objective_usd_per_year": 39379929.122525945,
+      "relative_improvement_percent": 3.3052080098,
+      "veras_independent_audit_passed": true
+    }
+  }
+}

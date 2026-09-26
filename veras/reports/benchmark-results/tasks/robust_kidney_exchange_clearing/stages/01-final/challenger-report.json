@@ -1,0 +1,5 @@
+{
+  "attempts": 2,
+  "candidate_restored_after_observation": true,
+  "report": "I’m auditing the exported solution independently from the raw statement and data, then I’ll recompute the public constraints directly and look for counterexamples by family, with scenario consistency checked first.\n\nI’m using `optimization-modeling-core` for the independent recomputation and `advanced-mip-patterns` because the public risk is scenario nonanticipativity plus scheduling-style feasibility. Next I’m locating the statement, data tables, solution export, and any prior-stage public artifacts that define the public rules.\n\nI have the exported plan. Now I’m parsing the data tables and schema directly so I can rebuild the public feasibility checks from scratch, rather than inferring anything from the producer’s formulation."
+}

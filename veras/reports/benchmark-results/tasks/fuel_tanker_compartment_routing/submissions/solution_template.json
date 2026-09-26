@@ -1,0 +1,25 @@
+{
+  "trips": [
+    {
+      "bay_id": "BAY_A",
+      "deliveries": [
+        {
+          "compartment_id": "C3",
+          "order_id": "O001",
+          "quantity_liters": 4200.0,
+          "stop_sequence": 1
+        }
+      ],
+      "load_start_min": 360,
+      "stops": [
+        {
+          "arrival_min": 430.5,
+          "departure_min": 452.0,
+          "node_id": "S01"
+        }
+      ],
+      "trip_id": "T01_1",
+      "vehicle_id": "T01"
+    }
+  ]
+}

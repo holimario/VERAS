@@ -1,0 +1,98 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 5504,
+    "sha256": "652db40aea31e3dc59f404b4603f8347250ee0d6f400a150378ee100ffa89cc3"
+  },
+  "data/config.json": {
+    "bytes": 509,
+    "sha256": "d52b2e337cd2cf8c6b03a85f8f28c4926acb996bd6f2251aba91eb657d0ef223"
+  },
+  "data/depot_fleet.csv": {
+    "bytes": 545,
+    "sha256": "05d16ace702b005d96f807fa29ac36cfc2d8003251431e40a4bcedd5a2bc9ef4"
+  },
+  "data/depot_product_shift_capacity.csv": {
+    "bytes": 1682,
+    "sha256": "4bbe244894246b2ac3d48eecd404ecf62fcdf56d74de6da284f0b3072af54032"
+  },
+  "data/depot_station_lanes.csv": {
+    "bytes": 5261,
+    "sha256": "a1b97d9545cc0758a9c5416fd34942047170b777c6bdf7b47e927dea812b153b"
+  },
+  "data/depots.csv": {
+    "bytes": 407,
+    "sha256": "232ec3b4c112dd49b322a833cee6bf70ac205bb8a0aa55310ae562fd32fad176"
+  },
+  "data/periods.csv": {
+    "bytes": 153,
+    "sha256": "1d755d25ea94c5cbcb765234b1fe21e15773768cc4646a6bae988ebbb385cd9a"
+  },
+  "data/products.csv": {
+    "bytes": 348,
+    "sha256": "93d5ec2d7cad297cc542bdf3f21fddede44f235a644e3b5d3181804940ee6cd6"
+  },
+  "data/scenario_demands.csv": {
+    "bytes": 63222,
+    "sha256": "0bcce9993f7e5121823d51aa5e4e9fab3facac10660026cf645251974ff2f035"
+  },
+  "data/scenario_emergency_caps.csv": {
+    "bytes": 809,
+    "sha256": "1e0b0a2cec7d354a0e9184fd16d510034a4c6e78cbeed6fd5c0a287d622be337"
+  },
+  "data/scenario_lane_impacts.csv": {
+    "bytes": 369736,
+    "sha256": "0480cfd1f94b7505fbed9db2a19dc91ab360c940136b934e7cfe7561bcf755e1"
+  },
+  "data/scenario_terminal_capacity.csv": {
+    "bytes": 32471,
+    "sha256": "be1eee622787568ad89ff956aff0f8585a2e24316b696c10af36b7f3cace453c"
+  },
+  "data/scenarios.csv": {
+    "bytes": 685,
+    "sha256": "93870c5d4f9e4bb9c40b91da978bba79f9240d22d36dbb8e10c8a116272aeb63"
+  },
+  "data/station_tanks.csv": {
+    "bytes": 1094,
+    "sha256": "373b4e5fbb6c1e1297c8d278d2ac447c0a067018fe6db1f9f2421925f4bc2288"
+  },
+  "data/stations.csv": {
+    "bytes": 598,
+    "sha256": "f96b8a7f5034546b5dd095fdab373e023d7fa12f0fb41e301d3c0503c500328e"
+  },
+  "data/terminal_depot_commitments.csv": {
+    "bytes": 401,
+    "sha256": "023287ea31c8e8b6bb355b704d7c07cc3c9d1177536837a8e663b45bbf82a2c2"
+  },
+  "data/terminal_depot_lanes.csv": {
+    "bytes": 1994,
+    "sha256": "2000f810b23c86207a20a0e8dd6c551ff5931487d836eae42ed4ffccb11dfcac"
+  },
+  "data/terminal_product_capacity.csv": {
+    "bytes": 1673,
+    "sha256": "afe596a3a529621cdac2fc95f47ac3c9755a73e6ad794251e64620af9abde6cd"
+  },
+  "data/terminals.csv": {
+    "bytes": 326,
+    "sha256": "dca62632d771279cba7879161151d120c3d1803e39e15e335216eeca415f6c92"
+  },
+  "submissions/solution_template.csv": {
+    "bytes": 188,
+    "sha256": "5c5df5fb3f494d9fa41771a51ec1de3c1de52d6a2cfd1fe7d968507a923fd491"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "VERAS",
+  "status": "evaluated",
+  "api": {
+    "interface": "OpenAI-compatible",
+    "endpoint": "user-supplied",
+    "model": "user-supplied",
+    "credential_env_default": "VERAS_API_KEY",
+    "persist_connection_metadata": false
+  },
+  "defaults": {
+    "reasoning_effort": "high",
+    "timeout_scale": 1.0,
+    "reserve_fraction": 0.3,
+    "challenger_fraction": 0.22,
+    "min_recovery_seconds": 120.0
+  },
+  "official_results": {
+    "easy": {
+      "tasks": 32,
+      "completed": 32,
+      "passed": 18,
+      "feasible": 27,
+      "mean_normalized_quality": 0.5466703956263184
+    },
+    "medium": {
+      "tasks": 41,
+      "completed": 40,
+      "passed": 16,
+      "feasible": 28,
+      "mean_normalized_quality": 0.3415435104735906
+    },
+    "hard": {
+      "tasks": 34,
+      "completed": 31,
+      "passed": 12,
+      "feasible": 17,
+      "mean_normalized_quality": 0.3083335524359695
+    },
+    "overall": {
+      "tasks": 107,
+      "completed": 103,
+      "passed": 46,
+      "feasible": 72,
+      "mean_normalized_quality": 0.3923371717035735
+    }
+  }
+}

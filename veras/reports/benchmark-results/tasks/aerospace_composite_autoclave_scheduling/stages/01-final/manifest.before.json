@@ -1,0 +1,86 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 5951,
+    "sha256": "eabdd2ef179867b3f3371f3ca18e0435cf2ba57f01820f888a369f1cca5a6673"
+  },
+  "data/autoclave_recipe_eligibility.csv": {
+    "bytes": 435,
+    "sha256": "30a193823594746d11ab9f2115742de5dbd17adced3ae1fa1395233acddbd82d"
+  },
+  "data/autoclaves.csv": {
+    "bytes": 246,
+    "sha256": "389cae2e1c06e5b94e7af179bd6707b817d1fe98ef051c35f97a4cea2f7c7114"
+  },
+  "data/config.json": {
+    "bytes": 492,
+    "sha256": "84019cae7c88c7e2c9250dc8e8e301783d2960ebf72f99191b3ab7b6d77a9d71"
+  },
+  "data/cooling_lane_capacity.csv": {
+    "bytes": 101,
+    "sha256": "3254c04074098594e5b665cd01c9e24a63432c2042d3f349904bc66fc3e6d5c8"
+  },
+  "data/energy_tariffs.csv": {
+    "bytes": 410,
+    "sha256": "3c2c5cd19addbfcc94cc1a967642c8c87c22763a7c2d3205db10784d0da276a7"
+  },
+  "data/fixtures.csv": {
+    "bytes": 130,
+    "sha256": "2e012b41cb11a33c987d9ae1bf8acd238298117a29381dd6674a77ee832264ea"
+  },
+  "data/maintenance_windows.csv": {
+    "bytes": 273,
+    "sha256": "79de88c367d87f9862a1bb733a2e2f10b0ccd802ca56f0b60128e590f0693714"
+  },
+  "data/operator_calendar.csv": {
+    "bytes": 699,
+    "sha256": "e8a944260f5ed9dacd50e8ef3b0176c08252bc1a05865bc2badbf27340e81e26"
+  },
+  "data/parts.csv": {
+    "bytes": 7291,
+    "sha256": "83a692510d2b4b8b6b0e6799b1078f5fd2681958694821cc55a6265dc4eb3cc1"
+  },
+  "data/post_cure_inspection_capacity.csv": {
+    "bytes": 208,
+    "sha256": "1411018b8b77f16fa5597b65486aa7827149e32f5322baa922cca2d3d47a9743"
+  },
+  "data/program_commitments.csv": {
+    "bytes": 157,
+    "sha256": "af68df4027dc01241f80c855e26004d223100cb8c78c1228c380201904acd876"
+  },
+  "data/recipe_batch_rules.csv": {
+    "bytes": 343,
+    "sha256": "55d5016d192f926bf2ef3fc1e7098fb1ef804dffa83c31d6f15a51e5e35ca2bb"
+  },
+  "data/recipes.csv": {
+    "bytes": 360,
+    "sha256": "a9ae26c6ab0964014a5850ff8d0047c5bf4652d663e23d83264a4a2193226811"
+  },
+  "data/setup_times.csv": {
+    "bytes": 354,
+    "sha256": "509982579f430e49e3e5e9d61ac78796dccfd7eb73b56ad46a6939076b0eb684"
+  },
+  "data/vacuum_manifold_limits.csv": {
+    "bytes": 111,
+    "sha256": "4046ae26b158c0c4a01ec0fbfaa2fc17850b142bf1bd1eb2a8cff7cc7aba48a0"
+  },
+  "submissions/solution_template.json": {
+    "bytes": 20,
+    "sha256": "d746fc39b087d72db1affae7b0ced184fdb075dd9a3b523112a156477489f46b"
+  }
+}

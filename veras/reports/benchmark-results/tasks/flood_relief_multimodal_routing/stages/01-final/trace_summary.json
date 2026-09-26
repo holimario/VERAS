@@ -1,0 +1,23 @@
+{
+  "event_counts": {
+    "item.completed": 123,
+    "item.started": 89,
+    "thread.started": 4,
+    "turn.completed": 1,
+    "turn.failed": 1,
+    "turn.started": 4
+  },
+  "event_logs": [
+    "harness.events.jsonl",
+    "challenger.events.jsonl",
+    "performance.events.jsonl",
+    "performance-02.events.jsonl"
+  ],
+  "usage": {
+    "cache_write_input_tokens": 0,
+    "cached_input_tokens": 5091584,
+    "input_tokens": 5354114,
+    "output_tokens": 85307,
+    "reasoning_output_tokens": 46997
+  }
+}

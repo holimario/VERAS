@@ -1,0 +1,1789 @@
+{
+  "contraflow": [
+    {
+      "active": true,
+      "corridor_id": "C1"
+    },
+    {
+      "active": true,
+      "corridor_id": "C2"
+    },
+    {
+      "active": true,
+      "corridor_id": "C3"
+    },
+    {
+      "active": true,
+      "corridor_id": "C4"
+    },
+    {
+      "active": true,
+      "corridor_id": "C5"
+    }
+  ],
+  "scenario_plans": [
+    {
+      "bus_trips": [
+        {
+          "bus_id": "B01",
+          "depart_min": 90.08630167,
+          "evacuees": 52,
+          "pets": 4,
+          "pickup_id": "P06",
+          "sequence": 1,
+          "shelter_id": "S1",
+          "wheelchair": 10
+        },
+        {
+          "bus_id": "B01",
+          "depart_min": 195.00242027,
+          "evacuees": 52,
+          "pets": 10,
+          "pickup_id": "P01",
+          "sequence": 2,
+          "shelter_id": "S3",
+          "wheelchair": 7
+        },
+        {
+          "bus_id": "B01",
+          "depart_min": 290.01634334,
+          "evacuees": 52,
+          "pets": 12,
+          "pickup_id": "P08",
+          "sequence": 3,
+          "shelter_id": "S2",
+          "wheelchair": 6
+        },
+        {
+          "bus_id": "B02",
+          "depart_min": 73.44557225,
+          "evacuees": 20,
+          "pets": 0,
+          "pickup_id": "P09",
+          "sequence": 1,
+          "shelter_id": "S3",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B03",
+          "depart_min": 45.20528,
+          "evacuees": 15,
+          "pets": 0,
+          "pickup_id": "P02",
+          "sequence": 1,
+          "shelter_id": "S5",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B03",
+          "depart_min": 94.60737734,
+          "evacuees": 16,
+          "pets": 0,
+          "pickup_id": "P07",
+          "sequence": 2,
+          "shelter_id": "S1",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B04",
+          "depart_min": 71.33065505,
+          "evacuees": 50,
+          "pets": 16,
+          "pickup_id": "P03",
+          "sequence": 1,
+          "shelter_id": "S2",
+          "wheelchair": 4
+        },
+        {
+          "bus_id": "B04",
+          "depart_min": 157.5613185,
+          "evacuees": 50,
+          "pets": 9,
+          "pickup_id": "P07",
+          "sequence": 2,
+          "shelter_id": "S2",
+          "wheelchair": 3
+        },
+        {
+          "bus_id": "B04",
+          "depart_min": 237.79198195,
+          "evacuees": 50,
+          "pets": 0,
+          "pickup_id": "P03",
+          "sequence": 3,
+          "shelter_id": "S2",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B05",
+          "depart_min": 92.83065505,
+          "evacuees": 25,
+          "pets": 0,
+          "pickup_id": "P04",
+          "sequence": 1,
+          "shelter_id": "S3",
+          "wheelchair": 1
+        },
+        {
+          "bus_id": "B06",
+          "depart_min": 84.58065505,
+          "evacuees": 55,
+          "pets": 10,
+          "pickup_id": "P04",
+          "sequence": 1,
+          "shelter_id": "S5",
+          "wheelchair": 10
+        },
+        {
+          "bus_id": "B06",
+          "depart_min": 179.57030883,
+          "evacuees": 55,
+          "pets": 8,
+          "pickup_id": "P02",
+          "sequence": 2,
+          "shelter_id": "S5",
+          "wheelchair": 9
+        },
+        {
+          "bus_id": "B06",
+          "depart_min": 283.54311689,
+          "evacuees": 55,
+          "pets": 7,
+          "pickup_id": "P09",
+          "sequence": 3,
+          "shelter_id": "S5",
+          "wheelchair": 9
+        },
+        {
+          "bus_id": "B07",
+          "depart_min": 53.497426,
+          "evacuees": 33,
+          "pets": 0,
+          "pickup_id": "P08",
+          "sequence": 1,
+          "shelter_id": "S1",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B07",
+          "depart_min": 147.41650378,
+          "evacuees": 1,
+          "pets": 0,
+          "pickup_id": "P10",
+          "sequence": 2,
+          "shelter_id": "S3",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B08",
+          "depart_min": 55.32375127,
+          "evacuees": 41,
+          "pets": 0,
+          "pickup_id": "P05",
+          "sequence": 1,
+          "shelter_id": "S3",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B08",
+          "depart_min": 125.03750538,
+          "evacuees": 4,
+          "pets": 0,
+          "pickup_id": "P03",
+          "sequence": 2,
+          "shelter_id": "S2",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B09",
+          "depart_min": 45.07062952,
+          "evacuees": 32,
+          "pets": 0,
+          "pickup_id": "P01",
+          "sequence": 1,
+          "shelter_id": "S3",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B09",
+          "depart_min": 115.3744047,
+          "evacuees": 6,
+          "pets": 0,
+          "pickup_id": "P06",
+          "sequence": 2,
+          "shelter_id": "S1",
+          "wheelchair": 2
+        },
+        {
+          "bus_id": "B10",
+          "depart_min": 76.55160441,
+          "evacuees": 50,
+          "pets": 14,
+          "pickup_id": "P05",
+          "sequence": 1,
+          "shelter_id": "S3",
+          "wheelchair": 5
+        },
+        {
+          "bus_id": "B10",
+          "depart_min": 177.6168526,
+          "evacuees": 50,
+          "pets": 6,
+          "pickup_id": "P10",
+          "sequence": 2,
+          "shelter_id": "S5",
+          "wheelchair": 2
+        }
+      ],
+      "scenario_id": "NIGHT_IGNITION",
+      "shelter_in_place": [
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P01",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P02",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P03",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P04",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P05",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P06",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P07",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P08",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P09",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P10",
+          "wheelchair": 0
+        }
+      ],
+      "unserved": [
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P01",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P02",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P03",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P04",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P05",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P06",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P07",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P08",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P09",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P10",
+          "wheelchair": 0
+        }
+      ]
+    },
+    {
+      "bus_trips": [
+        {
+          "bus_id": "B01",
+          "depart_min": 68.27371425,
+          "evacuees": 52,
+          "pets": 9,
+          "pickup_id": "P02",
+          "sequence": 1,
+          "shelter_id": "S5",
+          "wheelchair": 10
+        },
+        {
+          "bus_id": "B01",
+          "depart_min": 195.16120865,
+          "evacuees": 52,
+          "pets": 8,
+          "pickup_id": "P09",
+          "sequence": 2,
+          "shelter_id": "S3",
+          "wheelchair": 10
+        },
+        {
+          "bus_id": "B02",
+          "depart_min": 84.60726427,
+          "evacuees": 48,
+          "pets": 7,
+          "pickup_id": "P10",
+          "sequence": 1,
+          "shelter_id": "S1",
+          "wheelchair": 3
+        },
+        {
+          "bus_id": "B02",
+          "depart_min": 221.06851361,
+          "evacuees": 48,
+          "pets": 0,
+          "pickup_id": "P05",
+          "sequence": 2,
+          "shelter_id": "S3",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B03",
+          "depart_min": 56.34320478,
+          "evacuees": 41,
+          "pets": 0,
+          "pickup_id": "P04",
+          "sequence": 1,
+          "shelter_id": "S1",
+          "wheelchair": 3
+        },
+        {
+          "bus_id": "B03",
+          "depart_min": 168.08520582,
+          "evacuees": 19,
+          "pets": 0,
+          "pickup_id": "P07",
+          "sequence": 2,
+          "shelter_id": "S3",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B04",
+          "depart_min": 64.57448186,
+          "evacuees": 50,
+          "pets": 13,
+          "pickup_id": "P01",
+          "sequence": 1,
+          "shelter_id": "S3",
+          "wheelchair": 9
+        },
+        {
+          "bus_id": "B04",
+          "depart_min": 166.75890351,
+          "evacuees": 50,
+          "pets": 17,
+          "pickup_id": "P05",
+          "sequence": 2,
+          "shelter_id": "S3",
+          "wheelchair": 6
+        },
+        {
+          "bus_id": "B04",
+          "depart_min": 256.94332516,
+          "evacuees": 50,
+          "pets": 0,
+          "pickup_id": "P01",
+          "sequence": 3,
+          "shelter_id": "S1",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B05",
+          "depart_min": 93.40101031,
+          "evacuees": 9,
+          "pets": 0,
+          "pickup_id": "P06",
+          "sequence": 1,
+          "shelter_id": "S2",
+          "wheelchair": 5
+        },
+        {
+          "bus_id": "B06",
+          "depart_min": 81.15101031,
+          "evacuees": 55,
+          "pets": 5,
+          "pickup_id": "P06",
+          "sequence": 1,
+          "shelter_id": "S5",
+          "wheelchair": 10
+        },
+        {
+          "bus_id": "B06",
+          "depart_min": 207.99898264,
+          "evacuees": 55,
+          "pets": 12,
+          "pickup_id": "P04",
+          "sequence": 2,
+          "shelter_id": "S5",
+          "wheelchair": 10
+        },
+        {
+          "bus_id": "B06",
+          "depart_min": 293.70318453,
+          "evacuees": 51,
+          "pets": 0,
+          "pickup_id": "P08",
+          "sequence": 3,
+          "shelter_id": "S2",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B07",
+          "depart_min": 42.56777099,
+          "evacuees": 46,
+          "pets": 0,
+          "pickup_id": "P03",
+          "sequence": 1,
+          "shelter_id": "S1",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B07",
+          "depart_min": 147.82092323,
+          "evacuees": 6,
+          "pets": 0,
+          "pickup_id": "P06",
+          "sequence": 2,
+          "shelter_id": "S1",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B08",
+          "depart_min": 63.41447389,
+          "evacuees": 39,
+          "pets": 0,
+          "pickup_id": "P09",
+          "sequence": 1,
+          "shelter_id": "S1",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B08",
+          "depart_min": 181.81526713,
+          "evacuees": 1,
+          "pets": 0,
+          "pickup_id": "P03",
+          "sequence": 2,
+          "shelter_id": "S3",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B09",
+          "depart_min": 77.77371425,
+          "evacuees": 30,
+          "pets": 0,
+          "pickup_id": "P02",
+          "sequence": 1,
+          "shelter_id": "S1",
+          "wheelchair": 1
+        },
+        {
+          "bus_id": "B09",
+          "depart_min": 173.73770762,
+          "evacuees": 23,
+          "pets": 0,
+          "pickup_id": "P03",
+          "sequence": 2,
+          "shelter_id": "S5",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B10",
+          "depart_min": 59.62889761,
+          "evacuees": 50,
+          "pets": 14,
+          "pickup_id": "P08",
+          "sequence": 1,
+          "shelter_id": "S2",
+          "wheelchair": 7
+        },
+        {
+          "bus_id": "B10",
+          "depart_min": 174.38972315,
+          "evacuees": 50,
+          "pets": 19,
+          "pickup_id": "P03",
+          "sequence": 2,
+          "shelter_id": "S2",
+          "wheelchair": 5
+        },
+        {
+          "bus_id": "B10",
+          "depart_min": 283.33484684,
+          "evacuees": 50,
+          "pets": 10,
+          "pickup_id": "P07",
+          "sequence": 3,
+          "shelter_id": "S2",
+          "wheelchair": 4
+        }
+      ],
+      "scenario_id": "RED_FLAG",
+      "shelter_in_place": [
+        {
+          "evacuees": 2,
+          "pets": 0,
+          "pickup_id": "P01",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P02",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 4,
+          "pets": 0,
+          "pickup_id": "P03",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P04",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 11,
+          "pets": 0,
+          "pickup_id": "P05",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P06",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 9,
+          "pets": 0,
+          "pickup_id": "P07",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P08",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P09",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 11,
+          "pets": 0,
+          "pickup_id": "P10",
+          "wheelchair": 0
+        }
+      ],
+      "unserved": [
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P01",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P02",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P03",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P04",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P05",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P06",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P07",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P08",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P09",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 3,
+          "pets": 0,
+          "pickup_id": "P10",
+          "wheelchair": 0
+        }
+      ]
+    },
+    {
+      "bus_trips": [
+        {
+          "bus_id": "B01",
+          "depart_min": 44.49871757,
+          "evacuees": 52,
+          "pets": 10,
+          "pickup_id": "P08",
+          "sequence": 1,
+          "shelter_id": "S2",
+          "wheelchair": 5
+        },
+        {
+          "bus_id": "B01",
+          "depart_min": 126.07847492,
+          "evacuees": 52,
+          "pets": 15,
+          "pickup_id": "P03",
+          "sequence": 2,
+          "shelter_id": "S5",
+          "wheelchair": 4
+        },
+        {
+          "bus_id": "B01",
+          "depart_min": 201.91496123,
+          "evacuees": 52,
+          "pets": 13,
+          "pickup_id": "P05",
+          "sequence": 3,
+          "shelter_id": "S3",
+          "wheelchair": 4
+        },
+        {
+          "bus_id": "B01",
+          "depart_min": 300.89741104,
+          "evacuees": 51,
+          "pets": 3,
+          "pickup_id": "P06",
+          "sequence": 4,
+          "shelter_id": "S1",
+          "wheelchair": 10
+        },
+        {
+          "bus_id": "B02",
+          "depart_min": 28.20338394,
+          "evacuees": 7,
+          "pets": 0,
+          "pickup_id": "P02",
+          "sequence": 1,
+          "shelter_id": "S5",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B02",
+          "depart_min": 88.32792729,
+          "evacuees": 13,
+          "pets": 0,
+          "pickup_id": "P09",
+          "sequence": 2,
+          "shelter_id": "S3",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B03",
+          "depart_min": 30.32724371,
+          "evacuees": 44,
+          "pets": 0,
+          "pickup_id": "P03",
+          "sequence": 1,
+          "shelter_id": "S2",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B04",
+          "depart_min": 63.54196568,
+          "evacuees": 17,
+          "pets": 0,
+          "pickup_id": "P04",
+          "sequence": 1,
+          "shelter_id": "S3",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B05",
+          "depart_min": 32.66697157,
+          "evacuees": 24,
+          "pets": 0,
+          "pickup_id": "P08",
+          "sequence": 1,
+          "shelter_id": "S2",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B06",
+          "depart_min": 59.29196568,
+          "evacuees": 55,
+          "pets": 9,
+          "pickup_id": "P04",
+          "sequence": 1,
+          "shelter_id": "S5",
+          "wheelchair": 10
+        },
+        {
+          "bus_id": "B06",
+          "depart_min": 143.86826153,
+          "evacuees": 55,
+          "pets": 7,
+          "pickup_id": "P02",
+          "sequence": 2,
+          "shelter_id": "S5",
+          "wheelchair": 8
+        },
+        {
+          "bus_id": "B06",
+          "depart_min": 236.25280488,
+          "evacuees": 55,
+          "pets": 6,
+          "pickup_id": "P09",
+          "sequence": 3,
+          "shelter_id": "S5",
+          "wheelchair": 8
+        },
+        {
+          "bus_id": "B06",
+          "depart_min": 327.91926722,
+          "evacuees": 55,
+          "pets": 10,
+          "pickup_id": "P01",
+          "sequence": 4,
+          "shelter_id": "S3",
+          "wheelchair": 7
+        },
+        {
+          "bus_id": "B07",
+          "depart_min": 52.14749846,
+          "evacuees": 45,
+          "pets": 5,
+          "pickup_id": "P10",
+          "sequence": 1,
+          "shelter_id": "S3",
+          "wheelchair": 2
+        },
+        {
+          "bus_id": "B08",
+          "depart_min": 29.40229845,
+          "evacuees": 30,
+          "pets": 0,
+          "pickup_id": "P05",
+          "sequence": 1,
+          "shelter_id": "S3",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B08",
+          "depart_min": 95.24474826,
+          "evacuees": 1,
+          "pets": 0,
+          "pickup_id": "P06",
+          "sequence": 2,
+          "shelter_id": "S1",
+          "wheelchair": 1
+        },
+        {
+          "bus_id": "B09",
+          "depart_min": 20.69398544,
+          "evacuees": 23,
+          "pets": 0,
+          "pickup_id": "P01",
+          "sequence": 1,
+          "shelter_id": "S3",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B09",
+          "depart_min": 80.4998042,
+          "evacuees": 8,
+          "pets": 0,
+          "pickup_id": "P07",
+          "sequence": 2,
+          "shelter_id": "S2",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B10",
+          "depart_min": 37.15598734,
+          "evacuees": 50,
+          "pets": 8,
+          "pickup_id": "P07",
+          "sequence": 1,
+          "shelter_id": "S2",
+          "wheelchair": 3
+        }
+      ],
+      "scenario_id": "SLOW_WIND",
+      "shelter_in_place": [
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P01",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P02",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P03",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P04",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P05",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P06",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P07",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P08",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P09",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P10",
+          "wheelchair": 0
+        }
+      ],
+      "unserved": [
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P01",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P02",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P03",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P04",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P05",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P06",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P07",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P08",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P09",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P10",
+          "wheelchair": 0
+        }
+      ]
+    },
+    {
+      "bus_trips": [
+        {
+          "bus_id": "B01",
+          "depart_min": 87.57651056,
+          "evacuees": 52,
+          "pets": 8,
+          "pickup_id": "P09",
+          "sequence": 1,
+          "shelter_id": "S3",
+          "wheelchair": 10
+        },
+        {
+          "bus_id": "B01",
+          "depart_min": 214.32564468,
+          "evacuees": 52,
+          "pets": 11,
+          "pickup_id": "P01",
+          "sequence": 2,
+          "shelter_id": "S3",
+          "wheelchair": 8
+        },
+        {
+          "bus_id": "B01",
+          "depart_min": 306.64405437,
+          "evacuees": 52,
+          "pets": 16,
+          "pickup_id": "P03",
+          "sequence": 3,
+          "shelter_id": "S2",
+          "wheelchair": 5
+        },
+        {
+          "bus_id": "B02",
+          "depart_min": 61.49438542,
+          "evacuees": 48,
+          "pets": 0,
+          "pickup_id": "P08",
+          "sequence": 1,
+          "shelter_id": "S2",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B02",
+          "depart_min": 161.0955256,
+          "evacuees": 2,
+          "pets": 0,
+          "pickup_id": "P05",
+          "sequence": 2,
+          "shelter_id": "S3",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B03",
+          "depart_min": 28.50742,
+          "evacuees": 16,
+          "pets": 0,
+          "pickup_id": "P02",
+          "sequence": 1,
+          "shelter_id": "S1",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B03",
+          "depart_min": 106.00161318,
+          "evacuees": 8,
+          "pets": 0,
+          "pickup_id": "P03",
+          "sequence": 2,
+          "shelter_id": "S5",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B04",
+          "depart_min": 65.24604298,
+          "evacuees": 50,
+          "pets": 15,
+          "pickup_id": "P05",
+          "sequence": 1,
+          "shelter_id": "S3",
+          "wheelchair": 5
+        },
+        {
+          "bus_id": "B04",
+          "depart_min": 191.63230718,
+          "evacuees": 50,
+          "pets": 7,
+          "pickup_id": "P10",
+          "sequence": 2,
+          "shelter_id": "S3",
+          "wheelchair": 3
+        },
+        {
+          "bus_id": "B04",
+          "depart_min": 308.37507907,
+          "evacuees": 50,
+          "pets": 0,
+          "pickup_id": "P03",
+          "sequence": 3,
+          "shelter_id": "S1",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B05",
+          "depart_min": 44.03349982,
+          "evacuees": 29,
+          "pets": 0,
+          "pickup_id": "P04",
+          "sequence": 1,
+          "shelter_id": "S1",
+          "wheelchair": 2
+        },
+        {
+          "bus_id": "B05",
+          "depart_min": 164.58263801,
+          "evacuees": 14,
+          "pets": 0,
+          "pickup_id": "P10",
+          "sequence": 2,
+          "shelter_id": "S3",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B06",
+          "depart_min": 79.62194546,
+          "evacuees": 55,
+          "pets": 4,
+          "pickup_id": "P06",
+          "sequence": 1,
+          "shelter_id": "S5",
+          "wheelchair": 10
+        },
+        {
+          "bus_id": "B06",
+          "depart_min": 197.78292471,
+          "evacuees": 55,
+          "pets": 10,
+          "pickup_id": "P04",
+          "sequence": 2,
+          "shelter_id": "S5",
+          "wheelchair": 10
+        },
+        {
+          "bus_id": "B06",
+          "depart_min": 301.94855095,
+          "evacuees": 55,
+          "pets": 8,
+          "pickup_id": "P02",
+          "sequence": 3,
+          "shelter_id": "S5",
+          "wheelchair": 10
+        },
+        {
+          "bus_id": "B07",
+          "depart_min": 90.37194546,
+          "evacuees": 11,
+          "pets": 0,
+          "pickup_id": "P06",
+          "sequence": 1,
+          "shelter_id": "S1",
+          "wheelchair": 4
+        },
+        {
+          "bus_id": "B08",
+          "depart_min": 96.57651056,
+          "evacuees": 36,
+          "pets": 0,
+          "pickup_id": "P09",
+          "sequence": 1,
+          "shelter_id": "S1",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B09",
+          "depart_min": 28.49902715,
+          "evacuees": 36,
+          "pets": 0,
+          "pickup_id": "P01",
+          "sequence": 1,
+          "shelter_id": "S1",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B09",
+          "depart_min": 121.04673502,
+          "evacuees": 26,
+          "pets": 0,
+          "pickup_id": "P07",
+          "sequence": 2,
+          "shelter_id": "S1",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B10",
+          "depart_min": 59.99625433,
+          "evacuees": 50,
+          "pets": 14,
+          "pickup_id": "P08",
+          "sequence": 1,
+          "shelter_id": "S2",
+          "wheelchair": 7
+        },
+        {
+          "bus_id": "B10",
+          "depart_min": 173.45165763,
+          "evacuees": 50,
+          "pets": 10,
+          "pickup_id": "P07",
+          "sequence": 2,
+          "shelter_id": "S2",
+          "wheelchair": 4
+        },
+        {
+          "bus_id": "B10",
+          "depart_min": 281.43478475,
+          "evacuees": 50,
+          "pets": 0,
+          "pickup_id": "P05",
+          "sequence": 3,
+          "shelter_id": "S1",
+          "wheelchair": 0
+        }
+      ],
+      "scenario_id": "SPOT_FIRE",
+      "shelter_in_place": [
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P01",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P02",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P03",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P04",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P05",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P06",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P07",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P08",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P09",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P10",
+          "wheelchair": 0
+        }
+      ],
+      "unserved": [
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P01",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P02",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P03",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P04",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P05",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P06",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P07",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P08",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P09",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P10",
+          "wheelchair": 0
+        }
+      ]
+    },
+    {
+      "bus_trips": [
+        {
+          "bus_id": "B01",
+          "depart_min": 77.41413676,
+          "evacuees": 52,
+          "pets": 7,
+          "pickup_id": "P09",
+          "sequence": 1,
+          "shelter_id": "S3",
+          "wheelchair": 9
+        },
+        {
+          "bus_id": "B01",
+          "depart_min": 192.96055059,
+          "evacuees": 52,
+          "pets": 11,
+          "pickup_id": "P01",
+          "sequence": 2,
+          "shelter_id": "S3",
+          "wheelchair": 8
+        },
+        {
+          "bus_id": "B01",
+          "depart_min": 282.17495777,
+          "evacuees": 52,
+          "pets": 15,
+          "pickup_id": "P05",
+          "sequence": 3,
+          "shelter_id": "S3",
+          "wheelchair": 5
+        },
+        {
+          "bus_id": "B02",
+          "depart_min": 37.22661598,
+          "evacuees": 19,
+          "pets": 0,
+          "pickup_id": "P02",
+          "sequence": 1,
+          "shelter_id": "S1",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B02",
+          "depart_min": 116.25475499,
+          "evacuees": 12,
+          "pets": 0,
+          "pickup_id": "P03",
+          "sequence": 2,
+          "shelter_id": "S5",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B03",
+          "depart_min": 45.32758267,
+          "evacuees": 42,
+          "pets": 0,
+          "pickup_id": "P08",
+          "sequence": 1,
+          "shelter_id": "S2",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B03",
+          "depart_min": 128.00667073,
+          "evacuees": 19,
+          "pets": 0,
+          "pickup_id": "P07",
+          "sequence": 2,
+          "shelter_id": "S1",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B04",
+          "depart_min": 59.04003561,
+          "evacuees": 50,
+          "pets": 17,
+          "pickup_id": "P03",
+          "sequence": 1,
+          "shelter_id": "S2",
+          "wheelchair": 5
+        },
+        {
+          "bus_id": "B04",
+          "depart_min": 175.76915822,
+          "evacuees": 50,
+          "pets": 6,
+          "pickup_id": "P10",
+          "sequence": 2,
+          "shelter_id": "S3",
+          "wheelchair": 2
+        },
+        {
+          "bus_id": "B05",
+          "depart_min": 84.66413676,
+          "evacuees": 29,
+          "pets": 0,
+          "pickup_id": "P09",
+          "sequence": 1,
+          "shelter_id": "S1",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B06",
+          "depart_min": 73.63526784,
+          "evacuees": 55,
+          "pets": 4,
+          "pickup_id": "P06",
+          "sequence": 1,
+          "shelter_id": "S5",
+          "wheelchair": 10
+        },
+        {
+          "bus_id": "B06",
+          "depart_min": 187.95677172,
+          "evacuees": 55,
+          "pets": 10,
+          "pickup_id": "P04",
+          "sequence": 2,
+          "shelter_id": "S5",
+          "wheelchair": 10
+        },
+        {
+          "bus_id": "B06",
+          "depart_min": 292.37191404,
+          "evacuees": 55,
+          "pets": 8,
+          "pickup_id": "P02",
+          "sequence": 3,
+          "shelter_id": "S5",
+          "wheelchair": 10
+        },
+        {
+          "bus_id": "B07",
+          "depart_min": 48.12153682,
+          "evacuees": 46,
+          "pets": 0,
+          "pickup_id": "P05",
+          "sequence": 1,
+          "shelter_id": "S1",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B07",
+          "depart_min": 154.15884528,
+          "evacuees": 5,
+          "pets": 0,
+          "pickup_id": "P10",
+          "sequence": 2,
+          "shelter_id": "S3",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B08",
+          "depart_min": 28.34661597,
+          "evacuees": 40,
+          "pets": 0,
+          "pickup_id": "P01",
+          "sequence": 1,
+          "shelter_id": "S1",
+          "wheelchair": 0
+        },
+        {
+          "bus_id": "B08",
+          "depart_min": 120.21096378,
+          "evacuees": 8,
+          "pets": 0,
+          "pickup_id": "P06",
+          "sequence": 2,
+          "shelter_id": "S1",
+          "wheelchair": 4
+        },
+        {
+          "bus_id": "B09",
+          "depart_min": 47.19862868,
+          "evacuees": 33,
+          "pets": 0,
+          "pickup_id": "P04",
+          "sequence": 1,
+          "shelter_id": "S1",
+          "wheelchair": 2
+        },
+        {
+          "bus_id": "B10",
+          "depart_min": 52.5777426,
+          "evacuees": 50,
+          "pets": 12,
+          "pickup_id": "P08",
+          "sequence": 1,
+          "shelter_id": "S2",
+          "wheelchair": 6
+        },
+        {
+          "bus_id": "B10",
+          "depart_min": 149.96683066,
+          "evacuees": 50,
+          "pets": 9,
+          "pickup_id": "P07",
+          "sequence": 2,
+          "shelter_id": "S2",
+          "wheelchair": 3
+        },
+        {
+          "bus_id": "B10",
+          "depart_min": 239.34039914,
+          "evacuees": 50,
+          "pets": 0,
+          "pickup_id": "P03",
+          "sequence": 3,
+          "shelter_id": "S1",
+          "wheelchair": 0
+        }
+      ],
+      "scenario_id": "WIND_SHIFT",
+      "shelter_in_place": [
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P01",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P02",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P03",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P04",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P05",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P06",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P07",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P08",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P09",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P10",
+          "wheelchair": 0
+        }
+      ],
+      "unserved": [
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P01",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P02",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P03",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P04",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P05",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P06",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P07",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P08",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P09",
+          "wheelchair": 0
+        },
+        {
+          "evacuees": 0,
+          "pets": 0,
+          "pickup_id": "P10",
+          "wheelchair": 0
+        }
+      ]
+    }
+  ],
+  "shelters": [
+    {
+      "open": true,
+      "shelter_id": "S1"
+    },
+    {
+      "open": true,
+      "shelter_id": "S2"
+    },
+    {
+      "open": true,
+      "shelter_id": "S3"
+    },
+    {
+      "open": false,
+      "shelter_id": "S4"
+    },
+    {
+      "open": true,
+      "shelter_id": "S5"
+    },
+    {
+      "open": false,
+      "shelter_id": "S6"
+    }
+  ],
+  "staging": [
+    {
+      "bus_id": "B01",
+      "depot_id": "D3"
+    },
+    {
+      "bus_id": "B02",
+      "depot_id": "D1"
+    },
+    {
+      "bus_id": "B03",
+      "depot_id": "D2"
+    },
+    {
+      "bus_id": "B04",
+      "depot_id": "D1"
+    },
+    {
+      "bus_id": "B05",
+      "depot_id": "D2"
+    },
+    {
+      "bus_id": "B06",
+      "depot_id": "D3"
+    },
+    {
+      "bus_id": "B07",
+      "depot_id": "D3"
+    },
+    {
+      "bus_id": "B08",
+      "depot_id": "D2"
+    },
+    {
+      "bus_id": "B09",
+      "depot_id": "D2"
+    },
+    {
+      "bus_id": "B10",
+      "depot_id": "D3"
+    }
+  ]
+}

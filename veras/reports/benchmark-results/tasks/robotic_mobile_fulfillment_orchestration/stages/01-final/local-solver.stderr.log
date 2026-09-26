@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/app/submissions/solve.py", line 1205, in <module>
+    solve_instance()
+  File "/app/submissions/solve.py", line 1201, in solve_instance
+    raise RuntimeError("\n".join(final_validation_errors[:10]))
+RuntimeError: Demand mismatch for O002 / SKU17: picked 0 but required 2
+Demand mismatch for O002 / SKU26: picked 0 but required 2
+Demand mismatch for O004 / SKU06: picked 0 but required 2
+Demand mismatch for O004 / SKU33: picked 0 but required 2
+Demand mismatch for O005 / SKU04: picked 0 but required 1
+Demand mismatch for O005 / SKU09: picked 0 but required 3
+Demand mismatch for O006 / SKU08: picked 0 but required 3
+Demand mismatch for O006 / SKU17: picked 0 but required 3
+Demand mismatch for O006 / SKU26: picked 0 but required 3
+Demand mismatch for O007 / SKU03: picked 0 but required 2

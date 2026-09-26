@@ -1,0 +1,62 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 6093,
+    "sha256": "d6ae92e3fa5e5354c5942ca5c95705b97b420d8d112a9ff68fd642f039ba0639"
+  },
+  "data/buses.csv": {
+    "bytes": 355,
+    "sha256": "73b632d8b2e2d821314428f146f9847ea7391e3a281b3ab43ee94d953cdbb682"
+  },
+  "data/config.json": {
+    "bytes": 749,
+    "sha256": "2b6ce9f34389e4d413aad54afe9272da6a71671334a768b371838f90cce3f524"
+  },
+  "data/corridors.csv": {
+    "bytes": 289,
+    "sha256": "88ec84ad27babab515a4ccdf2e26ae0dff4bbcee2ee925c74af27b25c2c36d7a"
+  },
+  "data/depots.csv": {
+    "bytes": 171,
+    "sha256": "d7e6523e607b5d0189ad82c3319941793f1da0bea4604b6e9a8c7984117fcfc3"
+  },
+  "data/pickup_sites.csv": {
+    "bytes": 675,
+    "sha256": "2dc1d468cb3e90e696530f1f90102d3de9e9e5b34d939abda032a8d9fad77d9f"
+  },
+  "data/scenario_corridor_impacts.csv": {
+    "bytes": 832,
+    "sha256": "06c5cd3738b72f914bafc3060bed135f1c4c83f9a9a2d373da41a58d181ad050"
+  },
+  "data/scenario_pickup_demand.csv": {
+    "bytes": 1196,
+    "sha256": "d106ee562b283d6c189303f994009ee65b417d88d9edac328461dca0ac67a99c"
+  },
+  "data/scenarios.csv": {
+    "bytes": 459,
+    "sha256": "e014718a7e76091e4582b8c7396d5862452ae920d5034b0182389788ae4ce9f3"
+  },
+  "data/shelters.csv": {
+    "bytes": 403,
+    "sha256": "7ab8e0f97518be83b0b7fd52228b305e47e8357144fed545ff9d2bbcf133543d"
+  },
+  "submissions/solution_template.json": {
+    "bytes": 82,
+    "sha256": "2766a6551f8fbe849327096894ca0e365e6114cdf321729b5fdbb73f55cad806"
+  }
+}

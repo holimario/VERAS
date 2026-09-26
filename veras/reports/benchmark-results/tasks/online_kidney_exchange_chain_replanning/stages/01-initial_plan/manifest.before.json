@@ -1,0 +1,74 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 5795,
+    "sha256": "6de02563f1ad89f2c4e91856a4aaa280a97cf36ad3363998eddd5b13a9785847"
+  },
+  "data/altruistic_donors.csv": {
+    "bytes": 151,
+    "sha256": "2d3ce606e6489d57a176ad733ed3f01f59c7502777bc2caabe937d9f32e94190"
+  },
+  "data/chain_bridge_capacity.csv": {
+    "bytes": 945,
+    "sha256": "a1732d8212b8780db7494f7648b344653b5325c750776b80dea582f868a993e1"
+  },
+  "data/compatibility_edges.csv": {
+    "bytes": 5229,
+    "sha256": "86fe80910edf03b2e133bcb4bad30759e017b4402ea69b365025f337b15679c1"
+  },
+  "data/config.json": {
+    "bytes": 223,
+    "sha256": "f181669ce1b085ffa9801e04f780ffd64dba6e311431ee86403f816cb0ec1001"
+  },
+  "data/courier_blackouts.csv": {
+    "bytes": 55,
+    "sha256": "ce164aa83bcbdd8f4637eb3437402a3f6491bca78aa3fddbcb213e22b9d43955"
+  },
+  "data/crossmatch_panel_capacity.csv": {
+    "bytes": 10286,
+    "sha256": "abbcb5727d80da3a58322e8a690fb4df109eca7c4825b0656d529136b61f4df1"
+  },
+  "data/current_wave.json": {
+    "bytes": 46,
+    "sha256": "e419f7943f8f2e79078298ff04ad75c9fbbbbb2e0706a6343af727d9eee266fd"
+  },
+  "data/hospital_day_capacity.csv": {
+    "bytes": 2011,
+    "sha256": "971fcdb238340c5baf04b5cff61fcb269d84a217aa76f59e8a85ed5808d1db2a"
+  },
+  "data/hospitals.csv": {
+    "bytes": 212,
+    "sha256": "9644d0a9a132e10391cbeeb03b5c6bf671ff9023b93762b0ada8e9ea61e3096e"
+  },
+  "data/patient_pairs.csv": {
+    "bytes": 1783,
+    "sha256": "9be36211470e1bd44b93a93bbdff6b824dae2d7a2819004d1577a560ce71d2fc"
+  },
+  "data/planning_days.csv": {
+    "bytes": 89,
+    "sha256": "af592d565a75c34efdc8a1d294895f89bff0651883e49a678a504bbb9ab949b6"
+  },
+  "data/region_policy.csv": {
+    "bytes": 238,
+    "sha256": "fadf8c352fd12c9f3b4d666bf506009d3690e46e3a8f98ec56014f4f89fa5394"
+  },
+  "submissions/solution_template.csv": {
+    "bytes": 62,
+    "sha256": "54feec5b07db51043a83ebf75d9850e4d235051ffc7a077b2e32631ddf56253d"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "deliveries": [
+    {
+      "hour": 0,
+      "kg": 0.0,
+      "lane_id": "PORT_SOLAR__PORT_DRAYAGE",
+      "scenario_id": "BASE",
+      "trips": 0
+    }
+  ],
+  "infrastructure": [
+    {
+      "active": true,
+      "electrolyzer_modules": 0,
+      "polishing_active": false,
+      "site_id": "PORT_SOLAR",
+      "tank_modules": 0
+    }
+  ],
+  "operations": [
+    {
+      "grid_mwh": 0.0,
+      "hour": 0,
+      "online_modules": 0,
+      "polishing_kg": 0.0,
+      "production_kg": 0.0,
+      "renewable_mwh": 0.0,
+      "scenario_id": "BASE",
+      "site_id": "PORT_SOLAR",
+      "startup_modules": 0,
+      "storage_end_kg": 0.0,
+      "vent_kg": 0.0,
+      "water_m3": 0.0
+    }
+  ],
+  "shortfalls": [
+    {
+      "customer_id": "BUS_DEPOT",
+      "hour": 0,
+      "kg": 0.0,
+      "scenario_id": "BASE"
+    }
+  ]
+}

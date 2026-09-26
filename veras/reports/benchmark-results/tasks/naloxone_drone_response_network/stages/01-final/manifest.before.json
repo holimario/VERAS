@@ -1,0 +1,62 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 5155,
+    "sha256": "49691e466f24594a8c91e3731e4a73a714f4390deda0eb79376b22f2eb402ceb"
+  },
+  "data/air_corridor_rules.csv": {
+    "bytes": 1068,
+    "sha256": "8cd6f4474b0d146a4eae5ceb3f366807462d59bdc61f1447ca0e44e20c5e446e"
+  },
+  "data/base_region_staffing.csv": {
+    "bytes": 83,
+    "sha256": "3cc9fee8e8e89ac2b0eba6d1c5d347e3e15e117dfdf21d4680eeb7153bab9ba9"
+  },
+  "data/base_zone_exceptions.csv": {
+    "bytes": 832,
+    "sha256": "fa6673e7bf7e785ded87ccd026dff4c07f843e6ce8abe4bdd8d21699ffd2cceb"
+  },
+  "data/candidate_bases.csv": {
+    "bytes": 716,
+    "sha256": "82c8cf15734109bdc056c0fd4fd3a5bdd23ef080a1e1f13486b98248f21fdae5"
+  },
+  "data/config.json": {
+    "bytes": 742,
+    "sha256": "db58011b1cbf50b1eaf79e67b99d6ea660aaae7efc34a0f3fc3df7cb3b6bd5a6"
+  },
+  "data/demand_zones.csv": {
+    "bytes": 1305,
+    "sha256": "ed2a75488f2c079605466eededb83a50aa74945d00ce2553f501b4d49c875f5f"
+  },
+  "data/district_ground_capacity.csv": {
+    "bytes": 467,
+    "sha256": "f8541ac22ccaaa082aa0cc760627e7a52b821d6a3277c533c78d85c6dc12b197"
+  },
+  "data/equity_requirements.csv": {
+    "bytes": 116,
+    "sha256": "308ebf72e458bdcb88b7ab1360923e712b7823801ff1b558c23608444f8b7923"
+  },
+  "data/scenarios.csv": {
+    "bytes": 498,
+    "sha256": "cc816b7b25cf1ada4ca5c1d92d82cec1b39648e74f97b9ea39a30b234ade71e6"
+  },
+  "submissions/solution_template.csv": {
+    "bytes": 78,
+    "sha256": "8b164912b3f50299d9e02a2fe26795c660bea30b369389ae30597f542b61ee9b"
+  }
+}

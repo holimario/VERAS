@@ -1,0 +1,70 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 6823,
+    "sha256": "ff6f0fa881c8d554f53bfe6201759fbfa409c37c8a11c18ceeba308ebf72dbef"
+  },
+  "data/class_block_eligibility.csv": {
+    "bytes": 704,
+    "sha256": "dc425cccbdb0023232de71a3c3b971fb74ba7f072dee0bf5331e9e8363e7abfd"
+  },
+  "data/config.json": {
+    "bytes": 426,
+    "sha256": "efd32095da85e737f1dc9619f66d57700e9b3b37965b566dce009b9d506b7125"
+  },
+  "data/scenario_block_capacity.csv": {
+    "bytes": 19220,
+    "sha256": "fda478d06b95e1b8571cba724e015d775d1720f74826b3e723e5ea90b833e078"
+  },
+  "data/scenario_demand.csv": {
+    "bytes": 36510,
+    "sha256": "a65b537b41fe8196d4744a56132032d119c481439a4278c70b3b250d7d93ae75"
+  },
+  "data/scenario_service_commitments.csv": {
+    "bytes": 287,
+    "sha256": "7812eae685f6bf5d7b7675ce1434e8f80d4888857da742bbb5d07fd2cc17bfc7"
+  },
+  "data/scenarios.csv": {
+    "bytes": 787,
+    "sha256": "d246dd40c79b3f22341d76bf2b478acbb83c8ab6f3b384caacdc47f50461884d"
+  },
+  "data/slot_class_mix_limits.csv": {
+    "bytes": 586,
+    "sha256": "3a288f400f32d59b827cc840ec42a88e11390ee6e2ac91f4189b6c282d4a0e95"
+  },
+  "data/team_pool_limits.csv": {
+    "bytes": 1048,
+    "sha256": "446de45fcb6e38092962e4e5adcd2425a02b45d484a444ecabf1d4cee3246a4a"
+  },
+  "data/time_slots.csv": {
+    "bytes": 579,
+    "sha256": "ece0bee1aeb9946eb0ba131702302ae933c5e8c5c34a9450337cba6209ba29ce"
+  },
+  "data/truck_classes.csv": {
+    "bytes": 1189,
+    "sha256": "6008a9626a7bcb382d7b3dbe8b8d72263b9144f1b882d6f21ac5bb2ac1e6376e"
+  },
+  "data/yard_blocks.csv": {
+    "bytes": 456,
+    "sha256": "f5c3de06987f482bfa949e143736095acd383084ea53399fa712fca3e6cb1714"
+  },
+  "submissions/solution_template.csv": {
+    "bytes": 53,
+    "sha256": "88fb55ee5194ae37f5bdcc5494289226855e30ba78924aee4846e5ab92469887"
+  }
+}

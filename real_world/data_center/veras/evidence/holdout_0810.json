@@ -1,0 +1,71 @@
+{
+  "bandwidth_hl_to_zw_peak_gbps": 1110.6406704153335,
+  "bandwidth_zw_to_hl_peak_gbps": 937.80646564625,
+  "cross_region_transfer_rows_hl_to_zw": 2311,
+  "cross_region_transfer_rows_zw_to_hl": 530,
+  "dataset_role": "agent_blind_final_replay",
+  "dispatch_time_seconds": null,
+  "evaluation_dates": [
+    "20250810"
+  ],
+  "evaluation_time_seconds": 11.286951385438442,
+  "feasible": true,
+  "max_directional_bandwidth_peak_gbps": 1110.6406704153335,
+  "mean_daily_max_bandwidth_peak_gbps": 1110.6406704153335,
+  "memory_hl_peak_gb": 252756.91784379637,
+  "memory_zw_peak_gb": 10233145.058741644,
+  "migration_changed_tables": 1423,
+  "migration_hl_to_zw_bytes": 24981610642724937,
+  "migration_status": "available_auxiliary_metric",
+  "migration_tables_missing_size": 187,
+  "migration_total_bytes": 25985765545171933,
+  "migration_zw_to_hl_bytes": 1004154902446996,
+  "official_tolerance_resource_feasible": true,
+  "per_date": {
+    "20250810": {
+      "bandwidth_hl_to_zw_peak_gbps": 1110.6406704153335,
+      "bandwidth_zw_to_hl_peak_gbps": 937.80646564625,
+      "cross_region_transfer_rows_hl_to_zw": 2311,
+      "cross_region_transfer_rows_zw_to_hl": 530,
+      "max_directional_bandwidth_peak_gbps": 1110.6406704153335,
+      "memory_hl_peak_gb": 252756.91784379637,
+      "memory_zw_peak_gb": 10233145.058741644,
+      "official_tolerance_resource_feasible": true,
+      "resource_margin": {
+        "memory_hl_peak_gb": 422675.80998036015,
+        "memory_zw_peak_gb": 383308.585892966,
+        "vcores_hl_peak": 97292.89133322344,
+        "vcores_zw_peak": 52826.97691048682
+      },
+      "resource_utilization": {
+        "memory_hl_peak_gb": 0.3742147921348573,
+        "memory_zw_peak_gb": 0.9638948561616256,
+        "vcores_hl_peak": 0.1955019476418305,
+        "vcores_zw_peak": 0.978691339132792
+      },
+      "strict_resource_feasible": true,
+      "vcores_hl_peak": 23643.25145548253,
+      "vcores_zw_peak": 2426304.7357623926
+    }
+  },
+  "resource_margin": {
+    "memory_hl_peak_gb": 422675.80998036015,
+    "memory_zw_peak_gb": 383308.585892966,
+    "vcores_hl_peak": 97292.89133322344,
+    "vcores_zw_peak": 52826.97691048682
+  },
+  "resource_utilization": {
+    "memory_hl_peak_gb": 0.3742147921348573,
+    "memory_zw_peak_gb": 0.9638948561616256,
+    "vcores_hl_peak": 0.1955019476418305,
+    "vcores_zw_peak": 0.978691339132792
+  },
+  "runtime_contract_passed": true,
+  "strict_resource_feasible": true,
+  "task_count": 625191,
+  "tasks_hl": 41,
+  "tasks_zw": 625150,
+  "temporal_peak_spread_gbps": 0.0,
+  "vcores_hl_peak": 23643.25145548253,
+  "vcores_zw_peak": 2426304.7357623926
+}

@@ -1,0 +1,17 @@
+{
+  "event_counts": {
+    "item.completed": 85,
+    "item.started": 58,
+    "thread.started": 5,
+    "turn.failed": 4,
+    "turn.started": 5
+  },
+  "event_logs": [
+    "harness.events.jsonl",
+    "recovery.events.jsonl",
+    "recovery-02.events.jsonl",
+    "recovery-03.events.jsonl",
+    "recovery-04.events.jsonl"
+  ],
+  "usage": {}
+}

@@ -1,0 +1,2 @@
+2026-09-09T19:04:50.969596Z ERROR codex_core::tools::router: error=write_stdin failed: Unknown process id 8711
+2026-09-09T19:06:34.257047Z ERROR codex_core::tools::router: error=write_stdin failed: stdin is closed for this session; rerun exec_command with tty=true to keep stdin open

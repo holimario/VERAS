@@ -1,0 +1,24 @@
+{
+  "all_eight_integer_families_free_in_final_run": true,
+  "best_bound": 37407279.51668502,
+  "canonical_audit": "candidate/audit_report.json",
+  "canonical_solution": "candidate/results/solution.npz",
+  "complete_free_planning_final_run": true,
+  "coupled_replay_audit": "candidate/coupled_replay_report.json",
+  "coupled_replay_passed": true,
+  "entry_point": "candidate/run_candidate.sh",
+  "independent_audit_imports_construction_model": false,
+  "maximum_integrality_distance": 0.0,
+  "maximum_normalized_residual": 1.5126500823720024e-06,
+  "objective": 39379929.122525945,
+  "pool_index": "candidate/pool/index.json",
+  "relative_gap": 0.050092766792526854,
+  "retained_feasible_candidates": [
+    "candidate/pool/lns_screen_02_add31_remove29",
+    "candidate/pool/generated_input_balanced_restored"
+  ],
+  "same_model_claim": true,
+  "schema_version": 1,
+  "solver_summary": "candidate/results/solver_summary.json",
+  "used_external_solution_or_warm_start": false
+}

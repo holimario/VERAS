@@ -1,0 +1,71 @@
+{
+  "contract": "VERAS",
+  "method": "feasibility-first cross-day constraint generation with sparse peak influence, exact replay local search, and compensated writer-consumer LNS",
+  "seed": 0,
+  "deterministic": true,
+  "dispatch_runtime_seconds": 36.000951104,
+  "runtime_limit_seconds": 120,
+  "runtime_contract_passed": true,
+  "files_used": [
+    "task_universe.parquet",
+    "table_writers_fallback.parquet",
+    "exec_train_0808_0809.parquet",
+    "trans_train_0808_0809.parquet",
+    "current_table_regions.parquet",
+    "table_size_latest.parquet"
+  ],
+  "input_sha256": {
+    "current_table_regions.parquet": "56b98c165072e9c661f45dbade3d696a5789956983a69ae09ec647ec981e86bf",
+    "exec_train_0808_0809.parquet": "56887088b2c7a1be846e670ce238fce2a33d198a6a0350acd2b41a246d12bd4c",
+    "table_size_latest.parquet": "90a374b6ef85ff66e30653a0baf363c758aeae89f745282f7806ab0b5fb698d4",
+    "table_writers_fallback.parquet": "d8ece7e54b7559099aaffe42627f143e211749dde1b03aeced147410817c1a08",
+    "task_universe.parquet": "13ba1d856b5d8e626327b974fec28ab256639f50e999a717c5a5f331b6f98ae6",
+    "trans_train_0808_0809.parquet": "a556dd5b2785f7797702e7b1b02c9d1072f0a5d79adc813e430de76f4d270f68"
+  },
+  "evaluator_sha256": {
+    "evaluate_solution.py": "a5fcb1dd0f8378896676cc951f250d7b12034f1722a1acf1793f3edb9832b349",
+    "evaluator_core.py": "0549a9635213fa280b2f683ec82728f4de17d79b45655a4ab1fb998391b0ec1b"
+  },
+  "implementation_sha256": {
+    "algorithm.py": "ebb2aacc146a929aaa4033ec044aa7252b14d1cbe7111c41207a1dad84f26ce1",
+    "fast_search.py": "5c3ddb65a72a460cf49869e0e2b1c4b3496e67d63a46682aba67b6eb1b63925c",
+    "run_candidate.sh": "6cb782a3b2e39abde6c0f00dd42365f6db04e91b265fbde369957200aa0ba86f"
+  },
+  "solution_sha256": "4f66b04a734e5b49327d574e61a4a05b174afbbf4f9e30cde348f578b4eb1267",
+  "metrics_sha256": "2aecd785d26dbe3ee863b59264819af75b5ff6e7fda86da6a4b3e5348d552b9c",
+  "pool_members": [
+    {
+      "label": "final_local",
+      "feasible": true,
+      "worst_daily_peak_gbps": 1072.2334446474997,
+      "mean_daily_peak_gbps": 932.23864087575,
+      "temporal_spread_gbps": 279.9896075434996,
+      "migration_total_bytes": 25985765545171932
+    },
+    {
+      "label": "robust_peak",
+      "feasible": true,
+      "worst_daily_peak_gbps": 2658.904935327772,
+      "mean_daily_peak_gbps": 2472.9782510599134,
+      "temporal_spread_gbps": 371.85336853571744,
+      "migration_total_bytes": 25919019518787264
+    },
+    {
+      "label": "seed_cover",
+      "feasible": true,
+      "worst_daily_peak_gbps": 9086.172629104185,
+      "mean_daily_peak_gbps": 8452.942448690768,
+      "temporal_spread_gbps": 1266.4603608268326,
+      "migration_total_bytes": 25457508680253748
+    }
+  ],
+  "declarations": {
+    "august_10_accessed": false,
+    "august_10_inferred_or_guessed": false,
+    "final_holdout_feedback_used": false,
+    "external_task_mapping_used": false,
+    "reference_assignment_used": false,
+    "prior_candidate_or_score_used": false,
+    "web_search_used": false
+  }
+}

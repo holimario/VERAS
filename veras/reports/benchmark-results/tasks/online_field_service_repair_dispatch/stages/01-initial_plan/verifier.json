@@ -1,0 +1,182 @@
+{
+  "evaluation": {
+    "components": {
+      "change_cost": 0.0,
+      "deferral_cost": 0.0,
+      "lateness_cost": 0.0,
+      "overtime_cost": 0.0,
+      "service_cost": 1194.45,
+      "travel_cost": 557.44
+    },
+    "deferred_count": 0,
+    "error_count": 1,
+    "errors": [
+      "Ticket FS007: assistant technician T03 lacks radio"
+    ],
+    "feasible": false,
+    "objective": 1751.89,
+    "objective_sense": "minimize",
+    "part_use": {
+      "T01|part_battery": 1.0,
+      "T01|part_ont": 1.0,
+      "T01|part_radio": 0.0,
+      "T01|part_router": 0.0,
+      "T03|part_battery": 0.0,
+      "T03|part_ont": 0.0,
+      "T03|part_radio": 0.0,
+      "T03|part_router": 2.0,
+      "T05|part_battery": 1.0,
+      "T05|part_ont": 3.0,
+      "T05|part_radio": 1.0,
+      "T05|part_router": 1.0,
+      "T06|part_battery": 0.0,
+      "T06|part_ont": 0.0,
+      "T06|part_radio": 0.0,
+      "T06|part_router": 5.0,
+      "T07|part_battery": 4.0,
+      "T07|part_ont": 0.0,
+      "T07|part_radio": 1.0,
+      "T07|part_router": 0.0,
+      "T08|part_battery": 0.0,
+      "T08|part_ont": 0.0,
+      "T08|part_radio": 3.0,
+      "T08|part_router": 0.0
+    },
+    "route_details": {
+      "T01": {
+        "jobs": [
+          "FS001",
+          "FS019",
+          "FS017"
+        ],
+        "overtime": 0.0,
+        "route_end": 377.0,
+        "travel_minutes": 147.0
+      },
+      "T03": {
+        "jobs": [
+          "FS007",
+          "FS006",
+          "FS011"
+        ],
+        "overtime": 0.0,
+        "route_end": 355.0,
+        "travel_minutes": 123.0
+      },
+      "T05": {
+        "jobs": [
+          "FS001",
+          "FS004",
+          "FS009",
+          "FS014",
+          "FS008"
+        ],
+        "overtime": 0.0,
+        "route_end": 544.0,
+        "travel_minutes": 210.0
+      },
+      "T06": {
+        "jobs": [
+          "FS016",
+          "FS010",
+          "FS015",
+          "FS005",
+          "FS020"
+        ],
+        "overtime": 0.0,
+        "route_end": 507.0,
+        "travel_minutes": 199.0
+      },
+      "T07": {
+        "jobs": [
+          "FS007",
+          "FS012",
+          "FS002"
+        ],
+        "overtime": 0.0,
+        "route_end": 336.0,
+        "travel_minutes": 79.0
+      },
+      "T08": {
+        "jobs": [
+          "FS003",
+          "FS018",
+          "FS013"
+        ],
+        "overtime": 0.0,
+        "route_end": 376.0,
+        "travel_minutes": 113.0
+      }
+    },
+    "scheduled_count": 20,
+    "staging_usage": {},
+    "total_cost": 1751.89,
+    "two_technician_ticket_count": 2,
+    "visible_ticket_count": 20
+  },
+  "process": {
+    "command": [
+      "<RUNTIME_BINARY>",
+      "-r",
+      "/run/root",
+      "-b",
+      "/usr:/usr",
+      "-b",
+      "/usr/bin:/bin",
+      "-b",
+      "/usr/lib:/lib",
+      "-b",
+      "/usr/lib64:/lib64",
+      "-b",
+      "/etc:/etc",
+      "-b",
+      "/dev:/dev",
+      "-b",
+      "/proc:/proc",
+      "-b",
+      "<RUNTIME_DEPENDENCIES>:/opt/or-deps",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/codex",
+      "-b",
+      "<RUNTIME_BINARY>:/opt/node",
+      "-b",
+      "/workspace/project:/opt/dsh",
+      "-w",
+      "/app",
+      "-b",
+      "/benchmark/harbor_tasks/online_field_service_repair_dispatch/steps/initial_plan/tests:/tests",
+      "/bin/bash",
+      "/tests/test.sh"
+    ],
+    "finished_at": "2026-09-09T22:47:20.452764+00:00",
+    "return_code": 0,
+    "started_at": "2026-09-09T22:47:20.288809+00:00",
+    "timed_out": false,
+    "timeout_seconds": 300.0,
+    "wall_seconds": 0.164
+  },
+  "reward_details": {
+    "evaluation_error_count": 1,
+    "feasibility": 0.0,
+    "objective": 1751.89,
+    "quality": 0.0,
+    "quality_status": "infeasible",
+    "reference_metrics": {
+      "best_bound": null,
+      "bound_sense": "lower",
+      "calibration": "quality = clip(2 * (poor_objective - agent_objective) / (poor_objective - reference_objective), 0, 2) for feasible submissions",
+      "candidate_count": 24,
+      "deferred_count": 0,
+      "mip_gap": 0.0005,
+      "objective_sense": "minimize",
+      "poor_objective": 2551.7536,
+      "reference_objective": 1720.1200000000001,
+      "scheduled_count": 20,
+      "stage": "initial",
+      "time_limit_seconds": 300,
+      "visible_ticket_count": 20
+    },
+    "scalar_reward": 0.0,
+    "scalar_reward_formula": "(feasibility + quality) / 3"
+  }
+}

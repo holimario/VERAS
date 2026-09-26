@@ -1,0 +1,90 @@
+{
+  ".agents/skills/advanced-mip-patterns/SKILL.md": {
+    "bytes": 5154,
+    "sha256": "3f6915caa140214697296b888f306cd1b904440a050e5c07c67f75e3b6b33ab2"
+  },
+  ".agents/skills/optimization-modeling-core/SKILL.md": {
+    "bytes": 5547,
+    "sha256": "ad93d97467161d98da57f16c5e26adca48ee228ecaece13c813ac4eeb3a1de9f"
+  },
+  ".agents/skills/optimization-solver-repair/SKILL.md": {
+    "bytes": 9548,
+    "sha256": "4b266ce6ce5ed9c673da485de8b1dc86eaabbd29de8b825d30f88689bc0baab1"
+  },
+  ".agents/skills/or-pyscipopt/SKILL.md": {
+    "bytes": 4560,
+    "sha256": "7fe9d912e136a665a9615aa9bbe9195bde2cb37c4d3bacef27695639d43ec099"
+  },
+  "PROBLEM_STATEMENT.md": {
+    "bytes": 6282,
+    "sha256": "8685d328d0d583051171545e062851821fdb8b085cc9bc1697d5d6ca432c7f6e"
+  },
+  "data/config.json": {
+    "bytes": 546,
+    "sha256": "3a7c949d2e8103d4ab1076123eff3ea79e9ce08fee5d66ea02bff51d8a0d53ab"
+  },
+  "data/downlink_windows.csv": {
+    "bytes": 3626,
+    "sha256": "813fe0858186689a41b2c51e2da19fe410a546d19fc55d8782e983986bd994a7"
+  },
+  "data/ground_stations.csv": {
+    "bytes": 142,
+    "sha256": "421f33c25beedb00bb6def84af8408485e5ebd5e0a64378f405aed829ba05d58"
+  },
+  "data/observation_windows.csv": {
+    "bytes": 10511,
+    "sha256": "105f29c160755ad6cfb65fad9dba59ce83a2400ddd590e65c4f4121b0ef82b1c"
+  },
+  "data/region_ingest_capacity.csv": {
+    "bytes": 21004,
+    "sha256": "4d883c34d21e754509b297a7a0fca986db59529c76cd5ec49a33d651c3fb1f06"
+  },
+  "data/requests.csv": {
+    "bytes": 2354,
+    "sha256": "2ca97ce9b6634fabac479fb99165ff914fa89401f0484f2f442a030da9bf1dcd"
+  },
+  "data/satellites.csv": {
+    "bytes": 431,
+    "sha256": "cfad73cfd30396ffc36ae81e1f9ae5026e2c319f6d0f0edd7cbd84c3a07fa688"
+  },
+  "data/scenario_downlink_multipliers.csv": {
+    "bytes": 12481,
+    "sha256": "0c5f0d57a8a60738460ab6540acb81bc5e314888d65e2f349b03ed1387064938"
+  },
+  "data/scenario_observation_quality.csv": {
+    "bytes": 5832,
+    "sha256": "e4bb9448f3293fa0552e9edc6d8d620db6f3eacde6ad8399c997733275a1a0d6"
+  },
+  "data/scenarios.csv": {
+    "bytes": 444,
+    "sha256": "bca313977817e157e48849909093f1e49c45baa92ccfe12fa35fe879d03c739b"
+  },
+  "submissions/__pycache__/solve.cpython-311.pyc": {
+    "bytes": 85715,
+    "sha256": "249aa4fcef5a21c67ea9b50e671f35c28ce526fe1d5175b584aed3fa6d5bc69f"
+  },
+  "submissions/model.md": {
+    "bytes": 10283,
+    "sha256": "81c2fcfd14d00dec6aac00f96a10120748de4d5801fef2d7d5a15de289781283"
+  },
+  "submissions/solution.csv": {
+    "bytes": 18638,
+    "sha256": "7f681c4889cfd0dfe20c9017d63f90af3e675f9c36825889167cfaa4c8d4d33b"
+  },
+  "submissions/solution_incumbent_backup.csv": {
+    "bytes": 17506,
+    "sha256": "9012771bfb1f3b913838540caffd55a9003e8e29fa3de455fd0c781e4c083db5"
+  },
+  "submissions/solution_template.csv": {
+    "bytes": 79,
+    "sha256": "0b6df1ac73f69f0b5c29f2c186d46cb6cc5c101d21896ccc38178b6452e8bd35"
+  },
+  "submissions/solve.py": {
+    "bytes": 61027,
+    "sha256": "1b0409fa872e162530558c606d72283c48eb476ae3ecce7aad4d9eaca8c13d7b"
+  },
+  "submissions/solve_log.md": {
+    "bytes": 1835,
+    "sha256": "d7145adc2dc514dbc32395be7069474930497f8eacabb95ebd07bf44877b40bd"
+  }
+}

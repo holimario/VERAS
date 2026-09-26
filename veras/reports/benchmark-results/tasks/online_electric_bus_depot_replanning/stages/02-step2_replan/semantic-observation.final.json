@@ -1,0 +1,17 @@
+{
+  "coverage_complete": false,
+  "covered_constraint_groups": [
+    "trip-row-nullability/key/decision",
+    "charge-row-nullability/key/domain"
+  ],
+  "max_normalized_residual": 0.0,
+  "metrics": {
+    "row_count": 48
+  },
+  "observer": "online-bus-schema-observer-v1",
+  "safe": true,
+  "supported": true,
+  "total_normalized_violation_mass": 0,
+  "violation_count": 0,
+  "violations": []
+}

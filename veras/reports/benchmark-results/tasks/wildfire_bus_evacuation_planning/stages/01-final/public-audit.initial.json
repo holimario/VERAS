@@ -1,0 +1,50 @@
+{
+  "primary_target": {
+    "exists": true,
+    "path": "submissions/solution.json",
+    "records": 4,
+    "status": "valid-json",
+    "valid": true
+  },
+  "primary_target_exists": true,
+  "primary_target_valid": true,
+  "python_count": 1,
+  "python_syntax": [
+    {
+      "path": "submissions/solve.py",
+      "valid": true
+    }
+  ],
+  "python_valid": true,
+  "required": [
+    {
+      "exists": true,
+      "path": "submissions/model.md"
+    },
+    {
+      "exists": true,
+      "path": "submissions/solve.py"
+    },
+    {
+      "exists": true,
+      "path": "submissions/solve_log.md"
+    },
+    {
+      "exists": true,
+      "path": "submissions/solution.json"
+    }
+  ],
+  "required_present": 4,
+  "required_total": 4,
+  "target_exists": true,
+  "target_valid": true,
+  "targets": [
+    {
+      "exists": true,
+      "path": "submissions/solution.json",
+      "records": 4,
+      "status": "valid-json",
+      "valid": true
+    }
+  ]
+}

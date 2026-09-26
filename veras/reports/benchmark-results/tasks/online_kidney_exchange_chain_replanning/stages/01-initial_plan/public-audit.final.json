@@ -1,0 +1,50 @@
+{
+  "primary_target": {
+    "exists": true,
+    "path": "submissions/initial_plan.csv",
+    "records": 15,
+    "status": "valid-csv",
+    "valid": true
+  },
+  "primary_target_exists": true,
+  "primary_target_valid": true,
+  "python_count": 1,
+  "python_syntax": [
+    {
+      "path": "submissions/solve_initial.py",
+      "valid": true
+    }
+  ],
+  "python_valid": true,
+  "required": [
+    {
+      "exists": true,
+      "path": "submissions/model_initial.md"
+    },
+    {
+      "exists": true,
+      "path": "submissions/solve_initial.py"
+    },
+    {
+      "exists": true,
+      "path": "submissions/initial_plan.csv"
+    },
+    {
+      "exists": true,
+      "path": "submissions/solve_log_initial.md"
+    }
+  ],
+  "required_present": 4,
+  "required_total": 4,
+  "target_exists": true,
+  "target_valid": true,
+  "targets": [
+    {
+      "exists": true,
+      "path": "submissions/initial_plan.csv",
+      "records": 15,
+      "status": "valid-csv",
+      "valid": true
+    }
+  ]
+}

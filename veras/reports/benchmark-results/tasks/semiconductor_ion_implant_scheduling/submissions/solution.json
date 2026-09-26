@@ -1,0 +1,1748 @@
+{
+  "events": [
+    {
+      "batch_id": "B001",
+      "end_min": 59.9753,
+      "event_id": "E001",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L043_OP1",
+      "start_min": 26.0
+    },
+    {
+      "batch_id": "B004",
+      "end_min": 96.38,
+      "event_id": "E004",
+      "event_type": "process",
+      "machine_id": "IMP_A2",
+      "operation_id": "L033_OP1",
+      "start_min": 57.5
+    },
+    {
+      "batch_id": "B017",
+      "end_min": 116.7322,
+      "event_id": "E017",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L003_OP1",
+      "start_min": 82.6
+    },
+    {
+      "batch_id": "B008",
+      "end_min": 145.8924,
+      "event_id": "E008",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L050_OP1",
+      "start_min": 94.5
+    },
+    {
+      "batch_id": "B014",
+      "end_min": 131.4617,
+      "event_id": "E014",
+      "event_type": "process",
+      "machine_id": "IMP_A2",
+      "operation_id": "L009_OP1",
+      "start_min": 96.38
+    },
+    {
+      "batch_id": "B002",
+      "end_min": 183.2977,
+      "event_id": "E002",
+      "event_type": "process",
+      "machine_id": "FURN_1",
+      "operation_id": "L043_OP2",
+      "start_min": 103.9753
+    },
+    {
+      "batch_id": "B026",
+      "end_min": 174.0857,
+      "event_id": "E026",
+      "event_type": "process",
+      "machine_id": "IMP_A2",
+      "operation_id": "L029_OP1",
+      "start_min": 131.4617
+    },
+    {
+      "batch_id": "B029",
+      "end_min": 186.7084,
+      "event_id": "E029",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L056_OP1",
+      "start_min": 142.5322
+    },
+    {
+      "batch_id": "B011",
+      "end_min": 196.83,
+      "event_id": "E011",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L010_OP1",
+      "start_min": 145.8924
+    },
+    {
+      "batch_id": "B005",
+      "end_min": 236.478,
+      "event_id": "E005",
+      "event_type": "process",
+      "machine_id": "FURN_2",
+      "operation_id": "L033_OP2",
+      "start_min": 153.48
+    },
+    {
+      "batch_id": "B009",
+      "end_min": 254.2474,
+      "event_id": "E009",
+      "event_type": "process",
+      "machine_id": "FURN_3",
+      "operation_id": "L050_OP2",
+      "start_min": 190.3924
+    },
+    {
+      "batch_id": "B003",
+      "end_min": 223.1342,
+      "event_id": "E003",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L043_OP3",
+      "start_min": 195.1977
+    },
+    {
+      "batch_id": "B020",
+      "end_min": 258.228,
+      "event_id": "E020",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L030_OP1",
+      "start_min": 196.83
+    },
+    {
+      "batch_id": "B015",
+      "end_min": 290.3453,
+      "event_id": "E015",
+      "event_type": "process",
+      "machine_id": "FURN_1",
+      "operation_id": "L009_OP2",
+      "start_min": 203.0977
+    },
+    {
+      "batch_id": "B033",
+      "end_min": 255.4149,
+      "event_id": "E033",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L055_OP1",
+      "start_min": 220.6084
+    },
+    {
+      "batch_id": "B012",
+      "end_min": 329.1617,
+      "event_id": "E012",
+      "event_type": "process",
+      "machine_id": "FURN_4",
+      "operation_id": "L010_OP2",
+      "start_min": 247.13
+    },
+    {
+      "batch_id": "B006",
+      "end_min": 290.4124,
+      "event_id": "E006",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L033_OP3",
+      "start_min": 257.078
+    },
+    {
+      "batch_id": "B023",
+      "end_min": 308.9808,
+      "event_id": "E023",
+      "event_type": "process",
+      "machine_id": "IMP_D1",
+      "operation_id": "L026_OP1",
+      "start_min": 258.228
+    },
+    {
+      "batch_id": "B018",
+      "end_min": 340.8438,
+      "event_id": "E018",
+      "event_type": "process",
+      "machine_id": "FURN_2",
+      "operation_id": "L003_OP2",
+      "start_min": 261.678
+    },
+    {
+      "batch_id": "B010",
+      "end_min": 303.8016,
+      "event_id": "E010",
+      "event_type": "process",
+      "machine_id": "MET_3",
+      "operation_id": "L050_OP3",
+      "start_min": 277.5474
+    },
+    {
+      "batch_id": "B037",
+      "end_min": 343.2547,
+      "event_id": "E037",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L008_OP1",
+      "start_min": 281.2149
+    },
+    {
+      "batch_id": "B027",
+      "end_min": 354.8021,
+      "event_id": "E027",
+      "event_type": "process",
+      "machine_id": "FURN_1",
+      "operation_id": "L029_OP2",
+      "start_min": 290.3453
+    },
+    {
+      "batch_id": "B041",
+      "end_min": 372.0905,
+      "event_id": "E041",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L058_OP1",
+      "start_min": 308.9808
+    },
+    {
+      "batch_id": "B021",
+      "end_min": 383.6456,
+      "event_id": "E021",
+      "event_type": "process",
+      "machine_id": "FURN_3",
+      "operation_id": "L030_OP2",
+      "start_min": 312.128
+    },
+    {
+      "batch_id": "B016",
+      "end_min": 353.02,
+      "event_id": "E016",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L009_OP3",
+      "start_min": 315.0453
+    },
+    {
+      "batch_id": "B007",
+      "end_min": 351.048,
+      "event_id": "E007",
+      "event_type": "process",
+      "machine_id": "IMP_B1",
+      "operation_id": "L033_OP4",
+      "start_min": 323.8124
+    },
+    {
+      "batch_id": "B024",
+      "end_min": 425.8224,
+      "event_id": "E024",
+      "event_type": "process",
+      "machine_id": "FURN_4",
+      "operation_id": "L026_OP2",
+      "start_min": 342.6808
+    },
+    {
+      "batch_id": "B013",
+      "end_min": 388.4994,
+      "event_id": "E013",
+      "event_type": "process",
+      "machine_id": "MET_3",
+      "operation_id": "L010_OP3",
+      "start_min": 353.7617
+    },
+    {
+      "batch_id": "B019",
+      "end_min": 388.6969,
+      "event_id": "E019",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L003_OP3",
+      "start_min": 362.8438
+    },
+    {
+      "batch_id": "B048",
+      "end_min": 416.6609,
+      "event_id": "E048",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L002_OP1",
+      "start_min": 372.0905
+    },
+    {
+      "batch_id": "B030",
+      "end_min": 439.0327,
+      "event_id": "E030",
+      "event_type": "process",
+      "machine_id": "FURN_2",
+      "operation_id": "L056_OP2",
+      "start_min": 375.0438
+    },
+    {
+      "batch_id": "B044",
+      "end_min": 423.9556,
+      "event_id": "E044",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L011_OP1",
+      "start_min": 377.1547
+    },
+    {
+      "batch_id": "B028",
+      "end_min": 409.1381,
+      "event_id": "E028",
+      "event_type": "process",
+      "machine_id": "MET_2",
+      "operation_id": "L029_OP3",
+      "start_min": 378.0021
+    },
+    {
+      "batch_id": "B034",
+      "end_min": 464.8809,
+      "event_id": "E034",
+      "event_type": "process",
+      "machine_id": "FURN_1",
+      "operation_id": "L055_OP2",
+      "start_min": 380.0021
+    },
+    {
+      "batch_id": "B022",
+      "end_min": 424.5566,
+      "event_id": "E022",
+      "event_type": "process",
+      "machine_id": "MET_3",
+      "operation_id": "L030_OP3",
+      "start_min": 400.4456
+    },
+    {
+      "batch_id": "B038",
+      "end_min": 477.2335,
+      "event_id": "E038",
+      "event_type": "process",
+      "machine_id": "FURN_3",
+      "operation_id": "L008_OP2",
+      "start_min": 408.8456
+    },
+    {
+      "batch_id": "B054",
+      "end_min": 471.1232,
+      "event_id": "E054",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L006_OP1",
+      "start_min": 416.6609
+    },
+    {
+      "batch_id": "B051",
+      "end_min": 468.0343,
+      "event_id": "E051",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L007_OP1",
+      "start_min": 423.9556
+    },
+    {
+      "batch_id": "B042",
+      "end_min": 513.1009,
+      "event_id": "E042",
+      "event_type": "process",
+      "machine_id": "FURN_4",
+      "operation_id": "L058_OP2",
+      "start_min": 425.8224
+    },
+    {
+      "batch_id": "B025",
+      "end_min": 483.963,
+      "event_id": "E025",
+      "event_type": "process",
+      "machine_id": "MET_3",
+      "operation_id": "L026_OP3",
+      "start_min": 453.4224
+    },
+    {
+      "batch_id": "B049",
+      "end_min": 534.3681,
+      "event_id": "E049",
+      "event_type": "process",
+      "machine_id": "FURN_2",
+      "operation_id": "L002_OP2",
+      "start_min": 460.5609
+    },
+    {
+      "batch_id": "B045",
+      "end_min": 549.0891,
+      "event_id": "E045",
+      "event_type": "process",
+      "machine_id": "FURN_1",
+      "operation_id": "L011_OP2",
+      "start_min": 464.8809
+    },
+    {
+      "batch_id": "B031",
+      "end_min": 501.1257,
+      "event_id": "E031",
+      "event_type": "process",
+      "machine_id": "MET_2",
+      "operation_id": "L056_OP3",
+      "start_min": 467.0327
+    },
+    {
+      "batch_id": "B057",
+      "end_min": 537.9312,
+      "event_id": "E057",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L034_OP1",
+      "start_min": 471.1232
+    },
+    {
+      "batch_id": "B035",
+      "end_min": 520.1577,
+      "event_id": "E035",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L055_OP3",
+      "start_min": 487.5809
+    },
+    {
+      "batch_id": "B060",
+      "end_min": 535.9586,
+      "event_id": "E060",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L020_OP1",
+      "start_min": 493.8343
+    },
+    {
+      "batch_id": "B039",
+      "end_min": 536.2475,
+      "event_id": "E039",
+      "event_type": "process",
+      "machine_id": "MET_2",
+      "operation_id": "L008_OP3",
+      "start_min": 501.4335
+    },
+    {
+      "batch_id": "B052",
+      "end_min": 590.8135,
+      "event_id": "E052",
+      "event_type": "process",
+      "machine_id": "FURN_3",
+      "operation_id": "L007_OP2",
+      "start_min": 511.5343
+    },
+    {
+      "batch_id": "B055",
+      "end_min": 625.7159,
+      "event_id": "E055",
+      "event_type": "process",
+      "machine_id": "FURN_2",
+      "operation_id": "L006_OP2",
+      "start_min": 534.3681
+    },
+    {
+      "batch_id": "B043",
+      "end_min": 568.3205,
+      "event_id": "E043",
+      "event_type": "process",
+      "machine_id": "MET_3",
+      "operation_id": "L058_OP3",
+      "start_min": 535.1009
+    },
+    {
+      "batch_id": "B050",
+      "end_min": 577.2739,
+      "event_id": "E050",
+      "event_type": "process",
+      "machine_id": "MET_4",
+      "operation_id": "L002_OP3",
+      "start_min": 554.6681
+    },
+    {
+      "batch_id": "B036",
+      "end_min": 597.3427,
+      "event_id": "E036",
+      "event_type": "process",
+      "machine_id": "IMP_D1",
+      "operation_id": "L055_OP4",
+      "start_min": 557.5577
+    },
+    {
+      "batch_id": "B046",
+      "end_min": 597.6189,
+      "event_id": "E046",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L011_OP3",
+      "start_min": 565.9891
+    },
+    {
+      "batch_id": "B032",
+      "end_min": 600.8737,
+      "event_id": "E032",
+      "event_type": "process",
+      "machine_id": "IMP_A2",
+      "operation_id": "L056_OP4",
+      "start_min": 566.0257
+    },
+    {
+      "batch_id": "B058",
+      "end_min": 669.71,
+      "event_id": "E058",
+      "event_type": "process",
+      "machine_id": "FURN_1",
+      "operation_id": "L034_OP2",
+      "start_min": 577.0312
+    },
+    {
+      "batch_id": "B061",
+      "end_min": 678.2804,
+      "event_id": "E061",
+      "event_type": "process",
+      "machine_id": "FURN_4",
+      "operation_id": "L020_OP2",
+      "start_min": 593.3009
+    },
+    {
+      "batch_id": "B064",
+      "end_min": 637.4428,
+      "event_id": "E064",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L039_OP1",
+      "start_min": 597.3427
+    },
+    {
+      "batch_id": "B040",
+      "end_min": 632.1697,
+      "event_id": "E040",
+      "event_type": "process",
+      "machine_id": "IMP_A2",
+      "operation_id": "L008_OP4",
+      "start_min": 600.8737
+    },
+    {
+      "batch_id": "B053",
+      "end_min": 644.9458,
+      "event_id": "E053",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L007_OP3",
+      "start_min": 606.2135
+    },
+    {
+      "batch_id": "B067",
+      "end_min": 690.1495,
+      "event_id": "E067",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L052_OP1",
+      "start_min": 632.1697
+    },
+    {
+      "batch_id": "B082",
+      "end_min": 675.0301,
+      "event_id": "E082",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L045_OP1",
+      "start_min": 637.4428
+    },
+    {
+      "batch_id": "B056",
+      "end_min": 668.0232,
+      "event_id": "E056",
+      "event_type": "process",
+      "machine_id": "MET_3",
+      "operation_id": "L006_OP3",
+      "start_min": 644.7159
+    },
+    {
+      "batch_id": "B047",
+      "end_min": 692.3843,
+      "event_id": "E047",
+      "event_type": "process",
+      "machine_id": "IMP_B1",
+      "operation_id": "L011_OP4",
+      "start_min": 653.5189
+    },
+    {
+      "batch_id": "B065",
+      "end_min": 759.8349,
+      "event_id": "E065",
+      "event_type": "process",
+      "machine_id": "FURN_3",
+      "operation_id": "L039_OP2",
+      "start_min": 667.6428
+    },
+    {
+      "batch_id": "B085",
+      "end_min": 724.6579,
+      "event_id": "E085",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L017_OP1",
+      "start_min": 675.0301
+    },
+    {
+      "batch_id": "B059",
+      "end_min": 719.5584,
+      "event_id": "E059",
+      "event_type": "process",
+      "machine_id": "MET_3",
+      "operation_id": "L034_OP3",
+      "start_min": 684.91
+    },
+    {
+      "batch_id": "B071",
+      "end_min": 748.2465,
+      "event_id": "E071",
+      "event_type": "process",
+      "machine_id": "IMP_D1",
+      "operation_id": "L048_OP1",
+      "start_min": 690.1495
+    },
+    {
+      "batch_id": "B062",
+      "end_min": 742.4774,
+      "event_id": "E062",
+      "event_type": "process",
+      "machine_id": "MET_2",
+      "operation_id": "L020_OP3",
+      "start_min": 701.3804
+    },
+    {
+      "batch_id": "B075",
+      "end_min": 779.431,
+      "event_id": "E075",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L022_OP1",
+      "start_min": 723.1495
+    },
+    {
+      "batch_id": "B088",
+      "end_min": 777.4267,
+      "event_id": "E088",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L015_OP1",
+      "start_min": 724.6579
+    },
+    {
+      "batch_id": "B068",
+      "end_min": 810.6945,
+      "event_id": "E068",
+      "event_type": "process",
+      "machine_id": "FURN_4",
+      "operation_id": "L052_OP2",
+      "start_min": 730.1495
+    },
+    {
+      "batch_id": "B083",
+      "end_min": 807.6285,
+      "event_id": "E083",
+      "event_type": "process",
+      "machine_id": "FURN_1",
+      "operation_id": "L045_OP2",
+      "start_min": 732.7301
+    },
+    {
+      "batch_id": "B063",
+      "end_min": 808.4294,
+      "event_id": "E063",
+      "event_type": "process",
+      "machine_id": "IMP_A2",
+      "operation_id": "L020_OP4",
+      "start_min": 776.0774
+    },
+    {
+      "batch_id": "B079",
+      "end_min": 829.6864,
+      "event_id": "E079",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L046_OP1",
+      "start_min": 779.431
+    },
+    {
+      "batch_id": "B072",
+      "end_min": 855.9874,
+      "event_id": "E072",
+      "event_type": "process",
+      "machine_id": "FURN_2",
+      "operation_id": "L048_OP2",
+      "start_min": 780.3465
+    },
+    {
+      "batch_id": "B066",
+      "end_min": 816.6223,
+      "event_id": "E066",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L039_OP3",
+      "start_min": 784.2349
+    },
+    {
+      "batch_id": "B094",
+      "end_min": 851.5025,
+      "event_id": "E094",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L028_OP1",
+      "start_min": 808.4294
+    },
+    {
+      "batch_id": "B076",
+      "end_min": 897.6112,
+      "event_id": "E076",
+      "event_type": "process",
+      "machine_id": "FURN_3",
+      "operation_id": "L022_OP2",
+      "start_min": 818.431
+    },
+    {
+      "batch_id": "B084",
+      "end_min": 852.1014,
+      "event_id": "E084",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L045_OP3",
+      "start_min": 823.0285
+    },
+    {
+      "batch_id": "B091",
+      "end_min": 874.5244,
+      "event_id": "E091",
+      "event_type": "process",
+      "machine_id": "IMP_D1",
+      "operation_id": "L038_OP1",
+      "start_min": 829.6864
+    },
+    {
+      "batch_id": "B086",
+      "end_min": 900.0922,
+      "event_id": "E086",
+      "event_type": "process",
+      "machine_id": "FURN_4",
+      "operation_id": "L017_OP2",
+      "start_min": 830.4945
+    },
+    {
+      "batch_id": "B069",
+      "end_min": 866.4905,
+      "event_id": "E069",
+      "event_type": "process",
+      "machine_id": "MET_2",
+      "operation_id": "L052_OP3",
+      "start_min": 832.2945
+    },
+    {
+      "batch_id": "B098",
+      "end_min": 907.0744,
+      "event_id": "E098",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L025_OP1",
+      "start_min": 852.7864
+    },
+    {
+      "batch_id": "B073",
+      "end_min": 906.8274,
+      "event_id": "E073",
+      "event_type": "process",
+      "machine_id": "MET_2",
+      "operation_id": "L048_OP3",
+      "start_min": 867.6874
+    },
+    {
+      "batch_id": "B112",
+      "end_min": 909.1546,
+      "event_id": "E112",
+      "event_type": "process",
+      "machine_id": "IMP_D1",
+      "operation_id": "L054_OP1",
+      "start_min": 874.5244
+    },
+    {
+      "clean_type": "implant_chamber",
+      "end_min": 931.9025,
+      "event_id": "C001",
+      "event_type": "clean",
+      "machine_id": "IMP_A1",
+      "start_min": 885.4025
+    },
+    {
+      "batch_id": "B080",
+      "end_min": 984.168,
+      "event_id": "E080",
+      "event_type": "process",
+      "machine_id": "FURN_1",
+      "operation_id": "L046_OP2",
+      "start_min": 886.0864
+    },
+    {
+      "batch_id": "B089",
+      "end_min": 994.3876,
+      "event_id": "E089",
+      "event_type": "process",
+      "machine_id": "FURN_2",
+      "operation_id": "L015_OP2",
+      "start_min": 890.1874
+    },
+    {
+      "batch_id": "B092",
+      "end_min": 986.7182,
+      "event_id": "E092",
+      "event_type": "process",
+      "machine_id": "FURN_3",
+      "operation_id": "L038_OP2",
+      "start_min": 906.0244
+    },
+    {
+      "batch_id": "B087",
+      "end_min": 947.5697,
+      "event_id": "E087",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L017_OP3",
+      "start_min": 916.7922
+    },
+    {
+      "batch_id": "B077",
+      "end_min": 958.288,
+      "event_id": "E077",
+      "event_type": "process",
+      "machine_id": "MET_3",
+      "operation_id": "L022_OP3",
+      "start_min": 924.7112
+    },
+    {
+      "batch_id": "B095",
+      "end_min": 1009.2762,
+      "event_id": "E095",
+      "event_type": "process",
+      "machine_id": "FURN_4",
+      "operation_id": "L028_OP2",
+      "start_min": 925.2922
+    },
+    {
+      "batch_id": "B070",
+      "end_min": 969.1985,
+      "event_id": "E070",
+      "event_type": "process",
+      "machine_id": "IMP_A2",
+      "operation_id": "L052_OP4",
+      "start_min": 930.9905
+    },
+    {
+      "batch_id": "B105",
+      "end_min": 970.7462,
+      "event_id": "E105",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L049_OP1",
+      "start_min": 931.9025
+    },
+    {
+      "batch_id": "B074",
+      "end_min": 995.7878,
+      "event_id": "E074",
+      "event_type": "process",
+      "machine_id": "IMP_A2",
+      "operation_id": "L048_OP4",
+      "start_min": 969.1985
+    },
+    {
+      "batch_id": "B115",
+      "end_min": 1007.1112,
+      "event_id": "E115",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L019_OP1",
+      "start_min": 970.7462
+    },
+    {
+      "batch_id": "B113",
+      "end_min": 1051.1408,
+      "event_id": "E113",
+      "event_type": "process",
+      "machine_id": "FURN_3",
+      "operation_id": "L054_OP2",
+      "start_min": 986.7182
+    },
+    {
+      "batch_id": "B081",
+      "end_min": 1028.9485,
+      "event_id": "E081",
+      "event_type": "process",
+      "machine_id": "MET_3",
+      "operation_id": "L046_OP3",
+      "start_min": 994.568
+    },
+    {
+      "batch_id": "B101",
+      "end_min": 1054.8413,
+      "event_id": "E101",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L044_OP1",
+      "start_min": 995.7878
+    },
+    {
+      "batch_id": "B122",
+      "end_min": 1061.7646,
+      "event_id": "E122",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L053_OP1",
+      "start_min": 1007.1112
+    },
+    {
+      "batch_id": "B078",
+      "end_min": 1044.032,
+      "event_id": "E078",
+      "event_type": "process",
+      "machine_id": "IMP_B1",
+      "operation_id": "L022_OP4",
+      "start_min": 1010.588
+    },
+    {
+      "batch_id": "B093",
+      "end_min": 1045.1862,
+      "event_id": "E093",
+      "event_type": "process",
+      "machine_id": "MET_4",
+      "operation_id": "L038_OP3",
+      "start_min": 1011.4182
+    },
+    {
+      "batch_id": "B099",
+      "end_min": 1103.5288,
+      "event_id": "E099",
+      "event_type": "process",
+      "machine_id": "FURN_1",
+      "operation_id": "L025_OP2",
+      "start_min": 1012.968
+    },
+    {
+      "batch_id": "B090",
+      "end_min": 1046.575,
+      "event_id": "E090",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L015_OP3",
+      "start_min": 1014.1876
+    },
+    {
+      "batch_id": "B106",
+      "end_min": 1111.7076,
+      "event_id": "E106",
+      "event_type": "process",
+      "machine_id": "FURN_2",
+      "operation_id": "L049_OP2",
+      "start_min": 1014.1876
+    },
+    {
+      "batch_id": "B096",
+      "end_min": 1061.0172,
+      "event_id": "E096",
+      "event_type": "process",
+      "machine_id": "MET_2",
+      "operation_id": "L028_OP3",
+      "start_min": 1035.5762
+    },
+    {
+      "batch_id": "B118",
+      "end_min": 1100.056,
+      "event_id": "E118",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L040_OP1",
+      "start_min": 1054.8413
+    },
+    {
+      "batch_id": "B114",
+      "end_min": 1091.1563,
+      "event_id": "E114",
+      "event_type": "process",
+      "machine_id": "MET_3",
+      "operation_id": "L054_OP3",
+      "start_min": 1061.2408
+    },
+    {
+      "batch_id": "B125",
+      "end_min": 1109.8703,
+      "event_id": "E125",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L041_OP1",
+      "start_min": 1061.7646
+    },
+    {
+      "batch_id": "B116",
+      "end_min": 1165.1277,
+      "event_id": "E116",
+      "event_type": "process",
+      "machine_id": "FURN_3",
+      "operation_id": "L019_OP2",
+      "start_min": 1078.1408
+    },
+    {
+      "batch_id": "B102",
+      "end_min": 1174.3798,
+      "event_id": "E102",
+      "event_type": "process",
+      "machine_id": "FURN_4",
+      "operation_id": "L044_OP2",
+      "start_min": 1100.4413
+    },
+    {
+      "batch_id": "B123",
+      "end_min": 1177.9252,
+      "event_id": "E123",
+      "event_type": "process",
+      "machine_id": "FURN_1",
+      "operation_id": "L053_OP2",
+      "start_min": 1103.5288
+    },
+    {
+      "batch_id": "B136",
+      "end_min": 1161.5921,
+      "event_id": "E136",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L031_OP1",
+      "start_min": 1109.8703
+    },
+    {
+      "batch_id": "B097",
+      "end_min": 1142.4012,
+      "event_id": "E097",
+      "event_type": "process",
+      "machine_id": "IMP_A2",
+      "operation_id": "L028_OP4",
+      "start_min": 1110.8172
+    },
+    {
+      "batch_id": "B100",
+      "end_min": 1152.7738,
+      "event_id": "E100",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L025_OP3",
+      "start_min": 1119.6288
+    },
+    {
+      "batch_id": "B107",
+      "end_min": 1167.9449,
+      "event_id": "E107",
+      "event_type": "process",
+      "machine_id": "MET_3",
+      "operation_id": "L049_OP3",
+      "start_min": 1130.6076
+    },
+    {
+      "batch_id": "B108",
+      "end_min": 1196.1766,
+      "event_id": "E108",
+      "event_type": "process",
+      "machine_id": "IMP_B1",
+      "operation_id": "L004_OP1",
+      "start_min": 1142.4012
+    },
+    {
+      "batch_id": "B119",
+      "end_min": 1237.3084,
+      "event_id": "E119",
+      "event_type": "process",
+      "machine_id": "FURN_2",
+      "operation_id": "L040_OP2",
+      "start_min": 1155.356
+    },
+    {
+      "batch_id": "B139",
+      "end_min": 1207.0319,
+      "event_id": "E139",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L057_OP1",
+      "start_min": 1161.5921
+    },
+    {
+      "batch_id": "B126",
+      "end_min": 1244.0888,
+      "event_id": "E126",
+      "event_type": "process",
+      "machine_id": "FURN_1",
+      "operation_id": "L041_OP2",
+      "start_min": 1177.9252
+    },
+    {
+      "batch_id": "B103",
+      "end_min": 1222.7508,
+      "event_id": "E103",
+      "event_type": "process",
+      "machine_id": "MET_2",
+      "operation_id": "L044_OP3",
+      "start_min": 1185.9798
+    },
+    {
+      "batch_id": "B117",
+      "end_min": 1222.9872,
+      "event_id": "E117",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L019_OP3",
+      "start_min": 1186.5277
+    },
+    {
+      "batch_id": "B128",
+      "end_min": 1260.1214,
+      "event_id": "E128",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L024_OP1",
+      "start_min": 1196.1766
+    },
+    {
+      "batch_id": "B124",
+      "end_min": 1234.5627,
+      "event_id": "E124",
+      "event_type": "process",
+      "machine_id": "MET_3",
+      "operation_id": "L053_OP3",
+      "start_min": 1197.0252
+    },
+    {
+      "batch_id": "B142",
+      "end_min": 1259.2772,
+      "event_id": "E142",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L021_OP1",
+      "start_min": 1207.0319
+    },
+    {
+      "batch_id": "B137",
+      "end_min": 1295.5772,
+      "event_id": "E137",
+      "event_type": "process",
+      "machine_id": "FURN_3",
+      "operation_id": "L031_OP2",
+      "start_min": 1210.3921
+    },
+    {
+      "batch_id": "B109",
+      "end_min": 1309.8711,
+      "event_id": "E109",
+      "event_type": "process",
+      "machine_id": "FURN_4",
+      "operation_id": "L004_OP2",
+      "start_min": 1240.2766
+    },
+    {
+      "batch_id": "B140",
+      "end_min": 1320.9327,
+      "event_id": "E140",
+      "event_type": "process",
+      "machine_id": "FURN_1",
+      "operation_id": "L057_OP2",
+      "start_min": 1245.4319
+    },
+    {
+      "batch_id": "B145",
+      "end_min": 1304.2982,
+      "event_id": "E145",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L027_OP1",
+      "start_min": 1259.2772
+    },
+    {
+      "batch_id": "B120",
+      "end_min": 1292.9394,
+      "event_id": "E120",
+      "event_type": "process",
+      "machine_id": "MET_2",
+      "operation_id": "L040_OP3",
+      "start_min": 1264.4084
+    },
+    {
+      "batch_id": "B127",
+      "end_min": 1299.2875,
+      "event_id": "E127",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L041_OP3",
+      "start_min": 1268.8888
+    },
+    {
+      "batch_id": "B104",
+      "end_min": 1303.0346,
+      "event_id": "E104",
+      "event_type": "process",
+      "machine_id": "IMP_A2",
+      "operation_id": "L044_OP4",
+      "start_min": 1276.9508
+    },
+    {
+      "batch_id": "B143",
+      "end_min": 1396.3432,
+      "event_id": "E143",
+      "event_type": "process",
+      "machine_id": "FURN_2",
+      "operation_id": "L021_OP2",
+      "start_min": 1299.7772
+    },
+    {
+      "batch_id": "B132",
+      "end_min": 1348.7265,
+      "event_id": "E132",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L036_OP1",
+      "start_min": 1303.0346
+    },
+    {
+      "batch_id": "B148",
+      "end_min": 1348.7674,
+      "event_id": "E148",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L013_OP1",
+      "start_min": 1304.2982
+    },
+    {
+      "batch_id": "B129",
+      "end_min": 1372.6781,
+      "event_id": "E129",
+      "event_type": "process",
+      "machine_id": "FURN_4",
+      "operation_id": "L024_OP2",
+      "start_min": 1309.8711
+    },
+    {
+      "batch_id": "B138",
+      "end_min": 1346.6833,
+      "event_id": "E138",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L031_OP3",
+      "start_min": 1321.7772
+    },
+    {
+      "batch_id": "B110",
+      "end_min": 1358.3211,
+      "event_id": "E110",
+      "event_type": "process",
+      "machine_id": "MET_2",
+      "operation_id": "L004_OP3",
+      "start_min": 1332.5711
+    },
+    {
+      "batch_id": "B141",
+      "end_min": 1372.269,
+      "event_id": "E141",
+      "event_type": "process",
+      "machine_id": "MET_3",
+      "operation_id": "L057_OP3",
+      "start_min": 1335.9327
+    },
+    {
+      "batch_id": "B146",
+      "end_min": 1429.1845,
+      "event_id": "E146",
+      "event_type": "process",
+      "machine_id": "FURN_3",
+      "operation_id": "L027_OP2",
+      "start_min": 1342.7982
+    },
+    {
+      "batch_id": "B151",
+      "end_min": 1400.908,
+      "event_id": "E151",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L005_OP1",
+      "start_min": 1348.7674
+    },
+    {
+      "batch_id": "B121",
+      "end_min": 1391.3174,
+      "event_id": "E121",
+      "event_type": "process",
+      "machine_id": "IMP_B1",
+      "operation_id": "L040_OP4",
+      "start_min": 1364.3394
+    },
+    {
+      "batch_id": "B133",
+      "end_min": 1454.0815,
+      "event_id": "E133",
+      "event_type": "process",
+      "machine_id": "FURN_4",
+      "operation_id": "L036_OP2",
+      "start_min": 1389.8265
+    },
+    {
+      "batch_id": "B130",
+      "end_min": 1418.8881,
+      "event_id": "E130",
+      "event_type": "process",
+      "machine_id": "MET_2",
+      "operation_id": "L024_OP3",
+      "start_min": 1391.0781
+    },
+    {
+      "batch_id": "B111",
+      "end_min": 1426.8896,
+      "event_id": "E111",
+      "event_type": "process",
+      "machine_id": "IMP_A2",
+      "operation_id": "L004_OP4",
+      "start_min": 1393.0211
+    },
+    {
+      "batch_id": "B154",
+      "end_min": 1434.9355,
+      "event_id": "E154",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L051_OP1",
+      "start_min": 1400.908
+    },
+    {
+      "batch_id": "B149",
+      "end_min": 1490.3034,
+      "event_id": "E149",
+      "event_type": "process",
+      "machine_id": "FURN_2",
+      "operation_id": "L013_OP2",
+      "start_min": 1404.8674
+    },
+    {
+      "batch_id": "B144",
+      "end_min": 1440.5698,
+      "event_id": "E144",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L021_OP3",
+      "start_min": 1414.2432
+    },
+    {
+      "batch_id": "B147",
+      "end_min": 1476.4468,
+      "event_id": "E147",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L027_OP3",
+      "start_min": 1447.1845
+    },
+    {
+      "batch_id": "B152",
+      "end_min": 1554.4119,
+      "event_id": "E152",
+      "event_type": "process",
+      "machine_id": "FURN_3",
+      "operation_id": "L005_OP2",
+      "start_min": 1448.9845
+    },
+    {
+      "batch_id": "B131",
+      "end_min": 1486.3321,
+      "event_id": "E131",
+      "event_type": "process",
+      "machine_id": "IMP_B1",
+      "operation_id": "L024_OP4",
+      "start_min": 1460.3881
+    },
+    {
+      "batch_id": "B134",
+      "end_min": 1507.8195,
+      "event_id": "E134",
+      "event_type": "process",
+      "machine_id": "MET_2",
+      "operation_id": "L036_OP3",
+      "start_min": 1472.1815
+    },
+    {
+      "batch_id": "B161",
+      "end_min": 1523.9321,
+      "event_id": "E161",
+      "event_type": "process",
+      "machine_id": "IMP_B1",
+      "operation_id": "L035_OP1",
+      "start_min": 1486.3321
+    },
+    {
+      "batch_id": "B157",
+      "end_min": 1529.9959,
+      "event_id": "E157",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L032_OP1",
+      "start_min": 1486.3321
+    },
+    {
+      "batch_id": "B155",
+      "end_min": 1575.6075,
+      "event_id": "E155",
+      "event_type": "process",
+      "machine_id": "FURN_4",
+      "operation_id": "L051_OP2",
+      "start_min": 1488.2815
+    },
+    {
+      "batch_id": "B150",
+      "end_min": 1542.7558,
+      "event_id": "E150",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L013_OP3",
+      "start_min": 1515.1034
+    },
+    {
+      "batch_id": "B135",
+      "end_min": 1576.8235,
+      "event_id": "E135",
+      "event_type": "process",
+      "machine_id": "IMP_A2",
+      "operation_id": "L036_OP4",
+      "start_min": 1540.9195
+    },
+    {
+      "batch_id": "B174",
+      "end_min": 1612.0006,
+      "event_id": "E174",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L014_OP1",
+      "start_min": 1562.9959
+    },
+    {
+      "batch_id": "B158",
+      "end_min": 1636.95,
+      "event_id": "E158",
+      "event_type": "process",
+      "machine_id": "FURN_2",
+      "operation_id": "L032_OP2",
+      "start_min": 1571.7959
+    },
+    {
+      "batch_id": "B168",
+      "end_min": 1615.5448,
+      "event_id": "E168",
+      "event_type": "process",
+      "machine_id": "IMP_A2",
+      "operation_id": "L001_OP1",
+      "start_min": 1576.8235
+    },
+    {
+      "batch_id": "B164",
+      "end_min": 1635.6835,
+      "event_id": "E164",
+      "event_type": "process",
+      "machine_id": "IMP_D1",
+      "operation_id": "L012_OP1",
+      "start_min": 1576.8235
+    },
+    {
+      "batch_id": "B162",
+      "end_min": 1666.1681,
+      "event_id": "E162",
+      "event_type": "process",
+      "machine_id": "FURN_4",
+      "operation_id": "L035_OP2",
+      "start_min": 1577.4321
+    },
+    {
+      "batch_id": "B153",
+      "end_min": 1603.2657,
+      "event_id": "E153",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L005_OP3",
+      "start_min": 1579.2119
+    },
+    {
+      "batch_id": "B156",
+      "end_min": 1641.8086,
+      "event_id": "E156",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L051_OP3",
+      "start_min": 1603.2657
+    },
+    {
+      "batch_id": "B180",
+      "end_min": 1653.8422,
+      "event_id": "E180",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L018_OP1",
+      "start_min": 1612.0006
+    },
+    {
+      "batch_id": "B171",
+      "end_min": 1656.2881,
+      "event_id": "E171",
+      "event_type": "process",
+      "machine_id": "IMP_A2",
+      "operation_id": "L037_OP1",
+      "start_min": 1615.5448
+    },
+    {
+      "batch_id": "B183",
+      "end_min": 1714.3273,
+      "event_id": "E183",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L042_OP1",
+      "start_min": 1653.8422
+    },
+    {
+      "clean_type": "implant_chamber",
+      "end_min": 1705.2881,
+      "event_id": "C002",
+      "event_type": "clean",
+      "machine_id": "IMP_A2",
+      "start_min": 1656.2881
+    },
+    {
+      "batch_id": "B169",
+      "end_min": 1719.6936,
+      "event_id": "E169",
+      "event_type": "process",
+      "machine_id": "FURN_1",
+      "operation_id": "L001_OP2",
+      "start_min": 1657.2448
+    },
+    {
+      "batch_id": "B175",
+      "end_min": 1726.4718,
+      "event_id": "E175",
+      "event_type": "process",
+      "machine_id": "FURN_3",
+      "operation_id": "L014_OP2",
+      "start_min": 1662.9006
+    },
+    {
+      "batch_id": "B159",
+      "end_min": 1702.878,
+      "event_id": "E159",
+      "event_type": "process",
+      "machine_id": "MET_2",
+      "operation_id": "L032_OP3",
+      "start_min": 1664.15
+    },
+    {
+      "batch_id": "B163",
+      "end_min": 1713.8396,
+      "event_id": "E163",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L035_OP3",
+      "start_min": 1681.1681
+    },
+    {
+      "batch_id": "B172",
+      "end_min": 1765.1444,
+      "event_id": "E172",
+      "event_type": "process",
+      "machine_id": "FURN_4",
+      "operation_id": "L037_OP2",
+      "start_min": 1685.9681
+    },
+    {
+      "batch_id": "B165",
+      "end_min": 1777.9822,
+      "event_id": "E165",
+      "event_type": "process",
+      "machine_id": "FURN_2",
+      "operation_id": "L012_OP2",
+      "start_min": 1690.8835
+    },
+    {
+      "batch_id": "B177",
+      "end_min": 1757.2535,
+      "event_id": "E177",
+      "event_type": "process",
+      "machine_id": "IMP_A2",
+      "operation_id": "L023_OP1",
+      "start_min": 1705.2881
+    },
+    {
+      "batch_id": "B181",
+      "end_min": 1812.0848,
+      "event_id": "E181",
+      "event_type": "process",
+      "machine_id": "FURN_3",
+      "operation_id": "L018_OP2",
+      "start_min": 1726.4718
+    },
+    {
+      "batch_id": "B170",
+      "end_min": 1766.8255,
+      "event_id": "E170",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L001_OP3",
+      "start_min": 1740.5936
+    },
+    {
+      "batch_id": "B176",
+      "end_min": 1771.5792,
+      "event_id": "E176",
+      "event_type": "process",
+      "machine_id": "MET_4",
+      "operation_id": "L014_OP3",
+      "start_min": 1745.9718
+    },
+    {
+      "batch_id": "B160",
+      "end_min": 1801.0678,
+      "event_id": "E160",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L032_OP4",
+      "start_min": 1761.378
+    },
+    {
+      "batch_id": "B173",
+      "end_min": 1807.1544,
+      "event_id": "E173",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L037_OP3",
+      "start_min": 1778.7444
+    },
+    {
+      "batch_id": "B178",
+      "end_min": 1846.9781,
+      "event_id": "E178",
+      "event_type": "process",
+      "machine_id": "FURN_1",
+      "operation_id": "L023_OP2",
+      "start_min": 1785.9535
+    },
+    {
+      "batch_id": "B184",
+      "end_min": 1892.6931,
+      "event_id": "E184",
+      "event_type": "process",
+      "machine_id": "FURN_4",
+      "operation_id": "L042_OP2",
+      "start_min": 1797.5444
+    },
+    {
+      "batch_id": "B166",
+      "end_min": 1833.9322,
+      "event_id": "E166",
+      "event_type": "process",
+      "machine_id": "MET_2",
+      "operation_id": "L012_OP3",
+      "start_min": 1797.8822
+    },
+    {
+      "batch_id": "B190",
+      "end_min": 1837.3987,
+      "event_id": "E190",
+      "event_type": "process",
+      "machine_id": "IMP_A1",
+      "operation_id": "L047_OP1",
+      "start_min": 1801.0678
+    },
+    {
+      "batch_id": "B186",
+      "end_min": 1843.6579,
+      "event_id": "E186",
+      "event_type": "process",
+      "machine_id": "IMP_C1",
+      "operation_id": "L016_OP1",
+      "start_min": 1801.0678
+    },
+    {
+      "batch_id": "B182",
+      "end_min": 1859.9596,
+      "event_id": "E182",
+      "event_type": "process",
+      "machine_id": "MET_4",
+      "operation_id": "L018_OP3",
+      "start_min": 1836.8848
+    },
+    {
+      "batch_id": "B179",
+      "end_min": 1888.5616,
+      "event_id": "E179",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L023_OP3",
+      "start_min": 1859.6781
+    },
+    {
+      "batch_id": "B191",
+      "end_min": 1948.9757,
+      "event_id": "E191",
+      "event_type": "process",
+      "machine_id": "FURN_1",
+      "operation_id": "L047_OP2",
+      "start_min": 1870.8987
+    },
+    {
+      "batch_id": "B187",
+      "end_min": 1943.0989,
+      "event_id": "E187",
+      "event_type": "process",
+      "machine_id": "FURN_2",
+      "operation_id": "L016_OP2",
+      "start_min": 1874.1579
+    },
+    {
+      "batch_id": "B167",
+      "end_min": 1920.4302,
+      "event_id": "E167",
+      "event_type": "process",
+      "machine_id": "IMP_B1",
+      "operation_id": "L012_OP4",
+      "start_min": 1895.3322
+    },
+    {
+      "batch_id": "B185",
+      "end_min": 1939.3315,
+      "event_id": "E185",
+      "event_type": "process",
+      "machine_id": "MET_4",
+      "operation_id": "L042_OP3",
+      "start_min": 1914.1931
+    },
+    {
+      "batch_id": "B192",
+      "end_min": 1995.0253,
+      "event_id": "E192",
+      "event_type": "process",
+      "machine_id": "MET_1",
+      "operation_id": "L047_OP3",
+      "start_min": 1960.1757
+    },
+    {
+      "batch_id": "B188",
+      "end_min": 1986.6369,
+      "event_id": "E188",
+      "event_type": "process",
+      "machine_id": "MET_2",
+      "operation_id": "L016_OP3",
+      "start_min": 1961.2989
+    },
+    {
+      "batch_id": "B189",
+      "end_min": 2096.3329,
+      "event_id": "E189",
+      "event_type": "process",
+      "machine_id": "IMP_A2",
+      "operation_id": "L016_OP4",
+      "start_min": 2057.8369
+    }
+  ]
+}
