@@ -1,23 +1,22 @@
 # Power-Grid Planning
 
-This case studies a mixed-integer conic power-grid planning problem. Both
-systems received the same neutral specification and input identities. The
-generated algorithms are preserved under `native_codex/algorithm/` and
-`veras/algorithm/`.
+The revised manuscript reports **VERAS Grid R1** in `veras_v030_transfer/`:
+independently reconstructed objective **39,423,636.2501 USD/year**, exact
+integrality and all audited constraints feasible. A source-only, public-input
+replay with a stricter 750-second solver budget (versus the original agent's
+900-second setting) ends in 829.552 seconds and produces a byte-identical NPZ.
+The final solve keeps planning free; it uses no external warm start, but does
+construct internal starts from public inputs. The input workbook, full NPZ,
+and MOSEK license are not distributed.
 
-| System | Reconstructed objective | Integrality | Audit status |
-| --- | ---: | ---: | --- |
-| Native Codex raw generated point | 40,726,008.4147 USD/year | Exact | Strict selector ineligible |
-| VERAS | **39,379,929.1225 USD/year** | Exact | Independent audit passed |
+The original historical run remains archived:
 
-VERAS improves the reconstructed annualized objective by `1,346,079.2922 USD/year` or
-`3.3052%`. The final solve kept all planning variables free, used four solver
-threads, consumed `880.278s` under a 900-second optimizer ceiling, used no
-external warm start, and had zero external objective discrepancy.
+| Historical system | Reconstructed objective | Audit status |
+| --- | ---: | --- |
+| Native Codex raw (`native_codex/`) | 40,726,008.4147 USD/year | Strict selector ineligible |
+| Earlier VERAS (`veras/`) | 39,379,929.1225 USD/year | Independent audit passed |
 
-The native comparison is labeled raw because its strict selection report
-recorded a maximum positive residual of `4.0663e-6` and a difference between
-the rounded reported objective and external reconstruction. The raw objective
-is still included for transparent algorithm-level comparison.
-
-The operational input workbook and model data are not redistributed.
+Grid R1 and the historical native row used different prompts and compute
+budgets. The historical 3.3052% native-relative comparison belongs only to
+the earlier run; it is **not** a paired effect estimate for Grid R1. Grid R1
+is a time-limited feasible solution, not a global optimum certificate.

@@ -90,27 +90,40 @@ scores remain available in the same report.
 
 ## Real-world case studies
 
-Both comparisons use `gpt-5.6-sol` at `xhigh` reasoning effort. The repository
-contains generated algorithm source and evaluation evidence, but excludes
-confidential input datasets and solver licenses.
+The manuscript now reports two **later, independently audited v0.30-harness transfer**
+results. The previously published native Codex values remain unchanged, but
+come from historical runs and are **not paired controls** for the later VERAS
+runs. In particular, the data-center evaluation dates differ, and the grid
+prompts and agent compute budgets differ. We therefore do not compute a new
+native-relative percentage gain from the rows below.
 
-| Case | Native Codex | VERAS | Relative improvement | Status |
-| --- | ---: | ---: | ---: | --- |
-| Data-center placement, held-out August 10 peak | 1599.050419 Gbps | **1110.640670 Gbps** | **30.544% lower** | Both strictly resource-feasible |
-| Power-grid planning objective | 40,726,008.4147 USD/year | **39,379,929.1225 USD/year** | **3.305% lower** | VERAS independently audited |
+| Case | Historical native Codex (unchanged) | Revised VERAS | Evaluation boundary |
+| --- | ---: | ---: | --- |
+| Data-center peak | 1,599.050419 Gbps (August 10) | **1,072.233445 Gbps** | VERAS: visible August 8--9 only; no new August 10 result |
+| Power-grid annual objective | 40,726,008.4147 USD/year (raw) | **39,423,636.2501 USD/year** | Fixed instance, different prompt/budget; independent feasibility and clean source replay |
 
-The native power-grid point is preserved as the raw generated comparison. Its
-strict selector marked it ineligible because a `4.0663e-6` residual exceeded
-the selector tolerance and the rounded reported objective differed from the
-external reconstruction. VERAS passed the independent audit with zero
-objective discrepancy, exact integrality, and maximum normalized residual
-`1.5127e-6`.
+The datacenter R3 result meets a public two-day primary lower bound with 29
+Huailai tasks, but other candidates use 21 tasks within the soft near-tie band.
+The grid R1 source-only replay under a stricter 750-second solver setting
+reproduces the agent NPZ byte-for-byte and finishes end-to-end in 829.552
+seconds; it has no external warm start. These are selected candidate results,
+not guarantees on a new sealed holdout or proof of global optimality.
+
+New source and sanitized audit summaries are under
+`real_world/{data_center,power_grid}/veras_v030_transfer/`. The older
+`real_world/{data_center,power_grid}/veras/` directories preserve the
+**historical** algorithms and evidence (1,110.640670 Gbps on August 10 and
+39,379,929.1225 USD/year). They are not evidence for the revised rows.
+The historical native power-grid point was strict-selector ineligible because
+its maximum positive residual exceeded that study's admission tolerance;
+we retain its original raw objective for provenance, not as an eligible
+matched comparison.
 
 ## Layout
 
 - `veras/`: packaged harness, tests, score summaries, and unified benchmark report.
 - `benchmark/`: benchmark evidence guide and scoring notes.
-- `real_world/`: generated algorithms and evaluation records for both cases.
+- `real_world/`: revised v0.30-transfer algorithms and sanitized audits, plus archived historical algorithms and unchanged native records.
 - `docs/`: provenance, reproducibility, and anonymization notes.
 - `scripts/verify_artifact.sh`: unit-test and anonymity checks.
 

@@ -1,21 +1,20 @@
 # Data-Center Placement
 
-The task assigns jobs to two regions while respecting four peak resource
-limits and minimizing the maximum directional transfer-bandwidth peak. August
-8 and 9 were visible for algorithm construction and validation; August 10 was
-reserved for the agent-blind replay. Migration volume is an auxiliary metric.
+The revised manuscript reports **VERAS R3** in `veras_v030_transfer/`: a
+**1,072.233445 Gbps** maximum directional peak on the visible August 8--9
+traces, independently resource-feasible, 29 Huailai tasks, with a source-only
+21.154-second clean replay. The 0.050-Gbps soft near-tie rule also admits
+21-task candidates with a 1,072.234840-Gbps peak. R3 does **not** have a new
+August 10 or sealed-date evaluation.
 
-| System | August 10 peak | Migration | Feasible |
+The original comparison remains archived without changing native Codex:
+
+| Historical system | August 10 peak | Migration | Feasible |
 | --- | ---: | ---: | --- |
-| Native Codex | 1599.050419 Gbps | 33.838 PB | Yes |
-| VERAS | **1110.640670 Gbps** | **25.986 PB** | Yes |
+| Native Codex (`native_codex/`) | 1,599.050419 Gbps | 33.838 PB | Yes |
+| Earlier VERAS (`veras/`) | 1,110.640670 Gbps | 25.986 PB | Yes |
 
-VERAS reduces the primary objective by `30.544%`. Its selected phase budget was
-`3000/600/3000s` for producer, challenger, and repair. The harness structure
-and prompts were fixed; only these phase-time hyperparameters differed.
-
-`veras/evidence/holdout_0810_reproduction.json` is an independent rerun of the
-selected algorithm and reproduces the same held-out metric.
-
-The data files are intentionally omitted. The expected input filenames are
-listed in `veras/algorithm/manifest.json`.
+These historical August 10 numbers are **not paired** with the revised R3
+August 8--9 peak. The old `veras/evidence/holdout_0810_reproduction.json`
+verifies the earlier algorithm, not R3. No cross-window percentage reduction
+is claimed. The operational inputs and generated row-level mappings are omitted.

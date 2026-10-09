@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "run": "VERAS v0.30 transfer / DC R3",
+  "evaluation_scope": "visible August 8-9 only",
+  "not_evaluated": "August 10 or a new sealed temporal holdout",
+  "source_sha256": "534b990447a8b27161057aa99199d0f5cf6103238204cd28a483178d2dc7f109",
+  "generated_artifact_sha256": "4cc1bafdd024b6211bacfe2c0c23e9db5b77d5430d700c65e4a144649693d21e",
+  "public_data_only_source_replay": true,
+  "source_replay_byte_identical_to_agent_artifact": true,
+  "source_replay_wall_seconds": 21.154454186558723,
+  "generator_limit_seconds": 120,
+  "original_provenance_gate_eligible": true,
+  "max_directional_peak_gbps": 1072.2334446475,
+  "directional_peaks_gbps": {
+    "Zhongwei_to_Huailai": 653.1726276740835,
+    "Huailai_to_Zhongwei": 1072.2334446475
+  },
+  "daily_max_directional_peak_gbps": {
+    "20250808": 1024.3740354698805,
+    "20250809": 1072.2334446475
+  },
+  "strict_resource_feasible": true,
+  "peak_resource_utilization": {
+    "vcores_zw_peak": 0.9973058129057751,
+    "memory_zw_peak_gb": 0.9988965729211803,
+    "vcores_hl_peak": 0.38424295406486075,
+    "memory_hl_peak_gb": 0.3153828636778568
+  },
+  "huailai_task_count": 29,
+  "migration_bytes_auxiliary": 24142841918859029,
+  "public_primary_lower_bound_gbps": 1072.2334446475,
+  "soft_near_tie_band_gbps": 0.05,
+  "historical_native_august10_peak_gbps": 1599.0504189355358,
+  "paired_with_historical_native": false,
+  "method_note": "Primary visible-data minimum; 29 interventions versus 21 for other candidates inside the soft near-tie band. No August 10 claim.",
+  "authorized_input_sha256": {
+    "task_universe.parquet": "13ba1d856b5d8e626327b974fec28ab256639f50e999a717c5a5f331b6f98ae6",
+    "current_table_regions.parquet": "56b98c165072e9c661f45dbade3d696a5789956983a69ae09ec647ec981e86bf",
+    "table_size_latest.parquet": "90a374b6ef85ff66e30653a0baf363c758aeae89f745282f7806ab0b5fb698d4",
+    "resource_limits.json": "b9ad7e27e0780c38295aa024dd457dfb7f4ae5b9f17e95367f9b298a01a1526e",
+    "exec_train_0808_0809.parquet": "56887088b2c7a1be846e670ce238fce2a33d198a6a0350acd2b41a246d12bd4c",
+    "trans_train_0808_0809.parquet": "a556dd5b2785f7797702e7b1b02c9d1072f0a5d79adc813e430de76f4d270f68",
+    "table_writers_fallback.parquet": "d8ece7e54b7559099aaffe42627f143e211749dde1b03aeced147410817c1a08"
+  },
+  "internal_unit_and_soft_tie_warning": "Generated solver used inconsistent internal Gbps conversion/near-tie threshold; report only externally recomputed primary metric and feasibility, not internally certified secondary optimum."
+}

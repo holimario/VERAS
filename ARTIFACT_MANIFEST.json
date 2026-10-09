@@ -11,17 +11,34 @@
     "all_task_scores_included": true
   },
   "real_world": {
-    "data_center": {
-      "native_codex_holdout_peak_gbps": 1599.0504189355358,
-      "veras_holdout_peak_gbps": 1110.6406704153335,
-      "relative_improvement_percent": 30.544,
-      "both_resource_feasible": true
+    "historical_study": {
+      "data_center": {
+        "native_codex_august10_peak_gbps": 1599.0504189355358,
+        "veras_august10_peak_gbps": 1110.6406704153335,
+        "historical_relative_improvement_percent": 30.544
+      },
+      "power_grid": {
+        "native_codex_raw_objective_usd_per_year": 40726008.414714105,
+        "veras_objective_usd_per_year": 39379929.122525945,
+        "historical_relative_improvement_percent": 3.3052080098
+      },
+      "artifact_directories": [
+        "real_world/data_center/veras",
+        "real_world/power_grid/veras"
+      ]
     },
-    "power_grid": {
-      "native_codex_raw_objective_usd_per_year": 40726008.414714105,
-      "veras_objective_usd_per_year": 39379929.122525945,
-      "relative_improvement_percent": 3.3052080098,
-      "veras_independent_audit_passed": true
+    "revised_v030_transfer": {
+      "data_center": {
+        "result_path": "real_world/data_center/veras_v030_transfer/evidence/selected_result.json",
+        "visible_august08_09_peak_gbps": 1072.2334446475,
+        "not_evaluated_on_august10": true
+      },
+      "power_grid": {
+        "result_path": "real_world/power_grid/veras_v030_transfer/evidence/selected_result.json",
+        "objective_usd_per_year": 39423636.250142306,
+        "independent_audit_passed": true
+      },
+      "not_paired_with_historical_native": true
     }
   }
 }

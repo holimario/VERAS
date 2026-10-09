@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "run": "VERAS v0.30 transfer / Grid R1",
+  "source_sha256": "ea88be5f801b6a697ed4d77836e56bb89d1a4697a7310f7d86ccbe25e1a3d1d7",
+  "generated_artifact_sha256": "3c9d4a6f756e3510f81f2f92319c5e5844f3d8060b9e3c07fa87c99f40cd7f4d",
+  "public_input_source_only_replay": true,
+  "source_replay_byte_identical_to_agent_artifact": true,
+  "source_replay_wall_seconds": 829.55196493119,
+  "replay_solver_limit_seconds": 750,
+  "task_solver_limit_seconds": 900,
+  "agent_solver_limit_seconds": 900,
+  "solver_threads": 4,
+  "independent_audit_status": "independently_audited",
+  "constraints_feasible": true,
+  "free_planning_provenance_declared": true,
+  "max_normalized_constraint_residual": 8.543774993041708e-10,
+  "integrality_residual": 0.0,
+  "annualized_objective_usd": 39423636.250142306,
+  "annualized_investment_usd": 16154443.999152191,
+  "annualized_operation_usd": 23269192.250990115,
+  "solver_best_bound_usd": 37404295.16170734,
+  "relative_gap": 0.05122158381389036,
+  "historical_native_raw_objective_usd": 40726008.414714105,
+  "paired_with_historical_native": false,
+  "used_external_warm_start": false,
+  "uses_public_data_internal_mip_start": true,
+  "method_note": "The stricter 750-second replay and the original agent 900-second setting are different invocations with byte-identical final NPZ. Historical native row uses an earlier prompt and budget.",
+  "authorized_input_sha256": {
+    "model_spec.json": "bb3200f9f89fbe61e7738e04bd4a90ff9de2e8d41ea32bc870bf1d62bdf458a7",
+    "line_load.xlsx": "db24994c4bc9c9f3368a9e1369f47f3b35b80c1a3ff1c6305584fd4eca70137c"
+  }
+}
