@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "arm": "native_r11_comparator",
+  "arm": "native_aug10_later",
   "evaluation_date": "2025-08-10",
   "model": "gpt-5.6-sol",
   "reasoning_effort": "xhigh",
@@ -18,5 +18,5 @@
   "output_tokens": 55888,
   "migration_bytes_auxiliary": 25472928919608240,
   "artifact_not_redistributed": true,
-  "provenance_note": "Single later native Codex attempt, retrospectively configuration-matched to the archived R11 run."
+  "provenance_note": "Single later native Codex attempt, retrospectively configuration-matched to the archived VERAS run."
 }

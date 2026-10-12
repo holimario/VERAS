@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "design": "Archived VERAS R11 compared retrospectively with a later native Codex arm; fresh VERAS replicate retained.",
+  "design": "Archived VERAS compared retrospectively with a later native Codex arm; fresh VERAS replicate retained.",
   "evaluation_date": "2025-08-10",
   "public_input_sha256": {
     "task.toml": "2171eaf6bc36efde8cb62865d4fd138eb99ba45cd3f6f4694d0e89f81451cb88",
@@ -26,15 +26,15 @@
   "configured_agent_cap_seconds": 19800,
   "original_evaluator_sha256": "947cc8109953c2245214d85918869b9f45b829968e7d9a24f631262250a84149",
   "archived_veras": {
-    "result_path": "veras_r11_archived/evidence/selected_result.json",
+    "result_path": "veras_archived_aug10/evidence/selected_result.json",
     "august10_peak_gbps": 1110.602829860333
   },
   "later_native": {
-    "result_path": "native_r11_comparator/evidence/selected_result.json",
+    "result_path": "native_aug10_later/evidence/selected_result.json",
     "august10_peak_gbps": 1238.6251153339097
   },
   "fresh_veras_replicate": {
-    "result_path": "veras_r11_replicate/evidence/selected_result.json",
+    "result_path": "veras_aug10_repeat/evidence/selected_result.json",
     "august10_peak_gbps": 1567.3025788491266
   },
   "archived_vs_native_descriptive_reduction_gbps": 128.02228547357663,

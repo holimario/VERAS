@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "arm": "veras_r11_archived",
+  "arm": "veras_archived_aug10",
   "evaluation_date": "2025-08-10",
   "model": "gpt-5.6-sol",
   "reasoning_effort": "xhigh",

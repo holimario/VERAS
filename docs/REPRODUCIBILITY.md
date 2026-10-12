@@ -10,21 +10,21 @@ is distributed.
 
 ## Real-world algorithms
 
-The **revised** datacenter and grid source files, run scope, exact source and
-artifact hashes, and minimal independent audit summaries live in
-`real_world/{data_center,power_grid}/veras_v030_transfer/`. Authorized users
-should restore the original task packet under `/app` (the datacenter generator
-expects `/app/data`; the grid generator expects `/app/data` and its source
-under `/app/submissions`) and use the original task evaluator. NumPy, Polars,
-PySCIPOpt/SCIP (datacenter), and MOSEK with a valid license (grid) are needed.
-The private operational data, generated full artifacts, and solver license
+The data-center and power-grid generators, exact source/artifact hashes,
+scopes, and sanitized external audits are indexed in `real_world/`. An
+authorized user must restore the original task packet under `/app` and use
+the original evaluator. The operational data, full outputs, and solver license
 are deliberately excluded.
 
-R3's public-input-only source replay produced the same Parquet under the
-120-second contract; its reported score is for **visible August 8--9 only**.
-Grid R1's source-only replay with a stricter 750-second solver limit produced
-the exact agent NPZ in under 900 seconds end-to-end on four threads. This
-qualification invocation is not the original agent's 900-second setting.
-Neither study provides a new matched native-versus-VERAS causal comparison:
-the preserved native values are historical. Historical case algorithms and
-evidence remain under `real_world/*/veras/` and `native_codex/`.
+The datacenter archival/native/repeat sources reproduce their final Parquet
+artifacts from public inputs within the 120-second generator limit. A separate
+visible-date development candidate was scored on August 8--9 only, not
+August 10. The prospectively ordered grid native--VERAS pair regenerates
+both NPZ artifacts byte-identically under a stricter 750-second solver
+setting and four-thread limit. The paired VERAS solver requires both generated
+`solve.py` and `audit.py`; a solve-only replay fails at import. The lower-cost
+separately audited grid result is likewise reproduced with its own source and
+is not substituted into the matched pair. Both grid qualification replays
+use a different invocation setting from the original agents' 900-second
+solver contract. NumPy, Polars, PySCIPOpt/SCIP (datacenter), and MOSEK with
+a valid license (grid) are required.

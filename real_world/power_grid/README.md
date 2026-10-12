@@ -1,22 +1,30 @@
 # Power-Grid Planning
 
-The revised manuscript reports **VERAS Grid R1** in `veras_v030_transfer/`:
-independently reconstructed objective **39,423,636.2501 USD/year**, exact
-integrality and all audited constraints feasible. A source-only, public-input
-replay with a stricter 750-second solver budget (versus the original agent's
-900-second setting) ends in 829.552 seconds and produces a byte-identical NPZ.
-The final solve keeps planning free; it uses no external warm start, but does
-construct internal starts from public inputs. The input workbook, full NPZ,
-and MOSEK license are not distributed.
+The main table in the manuscript reports a prospectively launched single-run
+native Codex--VERAS pair on the same 54-bus instance. Independent constraint
+and objective replay accepts both final artifacts:
 
-The original historical run remains archived:
+| Paired arm | Annualized objective (USD/year) | End-to-end clean source replay | Strict audit |
+| --- | ---: | ---: | --- |
+| Native Codex | 45,690,260.3341 | 823.924 s | Pass |
+| VERAS | 42,613,227.0073 | 746.537 s | Pass |
 
-| Historical system | Reconstructed objective | Audit status |
-| --- | ---: | --- |
-| Native Codex raw (`native_codex/`) | 40,726,008.4147 USD/year | Strict selector ineligible |
-| Earlier VERAS (`veras/`) | 39,379,929.1225 USD/year | Independent audit passed |
+The paired VERAS result is **6.735% lower** than native. Both use the same
+public input and evaluator, GPT-5.6 Sol/xhigh, 15,360-second allowed agent
+cap, four solver threads, and 900-second agent solver contract. The stronger
+750-second-solver replays regenerate their NPZs byte-identically. For VERAS,
+`solve.py` imports a second agent-produced source, `audit.py`; the first
+solve-only replay failed on this missing dependency, and a dependency-complete
+recheck succeeded. Both programs keep planning decisions free and use no
+external solution warm start. Their source and sanitized evidence are under
+`paired/`.
 
-Grid R1 and the historical native row used different prompts and compute
-budgets. The historical 3.3052% native-relative comparison belongs only to
-the earlier run; it is **not** a paired effect estimate for Grid R1. Grid R1
-is a time-limited feasible solution, not a global optimum certificate.
+A **separate** audited VERAS run (`veras_separate_audited/`) returns
+39,423,636.2501 USD/year and replays byte-identically in 829.552 seconds
+with a 750-second solver setting. Its 5.122% solver gap means the result is
+feasible, not proven optimal. It is not a member of the native--VERAS pair.
+
+The older `native_codex/` and `veras/` directories preserve historical
+studies, including an older native raw candidate that was strict-selector
+ineligible. Those values must not be substituted for the paired rows. The
+operational workbook, full NPZ outputs, and MOSEK license are not distributed.

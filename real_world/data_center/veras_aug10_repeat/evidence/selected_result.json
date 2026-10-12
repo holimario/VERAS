@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "arm": "veras_r11_replicate",
+  "arm": "veras_aug10_repeat",
   "evaluation_date": "2025-08-10",
   "model": "gpt-5.6-sol",
   "reasoning_effort": "xhigh",
@@ -18,5 +18,5 @@
   "output_tokens": 133814,
   "migration_bytes_auxiliary": 25479807708378654,
   "artifact_not_redistributed": true,
-  "provenance_note": "Fresh VERAS R11-text replicate launched prospectively with the native arm; its outcome reverses the archived comparison."
+  "provenance_note": "Fresh VERAS same-prompt replicate launched prospectively with the native arm; its outcome reverses the archived comparison."
 }

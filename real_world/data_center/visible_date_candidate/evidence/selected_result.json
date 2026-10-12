@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "run": "VERAS v0.30 transfer / DC R3",
+  "run": "VERAS v0.30 transfer / visible-date datacenter candidate",
   "evaluation_scope": "visible August 8-9 only",
   "not_evaluated": "August 10 or a new sealed temporal holdout",
   "source_sha256": "534b990447a8b27161057aa99199d0f5cf6103238204cd28a483178d2dc7f109",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "run": "VERAS v0.30 transfer / Grid R1",
+  "run": "VERAS v0.30 transfer / separate audited grid candidate",
   "source_sha256": "ea88be5f801b6a697ed4d77836e56bb89d1a4697a7310f7d86ccbe25e1a3d1d7",
   "generated_artifact_sha256": "3c9d4a6f756e3510f81f2f92319c5e5844f3d8060b9e3c07fa87c99f40cd7f4d",
   "public_input_source_only_replay": true,

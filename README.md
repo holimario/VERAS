@@ -98,44 +98,47 @@ scores remain available in the same report.
 
 ## Real-world case studies
 
-The August 10 datacenter rows below use GPT-5.6 Sol/xhigh, the same public
-input/evaluator hashes, timeout scale 3, and a 19,800-second configured agent
-cap. The archived VERAS R11 and the later native run are a **retrospective
-cross-run configuration match**, not a jointly precommitted or equal-inference-
-compute pair. August 10 event rows were absent from each agent run, but earlier
-research had inspected that date's scores. The later native arm was a single
-precommitted attempt.
+The datacenter comparison uses 2025-08-10 evaluation, GPT-5.6 Sol/xhigh,
+matching public input/evaluator hashes and a 19,800-second allowed agent cap.
+The archived VERAS run and later native Codex run form a retrospective
+configuration match, not a jointly precommitted or equal-inference-cost pair.
 
-| 2025-08-10 datacenter arm | Peak bandwidth (Gbps, lower better) | Public-input source replay | Strict resource feasibility |
+| Datacenter arm | Peak bandwidth (Gbps, lower better) | Public-input source replay | Strict resource feasibility |
 | --- | ---: | ---: | --- |
-| Archived VERAS R11 | **1,110.602830** | 45.842 s | Pass |
-| Later native Codex | 1,238.625115 | 86.851 s | Pass |
-| Fresh VERAS R11-text replicate | 1,567.302579 | 100.306 s | Pass |
+| VERAS (archived run) | **1,110.602830** | 45.842 s | Pass |
+| Native Codex (later run) | 1,238.625115 | 86.851 s | Pass |
+| VERAS (fresh repeat) | 1,567.302579 | 100.306 s | Pass |
 
-The archived R11 peak is **128.022 Gbps (10.336%) lower** than the later
-native arm. The prospectively launched fresh VERAS replicate reverses this
-ordering; the archival difference is descriptive, not a stable causal harness
-estimate. All three final Parquet artifacts regenerate byte-identically under
-the 120-second dispatcher contract. The three unaltered generator sources and
-sanitized audit summaries are in `real_world/data_center/{veras_r11_archived,
-native_r11_comparator,veras_r11_replicate}/`; shared configuration and
-comparison facts are in `real_world/data_center/august10_r11_comparison.json`.
-Operational input Parquets and row-level output mappings are not redistributed.
+The archived VERAS peak is 10.336% lower than the later native run. A fresh
+VERAS repeat reverses the ordering; all three outcomes and their generated
+sources are retained under `real_world/data_center/` with the aggregate
+comparison in `august10_comparison.json`. August 10 event rows were absent
+from agent inputs, but earlier research had inspected scores on that date.
 
-The separate Grid R1 solution has an independently reconstructed annualized
-objective of **USD 39,423,636.2501**, 6.279% below the expert hourly model.
-All audited hard constraints and integrality checks pass. Its stricter
-750-second-solver source replay reproduces the agent NPZ byte-identically in
-829.552 seconds end-to-end; it uses no external warm start. The historical
-native grid run used different instructions and compute and is not a matched
-comparator for R1. Source and audit summary are in
-`real_world/power_grid/veras_v030_transfer/`.
+For the fixed 54-bus power-grid instance, one prospectively ordered native
+Codex--VERAS pair uses the same GPT-5.6 Sol/xhigh model, public inputs,
+15,360-second allowed agent cap, four-thread/900-second solver contract,
+and original external evaluator. Both outputs are independently feasible:
 
-The earlier historical datacenter and grid artifacts remain under the
-`native_codex/` and `veras/` directories. Datacenter R3 under
-`veras_v030_transfer/` was evaluated on visible August 8--9 only; its
-1,072.233-Gbps result is **not** an August 10 score. These earlier studies are
-retained for provenance rather than substituted into the new comparison.
+| Paired arm | Annualized cost (USD/year, lower better) | Source replay |
+| --- | ---: | ---: |
+| Native Codex | 45,690,260.3341 | 823.924 s |
+| **VERAS** | **42,613,227.0073** | 746.537 s |
+
+The VERAS cost is **6.735% lower** in this single pair. A **separate**
+independently audited VERAS run attains **USD 39,423,636.2501/year**;
+this is not substituted into the paired comparison. All reported generators
+reproduce their agent artifacts byte-identically from public inputs under a
+stricter 750-second replay solver setting. The paired VERAS generator also
+needs its generated `audit.py` dependency. See
+`real_world/power_grid/paired/comparison.json` and
+`real_world/power_grid/veras_separate_audited/`.
+
+Operational input files and row-level outputs are not redistributed. Earlier
+historical algorithms are retained for provenance; an older datacenter
+candidate scoring 1,072.233 Gbps on visible August 8--9 has **no** August 10
+result. The anonymous artifact link is
+<https://anonymous.4open.science/r/VERAS/>.
 
 ## Layout
 

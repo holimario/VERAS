@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "arm": "veras",
+  "design": "single fresh arm in prospectively ordered native/VERAS grid pair",
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "xhigh",
+  "source_sha256": {
+    "solve.py": "7f87d19de6e030ae3f1a5ac996b497786ff78b9d2bede67aa39ef9edc7751d8b",
+    "audit.py": "859d5a332a5eed6eb3a9ecc102183348060b778c6fe291b09341ff3cfeb70fb7"
+  },
+  "generated_artifact_sha256": "f905ae16393b197197712192c6c0319049fd11573f94d40a096a8db466dfc252",
+  "annualized_objective_usd": 42613227.007299155,
+  "annualized_investment_usd": 20523767.819692682,
+  "annualized_operation_usd": 22089459.187606473,
+  "external_audit_status": "independently_audited",
+  "same_model_feasible": true,
+  "max_normalized_constraint_residual": 1.7848695854638663e-09,
+  "integrality_exact": true,
+  "planning_was_fixed": false,
+  "solver_threads": 4,
+  "agent_solver_limit_seconds": 900,
+  "replay_solver_limit_seconds": 750,
+  "agent_wall_seconds": 6327.402,
+  "agent_cap_seconds": 15360,
+  "source_replay_wall_seconds": 746.537146255374,
+  "source_replay_byte_identical_to_agent_artifact": true,
+  "used_external_warm_start": false,
+  "artifact_not_redistributed": true,
+  "replay_note": "Initial solve.py-only replay lacked the generated audit.py dependency; a preregistered dependency recheck copied both final source files and reproduced the artifact byte-identically.",
+  "external_audit_passed": true
+}
