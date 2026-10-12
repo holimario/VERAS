@@ -1,4 +1,4 @@
-# VERAS Research Artifact
+# VERAS
 
 This anonymous artifact contains the VERAS harness, complete ORAgentBench
 evaluation evidence, retained sanitized task trajectories, and generated
@@ -13,7 +13,7 @@ Place this repository next to a compatible ORAgentBench checkout:
 ```text
 workspace/
 |- ORAgentBench/
-`- veras-artifact/
+`- VERAS/
 ```
 
 The benchmark checkout must provide `local_runner/harness_benchmark.py` and
@@ -83,6 +83,14 @@ The official pass rule is `feasibility > 0` and `quality / 2 > 0.4`.
 `Runs completed` counts tasks whose runner finished normally and produced all
 expected stages. It does not imply feasibility or a passing score.
 
+Compared with the published GPT-5.4 Codex 38/107 pass result, VERAS passes
+46/107; Hard contributes 12/34 versus 7/34, while Medium remains 16/41
+for both. In saved VERAS trajectories (117 stages), 15 structural restorations
+and three witnessed semantic-residual reductions are observed; for the online
+electric-bus case, 42 trip-row nullability violations fall to zero. These
+events are observational, not a mechanism ablation. No natural checkpoint
+rollback occurred.
+
 All retained trajectories are stored under
 `veras/reports/benchmark-results/tasks/` as part of the benchmark report. The
 evaluated release retained raw event streams for 34 tasks; all 107 task-level
@@ -90,34 +98,44 @@ scores remain available in the same report.
 
 ## Real-world case studies
 
-The manuscript now reports two **later, independently audited v0.30-harness transfer**
-results. The previously published native Codex values remain unchanged, but
-come from historical runs and are **not paired controls** for the later VERAS
-runs. In particular, the data-center evaluation dates differ, and the grid
-prompts and agent compute budgets differ. We therefore do not compute a new
-native-relative percentage gain from the rows below.
+The August 10 datacenter rows below use GPT-5.6 Sol/xhigh, the same public
+input/evaluator hashes, timeout scale 3, and a 19,800-second configured agent
+cap. The archived VERAS R11 and the later native run are a **retrospective
+cross-run configuration match**, not a jointly precommitted or equal-inference-
+compute pair. August 10 event rows were absent from each agent run, but earlier
+research had inspected that date's scores. The later native arm was a single
+precommitted attempt.
 
-| Case | Historical native Codex (unchanged) | Revised VERAS | Evaluation boundary |
+| 2025-08-10 datacenter arm | Peak bandwidth (Gbps, lower better) | Public-input source replay | Strict resource feasibility |
 | --- | ---: | ---: | --- |
-| Data-center peak | 1,599.050419 Gbps (August 10) | **1,072.233445 Gbps** | VERAS: visible August 8--9 only; no new August 10 result |
-| Power-grid annual objective | 40,726,008.4147 USD/year (raw) | **39,423,636.2501 USD/year** | Fixed instance, different prompt/budget; independent feasibility and clean source replay |
+| Archived VERAS R11 | **1,110.602830** | 45.842 s | Pass |
+| Later native Codex | 1,238.625115 | 86.851 s | Pass |
+| Fresh VERAS R11-text replicate | 1,567.302579 | 100.306 s | Pass |
 
-The datacenter R3 result meets a public two-day primary lower bound with 29
-Huailai tasks, but other candidates use 21 tasks within the soft near-tie band.
-The grid R1 source-only replay under a stricter 750-second solver setting
-reproduces the agent NPZ byte-for-byte and finishes end-to-end in 829.552
-seconds; it has no external warm start. These are selected candidate results,
-not guarantees on a new sealed holdout or proof of global optimality.
+The archived R11 peak is **128.022 Gbps (10.336%) lower** than the later
+native arm. The prospectively launched fresh VERAS replicate reverses this
+ordering; the archival difference is descriptive, not a stable causal harness
+estimate. All three final Parquet artifacts regenerate byte-identically under
+the 120-second dispatcher contract. The three unaltered generator sources and
+sanitized audit summaries are in `real_world/data_center/{veras_r11_archived,
+native_r11_comparator,veras_r11_replicate}/`; shared configuration and
+comparison facts are in `real_world/data_center/august10_r11_comparison.json`.
+Operational input Parquets and row-level output mappings are not redistributed.
 
-New source and sanitized audit summaries are under
-`real_world/{data_center,power_grid}/veras_v030_transfer/`. The older
-`real_world/{data_center,power_grid}/veras/` directories preserve the
-**historical** algorithms and evidence (1,110.640670 Gbps on August 10 and
-39,379,929.1225 USD/year). They are not evidence for the revised rows.
-The historical native power-grid point was strict-selector ineligible because
-its maximum positive residual exceeded that study's admission tolerance;
-we retain its original raw objective for provenance, not as an eligible
-matched comparison.
+The separate Grid R1 solution has an independently reconstructed annualized
+objective of **USD 39,423,636.2501**, 6.279% below the expert hourly model.
+All audited hard constraints and integrality checks pass. Its stricter
+750-second-solver source replay reproduces the agent NPZ byte-identically in
+829.552 seconds end-to-end; it uses no external warm start. The historical
+native grid run used different instructions and compute and is not a matched
+comparator for R1. Source and audit summary are in
+`real_world/power_grid/veras_v030_transfer/`.
+
+The earlier historical datacenter and grid artifacts remain under the
+`native_codex/` and `veras/` directories. Datacenter R3 under
+`veras_v030_transfer/` was evaluated on visible August 8--9 only; its
+1,072.233-Gbps result is **not** an August 10 score. These earlier studies are
+retained for provenance rather than substituted into the new comparison.
 
 ## Layout
 
@@ -132,5 +150,5 @@ matched comparison.
 ORAgentBench task data must be obtained from the benchmark distribution and
 placed in the layout described by `veras/README.md`. The two real-world input
 datasets are not redistributed because they contain operational data. Their
-algorithm source, evaluation metrics, and independent audit records are
-included for artifact inspection.
+algorithm source, aggregate metrics, and sanitized independent audit records
+are included for artifact inspection.

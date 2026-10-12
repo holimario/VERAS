@@ -39,6 +39,21 @@
         "independent_audit_passed": true
       },
       "not_paired_with_historical_native": true
+    },
+    "august10_r11_retrospective": {
+      "comparison_path": "real_world/data_center/august10_r11_comparison.json",
+      "archived_veras_peak_gbps": 1110.602829860333,
+      "later_native_peak_gbps": 1238.6251153339097,
+      "descriptive_reduction_pct": 10.335838010120138,
+      "fresh_veras_replicate_peak_gbps": 1567.3025788491266,
+      "both_comparisons_and_all_arms_retained": true,
+      "jointly_precommitted_archived_pair": false,
+      "research_blind_august10": false,
+      "source_paths": [
+        "real_world/data_center/veras_r11_archived/algorithm/solve.py",
+        "real_world/data_center/native_r11_comparator/algorithm/solve.py",
+        "real_world/data_center/veras_r11_replicate/algorithm/solve.py"
+      ]
     }
   }
 }

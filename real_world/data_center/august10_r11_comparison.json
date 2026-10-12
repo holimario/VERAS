@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "design": "Archived VERAS R11 compared retrospectively with a later native Codex arm; fresh VERAS replicate retained.",
+  "evaluation_date": "2025-08-10",
+  "public_input_sha256": {
+    "task.toml": "2171eaf6bc36efde8cb62865d4fd138eb99ba45cd3f6f4694d0e89f81451cb88",
+    "instruction.md": "64148bda9f6317a3f288e32f479596ec94ec470055b7e28c421cc37ba8f80b68",
+    "environment/app/PROBLEM_STATEMENT.md": "25ca58af768272857c6bb2559af62015e227e1fbb9a7f0d35635d3190850ca8a",
+    "tests/test.sh": "070dd42323bda7de8df89402e3eb8fdf3b09fe947893bf190625511586049408",
+    "environment/app/data/current_table_regions.parquet": "56b98c165072e9c661f45dbade3d696a5789956983a69ae09ec647ec981e86bf",
+    "environment/app/data/exec_train_0808_0809.parquet": "56887088b2c7a1be846e670ce238fce2a33d198a6a0350acd2b41a246d12bd4c",
+    "environment/app/data/resource_limits.json": "b9ad7e27e0780c38295aa024dd457dfb7f4ae5b9f17e95367f9b298a01a1526e",
+    "environment/app/data/table_size_latest.parquet": "90a374b6ef85ff66e30653a0baf363c758aeae89f745282f7806ab0b5fb698d4",
+    "environment/app/data/table_writers_fallback.parquet": "d8ece7e54b7559099aaffe42627f143e211749dde1b03aeced147410817c1a08",
+    "environment/app/data/task_universe.parquet": "13ba1d856b5d8e626327b974fec28ab256639f50e999a717c5a5f331b6f98ae6",
+    "environment/app/data/trans_train_0808_0809.parquet": "a556dd5b2785f7797702e7b1b02c9d1072f0a5d79adc813e430de76f4d270f68"
+  },
+  "runner_sha256": {
+    "harness_benchmark.py": "3bc549fc0c74d7ee78ff9e78ea5f24f2d88c2c7179ac657b699e63b31538c73b",
+    "run_codex_gpt54_benchmark.py": "f31b8202b64279b46022e1ac31a008519996144f8f524a62f0437fd8159b3e16",
+    "run_agent.py": "d3d6f354d6d52f581d3899ccb063bf02960794655418125baa126470a3cea8ea"
+  },
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "xhigh",
+  "timeout_scale": 3.0,
+  "configured_agent_cap_seconds": 19800,
+  "original_evaluator_sha256": "947cc8109953c2245214d85918869b9f45b829968e7d9a24f631262250a84149",
+  "archived_veras": {
+    "result_path": "veras_r11_archived/evidence/selected_result.json",
+    "august10_peak_gbps": 1110.602829860333
+  },
+  "later_native": {
+    "result_path": "native_r11_comparator/evidence/selected_result.json",
+    "august10_peak_gbps": 1238.6251153339097
+  },
+  "fresh_veras_replicate": {
+    "result_path": "veras_r11_replicate/evidence/selected_result.json",
+    "august10_peak_gbps": 1567.3025788491266
+  },
+  "archived_vs_native_descriptive_reduction_gbps": 128.02228547357663,
+  "archived_vs_native_descriptive_reduction_pct": 10.335838010120138,
+  "fresh_veras_vs_native_descriptive_change_pct": -26.535669222774622,
+  "same_public_inputs_and_evaluator": true,
+  "archived_native_pair_jointly_precommitted": false,
+  "actual_inference_compute_equal": false,
+  "research_blind_to_august10": false,
+  "note": "Not an equal-inference-cost causal estimate; fresh VERAS run reverses the archived comparison."
+}

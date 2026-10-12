@@ -59,3 +59,22 @@ The later grid R1 qualification replay used a stricter *invocation* setting of
 end-to-end. This does not turn the original agent run into a 750-second run.
 The earlier historical native Codex candidate values remain unchanged in the
 repository, but their prompts and budgets were different.
+
+## Data-center R11 (archived and fresh replicate)
+
+- Frozen controller SHA-256: `47e8a7a68f59f558daf254299b208041c3bd15a60d53543ebb42c211d9edfc69`.
+- Isolated R11-text fork SHA-256: `2bb70f5d7fca26c17e7fb13614e7d77dce96ff3c54991f5bd2eef13a7c908360`.
+- The only controller edit is one appended performance-prompt paragraph; no
+  control-flow, observer, gate, or numeric change. Released challenger cap:
+  180 seconds. `timeout_scale=3.0`, `reserve_fraction=0.40`, and configured
+  agent cap 19,800 seconds. The later native arm uses the unmodified runner.
+- The added paragraph directs public-input-only sparse capacity repair and
+  reversible writer/task-neighborhood search, prioritizes the nonbinding
+  visible day's peak and two-day mean once near the public worst-day floor,
+  and requires strict resource slack plus a from-scratch <=120-second output
+  replay. It forbids August 10 rows, prior mappings, and reference solutions.
+
+The archived R11 and later native arm are a retrospective configuration match,
+not a fresh jointly preregistered pair. A fresh VERAS R11-text replicate is
+also included and performs worse than native on August 10. See
+`data_center/august10_r11_comparison.json` for all three outcomes.

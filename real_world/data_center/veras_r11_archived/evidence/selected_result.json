@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "arm": "veras_r11_archived",
+  "evaluation_date": "2025-08-10",
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "xhigh",
+  "source_sha256": "c52bbac5833c74883f6f20d3346b40ea1351ee6a304ff86a9df9573bfdb3afbe",
+  "generated_artifact_sha256": "c2c16c04eedacac0ba982a386a4dcd5f0af4267411f0b0ac9fa933048a785ddc",
+  "august10_peak_gbps": 1110.602829860333,
+  "visible_august08_09_peak_gbps": 1072.2334446475002,
+  "strict_resource_feasible": true,
+  "source_only_replay_wall_seconds": 45.84179809689522,
+  "generator_limit_seconds": 120,
+  "source_replay_byte_identical_to_agent_artifact": true,
+  "agent_wall_seconds": 2232.424,
+  "configured_agent_cap_seconds": 19800.0,
+  "input_tokens": 10406802,
+  "output_tokens": 135127,
+  "migration_bytes_auxiliary": 25901007551832225,
+  "artifact_not_redistributed": true,
+  "provenance_note": "Archived VERAS result chosen after earlier August 10 research feedback; no August 10 rows entered this run."
+}
