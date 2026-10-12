@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "design": "Retrospective cross-run, configuration-matched comparison: selected independently audited VERAS candidate versus native Codex arm from a later prospective pair.",
+  "selected_veras_result_path": "veras_separate_audited/evidence/selected_result.json",
+  "native_reference_result_path": "paired/native_codex/evidence/selected_result.json",
+  "selected_veras_objective_usd": 39423636.250142306,
+  "later_native_objective_usd": 45690260.33409752,
+  "descriptive_difference_usd": 6266624.083955213,
+  "descriptive_reduction_pct": 13.71544840876861,
+  "task_model_effort_inputs_evaluator_identical": true,
+  "veras_controller_same_as_later_pair": true,
+  "configured_agent_cap_seconds": 15360,
+  "solver_ceiling_seconds": 900,
+  "solver_threads": 4,
+  "selected_veras_agent_wall_seconds": 9809.993,
+  "later_native_agent_wall_seconds": 3824.641,
+  "source_only_replay_seconds": {
+    "selected_veras": 829.55196493119,
+    "later_native": 823.92408002913
+  },
+  "both_independently_feasible": true,
+  "both_source_replay_byte_identical": true,
+  "contemporaneous_pair": false,
+  "paired_veras_objective_usd": 42613227.007299155,
+  "interpretation": "The later native arm was precommitted with a different VERAS run. The selected 39.424M artifact is not that paired VERAS result; do not label the 13.715% difference a prospective paired effect."
+}

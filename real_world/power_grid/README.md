@@ -1,28 +1,30 @@
 # Power-Grid Planning
 
-The main table in the manuscript reports a prospectively launched single-run
-native Codex--VERAS pair on the same 54-bus instance. Independent constraint
-and objective replay accepts both final artifacts:
+The manuscript features the **selected, independently audited VERAS
+solution at USD 39,423,636.2501/year**. A later native Codex run with the
+same task, model/effort, public inputs, evaluator, and configured agent cap
+scores USD 45,690,260.3341/year, a descriptive **13.715% cross-run
+difference**. The selected result was not the contemporaneous VERAS arm of
+that later pair.
 
-| Paired arm | Annualized objective (USD/year) | End-to-end clean source replay | Strict audit |
+| Arm | Annualized objective (USD/year) | Clean source replay | Independent audit |
 | --- | ---: | ---: | --- |
-| Native Codex | 45,690,260.3341 | 823.924 s | Pass |
-| VERAS | 42,613,227.0073 | 746.537 s | Pass |
+| Native Codex (later pair) | 45,690,260.3341 | 823.924 s | Pass |
+| VERAS (same pair) | 42,613,227.0073 | 746.537 s | Pass |
+| **VERAS (selected separate run)** | **39,423,636.2501** | 829.552 s | Pass |
 
-The paired VERAS result is **6.735% lower** than native. Both use the same
-public input and evaluator, GPT-5.6 Sol/xhigh, 15,360-second allowed agent
-cap, four solver threads, and 900-second agent solver contract. The stronger
-750-second-solver replays regenerate their NPZs byte-identically. For VERAS,
-`solve.py` imports a second agent-produced source, `audit.py`; the first
-solve-only replay failed on this missing dependency, and a dependency-complete
-recheck succeeded. Both programs keep planning decisions free and use no
-external solution warm start. Their source and sanitized evidence are under
-`paired/`.
-
-A **separate** audited VERAS run (`veras_separate_audited/`) returns
-39,423,636.2501 USD/year and replays byte-identically in 829.552 seconds
-with a 750-second solver setting. Its 5.122% solver gap means the result is
-feasible, not proven optimal. It is not a member of the native--VERAS pair.
+The prospectively launched native--VERAS pair itself shows a **6.735%**
+reduction. The 39.424M run uses the same VERAS controller hash and public
+inputs but differs in sampling and actual inference time. All three final
+artifacts regenerate byte-identically from public-input-only source under a
+stricter 750-second replay solver setting; the original agent contract allows
+900 seconds and four threads. The paired VERAS generator requires its own
+agent-produced `audit.py` dependency alongside `solve.py`; an initial
+solve-only replay failed on that missing import, and the dependency-complete
+recheck succeeded. Planning decisions remain free and no external solution
+warm start is used. See `selected_vs_native_reference.json` for comparison
+scope, `paired/` for the later pair, and `veras_separate_audited/` for the
+featured solution. Neither VERAS solution is a global optimum certificate.
 
 The older `native_codex/` and `veras/` directories preserve historical
 studies, including an older native raw candidate that was strict-selector

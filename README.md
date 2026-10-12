@@ -115,23 +115,25 @@ sources are retained under `real_world/data_center/` with the aggregate
 comparison in `august10_comparison.json`. August 10 event rows were absent
 from agent inputs, but earlier research had inspected scores on that date.
 
-For the fixed 54-bus power-grid instance, one prospectively ordered native
-Codex--VERAS pair uses the same GPT-5.6 Sol/xhigh model, public inputs,
-15,360-second allowed agent cap, four-thread/900-second solver contract,
-and original external evaluator. Both outputs are independently feasible:
+For the fixed 54-bus power-grid instance, the **selected independently
+audited VERAS solution is USD 39,423,636.2501/year**. A later native Codex
+arm on the same task, model, public inputs, evaluator, and allowed agent cap
+attains USD 45,690,260.3341/year. Their **13.715% difference is a
+retrospective cross-run comparison**, not a contemporaneous pair.
 
-| Paired arm | Annualized cost (USD/year, lower better) | Source replay |
-| --- | ---: | ---: |
-| Native Codex | 45,690,260.3341 | 823.924 s |
-| **VERAS** | **42,613,227.0073** | 746.537 s |
+| Power-grid arm | Annualized cost (USD/year, lower better) | Source replay | Relation |
+| --- | ---: | ---: | --- |
+| Native Codex | 45,690,260.3341 | 823.924 s | Later prospective pair |
+| VERAS | 42,613,227.0073 | 746.537 s | Same prospective pair |
+| **VERAS** | **39,423,636.2501** | 829.552 s | Separately selected, independently audited |
 
-The VERAS cost is **6.735% lower** in this single pair. A **separate**
-independently audited VERAS run attains **USD 39,423,636.2501/year**;
-this is not substituted into the paired comparison. All reported generators
-reproduce their agent artifacts byte-identically from public inputs under a
-stricter 750-second replay solver setting. The paired VERAS generator also
-needs its generated `audit.py` dependency. See
-`real_world/power_grid/paired/comparison.json` and
+The actual prospective pair shows a **6.735%** native-to-VERAS reduction.
+The selected 39.424M candidate was generated in a different run with the
+same VERAS controller and public-input hashes; it is the featured solution,
+not a substitute for the paired VERAS arm. Each source-only replay reproduces
+its final NPZ byte-identically. See
+`real_world/power_grid/selected_vs_native_reference.json`,
+`real_world/power_grid/paired/comparison.json`, and
 `real_world/power_grid/veras_separate_audited/`.
 
 Operational input files and row-level outputs are not redistributed. Earlier

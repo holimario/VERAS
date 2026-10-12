@@ -63,6 +63,15 @@
         "independent_audit_passed": true
       },
       "not_paired_with_historical_native": true
+    },
+    "grid_selected_crossrun_reference": {
+      "comparison_path": "real_world/power_grid/selected_vs_native_reference.json",
+      "selected_veras_objective_usd_per_year": 39423636.250142306,
+      "later_native_objective_usd_per_year": 45690260.33409752,
+      "descriptive_reduction_percent": 13.71544840876861,
+      "contemporaneous_pair": false,
+      "paired_veras_objective_usd_per_year": 42613227.007299155,
+      "all_three_artifacts_retained": true
     }
   }
 }

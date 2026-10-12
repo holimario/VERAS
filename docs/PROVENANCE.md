@@ -27,9 +27,11 @@ Codex arm followed by a fresh VERAS arm, with shared inputs, evaluator,
 model/effort, cap, and solver contract. Their generators and independent
 audits are under `real_world/power_grid/paired/`. The first VERAS source-only
 replay omitted its generated `audit.py` dependency and failed; replay with
-both final source files returned the same audited NPZ. The lower-cost VERAS
-candidate under `real_world/power_grid/veras_separate_audited/` is a different
-run, not the paired VERAS artifact. Both grid results are feasible,
+both final source files returned the same audited NPZ. The selected lower-cost VERAS candidate under
+`real_world/power_grid/veras_separate_audited/` is a different run, not the
+paired VERAS artifact. The selected-versus-later-native descriptive comparison
+is indexed by `real_world/power_grid/selected_vs_native_reference.json`; its
+13.715% difference is not a prospective paired effect. Both grid results are feasible,
 time-limited solutions rather than global optimum proofs.
 
 The older `real_world/*/{native_codex,veras}/` directories preserve historical
