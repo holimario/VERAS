@@ -5,7 +5,12 @@
 The `veras/` directory contains the evaluated v0.30 ORAgentBench controller
 and benchmark evidence. The public module organization and API configuration
 are a sanitized refactor of the frozen runner's decision flow, not the exact
-private gateway setup. Benchmark results and trajectories have not changed.
+private gateway setup. The benchmark profile keeps its original prompt and
+controller budgets. The `datacenter` and `power-grid` profiles select the
+verbatim performance text and challenger cap of the respective evaluated
+forks while retaining the same guard/observer path. They reject divergent
+case settings and hash-check the authorized task and local runner before
+execution. Benchmark results and trajectories have not changed.
 
 ## Real-world result provenance
 
@@ -39,5 +44,7 @@ studies. The datacenter `visible_date_candidate/` candidate was evaluated on
 visible August 8--9 only. Operational input datasets and final row-level
 Parquet/NPZ outputs are not redistributed. The benchmark public harness
 preserves the frozen controller's decision flow but uses a generic model
-adapter instead of private API routing; it cannot reproduce stochastic model
-sampling bit-for-bit.
+adapter instead of private API routing. The published case profiles align
+controller prompts, budgets, gates, and input/runner hashes, but cannot
+reproduce private transport, omitted operational data, or stochastic model
+sampling bit-for-bit. No model run was performed merely by adding profiles.

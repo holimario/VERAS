@@ -17,6 +17,7 @@ else
   echo "ORAgentBench runtime not installed at $expected_benchmark_root; import-dependent harness tests skipped"
 fi
 
+python -B "$root/scripts/verify_controller_profiles.py"
 "$root/scripts/check_anonymity.sh"
 
 echo "artifact verification passed"

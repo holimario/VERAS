@@ -3,10 +3,41 @@
 ## Harness verification
 
 From the repository root, run `./scripts/verify_artifact.sh`. With a
-compatible ORAgentBench checkout, this runs 32 deterministic tests; without
-it, the 14 dependency-free semantic-observer tests and anonymity scan run.
+compatible ORAgentBench checkout, this runs 32 deterministic unit tests;
+without it, the 14 dependency-free semantic-observer tests run. In both
+cases, it also checks prompt hashes/controller forwarding and anonymity.
 The endpoint and credential must be user-supplied; no private gateway setup
 is distributed.
+
+## Controller-profile differential check
+
+The case profiles are in `veras/src/veras_harness/profiles.py`. With access to
+the pinned frozen v0.30 runner and the two original case fork source files,
+run the stronger offline check below (no model request or operational data
+required):
+
+```bash
+python scripts/verify_controller_profiles.py \
+  --frozen /path/to/frozen/run_benchmark.py \
+  --datacenter /path/to/datacenter-fork/run_benchmark.py \
+  --power-grid /path/to/power-grid-fork/run_benchmark.py
+```
+
+Without those original sources, `./scripts/verify_artifact.sh` still checks
+public prompt outputs against their pinned golden hashes and verifies the
+controller/CLI forwarding points. With the three source paths, the checker
+also checks source hashes and reconstructs each entire fork from the
+frozen source using only its listed prompt addition (and, for grid, a
+`180 -> 480`-second cap change), compares modular prompt outputs on
+representative inputs, and checks that
+the public controller forwards both values to the original decision points.
+The original runner source is not redistributed. In an authorized checkout,
+`./veras/bin/run_case.sh datacenter --dry-run` (or `power-grid`) additionally
+checks task and runner hashes and CLI task/timeout forwarding without running
+the agent. It still requires the configured endpoint/key for the runner's
+normal dry-run setup. Neither check asserts identical private API transport
+or stochastic inference. The profile run uses the original task's own time
+limit multiplied by the pinned timeout scale; it does not change the task.
 
 ## Real-world algorithms
 

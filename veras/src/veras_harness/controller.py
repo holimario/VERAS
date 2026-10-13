@@ -37,6 +37,8 @@ def make_run_task(
     min_recovery_seconds: float,
     local_solver_cap_seconds: float,
     max_transport_retries: int,
+    challenger_cap_seconds: float = 180.0,
+    performance_addendum: str = "",
 ):
     def run_task(
         harness: str,
@@ -299,7 +301,7 @@ def make_run_task(
                         challenger_snapshot = state / "pre-challenger-submissions"
                         copy_submissions(app, challenger_snapshot)
                         challenge_budget = min(
-                            180.0,
+                            challenger_cap_seconds,
                             max(
                                 MIN_INTERVENTION_SECONDS,
                                 remaining_budget() * DEFAULT_CHALLENGER_FRACTION,
@@ -356,6 +358,7 @@ def make_run_task(
                                 current_audit,
                                 current_observation,
                                 challenger_report,
+                                performance_addendum=performance_addendum,
                             ),
                             budget=remaining_budget(),
                             event_stem="performance",

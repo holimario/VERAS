@@ -67,6 +67,8 @@ def performance_prompt(
     audit: dict[str, Any],
     observation: dict[str, Any],
     challenger_report: str = "",
+    *,
+    performance_addendum: str = "",
 ) -> str:
     challenge = challenger_report.strip() or "No separate challenger report was available."
     return f"""Continue from the existing session and files for `{task}`. A complete
@@ -82,7 +84,7 @@ only when its recomputed objective strictly improves and all hard checks still p
 otherwise leave the incumbent untouched. Record incumbent objective, candidate
 objective, bound/gap, and audit result in the solve log.
 
-<public_challenger_report>
+{performance_addendum}<public_challenger_report>
 {challenge[-16000:]}
 </public_challenger_report>
 <current_structural_audit>

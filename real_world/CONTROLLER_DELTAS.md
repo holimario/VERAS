@@ -2,12 +2,20 @@
 
 The application-specific VERAS runs use isolated forks of the frozen
 ORAgentBench v0.30 controller. The public `veras/` module layout implements
-the same decision flow, but does not include private gateway configuration.
-The controller forks change performance text and, where stated, one challenger
-budget; they do not add a new agent stage or alter the benchmark release.
+the same decision flow and now exposes the reported data-center and grid
+forks as runnable, hash-checked `--profile datacenter` and
+`--profile power-grid` configurations. It does not include the private gateway
+configuration or undistributed operational task inputs. The controller forks
+change performance text and, where stated, one challenger budget; they do not
+add a new agent stage or alter the benchmark release.
 The fixed-instance grid study also includes a fresh native Codex arm under
 the same allowed task cap. See each comparison record for matching details;
 actual wall time and token counts need not be equal.
+
+The `datacenter` profile below is the **archived August 10** setting, not the
+earlier visible-date development candidate; `power-grid` selects the common
+controller settings for the paired and separately selected grid runs. The
+benchmark default remains the frozen controller without these additions.
 
 ## Data-center visible-date development candidate
 
@@ -33,6 +41,8 @@ actual wall time and token counts need not be equal.
 > its exported artifact rather than trusting an in-memory surrogate.
 
 ## Power-grid paired and separate VERAS settings
+
+The runnable `power-grid` profile uses this fork text and budget.
 
 - Frozen controller SHA-256: `47e8a7a68f59f558daf254299b208041c3bd15a60d53543ebb42c211d9edfc69`.
 - Isolated fork SHA-256: `809bf5629dc1bb578dffbbea4db888ec1d0742b0a32fed74a6a4a4d07fc061d4`.
@@ -61,6 +71,8 @@ The earlier historical native Codex candidate values remain unchanged in the
 repository, but their prompts and budgets were different.
 
 ## Data-center archival and fresh-repeat setting
+
+The runnable `datacenter` profile uses this fork text and budget.
 
 - Frozen controller SHA-256: `47e8a7a68f59f558daf254299b208041c3bd15a60d53543ebb42c211d9edfc69`.
 - Isolated same-prompt fork SHA-256: `2bb70f5d7fca26c17e7fb13614e7d77dce96ff3c54991f5bd2eef13a7c908360`.

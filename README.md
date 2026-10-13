@@ -36,9 +36,9 @@ name. Endpoints and credential-source metadata are not written to result files.
 ./scripts/verify_artifact.sh
 ```
 
-This runs the anonymization scan and available unit tests. The complete
-32-test suite runs when ORAgentBench is installed at the sibling path above;
-otherwise the 14 dependency-free semantic-observer tests run.
+This runs the anonymization scan, pinned prompt checks, and available unit
+tests. The complete 32-test suite runs when ORAgentBench is installed at
+that location; otherwise the 14 dependency-free semantic-observer tests run.
 
 ### 3. Run VERAS
 
@@ -57,6 +57,9 @@ For diagnostic split runs, replace `all` with `easy-medium` or `hard`. These
 selectors do not create separate report hierarchies.
 
 Outputs are written below `veras/runs/` unless `OUTPUT` is set explicitly.
+For the two pinned, hash-checked real-world controller configurations, see
+`veras/README.md` and `veras/bin/run_case.sh`. Their operational task packets
+are not redistributed.
 
 ### 4. Browse the saved results
 

@@ -30,6 +30,42 @@ default benchmark location is `../../ORAgentBench`; `ORAGENTBENCH_ROOT`
 overrides it. API endpoints, keys, and credential-source names are runtime-only
 and are not serialized into result metadata.
 
+## Real-world controller profiles
+
+The modular harness also exposes the two evaluated case-study controller
+configurations, without changing the default benchmark path. Restore the
+**authorized, unchanged** ORAgentBench task packets and runner locally (the
+operational inputs are not distributed here); the CLI checks their recorded
+SHA-256 hashes before running. Use an OpenAI-compatible endpoint and credential
+of your own, and unset `VERAS_MODEL` or set it to `gpt-5.6-sol`:
+
+```bash
+export ORAGENTBENCH_ROOT=/path/to/authorized/ORAgentBench
+export VERAS_BASE_URL=https://your-api-endpoint.example/v1
+export VERAS_API_KEY=your-api-key
+unset VERAS_MODEL
+./bin/run_case.sh datacenter --dry-run
+./bin/run_case.sh power-grid --dry-run
+# Remove --dry-run only when you intend to launch an expensive agent run.
+```
+
+`datacenter` pins the archived 2025-08-10 VERAS controller setting:
+`gpt-5.6-sol`/`xhigh`, one task, `timeout_scale=3.0` (19,800-second
+allowed agent cap from the original task), recovery reserve `0.40`, and
+180-second challenger cap. `power-grid` pins the paired/selected VERAS
+controller: the same model, effort, reserve, and one-task concurrency, but
+`timeout_scale=2.0` (15,360 seconds) and 480-second challenger cap. Both
+use the exact evaluated performance addendum; the benchmark profile uses
+neither addendum. Case profiles reject model, task, or controller-parameter
+overrides that would mislabel a different experiment as an exact replay.
+
+These are controller/runner/input alignments, **not** a promise of identical
+inference or results: the distributed API adapter uses user-supplied routing
+rather than the original private gateway, and model sampling is stochastic.
+The task's separate 120-second data-center generator or 900-second grid solver
+contract is not the harness's 180-second local-solver intervention cap.
+For the source-to-source differential checker, see `docs/REPRODUCIBILITY.md`.
+
 ## Configuration
 
 - Default reasoning effort: `high`
