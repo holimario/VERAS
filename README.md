@@ -101,8 +101,8 @@ Peak bandwidth and migration volume.
 | --- | ---: | ---: |
 | Operational mapping | 19,495.167 | 0.000 |
 | Historical-majority heuristic | 18,276.071 | 0.333 |
-| [Native Codex](real_world/data_center/native_aug10_later/algorithm/solve.py) | 1,238.625 | 25.473 |
-| [VERAS](real_world/data_center/veras_archived_aug10/algorithm/solve.py) | 1,110.603 | 25.901 |
+| [Native Codex](real_world/data_center/native_codex/algorithm/solve.py) | 1,238.625 | 25.473 |
+| [VERAS](real_world/data_center/veras/algorithm/solve.py) | 1,110.603 | 25.901 |
 
 ### 54-bus distribution network planning
 
@@ -114,8 +114,8 @@ Annualized costs in million USD/year.
 | --- | ---: | ---: | ---: |
 | Hourly MISOCP | 42.065 | 18.984 | 23.081 |
 | Varying-timestep MISOCP | 42.923 | 19.012 | 23.911 |
-| [Native Codex](real_world/power_grid/paired/native_codex/algorithm/solve.py) | 45.690 | 18.490 | 27.200 |
-| [VERAS](real_world/power_grid/veras_separate_audited/algorithm/solve.py) | 39.424 | 16.154 | 23.269 |
+| [Native Codex](real_world/power_grid/native_codex/algorithm/solve.py) | 45.690 | 18.490 | 27.200 |
+| [VERAS](real_world/power_grid/veras/algorithm/solve.py) | 39.424 | 16.154 | 23.269 |
 <!-- END PAPER RESULTS -->
 
 ## Layout

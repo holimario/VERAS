@@ -11,67 +11,55 @@
     "all_task_scores_included": true
   },
   "real_world": {
-    "historical_study": {
-      "data_center": {
-        "native_codex_august10_peak_gbps": 1599.0504189355358,
-        "veras_august10_peak_gbps": 1110.6406704153335,
-        "historical_relative_improvement_percent": 30.544
-      },
-      "power_grid": {
-        "native_codex_raw_objective_usd_per_year": 40726008.414714105,
-        "veras_objective_usd_per_year": 39379929.122525945,
-        "historical_relative_improvement_percent": 3.3052080098
-      },
-      "artifact_directories": [
-        "real_world/data_center/veras",
-        "real_world/power_grid/veras"
-      ]
+    "data_center": {
+      "comparison_path": "real_world/data_center/comparison.json",
+      "reported_reduction_percent": 10.34,
+      "methods": {
+        "native_codex": {
+          "source_path": "real_world/data_center/native_codex/algorithm/solve.py",
+          "result_path": "real_world/data_center/native_codex/evidence/result.json",
+          "source_sha256": "cdb9592085a97ee355e5c424467a7994b76b8e7dd94928f4d434fc7b2565e1ec",
+          "metrics": {
+            "peak_gbps": 1238.6251153339097,
+            "migration_pb": 25.47292891960824
+          }
+        },
+        "veras": {
+          "source_path": "real_world/data_center/veras/algorithm/solve.py",
+          "result_path": "real_world/data_center/veras/evidence/result.json",
+          "source_sha256": "c52bbac5833c74883f6f20d3346b40ea1351ee6a304ff86a9df9573bfdb3afbe",
+          "metrics": {
+            "peak_gbps": 1110.602829860333,
+            "migration_pb": 25.901007551832222
+          }
+        }
+      }
     },
-    "datacenter_august10_retrospective": {
-      "comparison_path": "real_world/data_center/august10_comparison.json",
-      "archived_veras_peak_gbps": 1110.602829860333,
-      "later_native_peak_gbps": 1238.6251153339097,
-      "descriptive_reduction_pct": 10.335838010120138,
-      "fresh_veras_replicate_peak_gbps": 1567.3025788491266,
-      "both_comparisons_and_all_arms_retained": true,
-      "jointly_precommitted_archived_pair": false,
-      "research_blind_august10": false,
-      "source_paths": [
-        "real_world/data_center/veras_archived_aug10/algorithm/solve.py",
-        "real_world/data_center/native_aug10_later/algorithm/solve.py",
-        "real_world/data_center/veras_aug10_repeat/algorithm/solve.py"
-      ]
-    },
-    "grid_prospective_pair": {
-      "comparison_path": "real_world/power_grid/paired/comparison.json",
-      "native_objective_usd_per_year": 45690260.33409752,
-      "veras_objective_usd_per_year": 42613227.007299155,
-      "descriptive_reduction_percent": 6.734549779971488,
-      "both_independently_feasible": true,
-      "separate_lower_cost_veras_objective_usd_per_year": 39423636.250142306,
-      "separate_result_is_not_pair_member": true
-    },
-    "additional_audited_runs": {
-      "data_center": {
-        "result_path": "real_world/data_center/visible_date_candidate/evidence/selected_result.json",
-        "visible_august08_09_peak_gbps": 1072.2334446475,
-        "not_evaluated_on_august10": true
-      },
-      "power_grid": {
-        "result_path": "real_world/power_grid/veras_separate_audited/evidence/selected_result.json",
-        "objective_usd_per_year": 39423636.250142306,
-        "independent_audit_passed": true
-      },
-      "not_paired_with_historical_native": true
-    },
-    "grid_selected_crossrun_reference": {
-      "comparison_path": "real_world/power_grid/selected_vs_native_reference.json",
-      "selected_veras_objective_usd_per_year": 39423636.250142306,
-      "later_native_objective_usd_per_year": 45690260.33409752,
-      "descriptive_reduction_percent": 13.71544840876861,
-      "contemporaneous_pair": false,
-      "paired_veras_objective_usd_per_year": 42613227.007299155,
-      "all_three_artifacts_retained": true
+    "power_grid": {
+      "comparison_path": "real_world/power_grid/comparison.json",
+      "reported_reduction_percent": 13.71,
+      "methods": {
+        "native_codex": {
+          "source_path": "real_world/power_grid/native_codex/algorithm/solve.py",
+          "result_path": "real_world/power_grid/native_codex/evidence/result.json",
+          "source_sha256": "bbf5ec45038352e02942deebd501b31dae5d30d02b19ace222abcc4963daca61",
+          "metrics": {
+            "annualized_objective_usd": 45690260.33409752,
+            "annualized_investment_usd": 18490379.83423297,
+            "annualized_operation_usd": 27199880.499864545
+          }
+        },
+        "veras": {
+          "source_path": "real_world/power_grid/veras/algorithm/solve.py",
+          "result_path": "real_world/power_grid/veras/evidence/result.json",
+          "source_sha256": "ea88be5f801b6a697ed4d77836e56bb89d1a4697a7310f7d86ccbe25e1a3d1d7",
+          "metrics": {
+            "annualized_objective_usd": 39423636.250142306,
+            "annualized_investment_usd": 16154443.999152191,
+            "annualized_operation_usd": 23269192.250990115
+          }
+        }
+      }
     }
   }
 }

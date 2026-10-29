@@ -251,13 +251,13 @@
         "method": "Native Codex",
         "peak_gbps": 1238.625,
         "migration_pb": 25.473,
-        "source": "real_world/data_center/native_aug10_later/algorithm/solve.py"
+        "source": "real_world/data_center/native_codex/algorithm/solve.py"
       },
       {
         "method": "VERAS",
         "peak_gbps": 1110.603,
         "migration_pb": 25.901,
-        "source": "real_world/data_center/veras_archived_aug10/algorithm/solve.py"
+        "source": "real_world/data_center/veras/algorithm/solve.py"
       }
     ]
   },
@@ -282,14 +282,14 @@
         "total_million_usd_per_year": 45.69,
         "investment_million_usd_per_year": 18.49,
         "operation_million_usd_per_year": 27.2,
-        "source": "real_world/power_grid/paired/native_codex/algorithm/solve.py"
+        "source": "real_world/power_grid/native_codex/algorithm/solve.py"
       },
       {
         "method": "VERAS",
         "total_million_usd_per_year": 39.424,
         "investment_million_usd_per_year": 16.154,
         "operation_million_usd_per_year": 23.269,
-        "source": "real_world/power_grid/veras_separate_audited/algorithm/solve.py"
+        "source": "real_world/power_grid/veras/algorithm/solve.py"
       }
     ]
   }

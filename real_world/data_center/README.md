@@ -8,8 +8,20 @@ Peak bandwidth and migration volume.
 | --- | ---: | ---: |
 | Operational mapping | 19,495.167 | 0.000 |
 | Historical-majority heuristic | 18,276.071 | 0.333 |
-| [Native Codex](native_aug10_later/algorithm/solve.py) | 1,238.625 | 25.473 |
-| [VERAS](veras_archived_aug10/algorithm/solve.py) | 1,110.603 | 25.901 |
+| [Native Codex](native_codex/algorithm/solve.py) | 1,238.625 | 25.473 |
+| [VERAS](veras/algorithm/solve.py) | 1,110.603 | 25.901 |
+
+## Comparison files
+
+`comparison.json` collects the two methods' metrics, source hashes, and evaluation configuration.
+
+```text
+comparison.json
+native_codex/algorithm/solve.py
+native_codex/evidence/result.json
+veras/algorithm/solve.py
+veras/evidence/result.json
+```
 
 ## Running the algorithms
 

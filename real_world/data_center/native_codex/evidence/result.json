@@ -1,13 +1,11 @@
 {
   "schema_version": 1,
-  "arm": "native_aug10_later",
   "evaluation_date": "2025-08-10",
   "model": "gpt-5.6-sol",
   "reasoning_effort": "xhigh",
   "source_sha256": "cdb9592085a97ee355e5c424467a7994b76b8e7dd94928f4d434fc7b2565e1ec",
   "generated_artifact_sha256": "42b5aead89f5c23c5c1311a41b34977cb9a6d5d910b3f34bbe735d2fd8d0e1ed",
   "august10_peak_gbps": 1238.6251153339097,
-  "visible_august08_09_peak_gbps": 1072.2348401834995,
   "strict_resource_feasible": true,
   "source_only_replay_wall_seconds": 86.85076443105936,
   "generator_limit_seconds": 120,
@@ -17,6 +15,5 @@
   "input_tokens": 2830280,
   "output_tokens": 55888,
   "migration_bytes_auxiliary": 25472928919608240,
-  "artifact_not_redistributed": true,
-  "provenance_note": "Single later native Codex attempt, retrospectively configuration-matched to the archived VERAS run."
+  "method": "Native Codex"
 }

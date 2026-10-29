@@ -1,18 +1,12 @@
 {
   "schema_version": 1,
-  "arm": "native_codex",
-  "design": "single fresh arm in prospectively ordered native/VERAS grid pair",
   "model": "gpt-5.6-sol",
   "reasoning_effort": "xhigh",
-  "source_sha256": {
-    "solve.py": "bbf5ec45038352e02942deebd501b31dae5d30d02b19ace222abcc4963daca61"
-  },
+  "source_sha256": "bbf5ec45038352e02942deebd501b31dae5d30d02b19ace222abcc4963daca61",
   "generated_artifact_sha256": "25cc8ce5b90a547d85b53d885c105bce028b15083ce6701870df9c419a19b3fd",
   "annualized_objective_usd": 45690260.33409752,
   "annualized_investment_usd": 18490379.83423297,
   "annualized_operation_usd": 27199880.499864545,
-  "external_audit_status": "independently_audited",
-  "same_model_feasible": true,
   "integrality_exact": true,
   "planning_was_fixed": false,
   "solver_threads": 4,
@@ -23,6 +17,8 @@
   "source_replay_wall_seconds": 823.92408002913,
   "source_replay_byte_identical_to_agent_artifact": true,
   "used_external_warm_start": false,
-  "artifact_not_redistributed": true,
-  "external_audit_passed": true
+  "external_audit_passed": true,
+  "method": "Native Codex",
+  "constraints_feasible": true,
+  "independent_audit_status": "independently_audited"
 }

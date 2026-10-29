@@ -130,7 +130,10 @@ def main() -> None:
         case_document = ROOT / f"real_world/{location}/README.md"
         runtime = "The dispatchers read task inputs under `/app/data` and generate a placement Parquet file under `/app/submissions`." if kind == "datacenter" else "Run the generated solvers in the task's Python environment with the 54-bus input workbook. The solvers write their NPZ solution under `/app/submissions`."
         case_text = f"# {title}\n\n{case_description(kind, data[kind])}\n\n{unit}\n\n" + markdown_table(headers, case_rows(kind, data[kind], case_document))
-        case_text += f"\n\n## Running the algorithms\n\n{runtime}\n\nSee `../../veras/README.md` for model and runtime configuration.\n"
+        case_text += "\n\n## Comparison files\n\n"
+        case_text += "`comparison.json` collects the two methods' metrics, source hashes, and evaluation configuration.\n\n"
+        case_text += "```text\ncomparison.json\nnative_codex/algorithm/solve.py\nnative_codex/evidence/result.json\nveras/algorithm/solve.py\nveras/evidence/result.json\n```\n"
+        case_text += f"\n## Running the algorithms\n\n{runtime}\n\nSee `../../veras/README.md` for model and runtime configuration.\n"
         write(case_document, case_text)
     replace_block(document, "\n\n".join(sections))
 
@@ -144,6 +147,7 @@ def main() -> None:
 
     overview = "# Industrial Case Studies\n\n" + case_description("datacenter", data["datacenter"]) + "\n\n" + case_description("power_grid", data["power_grid"])
     overview += "\n\n- [Inter-datacenter placement](data_center/README.md): algorithms, peak bandwidth, and migration results.\n- [54-bus distribution network planning](power_grid/README.md): solvers and annualized cost results.\n"
+    overview += "\nEach study contains one Native Codex result and one VERAS result, with their generated source, evaluation records, and a `comparison.json` summary.\n"
     write(ROOT / "real_world/README.md", overview)
     print("Rendered paper-aligned README, case-study documentation, and HTML tables.")
 

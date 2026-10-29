@@ -133,8 +133,8 @@ def assert_public_forwarding() -> None:
 
 def assert_published_hashes() -> None:
     records = {
-        "datacenter": ROOT / "real_world" / "data_center" / "august10_comparison.json",
-        "power-grid": ROOT / "real_world" / "power_grid" / "paired" / "comparison.json",
+        "datacenter": ROOT / "real_world" / "data_center" / "comparison.json",
+        "power-grid": ROOT / "real_world" / "power_grid" / "comparison.json",
     }
     for name, path in records.items():
         record = json.loads(path.read_text())
