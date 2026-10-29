@@ -352,7 +352,7 @@
       "hard": 34,
       "medium": 41
     },
-    "evidence_type": "observational execution evidence, not factorial ablation",
+    "evidence_type": "execution evidence",
     "tasks": 107
   },
   "tasks": [

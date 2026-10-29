@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "paper": {
+    "title": "VERAS: Verification-Guided Adaptive Search for Reliable Operations Research",
+    "url": "https://arxiv.org/abs/2610.24329",
+    "version": "v1",
+    "table_ids": {
+      "benchmark": "S4.T1",
+      "datacenter": "S5.T2",
+      "power_grid": "S5.T3"
+    }
+  },
+  "benchmark": {
+    "task_count": 107,
+    "rows": [
+      {
+        "harness": "Codex",
+        "model": "GPT-5.4",
+        "feasibility": {
+          "easy": 0.69,
+          "medium": 0.68,
+          "hard": 0.32,
+          "overall": 0.57
+        },
+        "quality": {
+          "easy": 0.45,
+          "medium": 0.31,
+          "hard": 0.21,
+          "overall": 0.32
+        },
+        "pass_rate_percent": {
+          "easy": 46.88,
+          "medium": 39.02,
+          "hard": 20.59,
+          "overall": 35.51
+        }
+      },
+      {
+        "harness": "Codex",
+        "model": "GPT-5.3-Codex",
+        "feasibility": {
+          "easy": 0.5,
+          "medium": 0.68,
+          "hard": 0.32,
+          "overall": 0.51
+        },
+        "quality": {
+          "easy": 0.3,
+          "medium": 0.37,
+          "hard": 0.19,
+          "overall": 0.29
+        },
+        "pass_rate_percent": {
+          "easy": 31.25,
+          "medium": 43.9,
+          "hard": 20.59,
+          "overall": 32.71
+        }
+      },
+      {
+        "harness": "Codex",
+        "model": "GPT-5.4-mini",
+        "feasibility": {
+          "easy": 0.62,
+          "medium": 0.54,
+          "hard": 0.21,
+          "overall": 0.46
+        },
+        "quality": {
+          "easy": 0.43,
+          "medium": 0.24,
+          "hard": 0.07,
+          "overall": 0.24
+        },
+        "pass_rate_percent": {
+          "easy": 43.75,
+          "medium": 29.27,
+          "hard": 5.88,
+          "overall": 26.17
+        }
+      },
+      {
+        "harness": "Claude Code",
+        "model": "Claude Opus 4.6",
+        "feasibility": {
+          "easy": 0.66,
+          "medium": 0.59,
+          "hard": 0.21,
+          "overall": 0.49
+        },
+        "quality": {
+          "easy": 0.49,
+          "medium": 0.32,
+          "hard": 0.14,
+          "overall": 0.31
+        },
+        "pass_rate_percent": {
+          "easy": 50.0,
+          "medium": 39.02,
+          "hard": 14.71,
+          "overall": 34.58
+        }
+      },
+      {
+        "harness": "Claude Code",
+        "model": "DeepSeek V4 Pro",
+        "feasibility": {
+          "easy": 0.55,
+          "medium": 0.46,
+          "hard": 0.23,
+          "overall": 0.41
+        },
+        "quality": {
+          "easy": 0.38,
+          "medium": 0.25,
+          "hard": 0.14,
+          "overall": 0.25
+        },
+        "pass_rate_percent": {
+          "easy": 39.58,
+          "medium": 28.46,
+          "hard": 13.73,
+          "overall": 27.1
+        }
+      },
+      {
+        "harness": "Claude Code",
+        "model": "Kimi K2.6",
+        "feasibility": {
+          "easy": 0.5,
+          "medium": 0.51,
+          "hard": 0.26,
+          "overall": 0.43
+        },
+        "quality": {
+          "easy": 0.29,
+          "medium": 0.25,
+          "hard": 0.13,
+          "overall": 0.22
+        },
+        "pass_rate_percent": {
+          "easy": 31.25,
+          "medium": 36.59,
+          "hard": 11.76,
+          "overall": 27.1
+        }
+      },
+      {
+        "harness": "Claude Code",
+        "model": "GLM 5.1",
+        "feasibility": {
+          "easy": 0.53,
+          "medium": 0.46,
+          "hard": 0.15,
+          "overall": 0.38
+        },
+        "quality": {
+          "easy": 0.37,
+          "medium": 0.29,
+          "hard": 0.1,
+          "overall": 0.25
+        },
+        "pass_rate_percent": {
+          "easy": 37.5,
+          "medium": 31.71,
+          "hard": 8.82,
+          "overall": 26.17
+        }
+      },
+      {
+        "harness": "Claude Code",
+        "model": "DeepSeek V4 Flash",
+        "feasibility": {
+          "easy": 0.62,
+          "medium": 0.41,
+          "hard": 0.15,
+          "overall": 0.39
+        },
+        "quality": {
+          "easy": 0.45,
+          "medium": 0.21,
+          "hard": 0.09,
+          "overall": 0.24
+        },
+        "pass_rate_percent": {
+          "easy": 46.88,
+          "medium": 26.83,
+          "hard": 5.88,
+          "overall": 26.17
+        }
+      },
+      {
+        "harness": "Claude Code",
+        "model": "Claude Sonnet 4.6",
+        "feasibility": {
+          "easy": 0.47,
+          "medium": 0.51,
+          "hard": 0.26,
+          "overall": 0.42
+        },
+        "quality": {
+          "easy": 0.31,
+          "medium": 0.23,
+          "hard": 0.14,
+          "overall": 0.23
+        },
+        "pass_rate_percent": {
+          "easy": 31.25,
+          "medium": 29.27,
+          "hard": 14.71,
+          "overall": 25.23
+        }
+      },
+      {
+        "harness": "VERAS",
+        "model": "GPT-5.4",
+        "feasibility": {
+          "easy": 0.84,
+          "medium": 0.68,
+          "hard": 0.5,
+          "overall": 0.67
+        },
+        "quality": {
+          "easy": 0.55,
+          "medium": 0.34,
+          "hard": 0.31,
+          "overall": 0.39
+        },
+        "pass_rate_percent": {
+          "easy": 56.25,
+          "medium": 39.02,
+          "hard": 35.29,
+          "overall": 42.99
+        }
+      }
+    ]
+  },
+  "datacenter": {
+    "peak_reduction_percent": 10.34,
+    "rows": [
+      {
+        "method": "Operational mapping",
+        "peak_gbps": 19495.167,
+        "migration_pb": 0.0
+      },
+      {
+        "method": "Historical-majority heuristic",
+        "peak_gbps": 18276.071,
+        "migration_pb": 0.333
+      },
+      {
+        "method": "Native Codex",
+        "peak_gbps": 1238.625,
+        "migration_pb": 25.473,
+        "source": "real_world/data_center/native_aug10_later/algorithm/solve.py"
+      },
+      {
+        "method": "VERAS",
+        "peak_gbps": 1110.603,
+        "migration_pb": 25.901,
+        "source": "real_world/data_center/veras_archived_aug10/algorithm/solve.py"
+      }
+    ]
+  },
+  "power_grid": {
+    "hourly_model_cost_reduction_percent": 6.28,
+    "native_codex_cost_reduction_percent": 13.71,
+    "rows": [
+      {
+        "method": "Hourly MISOCP",
+        "total_million_usd_per_year": 42.065,
+        "investment_million_usd_per_year": 18.984,
+        "operation_million_usd_per_year": 23.081
+      },
+      {
+        "method": "Varying-timestep MISOCP",
+        "total_million_usd_per_year": 42.923,
+        "investment_million_usd_per_year": 19.012,
+        "operation_million_usd_per_year": 23.911
+      },
+      {
+        "method": "Native Codex",
+        "total_million_usd_per_year": 45.69,
+        "investment_million_usd_per_year": 18.49,
+        "operation_million_usd_per_year": 27.2,
+        "source": "real_world/power_grid/paired/native_codex/algorithm/solve.py"
+      },
+      {
+        "method": "VERAS",
+        "total_million_usd_per_year": 39.424,
+        "investment_million_usd_per_year": 16.154,
+        "operation_million_usd_per_year": 23.269,
+        "source": "real_world/power_grid/veras_separate_audited/algorithm/solve.py"
+      }
+    ]
+  }
+}

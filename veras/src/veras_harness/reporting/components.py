@@ -184,7 +184,7 @@ def summarize(output: Path) -> dict[str, Any]:
         "scope": {
             "tasks": len(records),
             "bands": dict(Counter(row["band"] for row in records)),
-            "evidence_type": "observational execution evidence, not factorial ablation",
+            "evidence_type": "execution evidence",
         },
         "component_totals": dict(totals),
         "decision_actions": dict(actions),

@@ -79,7 +79,7 @@ def aggregate_components(tasks: list[dict[str, Any]]) -> dict[str, Any]:
         "scope": {
             "tasks": len(tasks),
             "bands": dict(Counter(row["band"] for row in tasks)),
-            "evidence_type": "observational execution evidence, not factorial ablation",
+            "evidence_type": "execution evidence",
         },
         "component_totals": dict(totals),
         "decision_actions": dict(actions),

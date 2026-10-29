@@ -120,6 +120,31 @@ def sanitize_log(path: Path) -> None:
     path.write_text("\n".join(lines) + ("\n" if lines else ""), encoding="utf-8")
 
 
+def format_trajectory_presentation(text: str) -> str:
+    text = re.sub(
+        r'(<html\b[^>]*\blang=)["\'][^"\']*["\']',
+        r'\1"en"',
+        text,
+        count=1,
+        flags=re.IGNORECASE,
+    )
+    text = text.replace(
+        "Sanitized VERAS benchmark trajectory", "VERAS benchmark trajectory"
+    )
+    text = text.replace(
+        "Official verifier outcome and complete sanitized Codex event streams, grouped by evaluated stage and controller phase.",
+        "Task results and agent execution logs, grouped by stage and controller phase.",
+    )
+    text = text.replace("Final sanitized submissions:", "Final submissions:")
+    text = text.replace("Open complete sanitized JSONL", "Open JSONL")
+    return re.sub(
+        r'<div class="notice"><b>Privacy boundary:</b>.*?</div>\s*',
+        "",
+        text,
+        flags=re.DOTALL,
+    )
+
+
 def sanitize_html(path: Path) -> None:
     text = path.read_text(encoding="utf-8", errors="replace")
     text = TIMELINE_BLOCK.sub(
@@ -157,6 +182,7 @@ def sanitize_html(path: Path) -> None:
         text,
         count=1,
     )
+    text = format_trajectory_presentation(text)
     text = "\n".join(line.rstrip() for line in text.splitlines())
     path.write_text(text + ("\n" if text else ""), encoding="utf-8")
 

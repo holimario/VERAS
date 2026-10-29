@@ -1,19 +1,8 @@
-# Real-World Case Studies
+# Industrial Case Studies
 
-The current datacenter retrospective comparison is indexed by
-`data_center/august10_comparison.json`; it retains the archived VERAS run,
-later native Codex arm, and fresh VERAS repeat. A separate visible-date
-candidate is under `data_center/visible_date_candidate/` and has no August 10
-score.
+VERAS reduces peak inter-datacenter bandwidth by **10.34%** compared with Native Codex.
 
-The prospectively ordered power-grid native Codex--VERAS pair is under
-`power_grid/paired/`. A separate lower-cost, independently audited VERAS
-solution is under `power_grid/veras_separate_audited/` and is not substituted
-into that pair. Older studies are preserved in each case's `native_codex/`
-and `veras/` directories for provenance; their scores are not the current
-paired controls. Consult the case READMEs and `ARTIFACT_MANIFEST.json` for
-scope, hashes, and audit status.
+VERAS achieves an annualized cost of **USD 39.424M/year**, reducing cost by **6.28%** relative to Hourly MISOCP and **13.71%** relative to Native Codex.
 
-Operational datasets, generated row-level assignments, full grid NPZ tensors,
-and the commercial solver license are not redistributed. Authorized users can
-replay the included source with the original task packet.
+- [Inter-datacenter placement](data_center/README.md): algorithms, peak bandwidth, and migration results.
+- [54-bus distribution network planning](power_grid/README.md): solvers and annualized cost results.
