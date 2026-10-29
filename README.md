@@ -1,6 +1,6 @@
 # VERAS
 
-This anonymous artifact contains the VERAS harness, complete ORAgentBench
+This repository contains the VERAS harness, complete ORAgentBench
 evaluation evidence, retained sanitized task trajectories, and generated
 algorithms from two real-world optimization case studies.
 
@@ -36,7 +36,7 @@ name. Endpoints and credential-source metadata are not written to result files.
 ./scripts/verify_artifact.sh
 ```
 
-This runs the anonymization scan, pinned prompt checks, and available unit
+This runs the release-content scan, pinned prompt checks, and available unit
 tests. The complete 32-test suite runs when ORAgentBench is installed at
 that location; otherwise the 14 dependency-free semantic-observer tests run.
 
@@ -142,16 +142,16 @@ its final NPZ byte-identically. See
 Operational input files and row-level outputs are not redistributed. Earlier
 historical algorithms are retained for provenance; an older datacenter
 candidate scoring 1,072.233 Gbps on visible August 8--9 has **no** August 10
-result. The anonymous artifact link is
-<https://anonymous.4open.science/r/VERAS/>.
+result. The public repository is
+<https://github.com/holimario/VERAS>.
 
 ## Layout
 
 - `veras/`: packaged harness, tests, score summaries, and unified benchmark report.
 - `benchmark/`: benchmark evidence guide and scoring notes.
 - `real_world/`: revised v0.30-transfer algorithms and sanitized audits, plus archived historical algorithms and unchanged native records.
-- `docs/`: provenance, reproducibility, and anonymization notes.
-- `scripts/verify_artifact.sh`: unit-test and anonymity checks.
+- `docs/`: provenance, reproducibility, and data-sanitization notes.
+- `scripts/verify_artifact.sh`: unit-test and release-content checks.
 
 ## Data availability
 

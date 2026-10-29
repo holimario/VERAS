@@ -5,7 +5,7 @@
 From the repository root, run `./scripts/verify_artifact.sh`. With a
 compatible ORAgentBench checkout, this runs 32 deterministic unit tests;
 without it, the 14 dependency-free semantic-observer tests run. In both
-cases, it also checks prompt hashes/controller forwarding and anonymity.
+cases, it also checks prompt hashes/controller forwarding and release content.
 The endpoint and credential must be user-supplied; no private gateway setup
 is distributed.
 

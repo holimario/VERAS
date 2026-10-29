@@ -1,6 +1,6 @@
-# Anonymization and Redaction
+# Data Sanitization and Redaction
 
-This repository is prepared for double-blind review.
+This document describes the data sanitization applied to the published artifact.
 
 Removed material includes personal names and email addresses, local absolute
 paths, repository account metadata, API credentials, local Codex databases,
@@ -13,4 +13,4 @@ identifiers, and session identifiers are not retained. Generic user-selected
 environment-variable names may appear in runner source, but no credential
 values are stored.
 
-Run `scripts/check_anonymity.sh` before every public push.
+Run `scripts/check_release_content.sh` before every public push.

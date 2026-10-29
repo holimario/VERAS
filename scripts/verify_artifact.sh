@@ -18,6 +18,6 @@ else
 fi
 
 python -B "$root/scripts/verify_controller_profiles.py"
-"$root/scripts/check_anonymity.sh"
+"$root/scripts/check_release_content.sh"
 
 echo "artifact verification passed"

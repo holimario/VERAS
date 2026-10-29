@@ -20,7 +20,7 @@ failed=0
 for pattern in "${patterns[@]}"; do
   if grep -IRnE \
     --exclude-dir=.git \
-    --exclude=check_anonymity.sh \
+    --exclude=check_release_content.sh \
     --exclude=sanitize_trajectories.py \
     "$pattern" "$root"; then
     failed=1
@@ -50,8 +50,8 @@ if find "$root" \
 fi
 
 if [[ "$failed" -ne 0 ]]; then
-  echo "anonymity check failed" >&2
+  echo "release-content check failed" >&2
   exit 1
 fi
 
-echo "anonymity check passed"
+echo "release-content check passed"
