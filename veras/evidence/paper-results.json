@@ -2,7 +2,6 @@
   "schema_version": 1,
   "paper": {
     "title": "VERAS: Verification-Guided Adaptive Search for Reliable Operations Research",
-    "url": "https://arxiv.org/abs/2610.24329",
     "version": "v1",
     "table_ids": {
       "benchmark": "S4.T1",

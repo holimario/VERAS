@@ -1,8 +1,8 @@
 # VERAS Results
 
-This English-language report presents the three main result tables from the
-[VERAS paper](https://arxiv.org/abs/2610.24329), together with results for all
-107 ORAgentBench tasks and their execution trajectories.
+This English-language report presents benchmark and industrial optimization
+results, together with results for all 107 ORAgentBench tasks and their
+execution trajectories.
 
 - Open `index.html` through a local HTTP server for the interactive report.
 - Machine-readable scores for all tasks are in

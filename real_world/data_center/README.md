@@ -16,5 +16,3 @@ Peak bandwidth and migration volume.
 The dispatchers read task inputs under `/app/data` and generate a placement Parquet file under `/app/submissions`.
 
 See `../../veras/README.md` for model and runtime configuration.
-
-Results: [VERAS paper](https://arxiv.org/abs/2610.24329).

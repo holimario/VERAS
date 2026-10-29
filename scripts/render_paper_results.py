@@ -109,7 +109,6 @@ def case_html(kind: str, data: dict, document: Path) -> str:
 
 def main() -> None:
     data = json.loads((ROOT / "veras/evidence/paper-results.json").read_text())
-    paper_url = data["paper"]["url"]
     document = ROOT / "README.md"
     selected = next(row for row in data["benchmark"]["rows"] if row["harness"] == "VERAS")
     baseline = next(row for row in data["benchmark"]["rows"] if row["harness"] == "Codex" and row["model"] == selected["model"])
@@ -131,7 +130,7 @@ def main() -> None:
         case_document = ROOT / f"real_world/{location}/README.md"
         runtime = "The dispatchers read task inputs under `/app/data` and generate a placement Parquet file under `/app/submissions`." if kind == "datacenter" else "Run the generated solvers in the task's Python environment with the 54-bus input workbook. The solvers write their NPZ solution under `/app/submissions`."
         case_text = f"# {title}\n\n{case_description(kind, data[kind])}\n\n{unit}\n\n" + markdown_table(headers, case_rows(kind, data[kind], case_document))
-        case_text += f"\n\n## Running the algorithms\n\n{runtime}\n\nSee `../../veras/README.md` for model and runtime configuration.\n\nResults: [VERAS paper]({paper_url}).\n"
+        case_text += f"\n\n## Running the algorithms\n\n{runtime}\n\nSee `../../veras/README.md` for model and runtime configuration.\n"
         write(case_document, case_text)
     replace_block(document, "\n\n".join(sections))
 

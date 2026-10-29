@@ -16,5 +16,3 @@ Annualized costs in million USD/year.
 Run the generated solvers in the task's Python environment with the 54-bus input workbook. The solvers write their NPZ solution under `/app/submissions`.
 
 See `../../veras/README.md` for model and runtime configuration.
-
-Results: [VERAS paper](https://arxiv.org/abs/2610.24329).

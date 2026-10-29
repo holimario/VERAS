@@ -5,8 +5,6 @@ This repository includes the implementation, ORAgentBench results and execution
 trajectories, and algorithms for inter-datacenter placement and distribution
 network planning.
 
-**Paper:** [VERAS: Verification-Guided Adaptive Search for Reliable Operations Research](https://arxiv.org/abs/2610.24329).
-
 ## Quick start
 
 ### 1. Prepare the workspace
